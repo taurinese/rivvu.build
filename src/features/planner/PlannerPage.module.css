@@ -1,0 +1,113 @@
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  align-items: flex-start;
+}
+
+.side {
+  flex: 1 1 360px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.main {
+  flex: 2 1 520px;
+  min-width: 0;
+}
+
+.hint {
+  margin: 0;
+  display: block;
+  font: var(--text-footnote);
+  color: var(--label-secondary);
+}
+
+.done {
+  margin: 0;
+  font: var(--text-body);
+  color: var(--success);
+  font-weight: 600;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.credits strong {
+  display: block;
+  font: var(--text-title1);
+  font-variant-numeric: tabular-nums;
+}
+
+.items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  gap: var(--space-3);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: var(--space-3) var(--space-2);
+  border-radius: var(--radius-lg);
+  background: var(--bg-grouped);
+  text-align: center;
+}
+
+.item img,
+.unknownIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  background: var(--fill);
+}
+
+.item[data-rarity='5'] img {
+  background: linear-gradient(160deg, rgba(255, 214, 10, 0.32), rgba(255, 159, 10, 0.14));
+}
+
+.item[data-rarity='4'] img {
+  background: linear-gradient(160deg, rgba(191, 90, 242, 0.3), rgba(94, 92, 230, 0.14));
+}
+
+.item[data-rarity='3'] img {
+  background: linear-gradient(160deg, rgba(10, 132, 255, 0.28), rgba(100, 210, 255, 0.12));
+}
+
+.item[data-rarity='2'] img {
+  background: linear-gradient(160deg, rgba(48, 209, 88, 0.26), rgba(48, 209, 88, 0.1));
+}
+
+.unknownIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font: var(--text-title2);
+  color: var(--label-secondary);
+}
+
+.itemName {
+  font: 600 0.8125rem/1.3 var(--font-sans);
+}
+
+.qty {
+  font: var(--text-headline);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Mobile : le résultat d'abord, les réglages ensuite. */
+@media (max-width: 899px) {
+  .main {
+    order: -1;
+  }
+}

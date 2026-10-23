@@ -1,0 +1,4048 @@
+{
+  "costs": {
+    "resonatorAscension": [
+      {
+        "credits": 5000,
+        "items": [
+          {
+            "slot": "common1",
+            "qty": 4
+          }
+        ]
+      },
+      {
+        "credits": 10000,
+        "items": [
+          {
+            "slot": "local",
+            "qty": 4
+          },
+          {
+            "slot": "common2",
+            "qty": 4
+          },
+          {
+            "slot": "boss",
+            "qty": 3
+          }
+        ]
+      },
+      {
+        "credits": 15000,
+        "items": [
+          {
+            "slot": "local",
+            "qty": 8
+          },
+          {
+            "slot": "common2",
+            "qty": 8
+          },
+          {
+            "slot": "boss",
+            "qty": 6
+          }
+        ]
+      },
+      {
+        "credits": 20000,
+        "items": [
+          {
+            "slot": "local",
+            "qty": 12
+          },
+          {
+            "slot": "common3",
+            "qty": 4
+          },
+          {
+            "slot": "boss",
+            "qty": 9
+          }
+        ]
+      },
+      {
+        "credits": 40000,
+        "items": [
+          {
+            "slot": "local",
+            "qty": 16
+          },
+          {
+            "slot": "common3",
+            "qty": 8
+          },
+          {
+            "slot": "boss",
+            "qty": 12
+          }
+        ]
+      },
+      {
+        "credits": 80000,
+        "items": [
+          {
+            "slot": "local",
+            "qty": 20
+          },
+          {
+            "slot": "common4",
+            "qty": 4
+          },
+          {
+            "slot": "boss",
+            "qty": 16
+          }
+        ]
+      }
+    ],
+    "weaponAscension": {
+      "1": [
+        {
+          "credits": 2000,
+          "items": [
+            {
+              "slot": "common1",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "credits": 4000,
+          "items": [
+            {
+              "slot": "ascension1",
+              "qty": 2
+            },
+            {
+              "slot": "common2",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "credits": 8000,
+          "items": [
+            {
+              "slot": "ascension2",
+              "qty": 2
+            },
+            {
+              "slot": "common3",
+              "qty": 1
+            }
+          ]
+        },
+        {
+          "credits": 12000,
+          "items": [
+            {
+              "slot": "ascension3",
+              "qty": 2
+            },
+            {
+              "slot": "common3",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "credits": 16000,
+          "items": [
+            {
+              "slot": "ascension4",
+              "qty": 2
+            },
+            {
+              "slot": "common4",
+              "qty": 1
+            }
+          ]
+        }
+      ],
+      "2": [
+        {
+          "credits": 4000,
+          "items": [
+            {
+              "slot": "common1",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "credits": 8000,
+          "items": [
+            {
+              "slot": "ascension1",
+              "qty": 3
+            },
+            {
+              "slot": "common2",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "credits": 16000,
+          "items": [
+            {
+              "slot": "ascension2",
+              "qty": 4
+            },
+            {
+              "slot": "common3",
+              "qty": 2
+            }
+          ]
+        },
+        {
+          "credits": 24000,
+          "items": [
+            {
+              "slot": "ascension3",
+              "qty": 3
+            },
+            {
+              "slot": "common3",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "credits": 32000,
+          "items": [
+            {
+              "slot": "ascension4",
+              "qty": 4
+            },
+            {
+              "slot": "common4",
+              "qty": 2
+            }
+          ]
+        }
+      ],
+      "3": [
+        {
+          "credits": 6000,
+          "items": [
+            {
+              "slot": "common1",
+              "qty": 4
+            }
+          ]
+        },
+        {
+          "credits": 12000,
+          "items": [
+            {
+              "slot": "ascension1",
+              "qty": 4
+            },
+            {
+              "slot": "common2",
+              "qty": 4
+            }
+          ]
+        },
+        {
+          "credits": 24000,
+          "items": [
+            {
+              "slot": "ascension2",
+              "qty": 5
+            },
+            {
+              "slot": "common3",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "credits": 36000,
+          "items": [
+            {
+              "slot": "ascension3",
+              "qty": 4
+            },
+            {
+              "slot": "common3",
+              "qty": 4
+            }
+          ]
+        },
+        {
+          "credits": 48000,
+          "items": [
+            {
+              "slot": "ascension4",
+              "qty": 5
+            },
+            {
+              "slot": "common4",
+              "qty": 3
+            }
+          ]
+        },
+        {
+          "credits": 72000,
+          "items": [
+            {
+              "slot": "ascension4",
+              "qty": 8
+            },
+            {
+              "slot": "common4",
+              "qty": 5
+            }
+          ]
+        }
+      ],
+      "4": [
+        {
+          "credits": 8000,
+          "items": [
+            {
+              "slot": "common1",
+              "qty": 5
+            }
+          ]
+        },
+        {
+          "credits": 16000,
+          "items": [
+            {
+              "slot": "ascension1",
+              "qty": 5
+            },
+            {
+              "slot": "common2",
+              "qty": 5
+            }
+          ]
+        },
+        {
+          "credits": 32000,
+          "items": [
+            {
+              "slot": "ascension2",
+              "qty": 7
+            },
+            {
+              "slot": "common3",
+              "qty": 4
+            }
+          ]
+        },
+        {
+          "credits": 48000,
+          "items": [
+            {
+              "slot": "ascension3",
+              "qty": 5
+            },
+            {
+              "slot": "common3",
+              "qty": 5
+            }
+          ]
+        },
+        {
+          "credits": 64000,
+          "items": [
+            {
+              "slot": "ascension4",
+              "qty": 7
+            },
+            {
+              "slot": "common4",
+              "qty": 4
+            }
+          ]
+        },
+        {
+          "credits": 96000,
+          "items": [
+            {
+              "slot": "ascension4",
+              "qty": 10
+            },
+            {
+              "slot": "common4",
+              "qty": 7
+            }
+          ]
+        }
+      ],
+      "5": [
+        {
+          "credits": 10000,
+          "items": [
+            {
+              "slot": "common1",
+              "qty": 6
+            }
+          ]
+        },
+        {
+          "credits": 20000,
+          "items": [
+            {
+              "slot": "ascension1",
+              "qty": 6
+            },
+            {
+              "slot": "common2",
+              "qty": 6
+            }
+          ]
+        },
+        {
+          "credits": 40000,
+          "items": [
+            {
+              "slot": "ascension2",
+              "qty": 8
+            },
+            {
+              "slot": "common3",
+              "qty": 4
+            }
+          ]
+        },
+        {
+          "credits": 60000,
+          "items": [
+            {
+              "slot": "ascension3",
+              "qty": 6
+            },
+            {
+              "slot": "common3",
+              "qty": 6
+            }
+          ]
+        },
+        {
+          "credits": 80000,
+          "items": [
+            {
+              "slot": "ascension4",
+              "qty": 8
+            },
+            {
+              "slot": "common4",
+              "qty": 4
+            }
+          ]
+        },
+        {
+          "credits": 120000,
+          "items": [
+            {
+              "slot": "ascension4",
+              "qty": 12
+            },
+            {
+              "slot": "common4",
+              "qty": 8
+            }
+          ]
+        }
+      ]
+    },
+    "forte": [
+      {
+        "credits": 1500,
+        "items": [
+          {
+            "slot": "forte1",
+            "qty": 2
+          },
+          {
+            "slot": "forteDrop1",
+            "qty": 2
+          }
+        ]
+      },
+      {
+        "credits": 2000,
+        "items": [
+          {
+            "slot": "forte1",
+            "qty": 3
+          },
+          {
+            "slot": "forteDrop1",
+            "qty": 3
+          }
+        ]
+      },
+      {
+        "credits": 4500,
+        "items": [
+          {
+            "slot": "forte2",
+            "qty": 2
+          },
+          {
+            "slot": "forteDrop2",
+            "qty": 2
+          }
+        ]
+      },
+      {
+        "credits": 6000,
+        "items": [
+          {
+            "slot": "forte2",
+            "qty": 3
+          },
+          {
+            "slot": "forteDrop2",
+            "qty": 3
+          }
+        ]
+      },
+      {
+        "credits": 16000,
+        "items": [
+          {
+            "slot": "forte3",
+            "qty": 3
+          },
+          {
+            "slot": "forteDrop3",
+            "qty": 2
+          }
+        ]
+      },
+      {
+        "credits": 30000,
+        "items": [
+          {
+            "slot": "forte3",
+            "qty": 5
+          },
+          {
+            "slot": "forteDrop3",
+            "qty": 3
+          },
+          {
+            "slot": "weeklyBoss",
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "credits": 50000,
+        "items": [
+          {
+            "slot": "forte4",
+            "qty": 2
+          },
+          {
+            "slot": "forteDrop4",
+            "qty": 2
+          },
+          {
+            "slot": "weeklyBoss",
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "credits": 70000,
+        "items": [
+          {
+            "slot": "forte4",
+            "qty": 3
+          },
+          {
+            "slot": "forteDrop4",
+            "qty": 3
+          },
+          {
+            "slot": "weeklyBoss",
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "credits": 100000,
+        "items": [
+          {
+            "slot": "forte4",
+            "qty": 6
+          },
+          {
+            "slot": "forteDrop4",
+            "qty": 4
+          },
+          {
+            "slot": "weeklyBoss",
+            "qty": 1
+          }
+        ]
+      }
+    ],
+    "inherent": [
+      {
+        "credits": 10000,
+        "items": [
+          {
+            "slot": "forte1",
+            "qty": 3
+          },
+          {
+            "slot": "forteDrop1",
+            "qty": 3
+          },
+          {
+            "slot": "weeklyBoss",
+            "qty": 1
+          }
+        ]
+      },
+      {
+        "credits": 20000,
+        "items": [
+          {
+            "slot": "forte2",
+            "qty": 3
+          },
+          {
+            "slot": "forteDrop2",
+            "qty": 3
+          },
+          {
+            "slot": "weeklyBoss",
+            "qty": 1
+          }
+        ]
+      }
+    ],
+    "statBonus": [
+      {
+        "credits": 50000,
+        "items": [
+          {
+            "slot": "forte3",
+            "qty": 3
+          },
+          {
+            "slot": "forteDrop3",
+            "qty": 3
+          }
+        ]
+      },
+      {
+        "credits": 100000,
+        "items": [
+          {
+            "slot": "forte4",
+            "qty": 3
+          },
+          {
+            "slot": "forteDrop4",
+            "qty": 3
+          },
+          {
+            "slot": "weeklyBoss",
+            "qty": 1
+          }
+        ]
+      }
+    ]
+  },
+  "resonators": {
+    "aalto": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "wintry-bell",
+      "boss": "roaring-rock-fist",
+      "forte1": "impure-phlogiston",
+      "forte2": "extracted-phlogiston",
+      "forte3": "refined-phlogiston",
+      "forte4": "flawless-phlogiston",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "monument-bell"
+    },
+    "aemeath": {
+      "common1": "lf-exoswarm-core",
+      "common2": "mf-exoswarm-core",
+      "common3": "hf-exoswarm-core",
+      "common4": "ff-exoswarm-core",
+      "local": "moss-amber",
+      "boss": "our-choice",
+      "forte1": "broken-wing-polarizer",
+      "forte2": "monowing-polarizer",
+      "forte3": "polywing-polarizer",
+      "forte4": "layered-wing-polarizer",
+      "forteDrop1": "lf-exoswarm-core",
+      "forteDrop2": "mf-exoswarm-core",
+      "forteDrop3": "hf-exoswarm-core",
+      "forteDrop4": "ff-exoswarm-core",
+      "weeklyBoss": "gold-in-memory"
+    },
+    "augusta": {
+      "common1": "lf-tidal-residuum",
+      "common2": "mf-tidal-residuum",
+      "common3": "hf-tidal-residuum",
+      "common4": "ff-tidal-residuum",
+      "local": "luminous-calendula",
+      "boss": "blighted-crown-of-puppet-king",
+      "forte1": "waveworn-residue-210",
+      "forte2": "waveworn-residue-226",
+      "forte3": "waveworn-residue-235",
+      "forte4": "waveworn-residue-239",
+      "forteDrop1": "lf-tidal-residuum",
+      "forteDrop2": "mf-tidal-residuum",
+      "forteDrop3": "hf-tidal-residuum",
+      "forteDrop4": "ff-tidal-residuum",
+      "weeklyBoss": "when-irises-bloom"
+    },
+    "baizhi": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "lanternberry",
+      "boss": "sound-keeping-tacet-core",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "monument-bell"
+    },
+    "brant": {
+      "common1": "lf-tidal-residuum",
+      "common2": "mf-tidal-residuum",
+      "common3": "hf-tidal-residuum",
+      "common4": "ff-tidal-residuum",
+      "local": "golden-fleece",
+      "boss": "blazing-bone",
+      "forte1": "inert-metallic-drip",
+      "forte2": "reactive-metallic-drip",
+      "forte3": "polarized-metallic-drip",
+      "forte4": "heterized-metallic-drip",
+      "forteDrop1": "lf-tidal-residuum",
+      "forteDrop2": "mf-tidal-residuum",
+      "forteDrop3": "hf-tidal-residuum",
+      "forteDrop4": "ff-tidal-residuum",
+      "weeklyBoss": "the-netherworlds-stare"
+    },
+    "calcharo": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "local": "iris",
+      "boss": "thundering-tacet-core",
+      "forte1": "waveworn-residue-210",
+      "forte2": "waveworn-residue-226",
+      "forte3": "waveworn-residue-235",
+      "forte4": "waveworn-residue-239",
+      "forteDrop1": "crude-ring",
+      "forteDrop2": "basic-ring",
+      "forteDrop3": "improved-ring",
+      "forteDrop4": "tailored-ring",
+      "weeklyBoss": "monument-bell"
+    },
+    "camellya": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "nova",
+      "boss": "topological-confinement",
+      "forte1": "inert-metallic-drip",
+      "forte2": "reactive-metallic-drip",
+      "forte3": "polarized-metallic-drip",
+      "forte4": "heterized-metallic-drip",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "dreamless-feather"
+    },
+    "cantarella": {
+      "common1": "lf-polygon-core",
+      "common2": "mf-polygon-core",
+      "common3": "hf-polygon-core",
+      "common4": "ff-polygon-core",
+      "local": "seaside-cendrelis",
+      "boss": "cleansing-conch",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-polygon-core",
+      "forteDrop2": "mf-polygon-core",
+      "forteDrop3": "hf-polygon-core",
+      "forteDrop4": "ff-polygon-core",
+      "weeklyBoss": "when-irises-bloom"
+    },
+    "carlotta": {
+      "common1": "lf-polygon-core",
+      "common2": "mf-polygon-core",
+      "common3": "hf-polygon-core",
+      "common4": "ff-polygon-core",
+      "local": "sword-acorus",
+      "boss": "platinum-core",
+      "forte1": "impure-phlogiston",
+      "forte2": "extracted-phlogiston",
+      "forte3": "refined-phlogiston",
+      "forte4": "flawless-phlogiston",
+      "forteDrop1": "lf-polygon-core",
+      "forteDrop2": "mf-polygon-core",
+      "forteDrop3": "hf-polygon-core",
+      "forteDrop4": "ff-polygon-core",
+      "weeklyBoss": "the-netherworlds-stare"
+    },
+    "cartethyia": {
+      "common1": "lf-tidal-residuum",
+      "common2": "mf-tidal-residuum",
+      "common3": "hf-tidal-residuum",
+      "common4": "ff-tidal-residuum",
+      "local": "bamboo-iris",
+      "boss": "unfading-glory",
+      "forte1": "inert-metallic-drip",
+      "forte2": "reactive-metallic-drip",
+      "forte3": "polarized-metallic-drip",
+      "forte4": "heterized-metallic-drip",
+      "forteDrop1": "lf-tidal-residuum",
+      "forteDrop2": "mf-tidal-residuum",
+      "forteDrop3": "hf-tidal-residuum",
+      "forteDrop4": "ff-tidal-residuum",
+      "weeklyBoss": "when-irises-bloom"
+    },
+    "changli": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "local": "pavo-plum",
+      "boss": "rage-tacet-core",
+      "forte1": "inert-metallic-drip",
+      "forte2": "reactive-metallic-drip",
+      "forte3": "polarized-metallic-drip",
+      "forte4": "heterized-metallic-drip",
+      "forteDrop1": "crude-ring",
+      "forteDrop2": "basic-ring",
+      "forteDrop3": "improved-ring",
+      "forteDrop4": "tailored-ring",
+      "weeklyBoss": "sentinels-dagger"
+    },
+    "chisa": {
+      "common1": "lf-polygon-core",
+      "common2": "mf-polygon-core",
+      "common3": "hf-polygon-core",
+      "common4": "ff-polygon-core",
+      "local": "summer-flower",
+      "boss": "abyssal-husk",
+      "forte1": "waveworn-residue-210",
+      "forte2": "waveworn-residue-226",
+      "forte3": "waveworn-residue-235",
+      "forte4": "waveworn-residue-239",
+      "forteDrop1": "lf-polygon-core",
+      "forteDrop2": "mf-polygon-core",
+      "forteDrop3": "hf-polygon-core",
+      "forteDrop4": "ff-polygon-core",
+      "weeklyBoss": "when-irises-bloom"
+    },
+    "chixia": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "belle-poppy",
+      "boss": "rage-tacet-core",
+      "forte1": "impure-phlogiston",
+      "forte2": "extracted-phlogiston",
+      "forte3": "refined-phlogiston",
+      "forte4": "flawless-phlogiston",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "monument-bell"
+    },
+    "ciaccona": {
+      "common1": "lf-tidal-residuum",
+      "common2": "mf-tidal-residuum",
+      "common3": "hf-tidal-residuum",
+      "common4": "ff-tidal-residuum",
+      "local": "golden-fleece",
+      "boss": "blazing-bone",
+      "forte1": "impure-phlogiston",
+      "forte2": "extracted-phlogiston",
+      "forte3": "refined-phlogiston",
+      "forte4": "flawless-phlogiston",
+      "forteDrop1": "lf-tidal-residuum",
+      "forteDrop2": "mf-tidal-residuum",
+      "forteDrop3": "hf-tidal-residuum",
+      "forteDrop4": "ff-tidal-residuum",
+      "weeklyBoss": "when-irises-bloom"
+    },
+    "danjin": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "local": "belle-poppy",
+      "boss": "strife-tacet-core",
+      "forte1": "inert-metallic-drip",
+      "forte2": "reactive-metallic-drip",
+      "forte3": "polarized-metallic-drip",
+      "forte4": "heterized-metallic-drip",
+      "forteDrop1": "crude-ring",
+      "forteDrop2": "basic-ring",
+      "forteDrop3": "improved-ring",
+      "forteDrop4": "tailored-ring",
+      "weeklyBoss": "dreamless-feather"
+    },
+    "denia": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "local": "dream-of-stars",
+      "boss": "burning-judgment",
+      "forte1": "spliced-string",
+      "forte2": "broken-string",
+      "forte3": "solidified-string",
+      "forte4": "melodic-string",
+      "forteDrop1": "lf-mech-core",
+      "forteDrop2": "mf-mech-core",
+      "forteDrop3": "hf-mech-core",
+      "forteDrop4": "ff-mech-core",
+      "weeklyBoss": "we-who-question"
+    },
+    "encore": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "pecok-flower",
+      "boss": "rage-tacet-core",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "unending-destruction"
+    },
+    "galbrena": {
+      "common1": "lf-tidal-residuum",
+      "common2": "mf-tidal-residuum",
+      "common3": "hf-tidal-residuum",
+      "common4": "ff-tidal-residuum",
+      "local": "stone-rose",
+      "boss": "blighted-crown-of-puppet-king",
+      "forte1": "impure-phlogiston",
+      "forte2": "extracted-phlogiston",
+      "forte3": "refined-phlogiston",
+      "forte4": "flawless-phlogiston",
+      "forteDrop1": "lf-tidal-residuum",
+      "forteDrop2": "mf-tidal-residuum",
+      "forteDrop3": "hf-tidal-residuum",
+      "forteDrop4": "ff-tidal-residuum",
+      "weeklyBoss": "curse-of-the-abyss"
+    },
+    "hiyuki": {
+      "common1": "lf-exoswarm-core",
+      "common2": "mf-exoswarm-core",
+      "common3": "hf-exoswarm-core",
+      "common4": "ff-exoswarm-core",
+      "local": "redbell",
+      "boss": "our-choice",
+      "forte1": "broken-wing-polarizer",
+      "forte2": "monowing-polarizer",
+      "forte3": "polywing-polarizer",
+      "forte4": "layered-wing-polarizer",
+      "forteDrop1": "lf-exoswarm-core",
+      "forteDrop2": "mf-exoswarm-core",
+      "forteDrop3": "hf-exoswarm-core",
+      "forteDrop4": "ff-exoswarm-core",
+      "weeklyBoss": "we-who-question"
+    },
+    "hsin": {
+      "common1": "lf-autopuppet-kernel",
+      "common2": "mf-autopuppet-kernel",
+      "common3": "hf-autopuppet-kernel",
+      "common4": "ff-autopuppet-kernel",
+      "boss": "solidaritys-loneflame",
+      "forte1": "spliced-string",
+      "forte2": "broken-string",
+      "forte3": "solidified-string",
+      "forte4": "melodic-string",
+      "forteDrop1": "lf-autopuppet-kernel",
+      "forteDrop2": "mf-autopuppet-kernel",
+      "forteDrop3": "hf-autopuppet-kernel",
+      "forteDrop4": "ff-autopuppet-kernel",
+      "weeklyBoss": "remnant-of-the-wheel"
+    },
+    "iuno": {
+      "common1": "lf-polygon-core",
+      "common2": "mf-polygon-core",
+      "common3": "hf-polygon-core",
+      "common4": "ff-polygon-core",
+      "local": "sliverglow-bloom",
+      "boss": "abyssal-husk",
+      "forte1": "cadence-seed",
+      "forte2": "cadence-bud",
+      "forte3": "cadence-leaf",
+      "forte4": "cadence-blossom",
+      "forteDrop1": "lf-polygon-core",
+      "forteDrop2": "mf-polygon-core",
+      "forteDrop3": "hf-polygon-core",
+      "forteDrop4": "ff-polygon-core",
+      "weeklyBoss": "the-netherworlds-stare"
+    },
+    "jianxin": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "lanternberry",
+      "boss": "roaring-rock-fist",
+      "forte1": "cadence-seed",
+      "forte2": "cadence-bud",
+      "forte3": "cadence-leaf",
+      "forte4": "cadence-blossom",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "unending-destruction"
+    },
+    "jinhsi": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "loongs-pearl",
+      "boss": "elegy-tacet-core",
+      "forte1": "waveworn-residue-210",
+      "forte2": "waveworn-residue-226",
+      "forte3": "waveworn-residue-235",
+      "forte4": "waveworn-residue-239",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "sentinels-dagger"
+    },
+    "jiyan": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "pecok-flower",
+      "boss": "roaring-rock-fist",
+      "forte1": "waveworn-residue-210",
+      "forte2": "waveworn-residue-226",
+      "forte3": "waveworn-residue-235",
+      "forte4": "waveworn-residue-239",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "monument-bell"
+    },
+    "lingyang": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "coriolus",
+      "boss": "sound-keeping-tacet-core",
+      "forte1": "cadence-seed",
+      "forte2": "cadence-bud",
+      "forte3": "cadence-leaf",
+      "forte4": "cadence-blossom",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "unending-destruction"
+    },
+    "lumi": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "terraspawn-fungus",
+      "boss": "thundering-tacet-core",
+      "forte1": "waveworn-residue-210",
+      "forte2": "waveworn-residue-226",
+      "forte3": "waveworn-residue-235",
+      "forte4": "waveworn-residue-239",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "sentinels-dagger"
+    },
+    "lupa": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "bloodleaf-viburnum",
+      "boss": "unfading-glory",
+      "forte1": "waveworn-residue-210",
+      "forte2": "waveworn-residue-226",
+      "forte3": "waveworn-residue-235",
+      "forte4": "waveworn-residue-239",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "the-netherworlds-stare"
+    },
+    "luuk-herssen": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "local": "edelschnee",
+      "boss": "suncoveters-reach",
+      "forte1": "lf-waveworn-shard",
+      "forte2": "mf-waveworn-shard",
+      "forte3": "hf-waveworn-shard",
+      "forte4": "ff-waveworn-shard",
+      "forteDrop1": "fractured-exoswarm-pendant",
+      "forteDrop2": "worn-exoswarm-pendant",
+      "forteDrop3": "chipped-exoswarm-pendant",
+      "forteDrop4": "intact-exoswarm-pendant",
+      "weeklyBoss": "gold-in-memory"
+    },
+    "lynae": {
+      "common1": "lf-exoswarm-core",
+      "common2": "mf-exoswarm-core",
+      "common3": "hf-exoswarm-core",
+      "common4": "ff-exoswarm-core",
+      "local": "rimewisp",
+      "boss": "suncoveters-reach",
+      "forte1": "incomplete-combustor",
+      "forte2": "aftertune-combustor",
+      "forte3": "remnant-combustor",
+      "forte4": "reverb-combustor",
+      "forteDrop1": "lf-exoswarm-core",
+      "forteDrop2": "mf-exoswarm-core",
+      "forteDrop3": "hf-exoswarm-core",
+      "forteDrop4": "ff-exoswarm-core",
+      "weeklyBoss": "dreamless-feather"
+    },
+    "mornye": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "local": "gemini-spore",
+      "boss": "burning-judgment",
+      "forte1": "lf-carved-crystal",
+      "forte2": "mf-carved-crystal",
+      "forte3": "hf-carved-crystal",
+      "forte4": "ff-carved-crystal",
+      "forteDrop1": "lf-mech-core",
+      "forteDrop2": "mf-mech-core",
+      "forteDrop3": "hf-mech-core",
+      "forteDrop4": "ff-mech-core",
+      "weeklyBoss": "the-netherworlds-stare"
+    },
+    "mortefi": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "coriolus",
+      "boss": "rage-tacet-core",
+      "forte1": "impure-phlogiston",
+      "forte2": "extracted-phlogiston",
+      "forte3": "refined-phlogiston",
+      "forte4": "flawless-phlogiston",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "monument-bell"
+    },
+    "phoebe": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "firecracker-jewelweed",
+      "boss": "cleansing-conch",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "sentinels-dagger"
+    },
+    "phrolova": {
+      "common1": "lf-polygon-core",
+      "common2": "mf-polygon-core",
+      "common3": "hf-polygon-core",
+      "common4": "ff-polygon-core",
+      "local": "afterlife",
+      "boss": "truth-in-lies",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-polygon-core",
+      "forteDrop2": "mf-polygon-core",
+      "forteDrop3": "hf-polygon-core",
+      "forteDrop4": "ff-polygon-core",
+      "weeklyBoss": "the-netherworlds-stare"
+    },
+    "qiuyuan": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "wintry-bell",
+      "boss": "truth-in-lies",
+      "forte1": "inert-metallic-drip",
+      "forte2": "reactive-metallic-drip",
+      "forte3": "polarized-metallic-drip",
+      "forte4": "heterized-metallic-drip",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "curse-of-the-abyss"
+    },
+    "qingxiao": {
+      "common1": "lf-autopuppet-kernel",
+      "common2": "mf-autopuppet-kernel",
+      "common3": "hf-autopuppet-kernel",
+      "common4": "ff-autopuppet-kernel",
+      "local": "blade-blossom",
+      "boss": "forged-empyreans-sigh",
+      "forte1": "broken-wing-polarizer",
+      "forte2": "monowing-polarizer",
+      "forte3": "polywing-polarizer",
+      "forte4": "layered-wing-polarizer",
+      "forteDrop1": "lf-autopuppet-kernel",
+      "forteDrop2": "mf-autopuppet-kernel",
+      "forteDrop3": "hf-autopuppet-kernel",
+      "forteDrop4": "ff-autopuppet-kernel",
+      "weeklyBoss": "we-who-question"
+    },
+    "roccia": {
+      "common1": "lf-tidal-residuum",
+      "common2": "mf-tidal-residuum",
+      "common3": "hf-tidal-residuum",
+      "common4": "ff-tidal-residuum",
+      "local": "firecracker-jewelweed",
+      "boss": "cleansing-conch",
+      "forte1": "cadence-seed",
+      "forte2": "cadence-bud",
+      "forte3": "cadence-leaf",
+      "forte4": "cadence-blossom",
+      "forteDrop1": "lf-tidal-residuum",
+      "forteDrop2": "mf-tidal-residuum",
+      "forteDrop3": "hf-tidal-residuum",
+      "forteDrop4": "ff-tidal-residuum",
+      "weeklyBoss": "the-netherworlds-stare"
+    },
+    "sanhua": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "wintry-bell",
+      "boss": "sound-keeping-tacet-core",
+      "forte1": "inert-metallic-drip",
+      "forte2": "reactive-metallic-drip",
+      "forte3": "polarized-metallic-drip",
+      "forte4": "heterized-metallic-drip",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "unending-destruction"
+    },
+    "shorekeeper": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "nova",
+      "boss": "topological-confinement",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "sentinels-dagger"
+    },
+    "sigrika": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "local": "arithmetic-shell",
+      "boss": "our-choice",
+      "forte1": "lf-waveworn-shard",
+      "forte2": "mf-waveworn-shard",
+      "forte3": "hf-waveworn-shard",
+      "forte4": "ff-waveworn-shard",
+      "forteDrop1": "fractured-exoswarm-pendant",
+      "forteDrop2": "worn-exoswarm-pendant",
+      "forteDrop3": "chipped-exoswarm-pendant",
+      "forteDrop4": "intact-exoswarm-pendant",
+      "weeklyBoss": "gold-in-memory"
+    },
+    "suisui": {
+      "common1": "lf-autopuppet-kernel",
+      "common2": "mf-autopuppet-kernel",
+      "common3": "hf-autopuppet-kernel",
+      "common4": "ff-autopuppet-kernel",
+      "local": "flowborne-dream",
+      "boss": "solidaritys-loneflame",
+      "forte1": "spliced-string",
+      "forte2": "broken-string",
+      "forte3": "solidified-string",
+      "forte4": "melodic-string",
+      "forteDrop1": "lf-autopuppet-kernel",
+      "forteDrop2": "mf-autopuppet-kernel",
+      "forteDrop3": "hf-autopuppet-kernel",
+      "forteDrop4": "ff-autopuppet-kernel",
+      "weeklyBoss": "skyward-glazed-heart"
+    },
+    "suoming": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "boss": "forged-empyreans-sigh",
+      "forte1": "broken-wing-polarizer",
+      "forte2": "monowing-polarizer",
+      "forte3": "polywing-polarizer",
+      "forte4": "layered-wing-polarizer",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "remnant-of-the-wheel"
+    },
+    "taoqi": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "iris",
+      "boss": "gold-dissolving-feather",
+      "forte1": "waveworn-residue-210",
+      "forte2": "waveworn-residue-226",
+      "forte3": "waveworn-residue-235",
+      "forte4": "waveworn-residue-239",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "dreamless-feather"
+    },
+    "verina": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "belle-poppy",
+      "boss": "elegy-tacet-core",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "monument-bell"
+    },
+    "xiangli-yao": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "violet-coral",
+      "boss": "hidden-thunder-tacet-core",
+      "forte1": "cadence-seed",
+      "forte2": "cadence-bud",
+      "forte3": "cadence-leaf",
+      "forte4": "cadence-blossom",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "unending-destruction"
+    },
+    "yangyang": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "local": "wintry-bell",
+      "boss": "roaring-rock-fist",
+      "forte1": "inert-metallic-drip",
+      "forte2": "reactive-metallic-drip",
+      "forte3": "polarized-metallic-drip",
+      "forte4": "heterized-metallic-drip",
+      "forteDrop1": "crude-ring",
+      "forteDrop2": "basic-ring",
+      "forteDrop3": "improved-ring",
+      "forteDrop4": "tailored-ring",
+      "weeklyBoss": "unending-destruction"
+    },
+    "yangyang-xuanling": {
+      "common1": "lf-autopuppet-kernel",
+      "common2": "mf-autopuppet-kernel",
+      "common3": "hf-autopuppet-kernel",
+      "common4": "ff-autopuppet-kernel",
+      "local": "cloudperch-seed",
+      "boss": "solidaritys-loneflame",
+      "forte1": "broken-wing-polarizer",
+      "forte2": "monowing-polarizer",
+      "forte3": "polywing-polarizer",
+      "forte4": "layered-wing-polarizer",
+      "forteDrop1": "lf-autopuppet-kernel",
+      "forteDrop2": "mf-autopuppet-kernel",
+      "forteDrop3": "hf-autopuppet-kernel",
+      "forteDrop4": "ff-autopuppet-kernel",
+      "weeklyBoss": "skyward-glazed-heart"
+    },
+    "yinlin": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "local": "coriolus",
+      "boss": "group-abomination-tacet-core",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-whisperin-core",
+      "forteDrop2": "mf-whisperin-core",
+      "forteDrop3": "hf-whisperin-core",
+      "forteDrop4": "ff-whisperin-core",
+      "weeklyBoss": "dreamless-feather"
+    },
+    "youhu": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "local": "violet-coral",
+      "boss": "topological-confinement",
+      "forte1": "cadence-seed",
+      "forte2": "cadence-bud",
+      "forte3": "cadence-leaf",
+      "forte4": "cadence-blossom",
+      "forteDrop1": "crude-ring",
+      "forteDrop2": "basic-ring",
+      "forteDrop3": "improved-ring",
+      "forteDrop4": "tailored-ring",
+      "weeklyBoss": "monument-bell"
+    },
+    "yuanwu": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "local": "terraspawn-fungus",
+      "boss": "hidden-thunder-tacet-core",
+      "forte1": "cadence-seed",
+      "forte2": "cadence-bud",
+      "forte3": "cadence-leaf",
+      "forte4": "cadence-blossom",
+      "forteDrop1": "crude-ring",
+      "forteDrop2": "basic-ring",
+      "forteDrop3": "improved-ring",
+      "forteDrop4": "tailored-ring",
+      "weeklyBoss": "unending-destruction"
+    },
+    "zani": {
+      "common1": "lf-polygon-core",
+      "common2": "mf-polygon-core",
+      "common3": "hf-polygon-core",
+      "common4": "ff-polygon-core",
+      "local": "sword-acorus",
+      "boss": "platinum-core",
+      "forte1": "cadence-seed",
+      "forte2": "cadence-bud",
+      "forte3": "cadence-leaf",
+      "forte4": "cadence-blossom",
+      "forteDrop1": "lf-polygon-core",
+      "forteDrop2": "mf-polygon-core",
+      "forteDrop3": "hf-polygon-core",
+      "forteDrop4": "ff-polygon-core",
+      "weeklyBoss": "the-netherworlds-stare"
+    },
+    "zhezhi": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "local": "lanternberry",
+      "boss": "sound-keeping-tacet-core",
+      "forte1": "lento-helix",
+      "forte2": "adagio-helix",
+      "forte3": "andante-helix",
+      "forte4": "presto-helix",
+      "forteDrop1": "lf-howler-core",
+      "forteDrop2": "mf-howler-core",
+      "forteDrop3": "hf-howler-core",
+      "forteDrop4": "ff-howler-core",
+      "weeklyBoss": "monument-bell"
+    }
+  },
+  "weapons": {
+    "ages-of-harvest": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "kumokiri": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "lustrous-razor": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "radiance-cleaver": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "ascension1": "lf-carved-crystal",
+      "ascension2": "mf-carved-crystal",
+      "ascension3": "hf-carved-crystal",
+      "ascension4": "ff-carved-crystal"
+    },
+    "starfield-calibrator": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "ascension1": "lf-carved-crystal",
+      "ascension2": "mf-carved-crystal",
+      "ascension3": "hf-carved-crystal",
+      "ascension4": "ff-carved-crystal"
+    },
+    "thousandfold-deliverance": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "ascension1": "lf-carved-crystal",
+      "ascension2": "mf-carved-crystal",
+      "ascension3": "hf-carved-crystal",
+      "ascension4": "ff-carved-crystal"
+    },
+    "thunderflare-dominion": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "verdant-summit": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "wildfire-mark": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "aureate-zenith": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "autumntrace": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "broadblade-41": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "dauntless-evernight": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "discord": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "helios-cleaver": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "meditations-on-mercy": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "waning-redshift": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "beguiling-melody": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "broadblade-of-night": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "broadblade-of-voyager": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "guardian-broadblade": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "originite-type-i": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "tyro-broadblade": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "training-broadblade": {
+      "common1": "lf-whisperin-core",
+      "common2": "mf-whisperin-core",
+      "common3": "hf-whisperin-core",
+      "common4": "ff-whisperin-core",
+      "ascension1": "waveworn-residue-210",
+      "ascension2": "waveworn-residue-226",
+      "ascension3": "waveworn-residue-235",
+      "ascension4": "waveworn-residue-239"
+    },
+    "azure-oath": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "ascension1": "broken-wing-polarizer",
+      "ascension2": "monowing-polarizer",
+      "ascension3": "polywing-polarizer",
+      "ascension4": "layered-wing-polarizer"
+    },
+    "blazing-brilliance": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "bloodpacts-pledge": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "defiers-thorn": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "emerald-of-genesis": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "emerald-sentence": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "everbright-polestar": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "ascension1": "broken-wing-polarizer",
+      "ascension2": "monowing-polarizer",
+      "ascension3": "polywing-polarizer",
+      "ascension4": "layered-wing-polarizer"
+    },
+    "frostburn": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "ascension1": "broken-wing-polarizer",
+      "ascension2": "monowing-polarizer",
+      "ascension3": "polywing-polarizer",
+      "ascension4": "layered-wing-polarizer"
+    },
+    "glint-of-clouds": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "ascension1": "broken-wing-polarizer",
+      "ascension2": "monowing-polarizer",
+      "ascension3": "polywing-polarizer",
+      "ascension4": "layered-wing-polarizer"
+    },
+    "laser-shearer": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "ascension1": "broken-wing-polarizer",
+      "ascension2": "monowing-polarizer",
+      "ascension3": "polywing-polarizer",
+      "ascension4": "layered-wing-polarizer"
+    },
+    "red-spring": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "unflickering-valor": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "unspoken-rue": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "ascension1": "broken-wing-polarizer",
+      "ascension2": "monowing-polarizer",
+      "ascension3": "polywing-polarizer",
+      "ascension4": "layered-wing-polarizer"
+    },
+    "commando-of-conviction": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "endless-collapse": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "feather-edge": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "fables-of-wisdom": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "lumingloss": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "lunar-cutter": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "overture": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "somnoire-anchor": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "sword-18": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "guardian-sword": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "originite-type-ii": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "sword-of-night": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "sword-of-voyager": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "tyro-sword": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "training-sword": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "inert-metallic-drip",
+      "ascension2": "reactive-metallic-drip",
+      "ascension3": "polarized-metallic-drip",
+      "ascension4": "heterized-metallic-drip"
+    },
+    "lux-umbra": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "phasic-homogenizer": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "ascension1": "incomplete-combustor",
+      "ascension2": "aftertune-combustor",
+      "ascension3": "remnant-combustor",
+      "ascension4": "reverb-combustor"
+    },
+    "skull-thrasher": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "ascension1": "incomplete-combustor",
+      "ascension2": "aftertune-combustor",
+      "ascension3": "remnant-combustor",
+      "ascension4": "reverb-combustor"
+    },
+    "spectral-trigger": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "ascension1": "incomplete-combustor",
+      "ascension2": "aftertune-combustor",
+      "ascension3": "remnant-combustor",
+      "ascension4": "reverb-combustor"
+    },
+    "spectrum-blaster": {
+      "common1": "fractured-exoswarm-pendant",
+      "common2": "worn-exoswarm-pendant",
+      "common3": "chipped-exoswarm-pendant",
+      "common4": "intact-exoswarm-pendant",
+      "ascension1": "incomplete-combustor",
+      "ascension2": "aftertune-combustor",
+      "ascension3": "remnant-combustor",
+      "ascension4": "reverb-combustor"
+    },
+    "static-mist": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "the-last-dance": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "woodland-aria": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "cadenza": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "novaburst": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "pistols-26": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "relativistic-jet": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "romance-in-farewell": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "solar-flame": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "thunderbolt": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "undying-flame": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "guardian-pistols": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "originite-type-iii": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "pistols-of-night": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "pistols-of-voyager": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "tyro-pistols": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "training-pistols": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "impure-phlogiston",
+      "ascension2": "extracted-phlogiston",
+      "ascension3": "refined-phlogiston",
+      "ascension4": "flawless-phlogiston"
+    },
+    "abyss-surges": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "blazing-justice": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "daybreakers-spine": {
+      "common1": "lf-waveworn-shard",
+      "common2": "mf-waveworn-shard",
+      "common3": "hf-waveworn-shard",
+      "common4": "ff-waveworn-shard",
+      "ascension1": "lf-mech-core",
+      "ascension2": "mf-mech-core",
+      "ascension3": "hf-mech-core",
+      "ascension4": "ff-mech-core"
+    },
+    "moongazers-sigil": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "pulsation-bracer": {
+      "common1": "lf-mech-core",
+      "common2": "mf-mech-core",
+      "common3": "hf-mech-core",
+      "common4": "ff-mech-core",
+      "ascension1": "lf-waveworn-shard",
+      "ascension2": "mf-waveworn-shard",
+      "ascension3": "hf-waveworn-shard",
+      "ascension4": "ff-waveworn-shard"
+    },
+    "solsworn-ciphers": {
+      "common1": "lf-waveworn-shard",
+      "common2": "mf-waveworn-shard",
+      "common3": "hf-waveworn-shard",
+      "common4": "ff-waveworn-shard",
+      "ascension1": "lf-mech-core",
+      "ascension2": "mf-mech-core",
+      "ascension3": "hf-mech-core",
+      "ascension4": "ff-mech-core"
+    },
+    "tragicomedy": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "veritys-handle": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "aether-strike": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "amity-accord": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "celestial-spiral": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "gauntlets-21d": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "hollow-mirage": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "legend-of-drunken-hero": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "marcato": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "stonard": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "gauntlets-of-night": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "gauntlets-of-voyager": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "guardian-gauntlets": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "originite-type-iv": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "tyro-gauntlets": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "training-gauntlets": {
+      "common1": "lf-howler-core",
+      "common2": "mf-howler-core",
+      "common3": "hf-howler-core",
+      "common4": "ff-howler-core",
+      "ascension1": "cadence-seed",
+      "ascension2": "cadence-bud",
+      "ascension3": "cadence-leaf",
+      "ascension4": "cadence-blossom"
+    },
+    "blooming-jadehaven": {
+      "common1": "lf-exoswarm-core",
+      "common2": "mf-exoswarm-core",
+      "common3": "hf-exoswarm-core",
+      "common4": "ff-exoswarm-core",
+      "ascension1": "spliced-string",
+      "ascension2": "broken-string",
+      "ascension3": "solidified-string",
+      "ascension4": "melodic-string"
+    },
+    "boson-astrolabe": {
+      "common1": "lf-exoswarm-core",
+      "common2": "mf-exoswarm-core",
+      "common3": "hf-exoswarm-core",
+      "common4": "ff-exoswarm-core",
+      "ascension1": "spliced-string",
+      "ascension2": "broken-string",
+      "ascension3": "solidified-string",
+      "ascension4": "melodic-string"
+    },
+    "cosmic-ripples": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "firstlights-herald": {
+      "common1": "lf-exoswarm-core",
+      "common2": "mf-exoswarm-core",
+      "common3": "hf-exoswarm-core",
+      "common4": "ff-exoswarm-core",
+      "ascension1": "spliced-string",
+      "ascension2": "broken-string",
+      "ascension3": "solidified-string",
+      "ascension4": "melodic-string"
+    },
+    "forged-dwarf-star": {
+      "common1": "lf-exoswarm-core",
+      "common2": "mf-exoswarm-core",
+      "common3": "hf-exoswarm-core",
+      "common4": "ff-exoswarm-core",
+      "ascension1": "spliced-string",
+      "ascension2": "broken-string",
+      "ascension3": "solidified-string",
+      "ascension4": "melodic-string"
+    },
+    "freeze-frame": {
+      "common1": "lf-exoswarm-core",
+      "common2": "mf-exoswarm-core",
+      "common3": "hf-exoswarm-core",
+      "common4": "ff-exoswarm-core",
+      "ascension1": "spliced-string",
+      "ascension2": "broken-string",
+      "ascension3": "solidified-string",
+      "ascension4": "melodic-string"
+    },
+    "lethean-elegy": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "luminous-hymn": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "rime-draped-sprouts": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "stellar-symphony": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "stringmaster": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "whispers-of-sirens": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "augment": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "call-of-the-abyss": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "comet-flare": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "fusion-accretion": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "jinzhou-keeper": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "oceans-gift": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "radiant-dawn": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "rectifier-25": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "variation": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "waltz-in-masquerade": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "guardian-rectifier": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "originite-type-v": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "rectifier-of-night": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "rectifier-of-voyager": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "tyro-rectifier": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    },
+    "training-rectifier": {
+      "common1": "crude-ring",
+      "common2": "basic-ring",
+      "common3": "improved-ring",
+      "common4": "tailored-ring",
+      "ascension1": "lento-helix",
+      "ascension2": "adagio-helix",
+      "ascension3": "andante-helix",
+      "ascension4": "presto-helix"
+    }
+  },
+  "items": [
+    {
+      "id": "abyssal-husk",
+      "name": {
+        "en": "Abyssal Husk",
+        "fr": "Carcasse abyssale"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/abyssal-husk.webp"
+    },
+    {
+      "id": "adagio-helix",
+      "name": {
+        "en": "Adagio Helix",
+        "fr": "Adagio Helix"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/adagio-helix.webp"
+    },
+    {
+      "id": "afterlife",
+      "name": {
+        "en": "Afterlife",
+        "fr": "« Existence posthume »"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/afterlife.webp"
+    },
+    {
+      "id": "aftertune-combustor",
+      "name": {
+        "en": "Aftertune Combustor",
+        "fr": "Combusteur de retenance"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/aftertune-combustor.webp"
+    },
+    {
+      "id": "andante-helix",
+      "name": {
+        "en": "Andante Helix",
+        "fr": "Andante Helix"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/andante-helix.webp"
+    },
+    {
+      "id": "arithmetic-shell",
+      "name": {
+        "en": "Arithmetic Shell",
+        "fr": "Coquille arithmétique"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/arithmetic-shell.webp"
+    },
+    {
+      "id": "bamboo-iris",
+      "name": {
+        "en": "Bamboo Iris",
+        "fr": "Bambiris"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/bamboo-iris.webp"
+    },
+    {
+      "id": "basic-ring",
+      "name": {
+        "en": "Basic Ring",
+        "fr": "Anneau simple"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/basic-ring.webp"
+    },
+    {
+      "id": "belle-poppy",
+      "name": {
+        "en": "Belle Poppy",
+        "fr": "Bel coquelicot"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/belle-poppy.webp"
+    },
+    {
+      "id": "blade-blossom",
+      "name": {
+        "en": "Blade Blossom",
+        "fr": "Fleur acérée"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/blade-blossom.webp"
+    },
+    {
+      "id": "blazing-bone",
+      "name": {
+        "en": "Blazing Bone",
+        "fr": "Os flamboyant"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/blazing-bone.webp"
+    },
+    {
+      "id": "blighted-crown-of-puppet-king",
+      "name": {
+        "en": "Blighted Crown of Puppet King",
+        "fr": "Couronne brisée du Roi pantin"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/blighted-crown-of-puppet-king.webp"
+    },
+    {
+      "id": "bloodleaf-viburnum",
+      "name": {
+        "en": "Bloodleaf Viburnum",
+        "fr": "Viorne irésine"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/bloodleaf-viburnum.webp"
+    },
+    {
+      "id": "broken-string",
+      "name": {
+        "en": "Broken String",
+        "fr": "Broken String"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/broken-string.webp"
+    },
+    {
+      "id": "broken-wing-polarizer",
+      "name": {
+        "en": "Broken Wing Polarizer",
+        "fr": "Polariseur d'aile fracturée"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/broken-wing-polarizer.webp"
+    },
+    {
+      "id": "burning-judgment",
+      "name": {
+        "en": "Burning Judgment",
+        "fr": "Jugement ardent"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/burning-judgment.webp"
+    },
+    {
+      "id": "cadence-blossom",
+      "name": {
+        "en": "Cadence Blossom",
+        "fr": "Fleur de cadence"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/cadence-blossom.webp"
+    },
+    {
+      "id": "cadence-bud",
+      "name": {
+        "en": "Cadence Bud",
+        "fr": "Bourgeon de cadence"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/cadence-bud.webp"
+    },
+    {
+      "id": "cadence-leaf",
+      "name": {
+        "en": "Cadence Leaf",
+        "fr": "Feuille de cadence"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/cadence-leaf.webp"
+    },
+    {
+      "id": "cadence-seed",
+      "name": {
+        "en": "Cadence Seed",
+        "fr": "Graine de cadence"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/cadence-seed.webp"
+    },
+    {
+      "id": "chipped-exoswarm-pendant",
+      "name": {
+        "en": "Chipped Exoswarm Pendant",
+        "fr": "Corde d'Exonuée éraflée"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/chipped-exoswarm-pendant.webp"
+    },
+    {
+      "id": "cleansing-conch",
+      "name": {
+        "en": "Cleansing Conch",
+        "fr": "Conque purificatrice"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/cleansing-conch.webp"
+    },
+    {
+      "id": "cloudperch-seed",
+      "name": {
+        "en": "Cloudperch Seed",
+        "fr": "Graine-perchoir céleste"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/cloudperch-seed.webp"
+    },
+    {
+      "id": "coriolus",
+      "name": {
+        "en": "Coriolus",
+        "fr": "Yunzhi"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/coriolus.webp"
+    },
+    {
+      "id": "crude-ring",
+      "name": {
+        "en": "Crude Ring",
+        "fr": "Anneau brut"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/crude-ring.webp"
+    },
+    {
+      "id": "curse-of-the-abyss",
+      "name": {
+        "en": "Curse of the Abyss",
+        "fr": "Malédiction des abysses"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/curse-of-the-abyss.webp"
+    },
+    {
+      "id": "dream-of-stars",
+      "name": {
+        "en": "Dream of Stars",
+        "fr": "Étoile Graal"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/dream-of-stars.webp"
+    },
+    {
+      "id": "dreamless-feather",
+      "name": {
+        "en": "Dreamless Feather",
+        "fr": "Plume injustifiée"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/dreamless-feather.webp"
+    },
+    {
+      "id": "edelschnee",
+      "name": {
+        "en": "Edelschnee",
+        "fr": "Edelneige"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/edelschnee.webp"
+    },
+    {
+      "id": "elegy-tacet-core",
+      "name": {
+        "en": "Elegy Tacet Core",
+        "fr": "Noyau de Vautour plaignant"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/elegy-tacet-core.webp"
+    },
+    {
+      "id": "extracted-phlogiston",
+      "name": {
+        "en": "Extracted Phlogiston",
+        "fr": "Phlogiston extrait"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/extracted-phlogiston.webp"
+    },
+    {
+      "id": "ff-autopuppet-kernel",
+      "name": {
+        "en": "FF Autopuppet Kernel",
+        "fr": "Noyau d'automate P"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-autopuppet-kernel.webp"
+    },
+    {
+      "id": "ff-carved-crystal",
+      "name": {
+        "en": "FF Carved Crystal",
+        "fr": "Cristal sculpté P"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-carved-crystal.webp"
+    },
+    {
+      "id": "ff-exoswarm-core",
+      "name": {
+        "en": "FF Exoswarm Core",
+        "fr": "Noyau d'Exonuée P"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-exoswarm-core.webp"
+    },
+    {
+      "id": "ff-howler-core",
+      "name": {
+        "en": "FF Howler Core",
+        "fr": "Noyau Hurleur (P)"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-howler-core.webp"
+    },
+    {
+      "id": "ff-mech-core",
+      "name": {
+        "en": "FF Mech Core",
+        "fr": "Noyau de mécha P"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-mech-core.webp"
+    },
+    {
+      "id": "ff-polygon-core",
+      "name": {
+        "en": "FF Polygon Core",
+        "fr": "Noyau polygonal FT"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-polygon-core.webp"
+    },
+    {
+      "id": "ff-tidal-residuum",
+      "name": {
+        "en": "FF Tidal Residuum",
+        "fr": "Résidu de marée FC"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-tidal-residuum.webp"
+    },
+    {
+      "id": "ff-waveworn-shard",
+      "name": {
+        "en": "FF Waveworn Shard",
+        "fr": "Éclat de ver des vagues P"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-waveworn-shard.webp"
+    },
+    {
+      "id": "ff-whisperin-core",
+      "name": {
+        "en": "FF Whisperin Core",
+        "fr": "Noyau Chuchoteur (P)"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/ff-whisperin-core.webp"
+    },
+    {
+      "id": "firecracker-jewelweed",
+      "name": {
+        "en": "Firecracker Jewelweed",
+        "fr": "Baie de Balsamine Explosive"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/firecracker-jewelweed.webp"
+    },
+    {
+      "id": "flawless-phlogiston",
+      "name": {
+        "en": "Flawless Phlogiston",
+        "fr": "Phlogiston parfait"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/flawless-phlogiston.webp"
+    },
+    {
+      "id": "flowborne-dream",
+      "name": {
+        "en": "Flowborne Dream",
+        "fr": "Rêve né du courant"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/flowborne-dream.webp"
+    },
+    {
+      "id": "forged-empyreans-sigh",
+      "name": {
+        "en": "Forged Empyrean's Sigh",
+        "fr": "Forged Empyrean's Sigh"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/forged-empyreans-sigh.webp"
+    },
+    {
+      "id": "fractured-exoswarm-pendant",
+      "name": {
+        "en": "Fractured Exoswarm Pendant",
+        "fr": "Corde d'Exonuée brisée"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/fractured-exoswarm-pendant.webp"
+    },
+    {
+      "id": "gemini-spore",
+      "name": {
+        "en": "Gemini Spore",
+        "fr": "Spore Gémeaux"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/gemini-spore.webp"
+    },
+    {
+      "id": "gold-dissolving-feather",
+      "name": {
+        "en": "Gold-Dissolving Feather",
+        "fr": "Plume d'or"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/gold-dissolving-feather.webp"
+    },
+    {
+      "id": "gold-in-memory",
+      "name": {
+        "en": "Gold in Memory",
+        "fr": "Gold in Memory"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/gold-in-memory.webp"
+    },
+    {
+      "id": "golden-fleece",
+      "name": {
+        "en": "Golden Fleece",
+        "fr": "Toisons d'or"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/golden-fleece.webp"
+    },
+    {
+      "id": "group-abomination-tacet-core",
+      "name": {
+        "en": "Group Abomination Tacet Core",
+        "fr": "Noyau tacet sinistre"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/group-abomination-tacet-core.webp"
+    },
+    {
+      "id": "heterized-metallic-drip",
+      "name": {
+        "en": "Heterized Metallic Drip",
+        "fr": "Goutte métallique hétérisée"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/heterized-metallic-drip.webp"
+    },
+    {
+      "id": "hf-autopuppet-kernel",
+      "name": {
+        "en": "HF Autopuppet Kernel",
+        "fr": "Noyau d'automate H"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-autopuppet-kernel.webp"
+    },
+    {
+      "id": "hf-carved-crystal",
+      "name": {
+        "en": "HF Carved Crystal",
+        "fr": "Cristal sculpté H"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-carved-crystal.webp"
+    },
+    {
+      "id": "hf-exoswarm-core",
+      "name": {
+        "en": "HF Exoswarm Core",
+        "fr": "Noyau d'Exonuée H"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-exoswarm-core.webp"
+    },
+    {
+      "id": "hf-howler-core",
+      "name": {
+        "en": "HF Howler Core",
+        "fr": "Noyau Hurleur (H)"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-howler-core.webp"
+    },
+    {
+      "id": "hf-mech-core",
+      "name": {
+        "en": "HF Mech Core",
+        "fr": "Noyau de mécha H"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-mech-core.webp"
+    },
+    {
+      "id": "hf-polygon-core",
+      "name": {
+        "en": "HF Polygon Core",
+        "fr": "Noyau polygonal HF"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-polygon-core.webp"
+    },
+    {
+      "id": "hf-tidal-residuum",
+      "name": {
+        "en": "HF Tidal Residuum",
+        "fr": "Résidu de marée HF"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-tidal-residuum.webp"
+    },
+    {
+      "id": "hf-waveworn-shard",
+      "name": {
+        "en": "HF Waveworn Shard",
+        "fr": "Éclat de ver des vagues H"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-waveworn-shard.webp"
+    },
+    {
+      "id": "hf-whisperin-core",
+      "name": {
+        "en": "HF Whisperin Core",
+        "fr": "Noyau Chuchoteur (H)"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hf-whisperin-core.webp"
+    },
+    {
+      "id": "hidden-thunder-tacet-core",
+      "name": {
+        "en": "Hidden Thunder Tacet Core",
+        "fr": "Noyau de Tonnerre"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/hidden-thunder-tacet-core.webp"
+    },
+    {
+      "id": "improved-ring",
+      "name": {
+        "en": "Improved Ring",
+        "fr": "Anneau raffiné"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/improved-ring.webp"
+    },
+    {
+      "id": "impure-phlogiston",
+      "name": {
+        "en": "Impure Phlogiston",
+        "fr": "Phlogiston impur"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/impure-phlogiston.webp"
+    },
+    {
+      "id": "incomplete-combustor",
+      "name": {
+        "en": "Incomplete Combustor",
+        "fr": "Combusteur incomplet"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/incomplete-combustor.webp"
+    },
+    {
+      "id": "inert-metallic-drip",
+      "name": {
+        "en": "Inert Metallic Drip",
+        "fr": "Goutte métallique inerte"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/inert-metallic-drip.webp"
+    },
+    {
+      "id": "intact-exoswarm-pendant",
+      "name": {
+        "en": "Intact Exoswarm Pendant",
+        "fr": "Corde d'Exonuée intacte"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/intact-exoswarm-pendant.webp"
+    },
+    {
+      "id": "iris",
+      "name": {
+        "en": "Iris",
+        "fr": "Iris"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/iris.webp"
+    },
+    {
+      "id": "lanternberry",
+      "name": {
+        "en": "Lanternberry",
+        "fr": "Fruit de laterne"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/lanternberry.webp"
+    },
+    {
+      "id": "layered-wing-polarizer",
+      "name": {
+        "en": "Layered Wing Polarizer",
+        "fr": "Polariseur d'ailes superposées"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/layered-wing-polarizer.webp"
+    },
+    {
+      "id": "lento-helix",
+      "name": {
+        "en": "Lento Helix",
+        "fr": "Lento Helix"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lento-helix.webp"
+    },
+    {
+      "id": "lf-autopuppet-kernel",
+      "name": {
+        "en": "LF Autopuppet Kernel",
+        "fr": "Noyau d'automate B"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-autopuppet-kernel.webp"
+    },
+    {
+      "id": "lf-carved-crystal",
+      "name": {
+        "en": "LF Carved Crystal",
+        "fr": "Cristal sculpté B"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-carved-crystal.webp"
+    },
+    {
+      "id": "lf-exoswarm-core",
+      "name": {
+        "en": "LF Exoswarm Core",
+        "fr": "Noyau d'Exonuée B"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-exoswarm-core.webp"
+    },
+    {
+      "id": "lf-howler-core",
+      "name": {
+        "en": "LF Howler Core",
+        "fr": "Noyau Hurleur (B)"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-howler-core.webp"
+    },
+    {
+      "id": "lf-mech-core",
+      "name": {
+        "en": "LF Mech Core",
+        "fr": "Noyau de mécha B"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-mech-core.webp"
+    },
+    {
+      "id": "lf-polygon-core",
+      "name": {
+        "en": "LF Polygon Core",
+        "fr": "Noyau polygonal BF"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-polygon-core.webp"
+    },
+    {
+      "id": "lf-tidal-residuum",
+      "name": {
+        "en": "LF Tidal Residuum",
+        "fr": "Résidu de marée BF"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-tidal-residuum.webp"
+    },
+    {
+      "id": "lf-waveworn-shard",
+      "name": {
+        "en": "LF Waveworn Shard",
+        "fr": "Éclat de ver des vagues B"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-waveworn-shard.webp"
+    },
+    {
+      "id": "lf-whisperin-core",
+      "name": {
+        "en": "LF Whisperin Core",
+        "fr": "Noyau Chuchoteur (B)"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/lf-whisperin-core.webp"
+    },
+    {
+      "id": "loongs-pearl",
+      "name": {
+        "en": "Loong's Pearl",
+        "fr": "Joyau du Dragon"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/loongs-pearl.webp"
+    },
+    {
+      "id": "luminous-calendula",
+      "name": {
+        "en": "Luminous Calendula",
+        "fr": "Calendula lumineuse"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/luminous-calendula.webp"
+    },
+    {
+      "id": "melodic-string",
+      "name": {
+        "en": "Melodic String",
+        "fr": "Corde mélodique"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/melodic-string.webp"
+    },
+    {
+      "id": "mf-autopuppet-kernel",
+      "name": {
+        "en": "MF Autopuppet Kernel",
+        "fr": "Noyau d'automate M"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-autopuppet-kernel.webp"
+    },
+    {
+      "id": "mf-carved-crystal",
+      "name": {
+        "en": "MF Carved Crystal",
+        "fr": "Cristal sculpté M"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-carved-crystal.webp"
+    },
+    {
+      "id": "mf-exoswarm-core",
+      "name": {
+        "en": "MF Exoswarm Core",
+        "fr": "Noyau d'Exonuée M"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-exoswarm-core.webp"
+    },
+    {
+      "id": "mf-howler-core",
+      "name": {
+        "en": "MF Howler Core",
+        "fr": "Noyau Hurleur (M)"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-howler-core.webp"
+    },
+    {
+      "id": "mf-mech-core",
+      "name": {
+        "en": "MF Mech Core",
+        "fr": "Noyau de mécha M"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-mech-core.webp"
+    },
+    {
+      "id": "mf-polygon-core",
+      "name": {
+        "en": "MF Polygon Core",
+        "fr": "Noyau polygonal MF"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-polygon-core.webp"
+    },
+    {
+      "id": "mf-tidal-residuum",
+      "name": {
+        "en": "MF Tidal Residuum",
+        "fr": "Résidu de marée MF"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-tidal-residuum.webp"
+    },
+    {
+      "id": "mf-waveworn-shard",
+      "name": {
+        "en": "MF Waveworn Shard",
+        "fr": "Éclat de ver des vagues M"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-waveworn-shard.webp"
+    },
+    {
+      "id": "mf-whisperin-core",
+      "name": {
+        "en": "MF Whisperin Core",
+        "fr": "Noyau Chuchoteur (M)"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/mf-whisperin-core.webp"
+    },
+    {
+      "id": "monowing-polarizer",
+      "name": {
+        "en": "Monowing Polarizer",
+        "fr": "Polariseur d'aile unique"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/monowing-polarizer.webp"
+    },
+    {
+      "id": "monument-bell",
+      "name": {
+        "en": "Monument Bell",
+        "fr": "Horloge à piédestal"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/monument-bell.webp"
+    },
+    {
+      "id": "moss-amber",
+      "name": {
+        "en": "Moss Amber",
+        "fr": "Ambre de mousse"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/moss-amber.webp"
+    },
+    {
+      "id": "nova",
+      "name": {
+        "en": "Nova",
+        "fr": "Nova"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/nova.webp"
+    },
+    {
+      "id": "our-choice",
+      "name": {
+        "en": "Our Choice",
+        "fr": "Notre choix"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/our-choice.webp"
+    },
+    {
+      "id": "pavo-plum",
+      "name": {
+        "en": "Pavo Plum",
+        "fr": "Prune pavo"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/pavo-plum.webp"
+    },
+    {
+      "id": "pecok-flower",
+      "name": {
+        "en": "Pecok Flower",
+        "fr": "Fleur de paon"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/pecok-flower.webp"
+    },
+    {
+      "id": "platinum-core",
+      "name": {
+        "en": "Platinum Core",
+        "fr": "Cœur de Platine"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/platinum-core.webp"
+    },
+    {
+      "id": "polarized-metallic-drip",
+      "name": {
+        "en": "Polarized Metallic Drip",
+        "fr": "Goutte métallique polarisé"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/polarized-metallic-drip.webp"
+    },
+    {
+      "id": "polywing-polarizer",
+      "name": {
+        "en": "Polywing Polarizer",
+        "fr": "Polariseur d'ailes multiples"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/polywing-polarizer.webp"
+    },
+    {
+      "id": "presto-helix",
+      "name": {
+        "en": "Presto Helix",
+        "fr": "Presto Helix"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/presto-helix.webp"
+    },
+    {
+      "id": "rage-tacet-core",
+      "name": {
+        "en": "Rage Tacet Core",
+        "fr": "Noyau de Rage Tacet"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/rage-tacet-core.webp"
+    },
+    {
+      "id": "reactive-metallic-drip",
+      "name": {
+        "en": "Reactive Metallic Drip",
+        "fr": "Goutte métallique réactive"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/reactive-metallic-drip.webp"
+    },
+    {
+      "id": "redbell",
+      "name": {
+        "en": "Redbell",
+        "fr": "Clochette rouge"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/redbell.webp"
+    },
+    {
+      "id": "refined-phlogiston",
+      "name": {
+        "en": "Refined Phlogiston",
+        "fr": "Phlogiston raffiné"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/refined-phlogiston.webp"
+    },
+    {
+      "id": "remnant-combustor",
+      "name": {
+        "en": "Remnant Combustor",
+        "fr": "Combusteur de la réverbération"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/remnant-combustor.webp"
+    },
+    {
+      "id": "remnant-of-the-wheel",
+      "name": {
+        "en": "Remnant of the Wheel",
+        "fr": "Remnant of the Wheel"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/remnant-of-the-wheel.webp"
+    },
+    {
+      "id": "reverb-combustor",
+      "name": {
+        "en": "Reverb Combustor",
+        "fr": "Combusteur de vestige"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/reverb-combustor.webp"
+    },
+    {
+      "id": "rimewisp",
+      "name": {
+        "en": "Rimewisp",
+        "fr": "Givresprit"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/rimewisp.webp"
+    },
+    {
+      "id": "roaring-rock-fist",
+      "name": {
+        "en": "Roaring Rock Fist",
+        "fr": "Poing de roche sifflant"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/roaring-rock-fist.webp"
+    },
+    {
+      "id": "seaside-cendrelis",
+      "name": {
+        "en": "Seaside Cendrelis",
+        "fr": "Épine maritime"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/seaside-cendrelis.webp"
+    },
+    {
+      "id": "sentinels-dagger",
+      "name": {
+        "en": "Sentinel's Dagger",
+        "fr": "Dague de la Sentinelle"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/sentinels-dagger.webp"
+    },
+    {
+      "id": "shell-credit",
+      "name": {
+        "en": "Shell Credit",
+        "fr": "Crédit coquille"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/shell-credit.webp"
+    },
+    {
+      "id": "skyward-glazed-heart",
+      "name": {
+        "en": "Skyward Glazed Heart",
+        "fr": "Cœur lustré céleste"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/skyward-glazed-heart.webp"
+    },
+    {
+      "id": "sliverglow-bloom",
+      "name": {
+        "en": "Sliverglow Bloom",
+        "fr": "Fleur d'éclat"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/sliverglow-bloom.webp"
+    },
+    {
+      "id": "solidaritys-loneflame",
+      "name": {
+        "en": "Solidarity's Loneflame",
+        "fr": "Flamme solitaire de l'unité"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/solidaritys-loneflame.webp"
+    },
+    {
+      "id": "solidified-string",
+      "name": {
+        "en": "Solidified String",
+        "fr": "Solidified String"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/solidified-string.webp"
+    },
+    {
+      "id": "sound-keeping-tacet-core",
+      "name": {
+        "en": "Sound-Keeping Tacet Core",
+        "fr": "Noyau de la résonance"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/sound-keeping-tacet-core.webp"
+    },
+    {
+      "id": "spliced-string",
+      "name": {
+        "en": "Spliced String",
+        "fr": "Spliced String"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/spliced-string.webp"
+    },
+    {
+      "id": "stone-rose",
+      "name": {
+        "en": "Stone Rose",
+        "fr": "Rose de pierre"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/stone-rose.webp"
+    },
+    {
+      "id": "strife-tacet-core",
+      "name": {
+        "en": "Strife Tacet Core",
+        "fr": "Noyau de conflit"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/strife-tacet-core.webp"
+    },
+    {
+      "id": "summer-flower",
+      "name": {
+        "en": "Summer Flower",
+        "fr": "Fleur d'été"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/summer-flower.webp"
+    },
+    {
+      "id": "suncoveters-reach",
+      "name": {
+        "en": "Suncoveter's Reach",
+        "fr": "Étendue de Solivor"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/suncoveters-reach.webp"
+    },
+    {
+      "id": "sword-acorus",
+      "name": {
+        "en": "Sword Acorus",
+        "fr": "Acorus à sabre"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/sword-acorus.webp"
+    },
+    {
+      "id": "tailored-ring",
+      "name": {
+        "en": "Tailored Ring",
+        "fr": "Anneau précieux"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/tailored-ring.webp"
+    },
+    {
+      "id": "terraspawn-fungus",
+      "name": {
+        "en": "Terraspawn Fungus",
+        "fr": "Fungi lotus noir"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/terraspawn-fungus.webp"
+    },
+    {
+      "id": "the-netherworlds-stare",
+      "name": {
+        "en": "The Netherworld's Stare",
+        "fr": "Le Regard des Enfers"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/the-netherworlds-stare.webp"
+    },
+    {
+      "id": "thundering-tacet-core",
+      "name": {
+        "en": "Thundering Tacet Core",
+        "fr": "Noyau de Mephis éclatant"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/thundering-tacet-core.webp"
+    },
+    {
+      "id": "topological-confinement",
+      "name": {
+        "en": "Topological Confinement",
+        "fr": "Confinement topologique"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/topological-confinement.webp"
+    },
+    {
+      "id": "truth-in-lies",
+      "name": {
+        "en": "Truth in Lies",
+        "fr": "La vérité dans le mensonge"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/truth-in-lies.webp"
+    },
+    {
+      "id": "unending-destruction",
+      "name": {
+        "en": "Unending Destruction",
+        "fr": "Restent intactes et ne périssent jamais"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/unending-destruction.webp"
+    },
+    {
+      "id": "unfading-glory",
+      "name": {
+        "en": "Unfading Glory",
+        "fr": "Gloire immortelle"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/unfading-glory.webp"
+    },
+    {
+      "id": "violet-coral",
+      "name": {
+        "en": "Violet Coral",
+        "fr": "Corail violet"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/violet-coral.webp"
+    },
+    {
+      "id": "waveworn-residue-210",
+      "name": {
+        "en": "Waveworn Residue 210",
+        "fr": "Chimère d'érosion 210"
+      },
+      "rarity": 2,
+      "icon": "/assets/game/items/waveworn-residue-210.webp"
+    },
+    {
+      "id": "waveworn-residue-226",
+      "name": {
+        "en": "Waveworn Residue 226",
+        "fr": "Chimère d'érosion 226"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/waveworn-residue-226.webp"
+    },
+    {
+      "id": "waveworn-residue-235",
+      "name": {
+        "en": "Waveworn Residue 235",
+        "fr": "Chimère d'érosion 235"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/waveworn-residue-235.webp"
+    },
+    {
+      "id": "waveworn-residue-239",
+      "name": {
+        "en": "Waveworn Residue 239",
+        "fr": "Chimère d'érosion 239"
+      },
+      "rarity": 5,
+      "icon": "/assets/game/items/waveworn-residue-239.webp"
+    },
+    {
+      "id": "we-who-question",
+      "name": {
+        "en": "We Who Question",
+        "fr": "Nous Qui Demandons"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/we-who-question.webp"
+    },
+    {
+      "id": "when-irises-bloom",
+      "name": {
+        "en": "When Irises Bloom",
+        "fr": "Quand fleurissent les iris"
+      },
+      "rarity": 4,
+      "icon": "/assets/game/items/when-irises-bloom.webp"
+    },
+    {
+      "id": "wintry-bell",
+      "name": {
+        "en": "Wintry Bell",
+        "fr": "Belle d'hiver"
+      },
+      "rarity": 1,
+      "icon": "/assets/game/items/wintry-bell.webp"
+    },
+    {
+      "id": "worn-exoswarm-pendant",
+      "name": {
+        "en": "Worn Exoswarm Pendant",
+        "fr": "Corde d'Exonuée usée"
+      },
+      "rarity": 3,
+      "icon": "/assets/game/items/worn-exoswarm-pendant.webp"
+    }
+  ]
+}

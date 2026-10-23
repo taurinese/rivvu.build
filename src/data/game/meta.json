@@ -1,13 +1,14 @@
 {
   "source": "Wuthering Waves Wiki (Fandom), contenu sous licence CC BY-SA ; images © Kuro Games",
   "url": "https://wutheringwaves.fandom.com",
-  "fetchedAt": "2026-10-23T17:58:03Z",
+  "fetchedAt": "2026-10-23T19:19:48Z",
   "counts": {
     "resonators": 51,
     "weapons": 124,
     "echoes": 187,
     "sonatas": 37,
-    "skills": 244
+    "skills": 244,
+    "materials": 142
   },
   "skipped": [
     {
@@ -37,6 +38,14 @@
     {
       "page": "Lily",
       "reason": "type « Upcoming » (non jouable ou à venir)"
+    },
+    {
+      "page": "Bloom of Hearkening",
+      "reason": "page d’objet absente"
+    },
+    {
+      "page": "Miasmic Branch",
+      "reason": "page d’objet absente"
     }
   ]
 }

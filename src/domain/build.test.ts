@@ -26,6 +26,7 @@ describe('createBuild', () => {
       combat: true,
       enemy: { level: 90, res: 10 },
       customBuffs: [],
+      planner: null,
     });
   });
 

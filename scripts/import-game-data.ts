@@ -13,6 +13,7 @@ import type { SKILL_TYPES } from '../src/data/schema.ts';
 import {
   curvesSchema,
   echoSchema,
+  materialsSchema,
   metaSchema,
   resonatorSchema,
   skillSchema,
@@ -31,6 +32,7 @@ import {
   pagesUsingTemplate,
   wikitextOf,
 } from './wiki/client.ts';
+import { costTable, costTablesByRarity, keyedCostTables } from './wiki/costs.ts';
 import { parsePassiveBonuses, parseSetBonuses } from './wiki/effects.ts';
 import { luaReturnTable } from './wiki/lua.ts';
 import { inferDamageType, isDamageRow, parseMotionValue, scalingValues } from './wiki/skills.ts';
@@ -564,6 +566,122 @@ async function importSkills(resonatorIds: Set<string>) {
 // Icônes d'interface (attributs, types d'armes, stats)
 // ---------------------------------------------------------------------------
 
+// ---------------------------------------------------------------------------
+// Matériaux d'évolution (planificateur)
+// ---------------------------------------------------------------------------
+
+const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
+const asStrings = (value: LuaValue | undefined): string[] =>
+  Array.isArray(value) ? value.filter((v): v is string => typeof v === 'string' && v !== '') : [];
+
+/** Emplacements nommés à partir des listes du wiki (`common` → common1…common4). */
+function slots(entries: Record<string, LuaValue | undefined>): Record<string, string> {
+  const result: Record<string, string> = {};
+  for (const [slot, value] of Object.entries(entries)) {
+    if (typeof value === 'string' && value !== '' && value !== 'None') result[slot] = value;
+    else asStrings(value).forEach((name, i) => (result[`${slot}${String(i + 1)}`] = name));
+  }
+  return result;
+}
+
+async function importMaterials(resonatorIds: Set<string>, weaponIdByName: Map<string, string>) {
+  const resonatorAscension = costTable(
+    await moduleSource('Character Ascensions and Stats'),
+    'asc_costs',
+  );
+  const weaponAscension = costTablesByRarity(
+    await moduleSource('Weapon Ascensions and Stats'),
+    'getAscensionCosts',
+  );
+  const forte = keyedCostTables(await moduleSource('Skill Upgrade'), 'cost', {
+    boss: 'weeklyBoss',
+    wsm: 'forte',
+    dwsm: 'forteDrop',
+  });
+
+  const ascension =
+    asTable(luaReturnTable(await moduleSource('Resonator Ascensions and Stats/data'))) ?? {};
+  const skill = asTable(luaReturnTable(await moduleSource('Skill Upgrade/data'))) ?? {};
+  const resonators: Record<string, Record<string, string>> = {};
+  for (const [title, raw] of Object.entries(ascension)) {
+    const id = slugify(title);
+    const a = asTable(raw);
+    const k = asTable(skill[title]);
+    if (!resonatorIds.has(id) || !a) continue;
+    if (!k) {
+      skip(title, 'matériaux de Forte absents (Module:Skill Upgrade/data)');
+      continue;
+    }
+    resonators[id] = slots({
+      common: a.common,
+      local: a.local,
+      boss: a.boss,
+      forte: k.wsm,
+      forteDrop: k.dwsm,
+      weeklyBoss: k.boss,
+    });
+  }
+
+  const weaponData =
+    asTable(luaReturnTable(await moduleSource('Weapon Ascensions and Stats/data'))) ?? {};
+  const weapons: Record<string, Record<string, string>> = {};
+  for (const [title, raw] of Object.entries(weaponData)) {
+    const id = weaponIdByName.get(title);
+    const row = asTable(raw);
+    if (id && row) weapons[id] = slots({ common: row.common, ascension: row.ascension });
+  }
+
+  // Objets : nom français, rareté et icône depuis leur page.
+  const names = [
+    'Shell Credit',
+    ...new Set(
+      [...Object.values(resonators), ...Object.values(weapons)].flatMap((m) => Object.values(m)),
+    ),
+  ];
+  const pages = await wikitextOf(names);
+  const items = [];
+  const idByName = new Map<string, string>();
+  for (const name of names) {
+    const page = pages.get(name);
+    const box = page ? (infobox(page, 'Item Infobox') ?? infobox(page, 'Currency Infobox')) : null;
+    if (!page || !box) {
+      skip(name, 'page d’objet absente');
+      continue;
+    }
+    const id = slugify(name);
+    idByName.set(name, id);
+    items.push({
+      id,
+      name: localized(name, capitalize(otherLanguage(page, 'fr') ?? name)),
+      rarity: asNumber(Number(box.rarity)) ?? null,
+      icon: requestImage([firstImageName(box.image ?? ''), `Item ${name}.png`], 'items', id, 128),
+    });
+  }
+  const resolve = (map: Record<string, Record<string, string>>) =>
+    Object.fromEntries(
+      Object.entries(map).flatMap(([owner, entries]) => {
+        const resolved = Object.entries(entries).flatMap(([slot, name]) => {
+          const itemId = idByName.get(name);
+          return itemId ? [[slot, itemId] as const] : [];
+        });
+        return [[owner, Object.fromEntries(resolved)]];
+      }),
+    );
+
+  return {
+    costs: {
+      resonatorAscension,
+      weaponAscension,
+      forte: forte.main5 ?? [],
+      inherent: forte.inherent ?? [],
+      statBonus: forte.statBonus ?? [],
+    },
+    resonators: resolve(resonators),
+    weapons: resolve(weapons),
+    items: sortById(items),
+  };
+}
+
 const ELEMENT_FILE: Record<Element, string> = {
   aero: 'Aero',
   electro: 'Electro',
@@ -636,6 +754,11 @@ async function main() {
   const echoes = sortById(dedupe(await importEchoes(new Set(sonatas.map((s) => s.id)))));
   console.log('Compétences…');
   const skills = sortById(dedupe(await importSkills(new Set(resonators.map((r) => r.id)))));
+  console.log('Matériaux…');
+  const weaponIdByName = new Map(
+    weapons.flatMap((w) => [[w.name.en, w.id] as const, [w.source.page, w.id] as const]),
+  );
+  const materials = await importMaterials(new Set(resonators.map((r) => r.id)), weaponIdByName);
   requestUiIcons();
 
   if (!SKIP_IMAGES) {
@@ -661,6 +784,15 @@ async function main() {
     writeJson('echoes', echoes);
     writeJson('sonatas', sonatas);
   }
+  writeJson(
+    'materials',
+    materialsSchema.parse({
+      ...materials,
+      items: materials.items.map((item) =>
+        item.icon && !existsSync(join('public', item.icon)) ? { ...item, icon: null } : item,
+      ),
+    }),
+  );
   writeJson('skills', skills);
   writeJson('curves', curves);
   writeJson(
@@ -675,6 +807,7 @@ async function main() {
         echoes: echoes.length,
         sonatas: sonatas.length,
         skills: skills.length,
+        materials: materials.items.length,
       },
       skipped,
     }),

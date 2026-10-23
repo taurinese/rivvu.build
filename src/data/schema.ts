@@ -152,6 +152,39 @@ export const curvesSchema = z.object({
   }),
 });
 
+const costStepSchema = z.object({
+  credits: z.number().int().positive(),
+  /** Emplacements de matériaux (`common1`, `boss`, `forte3`…) résolus par Résonateur ou par arme. */
+  items: z.array(z.object({ slot: z.string().min(1), qty: z.number().int().positive() })),
+});
+
+/** Coûts d'évolution (lus dans le code des modules du wiki) et matériaux de chaque Résonateur et arme. */
+export const materialsSchema = z.object({
+  costs: z.object({
+    /** Ascension du Résonateur, phase 0→1 à 5→6. */
+    resonatorAscension: z.array(costStepSchema).length(6),
+    /** Ascension d'arme par rareté (« 5 » → phases 0→1 à 5→6). */
+    weaponAscension: z.record(z.string(), z.array(costStepSchema).min(1)),
+    /** Une compétence principale, niveau 1→2 à 9→10. */
+    forte: z.array(costStepSchema).length(9),
+    /** Compétences innées 1 et 2. */
+    inherent: z.array(costStepSchema).length(2),
+    /** Une branche de bonus de stats, niveaux 1 et 2. */
+    statBonus: z.array(costStepSchema).length(2),
+  }),
+  /** Identifiant de Résonateur → emplacement → identifiant d'objet. */
+  resonators: z.record(id, z.record(z.string(), id)),
+  weapons: z.record(id, z.record(z.string(), id)),
+  items: z.array(
+    z.object({
+      id,
+      name: localizedSchema,
+      rarity: z.number().int().min(1).max(5).nullable(),
+      icon: assetPath.nullable(),
+    }),
+  ),
+});
+
 export const metaSchema = z.object({
   source: z.string(),
   url: z.url(),
@@ -167,3 +200,5 @@ export type Sonata = z.infer<typeof sonataSchema>;
 export type Curves = z.infer<typeof curvesSchema>;
 export type Skill = z.infer<typeof skillSchema>;
 export type GameDataMeta = z.infer<typeof metaSchema>;
+export type Materials = z.infer<typeof materialsSchema>;
+export type CostStep = z.infer<typeof costStepSchema>;

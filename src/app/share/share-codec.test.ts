@@ -71,7 +71,7 @@ describe('partage par URL', () => {
       build;
     const { combat, enemy, customBuffs, ...v1 } = content;
     const shared = await decodeShare(await encodePayload({ v: 1, b: v1 }));
-    expect(shared).toMatchObject({ ...v1, schemaVersion: 2, enemy: { level: 90, res: 10 } });
+    expect(shared).toMatchObject({ ...v1, schemaVersion: 3, enemy: { level: 90, res: 10 } });
   });
 
   it('refuse un lien venant d’une version plus récente du format', async () => {

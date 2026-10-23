@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import { BUILD_SCHEMA_VERSION } from '@/domain/build';
 import type { Build } from '@/domain/build';
+import { INHERENT_SKILLS, STAT_BONUS_STRANDS } from '@/domain/planner';
 import { STAT_KEYS } from '@/domain/types';
 
 const levelStep = z.object({
@@ -9,6 +10,18 @@ const levelStep = z.object({
 });
 
 const forteLevel = z.number().int().min(1).max(10);
+const forteLevels = z.object({
+  normal: forteLevel,
+  skill: forteLevel,
+  circuit: forteLevel,
+  liberation: forteLevel,
+  intro: forteLevel,
+});
+const statBonusNodes = z.object({
+  tier1: z.number().int().min(0).max(STAT_BONUS_STRANDS),
+  tier2: z.number().int().min(0).max(STAT_BONUS_STRANDS),
+});
+const inherentSkills = z.number().int().min(0).max(INHERENT_SKILLS);
 
 export const echoInstanceSchema = z.object({
   uid: z.string().min(1),
@@ -35,13 +48,7 @@ export const buildSchema = z.object({
   weapon: z
     .object({ id: z.string().min(1), level: levelStep, rank: z.number().int().min(1).max(5) })
     .nullable(),
-  forte: z.object({
-    normal: forteLevel,
-    skill: forteLevel,
-    circuit: forteLevel,
-    liberation: forteLevel,
-    intro: forteLevel,
-  }),
+  forte: forteLevels,
   echoes: z.array(echoInstanceSchema).max(5),
   team: z.tuple([z.string().nullable(), z.string().nullable()]),
   notes: z.string().max(2000),
@@ -58,6 +65,19 @@ export const buildSchema = z.object({
       }),
     )
     .max(30),
+  planner: z
+    .object({
+      current: z.object({
+        level: levelStep,
+        weaponLevel: levelStep.nullable(),
+        forte: forteLevels,
+        inherent: inherentSkills,
+        statBonus: statBonusNodes,
+      }),
+      inherent: inherentSkills,
+      statBonus: statBonusNodes,
+    })
+    .nullable(),
 }) satisfies z.ZodType<Build>;
 
 type Migration = (doc: Record<string, unknown>) => Record<string, unknown>;
@@ -78,6 +98,7 @@ const migrations: Record<number, Migration> = {
     customBuffs: [],
     schemaVersion: 2,
   }),
+  2: (doc) => ({ ...doc, planner: null, schemaVersion: 3 }),
 };
 
 export function migrateBuild(doc: unknown): Build {
