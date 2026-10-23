@@ -36,6 +36,12 @@ export const routes: RouteObject[] = [
         }),
       },
       {
+        path: 'builds/:buildId/optimiser',
+        lazy: async () => ({
+          Component: (await import('@/features/optimizer/OptimizerPage')).OptimizerPage,
+        }),
+      },
+      {
         path: 'builds/:buildId/degats',
         lazy: async () => ({
           Component: (await import('@/features/damage/DamagePage')).DamagePage,

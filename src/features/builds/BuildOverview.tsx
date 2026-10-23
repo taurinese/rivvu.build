@@ -195,6 +195,7 @@ export function BuildOverview({ build, resonator }: Props) {
                 <span className={styles.muted}>
                   Coût {cost} / {MAX_COST}
                 </span>
+                <Link to={`${base}/optimiser`}>Optimiser</Link>
                 <Link to={`${base}/echos`}>Modifier</Link>
               </>
             }
