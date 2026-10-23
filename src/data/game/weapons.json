@@ -1,0 +1,3374 @@
+[
+  {
+    "id": "abyss-surges",
+    "name": {
+      "en": "Abyss Surges",
+      "fr": "Flux de l'Abîme"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 8.1
+    },
+    "passive": {
+      "name": "Stormy Resolution",
+      "text": "Increases Energy Regen by (var1)%. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by (var2)%, lasting for 8s. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by (var3)%, lasting for 8s.",
+      "values": [
+        [12.8, 10, 10],
+        [16, 12.5, 12.5],
+        [19.2, 15, 15],
+        [22.4, 17.5, 17.5],
+        [25.6, 20, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/abyss-surges.webp",
+    "source": {
+      "page": "Abyss Surges",
+      "url": "https://wutheringwaves.fandom.com/wiki/Abyss_Surges"
+    }
+  },
+  {
+    "id": "aether-strike",
+    "name": {
+      "en": "Aether Strike",
+      "fr": "Assaut d'éther"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 9
+    },
+    "passive": {
+      "name": "Oath of Tide Hunters",
+      "text": "Casting Resonance Liberation increases ATK by (var1)% and grants (var2)% Resonance Liberation DMG Bonus for 15s.",
+      "values": [
+        [7.2, 10.8],
+        [11.1, 16.7],
+        [15.1, 22.6],
+        [19, 28.6],
+        [23, 34.5]
+      ]
+    },
+    "icon": "/assets/game/weapons/aether-strike.webp",
+    "source": {
+      "page": "Aether Strike",
+      "url": "https://wutheringwaves.fandom.com/wiki/Aether_Strike"
+    }
+  },
+  {
+    "id": "ages-of-harvest",
+    "name": {
+      "en": "Ages of Harvest",
+      "fr": "Cycles des saisons"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Divine Blessing",
+      "text": "Grants (var1)% Attribute DMG Bonus.\nCasting Intro Skill gives the equipper Ageless Marking, which grants (var2)% Resonance Skill DMG Bonus for 12s.\nCasting Resonance Skill gives the equipper Ethereal Endowment, which grants (var2)% Resonance Skill DMG Bonus for 12s.",
+      "values": [
+        [12, 24],
+        [15, 30],
+        [18, 36],
+        [21, 42],
+        [24, 48]
+      ]
+    },
+    "icon": "/assets/game/weapons/ages-of-harvest.webp",
+    "source": {
+      "page": "Ages of Harvest",
+      "url": "https://wutheringwaves.fandom.com/wiki/Ages_of_Harvest"
+    }
+  },
+  {
+    "id": "amity-accord",
+    "name": {
+      "en": "Amity Accord",
+      "fr": "Accord d'Amity"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "defPct",
+      "base": 13.68
+    },
+    "passive": {
+      "name": "Camaraderie",
+      "text": "When Intro Skill is cast, increases Resonance Liberation DMG Bonus by (var1)%, lasting for 15s.",
+      "values": [[20], [25], [30], [35], [40]]
+    },
+    "icon": "/assets/game/weapons/amity-accord.webp",
+    "source": {
+      "page": "Amity Accord",
+      "url": "https://wutheringwaves.fandom.com/wiki/Amity_Accord"
+    }
+  },
+  {
+    "id": "augment",
+    "name": {
+      "en": "Augment",
+      "fr": "Dévoisant"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "critRate",
+      "base": 4.5
+    },
+    "passive": {
+      "name": "Forgiving Resilience",
+      "text": "Casting Resonance Liberation increases the wielder's ATK by (var1)%, lasting for 15s.",
+      "values": [[15], [23.25], [31.5], [39.75], [48]]
+    },
+    "icon": "/assets/game/weapons/augment.webp",
+    "source": {
+      "page": "Augment",
+      "url": "https://wutheringwaves.fandom.com/wiki/Augment"
+    }
+  },
+  {
+    "id": "aureate-zenith",
+    "name": {
+      "en": "Aureate Zenith",
+      "fr": "Zénith doré"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "critRate",
+      "base": 4.5
+    },
+    "passive": {
+      "name": "Oath of Tide Hunters",
+      "text": "Casting Resonance Liberation increases ATK by (var1)% and grants (var2)% Heavy Attack DMG Bonus for 15s.",
+      "values": [
+        [7.2, 10.8],
+        [11.1, 16.7],
+        [15.1, 22.6],
+        [19, 28.6],
+        [23, 34.5]
+      ]
+    },
+    "icon": "/assets/game/weapons/aureate-zenith.webp",
+    "source": {
+      "page": "Aureate Zenith",
+      "url": "https://wutheringwaves.fandom.com/wiki/Aureate_Zenith"
+    }
+  },
+  {
+    "id": "autumntrace",
+    "name": {
+      "en": "Autumntrace",
+      "fr": "Trace d'automne"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "critRate",
+      "base": 4.5
+    },
+    "passive": {
+      "name": "Edge Direction",
+      "text": "Increases ATK by (var1)% upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s.",
+      "values": [[4], [6.2], [8.4], [10.6], [12.8]]
+    },
+    "icon": "/assets/game/weapons/autumntrace.webp",
+    "source": {
+      "page": "Autumntrace",
+      "url": "https://wutheringwaves.fandom.com/wiki/Autumntrace"
+    }
+  },
+  {
+    "id": "azure-oath",
+    "name": {
+      "en": "Azure Oath",
+      "fr": "Serment d'azur"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Unbending",
+      "text": "Grants (var1)% All-Attribute DMG Bonus. After inflicting Havoc Bane, the wielder gains (var2)% Heavy Attack DMG Amplification and their Heavy Attack DMG ignores (var1)% of the target's DEF, lasting for 8s.",
+      "values": [
+        [12, 36],
+        [15, 45],
+        [18, 54],
+        [21, 63],
+        [24, 72]
+      ]
+    },
+    "icon": "/assets/game/weapons/azure-oath.webp",
+    "source": {
+      "page": "Azure Oath",
+      "url": "https://wutheringwaves.fandom.com/wiki/Azure_Oath"
+    }
+  },
+  {
+    "id": "beguiling-melody",
+    "name": {
+      "en": "Beguiling Melody",
+      "fr": "Voix céleste"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Graceful Touch",
+      "text": "When Intro Skill is cast, restores (var1) Concerto Energy. When Outro Skill is cast, restores (var1) Resonance Energy.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/beguiling-melody.webp",
+    "source": {
+      "page": "Beguiling Melody",
+      "url": "https://wutheringwaves.fandom.com/wiki/Beguiling_Melody"
+    }
+  },
+  {
+    "id": "blazing-brilliance",
+    "name": {
+      "en": "Blazing Brilliance",
+      "fr": "Flamme rayonnée"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "Crimson Phoenix",
+      "text": "ATK increased by (var1)%. The wielder gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives (var2)% additional Resonance Skill DMG Bonus for up to 14 stacks. After reaching the max stacks, all stacks will be removed in 12s.",
+      "values": [
+        [12, 4],
+        [15, 5],
+        [18, 6],
+        [21, 7],
+        [24, 8]
+      ]
+    },
+    "icon": "/assets/game/weapons/blazing-brilliance.webp",
+    "source": {
+      "page": "Blazing Brilliance",
+      "url": "https://wutheringwaves.fandom.com/wiki/Blazing_Brilliance"
+    }
+  },
+  {
+    "id": "blazing-justice",
+    "name": {
+      "en": "Blazing Justice",
+      "fr": "Justice ardente"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "Darkness Breaker",
+      "text": "Increases ATK by (var1)%. Casting Basic Attack grants the following effects: Dealing damage ignores (var2)% of the target's DEF and Amplifies Spectro Frazzle DMG dealt by (var3)% for 6s. Retriggering the effect resets its duration.",
+      "values": [
+        [12, 8, 50],
+        [15, 10, 62.5],
+        [18, 12, 75],
+        [21, 14, 87.5],
+        [24, 16, 100]
+      ]
+    },
+    "icon": "/assets/game/weapons/blazing-justice.webp",
+    "source": {
+      "page": "Blazing Justice",
+      "url": "https://wutheringwaves.fandom.com/wiki/Blazing_Justice"
+    }
+  },
+  {
+    "id": "bloodpacts-pledge",
+    "name": {
+      "en": "Bloodpact's Pledge",
+      "fr": "Serment de sang"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 8.64
+    },
+    "passive": {
+      "name": "Harmonious Vibrancy",
+      "text": "Providing Healing increases Resonance Skill DMG by (var1)% for 6s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by (var1)% for 30s.",
+      "values": [[10], [14], [18], [22], [26]]
+    },
+    "icon": "/assets/game/weapons/bloodpacts-pledge.webp",
+    "source": {
+      "page": "Bloodpact's Pledge",
+      "url": "https://wutheringwaves.fandom.com/wiki/Bloodpact's_Pledge"
+    }
+  },
+  {
+    "id": "blooming-jadehaven",
+    "name": {
+      "en": "Blooming Jadehaven",
+      "fr": "Blooming Jadehaven"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Hundredfold Artifice",
+      "text": "Grants (var1)% All-Attribute DMG Bonus. After the wielder inflicts Electro Flare or triggers Unison Response, Resonance Skill DMG is Amplified by (var2)% and ignores (var3)% of the target's Electro RES. While the wielder is the active Resonator, Electro Flare DMG taken by targets within a certain range is Amplified by (var4)% for 30s, triggered 1 time every 0.1s. Only the strongest effect of the same name applies.",
+      "values": [
+        [12, 36, 10, 30],
+        [15, 45, 13.5, 37.5],
+        [18, 54, 17, 45],
+        [21, 63, 20.5, 52.5],
+        [24, 72, 24, 60]
+      ]
+    },
+    "icon": "/assets/game/weapons/blooming-jadehaven.webp",
+    "source": {
+      "page": "Blooming Jadehaven",
+      "url": "https://wutheringwaves.fandom.com/wiki/Blooming_Jadehaven"
+    }
+  },
+  {
+    "id": "boson-astrolabe",
+    "name": {
+      "en": "Boson Astrolabe",
+      "fr": "Astrolabe à bosons"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 42,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 8.64
+    },
+    "passive": {
+      "name": "Path Observer",
+      "text": "Increases ATK by (var1)%.\nWhen a Resonator in the team casts a Tune Break skill, it grants a (var2)% ATK increase and (var2)% Basic Attack DMG Bonus to the wielder for 14s.",
+      "values": [
+        [12, 12],
+        [15, 13.5],
+        [18, 15],
+        [21, 16.5],
+        [24, 18]
+      ]
+    },
+    "icon": "/assets/game/weapons/boson-astrolabe.webp",
+    "source": {
+      "page": "Boson Astrolabe",
+      "url": "https://wutheringwaves.fandom.com/wiki/Boson_Astrolabe"
+    }
+  },
+  {
+    "id": "broadblade-41",
+    "name": {
+      "en": "Broadblade#41",
+      "fr": "Epée #41"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 7.2
+    },
+    "passive": {
+      "name": "Veteran",
+      "text": "When the Resonator's HP is above 80%, increases ATK by (var1)%. When the Resonator's HP is below (var2)%, gives (var3)% healing when dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered 1 time(s) every 8s.",
+      "values": [
+        [12, 40, 5],
+        [15, 50, 6.25],
+        [18, 60, 7.5],
+        [21, 70, 8.75],
+        [24, 80, 10]
+      ]
+    },
+    "icon": "/assets/game/weapons/broadblade-41.webp",
+    "source": {
+      "page": "Broadblade41",
+      "url": "https://wutheringwaves.fandom.com/wiki/Broadblade41"
+    }
+  },
+  {
+    "id": "broadblade-of-night",
+    "name": {
+      "en": "Broadblade of Night",
+      "fr": "Epée de nuit"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Valiance",
+      "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/broadblade-of-night.webp",
+    "source": {
+      "page": "Broadblade of Night",
+      "url": "https://wutheringwaves.fandom.com/wiki/Broadblade_of_Night"
+    }
+  },
+  {
+    "id": "broadblade-of-voyager",
+    "name": {
+      "en": "Broadblade of Voyager",
+      "fr": "Epée du Voyageur"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 7.2
+    },
+    "passive": {
+      "name": "Long Journey",
+      "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[8], [9], [10], [11], [12]]
+    },
+    "icon": "/assets/game/weapons/broadblade-of-voyager.webp",
+    "source": {
+      "page": "Broadblade of Voyager",
+      "url": "https://wutheringwaves.fandom.com/wiki/Broadblade_of_Voyager"
+    }
+  },
+  {
+    "id": "cadenza",
+    "name": {
+      "en": "Cadenza",
+      "fr": "Cadenza"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 11.52
+    },
+    "passive": {
+      "name": "Ceaseless Aria",
+      "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 times every 20s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/cadenza.webp",
+    "source": {
+      "page": "Cadenza",
+      "url": "https://wutheringwaves.fandom.com/wiki/Cadenza"
+    }
+  },
+  {
+    "id": "call-of-the-abyss",
+    "name": {
+      "en": "Call of the Abyss",
+      "fr": "Voix de l'Abîme"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 11.52
+    },
+    "passive": {
+      "name": "Pole of the Celestial Dome",
+      "text": "Casting Resonance Liberation increases the Resonator's Healing Bonus by (var1)% for 15s.",
+      "values": [[16], [20], [24], [28], [32]]
+    },
+    "icon": "/assets/game/weapons/call-of-the-abyss.webp",
+    "source": {
+      "page": "Call of the Abyss",
+      "url": "https://wutheringwaves.fandom.com/wiki/Call_of_the_Abyss"
+    }
+  },
+  {
+    "id": "celestial-spiral",
+    "name": {
+      "en": "Celestial Spiral",
+      "fr": "Spirale céleste"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Intergalactic Gaze",
+      "text": "Casting the Resonance Skill grants (var1) Resonance Energy and increases ATK by (var2)%, lasting for 16s. This effect can be triggered once every 20s.",
+      "values": [
+        [6, 10],
+        [7, 12.5],
+        [8, 15],
+        [9, 17.5],
+        [10, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/celestial-spiral.webp",
+    "source": {
+      "page": "Celestial Spiral",
+      "url": "https://wutheringwaves.fandom.com/wiki/Celestial_Spiral"
+    }
+  },
+  {
+    "id": "comet-flare",
+    "name": {
+      "en": "Comet Flare",
+      "fr": "Comète éclatant"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "hpPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Luminous Protection",
+      "text": "When dealing Basic Attack DMG or Heavy Attack DMG, increases Healing Bonus by (var1)%, stacking up to 3 time(s). This effect lasts for 8s and can be triggered 1 time(s) every 0.6s.",
+      "values": [[3], [3.5], [4], [4.5], [5]]
+    },
+    "icon": "/assets/game/weapons/comet-flare.webp",
+    "source": {
+      "page": "Comet Flare",
+      "url": "https://wutheringwaves.fandom.com/wiki/Comet_Flare"
+    }
+  },
+  {
+    "id": "commando-of-conviction",
+    "name": {
+      "en": "Commando of Conviction",
+      "fr": "Commando de la Conviction"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Unyielding",
+      "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 15s.",
+      "values": [[15], [18.75], [22.5], [26.25], [30]]
+    },
+    "icon": "/assets/game/weapons/commando-of-conviction.webp",
+    "source": {
+      "page": "Commando of Conviction",
+      "url": "https://wutheringwaves.fandom.com/wiki/Commando_of_Conviction"
+    }
+  },
+  {
+    "id": "cosmic-ripples",
+    "name": {
+      "en": "Cosmic Ripples",
+      "fr": "Ondes cosmiques"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 12
+    },
+    "passive": {
+      "name": "Stormy Resolution",
+      "text": "Increases Energy Regen by (var1)%. When dealing Basic Attack DMG, increases Basic Attack DMG Bonus by (var2)%, stacking up to 5 time(s). This effect lasts for 8s and can be triggered 1 time(s) every 0.5s.",
+      "values": [
+        [12.8, 3.2],
+        [16, 4],
+        [19.2, 4.8],
+        [22.4, 5.6],
+        [25.6, 6.4]
+      ]
+    },
+    "icon": "/assets/game/weapons/cosmic-ripples.webp",
+    "source": {
+      "page": "Cosmic Ripples",
+      "url": "https://wutheringwaves.fandom.com/wiki/Cosmic_Ripples"
+    }
+  },
+  {
+    "id": "dauntless-evernight",
+    "name": {
+      "en": "Dauntless Evernight",
+      "fr": "Intrépide éternel"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "defPct",
+      "base": 13.68
+    },
+    "passive": {
+      "name": "Battlebound",
+      "text": "When Intro Skill is cast, increases ATK by (var1)% and DEF by (var2)%, lasting for 15s.",
+      "values": [
+        [8, 15],
+        [10, 18.75],
+        [12, 22.5],
+        [14, 26.25],
+        [16, 30]
+      ]
+    },
+    "icon": "/assets/game/weapons/dauntless-evernight.webp",
+    "source": {
+      "page": "Dauntless Evernight",
+      "url": "https://wutheringwaves.fandom.com/wiki/Dauntless_Evernight"
+    }
+  },
+  {
+    "id": "daybreakers-spine",
+    "name": {
+      "en": "Daybreaker's Spine",
+      "fr": "Échine de l'aube"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Suturing Dayline",
+      "text": "Increases ATK by (var1)%. After dealing Basic Attack DMG, the wielder gains (var2)% Spectro DMG Bonus for 4s. Each time after the wielder inflicts Tune Strain - Shifting on the target, they gain (var2)% Basic Attack DMG Amplification and their Basic Attack DMG ignores (var3)% of the target's DEF for 6s.",
+      "values": [
+        [12, 20, 10],
+        [15, 25, 12.5],
+        [18, 30, 15],
+        [21, 35, 17.5],
+        [24, 40, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/daybreakers-spine.webp",
+    "source": {
+      "page": "Daybreaker's Spine",
+      "url": "https://wutheringwaves.fandom.com/wiki/Daybreaker's_Spine"
+    }
+  },
+  {
+    "id": "defiers-thorn",
+    "name": {
+      "en": "Defier's Thorn",
+      "fr": "Épine de l'insoumise"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "hpPct",
+      "base": 16.05
+    },
+    "passive": {
+      "name": "A Free Knight's Tarantella",
+      "text": "Max HP is increased by (var1)%. 15s after casting Intro Skill or Basic Attacks, ignores (var2)% of the target's DEF when dealing damage. If the target has at least 1 stack of Aero Erosion, the DMG taken by the target is Amplified by (var3)%.",
+      "values": [
+        [12, 8, 20],
+        [15, 10, 25],
+        [18, 12, 30],
+        [21, 14, 35],
+        [24, 16, 40]
+      ]
+    },
+    "icon": "/assets/game/weapons/defiers-thorn.webp",
+    "source": {
+      "page": "Defier's Thorn",
+      "url": "https://wutheringwaves.fandom.com/wiki/Defier's_Thorn"
+    }
+  },
+  {
+    "id": "discord",
+    "name": {
+      "en": "Discord",
+      "fr": "Discorde"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 11.52
+    },
+    "passive": {
+      "name": "Ceaseless Aria",
+      "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/discord.webp",
+    "source": {
+      "page": "Discord",
+      "url": "https://wutheringwaves.fandom.com/wiki/Discord"
+    }
+  },
+  {
+    "id": "emerald-of-genesis",
+    "name": {
+      "en": "Emerald of Genesis",
+      "fr": "Émeraude éternelle"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Stormy Resolution",
+      "text": "Increases Energy Regen by (var1)%. When Resonance Skill is cast, increases ATK by (var2)%, stacking up to 2 time(s). This effect lasts for 10s.",
+      "values": [
+        [12.8, 6],
+        [16, 7.5],
+        [19.2, 9],
+        [22.4, 10.5],
+        [25.6, 12]
+      ]
+    },
+    "icon": "/assets/game/weapons/emerald-of-genesis.webp",
+    "source": {
+      "page": "Emerald of Genesis",
+      "url": "https://wutheringwaves.fandom.com/wiki/Emerald_of_Genesis"
+    }
+  },
+  {
+    "id": "emerald-sentence",
+    "name": {
+      "en": "Emerald Sentence",
+      "fr": "Sentence émeraude"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "When A Heart Settles",
+      "text": "ATK is increased by (var1)%. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants (var2)% Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field.\nCasting Intro Skill grants (var3)% Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 30, 20],
+        [15, 37.5, 25],
+        [18, 45, 30],
+        [21, 52.5, 35],
+        [24, 60, 40]
+      ]
+    },
+    "icon": "/assets/game/weapons/emerald-sentence.webp",
+    "source": {
+      "page": "Emerald Sentence",
+      "url": "https://wutheringwaves.fandom.com/wiki/Emerald_Sentence"
+    }
+  },
+  {
+    "id": "endless-collapse",
+    "name": {
+      "en": "Endless Collapse",
+      "fr": "Effondrement éternel"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Intergalactic Gaze",
+      "text": "Casting the Resonance Skill grants (var1) Resonance Energy and increases ATK by (var2)%, lasting for 16s. This effect can be triggered once every 20s.",
+      "values": [
+        [6, 10],
+        [7, 12.5],
+        [8, 15],
+        [9, 17.5],
+        [10, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/endless-collapse.webp",
+    "source": {
+      "page": "Endless Collapse",
+      "url": "https://wutheringwaves.fandom.com/wiki/Endless_Collapse"
+    }
+  },
+  {
+    "id": "everbright-polestar",
+    "name": {
+      "en": "Everbright Polestar",
+      "fr": "Polaire éternelle"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Starchaser",
+      "text": "Increases All-Attribute DMG Bonus by (var1)%. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores (var2)% DEF and (var3)% Fusion RES on targets for 8s.",
+      "values": [
+        [12, 32, 10],
+        [15, 40, 15],
+        [18, 48, 20],
+        [21, 56, 25],
+        [24, 64, 30]
+      ]
+    },
+    "icon": "/assets/game/weapons/everbright-polestar.webp",
+    "source": {
+      "page": "Everbright Polestar",
+      "url": "https://wutheringwaves.fandom.com/wiki/Everbright_Polestar"
+    }
+  },
+  {
+    "id": "fables-of-wisdom",
+    "name": {
+      "en": "Fables of Wisdom",
+      "fr": "Fables de Sagesse"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Rhetoric",
+      "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/fables-of-wisdom.webp",
+    "source": {
+      "page": "Fables of Wisdom",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fables_of_Wisdom"
+    }
+  },
+  {
+    "id": "feather-edge",
+    "name": {
+      "en": "Feather Edge",
+      "fr": "Lame de plume"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "critRate",
+      "base": 4.5
+    },
+    "passive": {
+      "name": "Oath of Tide Hunters",
+      "text": "Casting Resonance Liberation increases ATK by (var1)% and grants (var2)% Resonance Liberation DMG Bonus for 15s.",
+      "values": [
+        [7.2, 10.8],
+        [11.1, 16.7],
+        [15.1, 22.6],
+        [19, 28.6],
+        [23, 34.5]
+      ]
+    },
+    "icon": "/assets/game/weapons/feather-edge.webp",
+    "source": {
+      "page": "Feather Edge",
+      "url": "https://wutheringwaves.fandom.com/wiki/Feather_Edge"
+    }
+  },
+  {
+    "id": "firstlights-herald",
+    "name": {
+      "en": "Firstlight's Herald",
+      "fr": "Héraut de l'aube"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 17.12
+    },
+    "passive": {
+      "name": "Spring Wreath",
+      "text": "Increases Max HP by (var1)%. Casting Resonance Liberation restores (var2) points of Concerto Energy, triggered once every 20s. Inflicting Glacio Chafe grants Snow Taint for 6s. Applying healing grants Ripples for 6s. If the wielder has done both while on the field, the next Outro Skill grants both effects for 6s. When the wielder has both Snow Taint and Ripples, the ATK of all nearby Resonators in the team is increased by (var3)%. Effects of the same name do not stack.",
+      "values": [
+        [12, 8, 20],
+        [15, 10, 25],
+        [18, 12, 30],
+        [21, 14, 35],
+        [24, 16, 40]
+      ]
+    },
+    "icon": "/assets/game/weapons/firstlights-herald.webp",
+    "source": {
+      "page": "Firstlight's Herald",
+      "url": "https://wutheringwaves.fandom.com/wiki/Firstlight's_Herald"
+    }
+  },
+  {
+    "id": "forged-dwarf-star",
+    "name": {
+      "en": "Forged Dwarf Star",
+      "fr": "Étoile naine forgée"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critRate",
+      "base": 8
+    },
+    "passive": {
+      "name": "Dissolution",
+      "text": "Increases ATK by (var1)%. After the wielder inflicts Fusion Burst or Tune Strain - Shifting on the target, their Resonance Liberation DMG Bonus is increased by (var2)% for 5s. While this effect lasts, after Resonators in the team inflict Fusion Burst or Tune Strain - Shifting, their ATK is increased by (var3)% for 15s. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 36, 24],
+        [15, 45, 30],
+        [18, 54, 36],
+        [21, 63, 42],
+        [24, 72, 48]
+      ]
+    },
+    "icon": "/assets/game/weapons/forged-dwarf-star.webp",
+    "source": {
+      "page": "Forged Dwarf Star",
+      "url": "https://wutheringwaves.fandom.com/wiki/Forged_Dwarf_Star"
+    }
+  },
+  {
+    "id": "freeze-frame",
+    "name": {
+      "en": "Freeze Frame",
+      "fr": "Freeze Frame"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Light's Offering",
+      "text": "Increases ATK by (var1)%. After inflicting Glacio Chafe on the target, the wielder gains (var2)% Glacio DMG Bonus for 12s, and all Resonators in the team gain (var3)% ATK increase for 30s. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 30, 24],
+        [15, 37.5, 30],
+        [18, 45, 36],
+        [21, 52.5, 42],
+        [24, 60, 48]
+      ]
+    },
+    "icon": "/assets/game/weapons/freeze-frame.webp",
+    "source": {
+      "page": "Freeze Frame",
+      "url": "https://wutheringwaves.fandom.com/wiki/Freeze_Frame"
+    }
+  },
+  {
+    "id": "frostburn",
+    "name": {
+      "en": "Frostburn",
+      "fr": "Gelure"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Self No More",
+      "text": "ATK is increased by (var1)%. When the wielder applies Glacio Chafe, Glacio DMG is Amplified by (var2)%, and Resonance Liberation DMG ignores (var3)% of the target's DEF. If the wielder is the active Resonator in the team, Glacio Chafe DMG dealt to all targets within a certain range is Amplified by (var4)% for 6s. This effect can be triggered up to 1 time every 0.1s. Only the strongest effect of the same name applies.",
+      "values": [
+        [12, 28, 10, 20],
+        [15, 35, 12.5, 25],
+        [18, 42, 15, 30],
+        [21, 49, 17.5, 35],
+        [24, 56, 20, 40]
+      ]
+    },
+    "icon": "/assets/game/weapons/frostburn.webp",
+    "source": {
+      "page": "Frostburn",
+      "url": "https://wutheringwaves.fandom.com/wiki/Frostburn"
+    }
+  },
+  {
+    "id": "fusion-accretion",
+    "name": {
+      "en": "Fusion Accretion",
+      "fr": "Accrétion de fusion"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Intergalactic Gaze",
+      "text": "Casting the Resonance Skill grants (var1) Resonance Energy and increases ATK by (var2)%, lasting for 16s. This effect can be triggered once every 20s.",
+      "values": [
+        [6, 10],
+        [7, 12.5],
+        [8, 15],
+        [9, 17.5],
+        [10, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/fusion-accretion.webp",
+    "source": {
+      "page": "Fusion Accretion",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fusion_Accretion"
+    }
+  },
+  {
+    "id": "gauntlets-21d",
+    "name": {
+      "en": "Gauntlets#21D",
+      "fr": "Gantelets #21D"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": 31,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 8.64
+    },
+    "passive": {
+      "name": "Mastermind",
+      "text": "When the Resonator dashes or dodges, increases ATK by (var1)%. Increases Dodge Counter DMG by (var2)%, lasting for 8s. When Dodge Counter is performed, heals (var3)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 6s.",
+      "values": [
+        [8, 50, 5],
+        [10, 62.5, 6.25],
+        [12, 75, 7.5],
+        [14, 87.5, 8.75],
+        [16, 100, 10]
+      ]
+    },
+    "icon": "/assets/game/weapons/gauntlets-21d.webp",
+    "source": {
+      "page": "Gauntlets21D",
+      "url": "https://wutheringwaves.fandom.com/wiki/Gauntlets21D"
+    }
+  },
+  {
+    "id": "gauntlets-of-night",
+    "name": {
+      "en": "Gauntlets of Night",
+      "fr": "Gantelets de Nuit"
+    },
+    "rarity": 3,
+    "type": "gauntlets",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Valiance",
+      "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/gauntlets-of-night.webp",
+    "source": {
+      "page": "Gauntlets of Night",
+      "url": "https://wutheringwaves.fandom.com/wiki/Gauntlets_of_Night"
+    }
+  },
+  {
+    "id": "gauntlets-of-voyager",
+    "name": {
+      "en": "Gauntlets of Voyager",
+      "fr": "Gantelets du Voyageur"
+    },
+    "rarity": 3,
+    "type": "gauntlets",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "defPct",
+      "base": 6.84
+    },
+    "passive": {
+      "name": "Crusade",
+      "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[8], [9], [10], [11], [12]]
+    },
+    "icon": "/assets/game/weapons/gauntlets-of-voyager.webp",
+    "source": {
+      "page": "Gauntlets of Voyager",
+      "url": "https://wutheringwaves.fandom.com/wiki/Gauntlets_of_Voyager"
+    }
+  },
+  {
+    "id": "glint-of-clouds",
+    "name": {
+      "en": "Glint of Clouds",
+      "fr": "Glint of Clouds"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critRate",
+      "base": 8
+    },
+    "passive": {
+      "name": "Evil's Scourge",
+      "text": "ATK is increased by (var1)%. Inflicting Tune Strain - Shifting, grants (var2)% Aero DMG Bonus for 2s, stacking up to 5 times. This effect can be triggered once every 0.5s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to 30s.\n- Aero DMG ignores (var3)% of the target's DEF during this effect.",
+      "values": [
+        [12, 11.2, 10],
+        [15, 14, 12.5],
+        [18, 16.8, 15],
+        [21, 19.6, 17.5],
+        [24, 22.4, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/glint-of-clouds.webp",
+    "source": {
+      "page": "Glint of Clouds",
+      "url": "https://wutheringwaves.fandom.com/wiki/Glint_of_Clouds"
+    }
+  },
+  {
+    "id": "guardian-broadblade",
+    "name": {
+      "en": "Guardian Broadblade",
+      "fr": "Epée du Gardien"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Consensus",
+      "text": "Increases Basic Attack DMG Bonus and Heavy Attack DMG Bonus by (var1)%.",
+      "values": [[12], [15], [18], [21], [24]]
+    },
+    "icon": "/assets/game/weapons/guardian-broadblade.webp",
+    "source": {
+      "page": "Guardian Broadblade",
+      "url": "https://wutheringwaves.fandom.com/wiki/Guardian_Broadblade"
+    }
+  },
+  {
+    "id": "guardian-gauntlets",
+    "name": {
+      "en": "Guardian Gauntlets",
+      "fr": "Gantelets du Gardien"
+    },
+    "rarity": 3,
+    "type": "gauntlets",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "defPct",
+      "base": 8.55
+    },
+    "passive": {
+      "name": "Collective Strength",
+      "text": "Increases Resonance Liberation DMG Bonus by (var1)%.",
+      "values": [[12], [15], [18], [21], [24]]
+    },
+    "icon": "/assets/game/weapons/guardian-gauntlets.webp",
+    "source": {
+      "page": "Guardian Gauntlets",
+      "url": "https://wutheringwaves.fandom.com/wiki/Guardian_Gauntlets"
+    }
+  },
+  {
+    "id": "guardian-pistols",
+    "name": {
+      "en": "Guardian Pistols",
+      "fr": "Pistolets du Gardien"
+    },
+    "rarity": 3,
+    "type": "pistols",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Unity",
+      "text": "Resonance Skill DMG Bonus is increased by (var1)%.",
+      "values": [[12], [15], [18], [21], [24]]
+    },
+    "icon": "/assets/game/weapons/guardian-pistols.webp",
+    "source": {
+      "page": "Guardian Pistols",
+      "url": "https://wutheringwaves.fandom.com/wiki/Guardian_Pistols"
+    }
+  },
+  {
+    "id": "guardian-rectifier",
+    "name": {
+      "en": "Guardian Rectifier",
+      "fr": "Amplificateur du Gardien"
+    },
+    "rarity": 3,
+    "type": "rectifier",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Companionship",
+      "text": "Increases Basic Attack and Heavy Attack DMG Bonus by (var1)%.",
+      "values": [[12], [15], [18], [21], [24]]
+    },
+    "icon": "/assets/game/weapons/guardian-rectifier.webp",
+    "source": {
+      "page": "Guardian Rectifier",
+      "url": "https://wutheringwaves.fandom.com/wiki/Guardian_Rectifier"
+    }
+  },
+  {
+    "id": "guardian-sword",
+    "name": {
+      "en": "Guardian Sword",
+      "fr": "Sabre du Gardien"
+    },
+    "rarity": 3,
+    "type": "sword",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "hpPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Unified",
+      "text": "Resonance Skill DMG Bonus is increased by (var1)%.",
+      "values": [[12], [15], [18], [21], [24]]
+    },
+    "icon": "/assets/game/weapons/guardian-sword.webp",
+    "source": {
+      "page": "Guardian Sword",
+      "url": "https://wutheringwaves.fandom.com/wiki/Guardian_Sword"
+    }
+  },
+  {
+    "id": "helios-cleaver",
+    "name": {
+      "en": "Helios Cleaver",
+      "fr": "Tailleur d'Hélios"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Plasma Recoiler",
+      "text": "Within 12s after Resonance Skill is cast, increases ATK by (var1)% every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s.",
+      "values": [[3], [3.75], [4.5], [5.25], [6]]
+    },
+    "icon": "/assets/game/weapons/helios-cleaver.webp",
+    "source": {
+      "page": "Helios Cleaver",
+      "url": "https://wutheringwaves.fandom.com/wiki/Helios_Cleaver"
+    }
+  },
+  {
+    "id": "hollow-mirage",
+    "name": {
+      "en": "Hollow Mirage",
+      "fr": "Mirage creux"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Celestial Blessing",
+      "text": "When Resonance Liberation is cast, grants 3 stack(s) of Iron Armor. Each stack increases ATK and DEF by (var1)%, stacking up to 3 time(s). When the Resonator takes damage, reduces the number of stacks by 1.",
+      "values": [[3], [3.5], [4], [4.5], [5]]
+    },
+    "icon": "/assets/game/weapons/hollow-mirage.webp",
+    "source": {
+      "page": "Hollow Mirage",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hollow_Mirage"
+    }
+  },
+  {
+    "id": "jinzhou-keeper",
+    "name": {
+      "en": "Jinzhou Keeper",
+      "fr": "Gardien de Jinzhou"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 31,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 8.1
+    },
+    "passive": {
+      "name": "Guardian",
+      "text": "Casting Intro Skill increases the wielder's ATK by (var1)% and HP by (var2)%, lasting for 15s.",
+      "values": [
+        [8, 10],
+        [10, 12.5],
+        [12, 15],
+        [14, 17.5],
+        [16, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/jinzhou-keeper.webp",
+    "source": {
+      "page": "Jinzhou Keeper",
+      "url": "https://wutheringwaves.fandom.com/wiki/Jinzhou_Keeper"
+    }
+  },
+  {
+    "id": "kumokiri",
+    "name": {
+      "en": "Kumokiri",
+      "fr": "Kumokiri"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critRate",
+      "base": 8
+    },
+    "passive": {
+      "name": "Thread of Fate",
+      "text": "ATK is increased by (var1)%. When the wielder casts Intro Skill or inflicts Negative Status, they gain (var2)% Resonance Liberation DMG Bonus, stacking up to 3 times for 15s.\nAt max stacks, when Resonators in the team inflict Negative Status, grants (var3)% All-Attribute DMG Bonus for 15s. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 8, 24],
+        [15, 10, 30],
+        [18, 12, 36],
+        [21, 14, 42],
+        [24, 16, 48]
+      ]
+    },
+    "icon": "/assets/game/weapons/kumokiri.webp",
+    "source": {
+      "page": "Kumokiri",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kumokiri"
+    }
+  },
+  {
+    "id": "laser-shearer",
+    "name": {
+      "en": "Laser Shearer",
+      "fr": "Cisailles laser"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 8.64
+    },
+    "passive": {
+      "name": "Signal Catcher",
+      "text": "Increases ATK by (var1)%.\nDealing damage to targets under Tune Strain - Interfered grants (var2)% Resonance Skill Bonus for 3s. Retriggering the effect resets its duration.",
+      "values": [
+        [12, 24],
+        [15, 27],
+        [18, 30],
+        [21, 33],
+        [24, 36]
+      ]
+    },
+    "icon": "/assets/game/weapons/laser-shearer.webp",
+    "source": {
+      "page": "Laser Shearer",
+      "url": "https://wutheringwaves.fandom.com/wiki/Laser_Shearer"
+    }
+  },
+  {
+    "id": "legend-of-drunken-hero",
+    "name": {
+      "en": "Legend of Drunken Hero",
+      "fr": "Légende du Héros Ivre"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Rhetoric",
+      "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/legend-of-drunken-hero.webp",
+    "source": {
+      "page": "Legend of Drunken Hero",
+      "url": "https://wutheringwaves.fandom.com/wiki/Legend_of_Drunken_Hero"
+    }
+  },
+  {
+    "id": "lethean-elegy",
+    "name": {
+      "en": "Lethean Elegy",
+      "fr": "Élégie de Léthé"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Underworld Requiem",
+      "text": "ATK is increased by (var1). Within 12s after dealing Echo Skill DMG, gain (var2) Resonance Skill DMG Bonus and (var2) Echo Skill DMG Amplification, and ignore (var3) of the target's DEF when dealing damage.",
+      "values": [
+        [12, 32, 8],
+        [15, 40, 10],
+        [18, 48, 12],
+        [21, 56, 14],
+        [24, 64, 16]
+      ]
+    },
+    "icon": "/assets/game/weapons/lethean-elegy.webp",
+    "source": {
+      "page": "Lethean Elegy",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lethean_Elegy"
+    }
+  },
+  {
+    "id": "lumingloss",
+    "name": {
+      "en": "Lumingloss",
+      "fr": "Lumineux"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 31,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 8.1
+    },
+    "passive": {
+      "name": "Pale Gale",
+      "text": "When Resonance Skill is cast, increases Basic Attack DMG Bonus and Heavy Attack DMG Bonus by (var1)%, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+      "values": [[20], [31], [42], [53], [64]]
+    },
+    "icon": "/assets/game/weapons/lumingloss.webp",
+    "source": {
+      "page": "Lumingloss",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lumingloss"
+    }
+  },
+  {
+    "id": "luminous-hymn",
+    "name": {
+      "en": "Luminous Hymn",
+      "fr": "Symphonie des lueurs"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critRate",
+      "base": 8
+    },
+    "passive": {
+      "name": "Homebuilder's Anthem",
+      "text": "Increase ATK by (var1)%. Dealing DMG to enemies with Spectro Frazzle gives (var2)% Basic Attack and (var3)% Heavy Attack DMG Bonus respectively, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the DMG from Spectro Frazzle on enemies around the active Resonator by (var4)% for 30s. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 14, 14, 30],
+        [15, 17.5, 17.5, 37.5],
+        [18, 21, 21, 45],
+        [21, 24.5, 24.5, 52.5],
+        [24, 28, 28, 60]
+      ]
+    },
+    "icon": "/assets/game/weapons/luminous-hymn.webp",
+    "source": {
+      "page": "Luminous Hymn",
+      "url": "https://wutheringwaves.fandom.com/wiki/Luminous_Hymn"
+    }
+  },
+  {
+    "id": "lunar-cutter",
+    "name": {
+      "en": "Lunar Cutter",
+      "fr": "Tailleur lunaire"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Preordained",
+      "text": "Equipped Resonator gains 6 stack(s) of Oath upon entering the battlefield. Each stack increases ATK by (var1)%, up to 6 stacks. This effect can be triggered 1 time(s) every 12s. The equipped Resonator loses 1 stack(s) of Oath every 2s, and gains 6 stack(s) upon defeating an enemy.",
+      "values": [[2], [2.5], [3], [3.5], [4]]
+    },
+    "icon": "/assets/game/weapons/lunar-cutter.webp",
+    "source": {
+      "page": "Lunar Cutter",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lunar_Cutter"
+    }
+  },
+  {
+    "id": "lustrous-razor",
+    "name": {
+      "en": "Lustrous Razor",
+      "fr": "Lame lustrée"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 8.1
+    },
+    "passive": {
+      "name": "Stormy Resolution",
+      "text": "Increases Energy Regen by (var1)%. When Resonance Skill is cast, Resonance Liberation DMG Bonus is increased by (var2)%, stacking up to 3 times. This effect lasts for 12s.",
+      "values": [
+        [12.8, 7],
+        [16, 8.75],
+        [19.2, 10.5],
+        [22.4, 12.25],
+        [25.6, 14]
+      ]
+    },
+    "icon": "/assets/game/weapons/lustrous-razor.webp",
+    "source": {
+      "page": "Lustrous Razor",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lustrous_Razor"
+    }
+  },
+  {
+    "id": "lux-umbra",
+    "name": {
+      "en": "Lux & Umbra",
+      "fr": "Lux & Umbra"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "To Fire She Returns",
+      "text": "Increases ATK by (var1)%. Upon dealing Echo Skill DMG, gain (var2)% Heavy Attack DMG Amplification for 6s. Upon dealing Heavy Attack DMG, gain (var2)% Echo Skill DMG Amplification for 6s. DMG Amplification on each attack is capped at (var2)%. While both effects are active, dealing damage ignores (var3)% of the target's DEF.",
+      "values": [
+        [12, 24, 8],
+        [15, 30, 10],
+        [18, 36, 12],
+        [21, 42, 14],
+        [24, 48, 16]
+      ]
+    },
+    "icon": "/assets/game/weapons/lux-umbra.webp",
+    "source": {
+      "page": "Lux & Umbra",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lux_%26_Umbra"
+    }
+  },
+  {
+    "id": "marcato",
+    "name": {
+      "en": "Marcato",
+      "fr": "Marcato"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 11.52
+    },
+    "passive": {
+      "name": "Ceaseless Aria",
+      "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 times every 20s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/marcato.webp",
+    "source": {
+      "page": "Marcato",
+      "url": "https://wutheringwaves.fandom.com/wiki/Marcato"
+    }
+  },
+  {
+    "id": "meditations-on-mercy",
+    "name": {
+      "en": "Meditations on Mercy",
+      "fr": "Méditations sur la Miséricorde"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Rhetoric",
+      "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/meditations-on-mercy.webp",
+    "source": {
+      "page": "Meditations on Mercy",
+      "url": "https://wutheringwaves.fandom.com/wiki/Meditations_on_Mercy"
+    }
+  },
+  {
+    "id": "moongazers-sigil",
+    "name": {
+      "en": "Moongazer's Sigil",
+      "fr": "Sceau de veilleuse lunaire"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critRate",
+      "base": 8
+    },
+    "passive": {
+      "name": "Plenilune Radiance",
+      "text": "Increases ATK by (var1)%. Casting Intro Skill or Resonance Liberation increases Resonance Liberation DMG by (var2)% for 15s. Obtaining Shield allows Resonance Liberation DMG to ignore (var3)% of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s. Upon casting Intro Skill, this effect reaches max stacks immediately, lasting for 3s.",
+      "values": [
+        [12, 20, 7.2],
+        [15, 25, 8.4],
+        [18, 30, 9.6],
+        [21, 35, 10.8],
+        [24, 40, 12]
+      ]
+    },
+    "icon": "/assets/game/weapons/moongazers-sigil.webp",
+    "source": {
+      "page": "Moongazer's Sigil",
+      "url": "https://wutheringwaves.fandom.com/wiki/Moongazer's_Sigil"
+    }
+  },
+  {
+    "id": "novaburst",
+    "name": {
+      "en": "Novaburst",
+      "fr": "Éclat de Nova"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Ever-changing",
+      "text": "When the Resonator dashes or dodges, increases ATK by (var1)%, stacking up to 3 time(s). This effect lasts for 8s.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/novaburst.webp",
+    "source": {
+      "page": "Novaburst",
+      "url": "https://wutheringwaves.fandom.com/wiki/Novaburst"
+    }
+  },
+  {
+    "id": "oceans-gift",
+    "name": {
+      "en": "Ocean's Gift",
+      "fr": "Don des mers"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Fish Catch",
+      "text": "Dealing DMG to enemies with Spectro Frazzle increases the wielder's Spectro DMG by (var1)%, gaining 1 stack per second for 6s, stacking up to 4 stacks.",
+      "values": [[6], [7], [8], [9], [10]]
+    },
+    "icon": "/assets/game/weapons/oceans-gift.webp",
+    "source": {
+      "page": "Ocean's Gift",
+      "url": "https://wutheringwaves.fandom.com/wiki/Ocean's_Gift"
+    }
+  },
+  {
+    "id": "originite-type-i",
+    "name": {
+      "en": "Originite: Type I",
+      "fr": "Originite: Type I"
+    },
+    "rarity": 3,
+    "type": "broadblade",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "defPct",
+      "base": 8.55
+    },
+    "passive": {
+      "name": "Temperance",
+      "text": "When Resonance Skill is cast, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 12s.",
+      "values": [[3], [3.75], [4.5], [5.25], [6]]
+    },
+    "icon": "/assets/game/weapons/originite-type-i.webp",
+    "source": {
+      "page": "Originite: Type I",
+      "url": "https://wutheringwaves.fandom.com/wiki/Originite%3A_Type_I"
+    }
+  },
+  {
+    "id": "originite-type-ii",
+    "name": {
+      "en": "Originite: Type II",
+      "fr": "Originite : Type II"
+    },
+    "rarity": 3,
+    "type": "sword",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Vanquish",
+      "text": "When Resonance Liberation is cast, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[5], [6.25], [7.5], [8.75], [10]]
+    },
+    "icon": "/assets/game/weapons/originite-type-ii.webp",
+    "source": {
+      "page": "Originite: Type II",
+      "url": "https://wutheringwaves.fandom.com/wiki/Originite%3A_Type_II"
+    }
+  },
+  {
+    "id": "originite-type-iii",
+    "name": {
+      "en": "Originite: Type III",
+      "fr": "Originite : Type III"
+    },
+    "rarity": 3,
+    "type": "pistols",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Alarcrity",
+      "text": "When Dodge Counter is cast, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 6s.",
+      "values": [[1.6], [2], [2.4], [2.8], [3.2]]
+    },
+    "icon": "/assets/game/weapons/originite-type-iii.webp",
+    "source": {
+      "page": "Originite: Type III",
+      "url": "https://wutheringwaves.fandom.com/wiki/Originite%3A_Type_III"
+    }
+  },
+  {
+    "id": "originite-type-iv",
+    "name": {
+      "en": "Originite: Type IV",
+      "fr": "Originite : Type IV"
+    },
+    "rarity": 3,
+    "type": "gauntlets",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 9
+    },
+    "passive": {
+      "name": "Rejuvinate",
+      "text": "When dealing Basic Attack DMG, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 3s.",
+      "values": [[0.5], [0.65], [0.8], [0.95], [1.1]]
+    },
+    "icon": "/assets/game/weapons/originite-type-iv.webp",
+    "source": {
+      "page": "Originite: Type IV",
+      "url": "https://wutheringwaves.fandom.com/wiki/Originite%3A_Type_IV"
+    }
+  },
+  {
+    "id": "originite-type-v",
+    "name": {
+      "en": "Originite: Type V",
+      "fr": "Originite : Type V"
+    },
+    "rarity": 3,
+    "type": "rectifier",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "hpPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Augment",
+      "text": "When Intro Skill is cast, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[5], [6.25], [7.5], [8.75], [10]]
+    },
+    "icon": "/assets/game/weapons/originite-type-v.webp",
+    "source": {
+      "page": "Originite: Type V",
+      "url": "https://wutheringwaves.fandom.com/wiki/Originite%3A_Type_V"
+    }
+  },
+  {
+    "id": "overture",
+    "name": {
+      "en": "Overture",
+      "fr": "Le Fendeur"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 11.52
+    },
+    "passive": {
+      "name": "Ceaseless Aria",
+      "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/overture.webp",
+    "source": {
+      "page": "Overture",
+      "url": "https://wutheringwaves.fandom.com/wiki/Overture"
+    }
+  },
+  {
+    "id": "phasic-homogenizer",
+    "name": {
+      "en": "Phasic Homogenizer",
+      "fr": "Homogénéiseur phasique"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "Insight Bearer",
+      "text": "Increases ATK by (var1)%.\nAfter a Resonator in the team casts a Tune Break skill, it grants (var2)% All-Attribute DMG Bonus to the wielder for 14s.",
+      "values": [
+        [12, 20],
+        [15, 22.5],
+        [18, 25],
+        [21, 27.5],
+        [24, 30]
+      ]
+    },
+    "icon": "/assets/game/weapons/phasic-homogenizer.webp",
+    "source": {
+      "page": "Phasic Homogenizer",
+      "url": "https://wutheringwaves.fandom.com/wiki/Phasic_Homogenizer"
+    }
+  },
+  {
+    "id": "pistols-26",
+    "name": {
+      "en": "Pistols#26",
+      "fr": "Pistolets #26"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": 31,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 8.1
+    },
+    "passive": {
+      "name": "Omniscient",
+      "text": "When the Resonator takes no damage, increases ATK by (var1)% every 5s, stacking up to 2 time(s). This effect lasts for 8s. When the Resonator takes damage, loses 1 stacks and heals (var2)% of their Max HP.",
+      "values": [
+        [6, 5],
+        [7.5, 6.25],
+        [9, 7.5],
+        [10.5, 8.75],
+        [12, 10]
+      ]
+    },
+    "icon": "/assets/game/weapons/pistols-26.webp",
+    "source": {
+      "page": "Pistols26",
+      "url": "https://wutheringwaves.fandom.com/wiki/Pistols26"
+    }
+  },
+  {
+    "id": "pistols-of-night",
+    "name": {
+      "en": "Pistols of Night",
+      "fr": "Pistolets de Nuit"
+    },
+    "rarity": 3,
+    "type": "pistols",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Valiance",
+      "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/pistols-of-night.webp",
+    "source": {
+      "page": "Pistols of Night",
+      "url": "https://wutheringwaves.fandom.com/wiki/Pistols_of_Night"
+    }
+  },
+  {
+    "id": "pistols-of-voyager",
+    "name": {
+      "en": "Pistols of Voyager",
+      "fr": "Pistolets du Voyageur"
+    },
+    "rarity": 3,
+    "type": "pistols",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Long Journey",
+      "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[8], [9], [10], [11], [12]]
+    },
+    "icon": "/assets/game/weapons/pistols-of-voyager.webp",
+    "source": {
+      "page": "Pistols of Voyager",
+      "url": "https://wutheringwaves.fandom.com/wiki/Pistols_of_Voyager"
+    }
+  },
+  {
+    "id": "pulsation-bracer",
+    "name": {
+      "en": "Pulsation Bracer",
+      "fr": "Brassard à pulsation"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Barrier Breacher",
+      "text": "Increases ATK by (var1)%.\nDealing damage to targets under Tune Strain - Interfered grants (var2)% Basic Attack DMG Bonus for 3s, stacking up to 4 times. This effect can be triggered once every 0.5s. Retriggering the effect resets its duration.",
+      "values": [
+        [12, 6],
+        [15, 6.7],
+        [18, 7.5],
+        [21, 8.2],
+        [24, 9]
+      ]
+    },
+    "icon": "/assets/game/weapons/pulsation-bracer.webp",
+    "source": {
+      "page": "Pulsation Bracer",
+      "url": "https://wutheringwaves.fandom.com/wiki/Pulsation_Bracer"
+    }
+  },
+  {
+    "id": "radiance-cleaver",
+    "name": {
+      "en": "Radiance Cleaver",
+      "fr": "Fendoir radieux"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "Edge Breaker",
+      "text": "Increases ATK by (var1)%. Dealing damage to targets under Tune Strain - Interfered grants (var2)% Resonance Liberation Bonus for 3s. Retriggering the effect resets its duration.",
+      "values": [
+        [12, 24],
+        [15, 27],
+        [18, 30],
+        [21, 33],
+        [24, 36]
+      ]
+    },
+    "icon": "/assets/game/weapons/radiance-cleaver.webp",
+    "source": {
+      "page": "Radiance Cleaver",
+      "url": "https://wutheringwaves.fandom.com/wiki/Radiance_Cleaver"
+    }
+  },
+  {
+    "id": "radiant-dawn",
+    "name": {
+      "en": "Radiant Dawn",
+      "fr": "Aube radieuse"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 9
+    },
+    "passive": {
+      "name": "Oath of Tide Hunters",
+      "text": "Casting Resonance Skill increases ATK by (var1)% and grants (var2)% Basic Attack DMG Bonus for 10s.",
+      "values": [
+        [9, 9],
+        [13.9, 13.9],
+        [18.9, 18.9],
+        [23.8, 23.8],
+        [28.8, 28.8]
+      ]
+    },
+    "icon": "/assets/game/weapons/radiant-dawn.webp",
+    "source": {
+      "page": "Radiant Dawn",
+      "url": "https://wutheringwaves.fandom.com/wiki/Radiant_Dawn"
+    }
+  },
+  {
+    "id": "rectifier-25",
+    "name": {
+      "en": "Rectifier#25",
+      "fr": "Amplificateur#25"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 11.52
+    },
+    "passive": {
+      "name": "Dawnbringer",
+      "text": "When Resonance Skill is released, if the Resonator's HP is below 60%, heals (var1)% of their Max HP. This effect can be triggered 1 time(s) every 8s. If the Resonator's HP is above 60%, increases ATK by (var2)%, lasting for 10s.",
+      "values": [
+        [5, 12],
+        [6.25, 15],
+        [7.5, 18],
+        [8.75, 21],
+        [10, 24]
+      ]
+    },
+    "icon": "/assets/game/weapons/rectifier-25.webp",
+    "source": {
+      "page": "Rectifier25",
+      "url": "https://wutheringwaves.fandom.com/wiki/Rectifier25"
+    }
+  },
+  {
+    "id": "rectifier-of-night",
+    "name": {
+      "en": "Rectifier of Night",
+      "fr": "Amplificateur de Nuit"
+    },
+    "rarity": 3,
+    "type": "rectifier",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Valiance",
+      "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/rectifier-of-night.webp",
+    "source": {
+      "page": "Rectifier of Night",
+      "url": "https://wutheringwaves.fandom.com/wiki/Rectifier_of_Night"
+    }
+  },
+  {
+    "id": "rectifier-of-voyager",
+    "name": {
+      "en": "Rectifier of Voyager",
+      "fr": "Amplificateur du voyageur"
+    },
+    "rarity": 3,
+    "type": "rectifier",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 7.2
+    },
+    "passive": {
+      "name": "Crusade",
+      "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[8], [9], [10], [11], [12]]
+    },
+    "icon": "/assets/game/weapons/rectifier-of-voyager.webp",
+    "source": {
+      "page": "Rectifier of Voyager",
+      "url": "https://wutheringwaves.fandom.com/wiki/Rectifier_of_Voyager"
+    }
+  },
+  {
+    "id": "red-spring",
+    "name": {
+      "en": "Red Spring",
+      "fr": "Printemps acéré"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Beyond the Cycle",
+      "text": "Increase ATK by (var1)%. When dealing Basic Attack DMG, the wielder gains (var2)% Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times.\nWhen the wielder's Concerto Energy is consumed, gain (var3)% Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+      "values": [
+        [12, 10, 40],
+        [15, 12.5, 50],
+        [18, 15, 60],
+        [21, 17.5, 70],
+        [24, 20, 80]
+      ]
+    },
+    "icon": "/assets/game/weapons/red-spring.webp",
+    "source": {
+      "page": "Red Spring",
+      "url": "https://wutheringwaves.fandom.com/wiki/Red_Spring"
+    }
+  },
+  {
+    "id": "relativistic-jet",
+    "name": {
+      "en": "Relativistic Jet",
+      "fr": "Jets relativistes"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Intergalactic Gaze",
+      "text": "Casting the Resonance Skill grants (var1) Resonance Energy and increases ATK by (var2)%, lasting for 16s. This effect can be triggered once every 20s.",
+      "values": [
+        [6, 10],
+        [7, 12.5],
+        [8, 15],
+        [9, 17.5],
+        [10, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/relativistic-jet.webp",
+    "source": {
+      "page": "Relativistic Jet",
+      "url": "https://wutheringwaves.fandom.com/wiki/Relativistic_Jet"
+    }
+  },
+  {
+    "id": "rime-draped-sprouts",
+    "name": {
+      "en": "Rime-Draped Sprouts",
+      "fr": "Germe de glacier"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 16
+    },
+    "passive": {
+      "name": "Panorama",
+      "text": "Increase ATK by (var1)%. While the wielder is on the field, using Resonance Skill grants (var1)% Basic Attack DMG Bonus, stacking up to 3 times for 6s. At 3 stacks or above, casting Outro Skill consumes all stacks of this effect and grants the wielder (var2)% Basic Attack DMG Bonus for 27s, effective when the wielder is off the field.",
+      "values": [
+        [12, 52],
+        [15, 65],
+        [18, 78],
+        [21, 91],
+        [24, 104]
+      ]
+    },
+    "icon": "/assets/game/weapons/rime-draped-sprouts.webp",
+    "source": {
+      "page": "Rime-Draped Sprouts",
+      "url": "https://wutheringwaves.fandom.com/wiki/Rime-Draped_Sprouts"
+    }
+  },
+  {
+    "id": "romance-in-farewell",
+    "name": {
+      "en": "Romance in Farewell",
+      "fr": "Romance en Adieu"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Rhetoric",
+      "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/romance-in-farewell.webp",
+    "source": {
+      "page": "Romance in Farewell",
+      "url": "https://wutheringwaves.fandom.com/wiki/Romance_in_Farewell"
+    }
+  },
+  {
+    "id": "skull-thrasher",
+    "name": {
+      "en": "Skull Thrasher",
+      "fr": "Skull Thrasher"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 16
+    },
+    "passive": {
+      "name": "Sunken Dream",
+      "text": "Increases ATK by (var1)%. Casting Intro Skill grants (var2)% Basic Attack DMG Bonus to the wielder for 14s. Inflicting Hack - Shifting grants (var3)% Basic Attack DMG Bonus to the wielder for 14s, and increases the ATK of Resonators in the team by (var4)% for 30s. Effects of the same name do not stack",
+      "values": [
+        [12, 24, 12, 24],
+        [15, 30, 15, 30],
+        [18, 36, 18, 36],
+        [21, 42, 21, 42],
+        [24, 48, 24, 48]
+      ]
+    },
+    "icon": "/assets/game/weapons/skull-thrasher.webp",
+    "source": {
+      "page": "Skull Thrasher",
+      "url": "https://wutheringwaves.fandom.com/wiki/Skull_Thrasher"
+    }
+  },
+  {
+    "id": "solar-flame",
+    "name": {
+      "en": "Solar Flame",
+      "fr": "Flamme solaire"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "critRate",
+      "base": 4.5
+    },
+    "passive": {
+      "name": "Oath of Tide Hunters",
+      "text": "Dealing Basic Attack or Heavy Attack DMG increases ATK by (var1)% and grants (var2)% Heavy Attack DMG Bonus for 7s, stacking up to 4 times. This effect can be triggered 1 time every 1s.",
+      "values": [
+        [2.2, 2.2],
+        [3.4, 3.4],
+        [4.7, 4.7],
+        [5.9, 5.9],
+        [7.2, 7.2]
+      ]
+    },
+    "icon": "/assets/game/weapons/solar-flame.webp",
+    "source": {
+      "page": "Solar Flame",
+      "url": "https://wutheringwaves.fandom.com/wiki/Solar_Flame"
+    }
+  },
+  {
+    "id": "solsworn-ciphers",
+    "name": {
+      "en": "Solsworn Ciphers",
+      "fr": "Interprétation illuminée"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "Sunward",
+      "text": "Increases ATK by (var1)%. Casting Intro Skill or Echo Skill grants (var2)% Echo Skill DMG Amplification for 15s. When dealing Echo Skill DMG, Aero DMG ignores (var3)% of the target's DEF for 6s.",
+      "values": [
+        [12, 32, 10],
+        [15, 40, 12.5],
+        [18, 48, 15],
+        [21, 56, 17.5],
+        [24, 64, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/solsworn-ciphers.webp",
+    "source": {
+      "page": "Solsworn Ciphers",
+      "url": "https://wutheringwaves.fandom.com/wiki/Solsworn_Ciphers"
+    }
+  },
+  {
+    "id": "somnoire-anchor",
+    "name": {
+      "en": "Somnoire Anchor",
+      "fr": "Ancre du Somnoire"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Meow!",
+      "text": "Gain 1 stack of Hiss when dealing damage to the target, with 1 stack generated every 1s.\nHiss: each stack increases the wielder's ATK by (var1)% for 3s, stacking up to 10 times. Switching off the wielder clears all stacks. Gaining 10 stacks increases the wielder's Crit. Rate by (var2)%.",
+      "values": [
+        [2, 6],
+        [2.5, 7.5],
+        [3, 9],
+        [3.5, 10.5],
+        [4, 12]
+      ]
+    },
+    "icon": "/assets/game/weapons/somnoire-anchor.webp",
+    "source": {
+      "page": "Somnoire Anchor",
+      "url": "https://wutheringwaves.fandom.com/wiki/Somnoire_Anchor"
+    }
+  },
+  {
+    "id": "spectral-trigger",
+    "name": {
+      "en": "Spectral Trigger",
+      "fr": "Spectral Trigger"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "Sunken Dream",
+      "text": "Increases ATK by (var1)%. Casting Resonance Skill grants (var2)% Spectro DMG Bonus to the wielder for 14s, stacking up to 2 times. Inflicting Hack - Shifting grants (var3)% Heavy Attack DMG Amplification to the wielder for 14s, during which Heavy Attack DMG ignores (var4)% of the target's DEF.",
+      "values": [
+        [12, 20, 30, 10],
+        [15, 25, 37.5, 12.5],
+        [18, 30, 45, 15],
+        [21, 35, 52.5, 17.5],
+        [24, 40, 60, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/spectral-trigger.webp",
+    "source": {
+      "page": "Spectral Trigger",
+      "url": "https://wutheringwaves.fandom.com/wiki/Spectral_Trigger"
+    }
+  },
+  {
+    "id": "spectrum-blaster",
+    "name": {
+      "en": "Spectrum Blaster",
+      "fr": "Éclateur spectral"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Attendance Exemption Protocol",
+      "text": "Increases ATK by (var1)%.\nCasting Intro Skill or dealing Basic Attack to targets increases the wielder's Basic Attack DMG Bonus by (var2)% for 4s. Each time the wielder inflicts Tune Rupture - Shifting or Tune Strain - Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by (var3)% for 30s, up to 3 stacks. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 36, 8],
+        [15, 45, 10],
+        [18, 54, 12],
+        [21, 63, 14],
+        [24, 72, 16]
+      ]
+    },
+    "icon": "/assets/game/weapons/spectrum-blaster.webp",
+    "source": {
+      "page": "Spectrum Blaster",
+      "url": "https://wutheringwaves.fandom.com/wiki/Spectrum_Blaster"
+    }
+  },
+  {
+    "id": "starfield-calibrator",
+    "name": {
+      "en": "Starfield Calibrator",
+      "fr": "Calibrateur stellaire"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 17.1
+    },
+    "passive": {
+      "name": "Definite Solution",
+      "text": "Increases DEF by (var1)%. Casting Resonance Liberation restores (var2) points of Concerto Energy. This effect can be triggered once every 20s. When the wielder heals Resonators, increases Crit. DMG of all nearby Resonators in the team by (var3)% for 4s. Effects of the same name cannot be stacked.",
+      "values": [
+        [16, 8, 20],
+        [20, 10, 25],
+        [24, 12, 30],
+        [28, 14, 35],
+        [32, 16, 40]
+      ]
+    },
+    "icon": "/assets/game/weapons/starfield-calibrator.webp",
+    "source": {
+      "page": "Starfield Calibrator",
+      "url": "https://wutheringwaves.fandom.com/wiki/Starfield_Calibrator"
+    }
+  },
+  {
+    "id": "static-mist",
+    "name": {
+      "en": "Static Mist",
+      "fr": "Brouillard stable"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Stormy Resolution",
+      "text": "Increases Energy Regen by (var1)%. Incoming Resonator's ATK is increased by (var2)% for 14s, stackable for up to 1 times after the wielder casts Outro Skill.",
+      "values": [
+        [12.8, 10],
+        [16, 12.5],
+        [19.2, 15],
+        [22.4, 17.55],
+        [25.6, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/static-mist.webp",
+    "source": {
+      "page": "Static Mist",
+      "url": "https://wutheringwaves.fandom.com/wiki/Static_Mist"
+    }
+  },
+  {
+    "id": "stellar-symphony",
+    "name": {
+      "en": "Stellar Symphony",
+      "fr": "Symphonie stellaire"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 17.12
+    },
+    "passive": {
+      "name": "Astral Evolvement",
+      "text": "Increase HP by (var1)%. Restore (var2) Concerto Energy when casting Resonance Liberation. This effect can be triggered 1 time(s) every 20s. When casting Resonance Skill that heals, increase nearby party member's ATK by (var3)% for 30s. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 8, 14],
+        [15, 10, 17.5],
+        [18, 12, 21],
+        [21, 14, 24.5],
+        [24, 16, 28]
+      ]
+    },
+    "icon": "/assets/game/weapons/stellar-symphony.webp",
+    "source": {
+      "page": "Stellar Symphony",
+      "url": "https://wutheringwaves.fandom.com/wiki/Stellar_Symphony"
+    }
+  },
+  {
+    "id": "stonard",
+    "name": {
+      "en": "Stonard",
+      "fr": "Main d'or"
+    },
+    "rarity": 4,
+    "type": "gauntlets",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "critRate",
+      "base": 4.5
+    },
+    "passive": {
+      "name": "Wallbreaker",
+      "text": "Casting Resonance Skill increases the wielder's Resonance Liberation DMG Bonus by (var1)%, lasting for 15s.",
+      "values": [[18], [27], [36], [45], [54]]
+    },
+    "icon": "/assets/game/weapons/stonard.webp",
+    "source": {
+      "page": "Stonard",
+      "url": "https://wutheringwaves.fandom.com/wiki/Stonard"
+    }
+  },
+  {
+    "id": "stringmaster",
+    "name": {
+      "en": "Stringmaster",
+      "fr": "Main du marionnettiste"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critRate",
+      "base": 8
+    },
+    "passive": {
+      "name": "Electric Amplification",
+      "text": "Grants (var1)% Attribute DMG Bonus. When dealing Resonance Skill DMG, increases ATK by (var1)%, stacking up to 2 times. This effect lasts for 5s. When the wielder is not on the field, increases their ATK by an additional (var1)%.",
+      "values": [[12], [15], [18], [21], [24]]
+    },
+    "icon": "/assets/game/weapons/stringmaster.webp",
+    "source": {
+      "page": "Stringmaster",
+      "url": "https://wutheringwaves.fandom.com/wiki/Stringmaster"
+    }
+  },
+  {
+    "id": "sword-18",
+    "name": {
+      "en": "Sword#18",
+      "fr": "Sabre #18"
+    },
+    "rarity": 4,
+    "type": "sword",
+    "baseAtk": 31,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 8.1
+    },
+    "passive": {
+      "name": "Daybreak",
+      "text": "When the Resonator's HP drops below (var1)%, increases Heavy Attack DMG Bonus by (var2)% and gives (var3)% healing when dealing Heavy Attack DMG. This effect can be triggered 1 time(s) every 8s.",
+      "values": [
+        [40, 18, 5],
+        [50, 22.5, 6.25],
+        [60, 27, 7.5],
+        [70, 31.5, 8.75],
+        [80, 36, 10]
+      ]
+    },
+    "icon": "/assets/game/weapons/sword-18.webp",
+    "source": {
+      "page": "Sword18",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sword18"
+    }
+  },
+  {
+    "id": "sword-of-night",
+    "name": {
+      "en": "Sword of Night",
+      "fr": "Sabre de nuit"
+    },
+    "rarity": 3,
+    "type": "sword",
+    "baseAtk": 26,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Valiance",
+      "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/sword-of-night.webp",
+    "source": {
+      "page": "Sword of Night",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sword_of_Night"
+    }
+  },
+  {
+    "id": "sword-of-voyager",
+    "name": {
+      "en": "Sword of Voyager",
+      "fr": "Sabre du Voyageur"
+    },
+    "rarity": 3,
+    "type": "sword",
+    "baseAtk": 24,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 7.2
+    },
+    "passive": {
+      "name": "Crusade",
+      "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
+      "values": [[8], [9], [10], [11], [12]]
+    },
+    "icon": "/assets/game/weapons/sword-of-voyager.webp",
+    "source": {
+      "page": "Sword of Voyager",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sword_of_Voyager"
+    }
+  },
+  {
+    "id": "the-last-dance",
+    "name": {
+      "en": "The Last Dance",
+      "fr": "La dernière danse"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 16
+    },
+    "passive": {
+      "name": "Silent Eulogy",
+      "text": "Increases ATK by (var1)%. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by (var2)% for 5s.",
+      "values": [
+        [12, 48],
+        [15, 60],
+        [18, 72],
+        [21, 84],
+        [24, 96]
+      ]
+    },
+    "icon": "/assets/game/weapons/the-last-dance.webp",
+    "source": {
+      "page": "The Last Dance",
+      "url": "https://wutheringwaves.fandom.com/wiki/The_Last_Dance"
+    }
+  },
+  {
+    "id": "thousandfold-deliverance",
+    "name": {
+      "en": "Thousandfold Deliverance",
+      "fr": "Thousandfold Deliverance"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "hpPct",
+      "base": 16.1
+    },
+    "passive": {
+      "name": "Hark, Spirits and Stars",
+      "text": "Grants (var1)% All-Attribute DMG Bonus. Casting Intro Skill or gaining a Shield as the active Resonator grants 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stacking up to 6 times, lasting for 7s. Switching to another Resonator ends both Nature's Order and Cradle of Life immediately.\nNature's Order: Crit. DMG is increased by (var2)%, up to (var3)%. When Nature's Order reaches 6 stacks, the Crit. Rate of Heavy Attack DMG is increased by (var4)%. Cradle of Life: Casting Heavy Attack consumes up to 2 stacks of Cradle of Life. For every 1 stack of Cradle of Life consumed, Heavy Attack DMG ignores (var5)% of the target's DEF, up to (var6)%. The effect lasts for 2s.",
+      "values": [
+        [12, 4, 24, 12, 15, 30],
+        [15, 5, 30, 15, 17.5, 35],
+        [18, 6, 36, 18, 20, 40],
+        [21, 7, 42, 21, 22.5, 45],
+        [24, 8, 48, 24, 25, 50]
+      ]
+    },
+    "icon": "/assets/game/weapons/thousandfold-deliverance.webp",
+    "source": {
+      "page": "Thousandfold Deliverance",
+      "url": "https://wutheringwaves.fandom.com/wiki/Thousandfold_Deliverance"
+    }
+  },
+  {
+    "id": "thunderbolt",
+    "name": {
+      "en": "Thunderbolt",
+      "fr": "Tonnerre"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": 31,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 8.1
+    },
+    "passive": {
+      "name": "Unstoppable",
+      "text": "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by (var1)%, stacking up to 3 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+      "values": [[7], [11], [15], [19], [23]]
+    },
+    "icon": "/assets/game/weapons/thunderbolt.webp",
+    "source": {
+      "page": "Thunderbolt",
+      "url": "https://wutheringwaves.fandom.com/wiki/Thunderbolt"
+    }
+  },
+  {
+    "id": "thunderflare-dominion",
+    "name": {
+      "en": "Thunderflare Dominion",
+      "fr": "Règne foudroyant"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 54,
+    "secondary": {
+      "stat": "critRate",
+      "base": 2.7
+    },
+    "passive": {
+      "name": "Thunderblaze Eminence",
+      "text": "Increases ATK by (var1)%. Casting Intro Skill or Resonance Skill increases Heavy Attack DMG by (var2)% for 15s. Obtaining Shield allows Heavy Attack DMG to ignore (var3)% of the target's DEF for 7s, stacking up to 5 times. This effect triggers once every 0.5s.",
+      "values": [
+        [12, 20, 7.2],
+        [15, 25, 8.4],
+        [18, 30, 9.6],
+        [21, 35, 10.8],
+        [24, 40, 12]
+      ]
+    },
+    "icon": "/assets/game/weapons/thunderflare-dominion.webp",
+    "source": {
+      "page": "Thunderflare Dominion",
+      "url": "https://wutheringwaves.fandom.com/wiki/Thunderflare_Dominion"
+    }
+  },
+  {
+    "id": "tragicomedy",
+    "name": {
+      "en": "Tragicomedy",
+      "fr": "Tragi-comédie"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Fool's Warble",
+      "text": "Increases ATK by (var1)%. Every time Basic Attack or Intro Skill is cast, Heavy Attack DMG Bonus increases by (var2)% for 3s.",
+      "values": [
+        [12, 48],
+        [15, 60],
+        [18, 72],
+        [21, 84],
+        [24, 96]
+      ]
+    },
+    "icon": "/assets/game/weapons/tragicomedy.webp",
+    "source": {
+      "page": "Tragicomedy",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tragicomedy"
+    }
+  },
+  {
+    "id": "training-broadblade",
+    "name": {
+      "en": "Training Broadblade",
+      "fr": "Epée Novice"
+    },
+    "rarity": 1,
+    "type": "broadblade",
+    "baseAtk": 20,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 2.55
+    },
+    "passive": {
+      "name": "Persevere",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/training-broadblade.webp",
+    "source": {
+      "page": "Training Broadblade",
+      "url": "https://wutheringwaves.fandom.com/wiki/Training_Broadblade"
+    }
+  },
+  {
+    "id": "training-gauntlets",
+    "name": {
+      "en": "Training Gauntlets",
+      "fr": "Gantelets Novices"
+    },
+    "rarity": 1,
+    "type": "gauntlets",
+    "baseAtk": 20,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 2.55
+    },
+    "passive": {
+      "name": "Persevere",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/training-gauntlets.webp",
+    "source": {
+      "page": "Training Gauntlets",
+      "url": "https://wutheringwaves.fandom.com/wiki/Training_Gauntlets"
+    }
+  },
+  {
+    "id": "training-pistols",
+    "name": {
+      "en": "Training Pistols",
+      "fr": "Pistolets Novices"
+    },
+    "rarity": 1,
+    "type": "pistols",
+    "baseAtk": 20,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 2.55
+    },
+    "passive": {
+      "name": "Persevere",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/training-pistols.webp",
+    "source": {
+      "page": "Training Pistols",
+      "url": "https://wutheringwaves.fandom.com/wiki/Training_Pistols"
+    }
+  },
+  {
+    "id": "training-rectifier",
+    "name": {
+      "en": "Training Rectifier",
+      "fr": "Amplificateur Novice"
+    },
+    "rarity": 1,
+    "type": "rectifier",
+    "baseAtk": 20,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 2.55
+    },
+    "passive": {
+      "name": "Persevere",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/training-rectifier.webp",
+    "source": {
+      "page": "Training Rectifier",
+      "url": "https://wutheringwaves.fandom.com/wiki/Training_Rectifier"
+    }
+  },
+  {
+    "id": "training-sword",
+    "name": {
+      "en": "Training Sword",
+      "fr": "Sabre Novice"
+    },
+    "rarity": 1,
+    "type": "sword",
+    "baseAtk": 20,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 2.55
+    },
+    "passive": {
+      "name": "Persevere",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/training-sword.webp",
+    "source": {
+      "page": "Training Sword",
+      "url": "https://wutheringwaves.fandom.com/wiki/Training_Sword"
+    }
+  },
+  {
+    "id": "tyro-broadblade",
+    "name": {
+      "en": "Tyro Broadblade",
+      "fr": "Epée Tyro"
+    },
+    "rarity": 2,
+    "type": "broadblade",
+    "baseAtk": 22,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 3.3
+    },
+    "passive": {
+      "name": "Prologue",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[5], [6.25], [7.5], [8.75], [10]]
+    },
+    "icon": "/assets/game/weapons/tyro-broadblade.webp",
+    "source": {
+      "page": "Tyro Broadblade",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tyro_Broadblade"
+    }
+  },
+  {
+    "id": "tyro-gauntlets",
+    "name": {
+      "en": "Tyro Gauntlets",
+      "fr": "Gantelets Tyro"
+    },
+    "rarity": 2,
+    "type": "gauntlets",
+    "baseAtk": 22,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 3.3
+    },
+    "passive": {
+      "name": "Prologue",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[5], [6.25], [7.5], [8.75], [10]]
+    },
+    "icon": "/assets/game/weapons/tyro-gauntlets.webp",
+    "source": {
+      "page": "Tyro Gauntlets",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tyro_Gauntlets"
+    }
+  },
+  {
+    "id": "tyro-pistols",
+    "name": {
+      "en": "Tyro Pistols",
+      "fr": "Pistolets Tyro"
+    },
+    "rarity": 2,
+    "type": "pistols",
+    "baseAtk": 22,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 3.3
+    },
+    "passive": {
+      "name": "Prologue",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[5], [6.25], [7.5], [8.75], [10]]
+    },
+    "icon": "/assets/game/weapons/tyro-pistols.webp",
+    "source": {
+      "page": "Tyro Pistols",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tyro_Pistols"
+    }
+  },
+  {
+    "id": "tyro-rectifier",
+    "name": {
+      "en": "Tyro Rectifier",
+      "fr": "Amplificateur Tyro"
+    },
+    "rarity": 2,
+    "type": "rectifier",
+    "baseAtk": 22,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 3.3
+    },
+    "passive": {
+      "name": "Prologue",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[5], [6.25], [7.5], [8.75], [10]]
+    },
+    "icon": "/assets/game/weapons/tyro-rectifier.webp",
+    "source": {
+      "page": "Tyro Rectifier",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tyro_Rectifier"
+    }
+  },
+  {
+    "id": "tyro-sword",
+    "name": {
+      "en": "Tyro Sword",
+      "fr": "Sabre Tyro"
+    },
+    "rarity": 2,
+    "type": "sword",
+    "baseAtk": 22,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 3.3
+    },
+    "passive": {
+      "name": "Prologue",
+      "text": "Increases ATK by (var1)%.",
+      "values": [[5], [6.25], [7.5], [8.75], [10]]
+    },
+    "icon": "/assets/game/weapons/tyro-sword.webp",
+    "source": {
+      "page": "Tyro Sword",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tyro_Sword"
+    }
+  },
+  {
+    "id": "undying-flame",
+    "name": {
+      "en": "Undying Flame",
+      "fr": "Flamme divine"
+    },
+    "rarity": 4,
+    "type": "pistols",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 6.75
+    },
+    "passive": {
+      "name": "Loyalty",
+      "text": "When Intro Skill is cast, increases Resonance Skill DMG Bonus by (var1)% for 15s.",
+      "values": [[20], [25], [30], [35], [40]]
+    },
+    "icon": "/assets/game/weapons/undying-flame.webp",
+    "source": {
+      "page": "Undying Flame",
+      "url": "https://wutheringwaves.fandom.com/wiki/Undying_Flame"
+    }
+  },
+  {
+    "id": "unflickering-valor",
+    "name": {
+      "en": "Unflickering Valor",
+      "fr": "Courage impérissable"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 33,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 17.1
+    },
+    "passive": {
+      "name": "Laughter Prevails",
+      "text": "Increase Crit. Rate by (var1)%. Casting Resonance Liberation gives (var2)% Basic Attack DMG Bonus for 10s. Dealing Basic Attack DMG gives (var3)% Basic Attack DMG Bonus for 4s.",
+      "values": [
+        [8, 24, 24],
+        [10, 30, 30],
+        [12, 36, 36],
+        [14, 42, 42],
+        [16, 48, 48]
+      ]
+    },
+    "icon": "/assets/game/weapons/unflickering-valor.webp",
+    "source": {
+      "page": "Unflickering Valor",
+      "url": "https://wutheringwaves.fandom.com/wiki/Unflickering_Valor"
+    }
+  },
+  {
+    "id": "unspoken-rue",
+    "name": {
+      "en": "Unspoken Rue",
+      "fr": "Unspoken Rue"
+    },
+    "rarity": 5,
+    "type": "sword",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": null,
+      "text": "ATK is increased by (var1)%. Upon gaining Unison, the wielder gains (var2)% Electro DMG Bonus for 30s. Upon gaining Unison, the wielder removes Yearning Mind and grants all Resonators in the team the Binding Mind effect: gain (var3)% Electro DMG Bonus for 30s. Effects of the same name cannot stack. When the wielder consumes Concerto Energy, they remove Binding Mind from all Resonators in the team and gain the Yearning Mind effect: the wielder additionally gains (var4)% Electro DMG Bonus for 14s. Switching to another Resonator ends this effect early.",
+      "values": [
+        [12, 30, 24, 40],
+        [15, 37.5, 30, 50],
+        [18, 45, 36, 60],
+        [21, 52.5, 42, 70],
+        [24, 60, 48, 80]
+      ]
+    },
+    "icon": "/assets/game/weapons/unspoken-rue.webp",
+    "source": {
+      "page": "Unspoken Rue",
+      "url": "https://wutheringwaves.fandom.com/wiki/Unspoken_Rue"
+    }
+  },
+  {
+    "id": "variation",
+    "name": {
+      "en": "Variation",
+      "fr": "Variation fantastique"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 27,
+    "secondary": {
+      "stat": "energyRegen",
+      "base": 11.52
+    },
+    "passive": {
+      "name": "Ceaseless Aria",
+      "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 times every 20s.",
+      "values": [[8], [10], [12], [14], [16]]
+    },
+    "icon": "/assets/game/weapons/variation.webp",
+    "source": {
+      "page": "Variation",
+      "url": "https://wutheringwaves.fandom.com/wiki/Variation"
+    }
+  },
+  {
+    "id": "verdant-summit",
+    "name": {
+      "en": "Verdant Summit",
+      "fr": "Sommet verdoyant"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "Swordsworn",
+      "text": "Increases Attribute DMG Bonus by (var1)%. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by (var2)%, stacking up to 2 time(s). This effect lasts for 14s.",
+      "values": [
+        [12, 24],
+        [15, 30],
+        [18, 36],
+        [21, 42],
+        [24, 48]
+      ]
+    },
+    "icon": "/assets/game/weapons/verdant-summit.webp",
+    "source": {
+      "page": "Verdant Summit",
+      "url": "https://wutheringwaves.fandom.com/wiki/Verdant_Summit"
+    }
+  },
+  {
+    "id": "veritys-handle",
+    "name": {
+      "en": "Verity's Handle",
+      "fr": "Poignée de la Vérité"
+    },
+    "rarity": 5,
+    "type": "gauntlets",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critRate",
+      "base": 5.4
+    },
+    "passive": {
+      "name": "Ad Veritatem",
+      "text": "Gain (var1)% Attribute DMG Bonus. When using Resonance Liberation, the wielder gains (var2)% Resonance Liberation DMG Bonus for 8s. This effect can be extended by 5s each time Resonance Skills are cast, up to 3 times.",
+      "values": [
+        [12, 48],
+        [15, 60],
+        [18, 72],
+        [21, 84],
+        [24, 96]
+      ]
+    },
+    "icon": "/assets/game/weapons/veritys-handle.webp",
+    "source": {
+      "page": "Verity's Handle",
+      "url": "https://wutheringwaves.fandom.com/wiki/Verity's_Handle"
+    }
+  },
+  {
+    "id": "waltz-in-masquerade",
+    "name": {
+      "en": "Waltz in Masquerade",
+      "fr": "Valse en Masque"
+    },
+    "rarity": 4,
+    "type": "rectifier",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Rhetoric",
+      "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+      "values": [[4], [5], [6], [7], [8]]
+    },
+    "icon": "/assets/game/weapons/waltz-in-masquerade.webp",
+    "source": {
+      "page": "Waltz in Masquerade",
+      "url": "https://wutheringwaves.fandom.com/wiki/Waltz_in_Masquerade"
+    }
+  },
+  {
+    "id": "waning-redshift",
+    "name": {
+      "en": "Waning Redshift",
+      "fr": "Spectre en déclin"
+    },
+    "rarity": 4,
+    "type": "broadblade",
+    "baseAtk": 37,
+    "secondary": {
+      "stat": "atkPct",
+      "base": 4.05
+    },
+    "passive": {
+      "name": "Intergalactic Gaze",
+      "text": "Casting the Resonance Skill grants (var1) Resonance Energy and increases ATK by (var2)%, lasting for 16s. This effect can be triggered once every 20s.",
+      "values": [
+        [6, 10],
+        [7, 12.5],
+        [8, 15],
+        [9, 17.5],
+        [10, 20]
+      ]
+    },
+    "icon": "/assets/game/weapons/waning-redshift.webp",
+    "source": {
+      "page": "Waning Redshift",
+      "url": "https://wutheringwaves.fandom.com/wiki/Waning_Redshift"
+    }
+  },
+  {
+    "id": "whispers-of-sirens",
+    "name": {
+      "en": "Whispers of Sirens",
+      "fr": "Murmures des sirènes"
+    },
+    "rarity": 5,
+    "type": "rectifier",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 16
+    },
+    "passive": {
+      "name": "From the Deep",
+      "text": "Increases ATK by (var1)%. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early. With 1 stack: Grants (var2)% Basic Attack DMG Bonus. With 2 stack: Ignores (var1)% of the target's Havoc RES.",
+      "values": [
+        [12, 40],
+        [15, 50],
+        [18, 60],
+        [21, 70],
+        [24, 80]
+      ]
+    },
+    "icon": "/assets/game/weapons/whispers-of-sirens.webp",
+    "source": {
+      "page": "Whispers of Sirens",
+      "url": "https://wutheringwaves.fandom.com/wiki/Whispers_of_Sirens"
+    }
+  },
+  {
+    "id": "wildfire-mark",
+    "name": {
+      "en": "Wildfire Mark",
+      "fr": "Marque du Feu indompté"
+    },
+    "rarity": 5,
+    "type": "broadblade",
+    "baseAtk": 47,
+    "secondary": {
+      "stat": "critDmg",
+      "base": 10.8
+    },
+    "passive": {
+      "name": "Blazing Starfire",
+      "text": "Increases ATK by (var1)%. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by (var2)% for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives (var3)% Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 24, 24],
+        [15, 30, 30],
+        [18, 36, 36],
+        [21, 42, 42],
+        [24, 48, 48]
+      ]
+    },
+    "icon": "/assets/game/weapons/wildfire-mark.webp",
+    "source": {
+      "page": "Wildfire Mark",
+      "url": "https://wutheringwaves.fandom.com/wiki/Wildfire_Mark"
+    }
+  },
+  {
+    "id": "woodland-aria",
+    "name": {
+      "en": "Woodland Aria",
+      "fr": "Aria de la clairière"
+    },
+    "rarity": 5,
+    "type": "pistols",
+    "baseAtk": 40,
+    "secondary": {
+      "stat": "critRate",
+      "base": 8
+    },
+    "passive": {
+      "name": "Lingering Summer Tune",
+      "text": "ATK is increased by (var1)%. Inflicting Aero Erosion on the target gives (var2)% Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by (var3)% for 20s. Effects of the same name cannot be stacked.",
+      "values": [
+        [12, 24, 10],
+        [15, 30, 11.5],
+        [18, 36, 13],
+        [21, 42, 14.5],
+        [24, 48, 16]
+      ]
+    },
+    "icon": "/assets/game/weapons/woodland-aria.webp",
+    "source": {
+      "page": "Woodland Aria",
+      "url": "https://wutheringwaves.fandom.com/wiki/Woodland_Aria"
+    }
+  }
+]

@@ -20,7 +20,8 @@
     "test:coverage": "vitest run --coverage",
     "test:e2e": "playwright test",
     "validate:data": "vitest run --project data",
-    "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test:coverage && pnpm build"
+    "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test:coverage && pnpm build",
+    "data:import": "node --no-warnings scripts/import-game-data.ts"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -36,6 +37,7 @@
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^14.6.8",
+    "@types/luaparse": "^0.2.13",
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
@@ -49,6 +51,7 @@
     "globals": "^17.13.0",
     "jsdom": "^30.1.3",
     "lefthook": "^2.2.2",
+    "luaparse": "^0.3.1",
     "prettier": "^3.9.10",
     "typescript": "~6.0.3",
     "typescript-eslint": "^8.72.0",

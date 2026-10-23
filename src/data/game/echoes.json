@@ -1,0 +1,3009 @@
+[
+  {
+    "id": "abyssal-gladius",
+    "name": {
+      "en": "Abyssal Gladius",
+      "fr": "Glaive abyssal"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["midnight-veil", "tidebreaking-courage", "thread-of-severed-fate"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/abyssal-gladius.webp",
+    "source": {
+      "page": "Abyssal Gladius/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Abyssal_Gladius%2FEcho"
+    }
+  },
+  {
+    "id": "abyssal-mercator",
+    "name": {
+      "en": "Abyssal Mercator",
+      "fr": "Mercator abyssal"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["frosty-resolve", "eternal-radiance"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/abyssal-mercator.webp",
+    "source": {
+      "page": "Abyssal Mercator/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Abyssal_Mercator%2FEcho"
+    }
+  },
+  {
+    "id": "abyssal-patricius",
+    "name": {
+      "en": "Abyssal Patricius",
+      "fr": "Patricius abyssal"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["frosty-resolve", "empyrean-anthem"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/abyssal-patricius.webp",
+    "source": {
+      "page": "Abyssal Patricius/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Abyssal_Patricius%2FEcho"
+    }
+  },
+  {
+    "id": "aero-drake",
+    "name": {
+      "en": "Aero Drake",
+      "fr": "Petit dragon Aero"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["tidebreaking-courage", "gusts-of-welkin", "flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/aero-drake.webp",
+    "source": {
+      "page": "Aero Drake/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Aero_Drake%2FEcho"
+    }
+  },
+  {
+    "id": "aero-predator",
+    "name": {
+      "en": "Aero Predator",
+      "fr": "Prédateur Aero"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["void-thunder", "sierra-gale"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/aero-predator.webp",
+    "source": {
+      "page": "Aero Predator/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Aero_Predator%2FEcho"
+    }
+  },
+  {
+    "id": "aero-prism",
+    "name": {
+      "en": "Aero Prism",
+      "fr": "Prisme Aero"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["eternal-radiance", "tidebreaking-courage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/aero-prism.webp",
+    "source": {
+      "page": "Aero Prism/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Aero_Prism%2FEcho"
+    }
+  },
+  {
+    "id": "aureate-picket",
+    "name": {
+      "en": "Aureate Picket",
+      "fr": "Piquet d'or"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["heart-of-evils-purge", "flash-of-electric-reflection"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/aureate-picket.webp",
+    "source": {
+      "page": "Aureate Picket/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Aureate_Picket%2FEcho"
+    }
+  },
+  {
+    "id": "autopuppet-scout",
+    "name": {
+      "en": "Autopuppet Scout",
+      "fr": "Imiteur : Véhicule de combat"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["freezing-frost", "celestial-light"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/autopuppet-scout.webp",
+    "source": {
+      "page": "Autopuppet Scout/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Autopuppet_Scout%2FEcho"
+    }
+  },
+  {
+    "id": "baby-roseshroom",
+    "name": {
+      "en": "Baby Roseshroom",
+      "fr": "Champirose (Petit)"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["sierra-gale", "havoc-eclipse"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/baby-roseshroom.webp",
+    "source": {
+      "page": "Baby Roseshroom/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Baby_Roseshroom%2FEcho"
+    }
+  },
+  {
+    "id": "baby-viridblaze-saurian",
+    "name": {
+      "en": "Baby Viridblaze Saurian",
+      "fr": "Lézard Fusion vert (petit)"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["molten-rift", "void-thunder", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/baby-viridblaze-saurian.webp",
+    "source": {
+      "page": "Baby Viridblaze Saurian/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Baby_Viridblaze_Saurian%2FEcho"
+    }
+  },
+  {
+    "id": "bell-borne-geochelone",
+    "name": {
+      "en": "Bell-Borne Geochelone",
+      "fr": "Tortue clochante"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["rejuvenating-glow", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/bell-borne-geochelone.webp",
+    "source": {
+      "page": "Bell-Borne Geochelone/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Bell-Borne_Geochelone%2FEcho"
+    }
+  },
+  {
+    "id": "bloomburst-puppet",
+    "name": {
+      "en": "Bloomburst Puppet",
+      "fr": "Automate à floraison explosive"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["heart-of-sworn-vigil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/bloomburst-puppet.webp",
+    "source": {
+      "page": "Bloomburst Puppet/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Bloomburst_Puppet%2FEcho"
+    }
+  },
+  {
+    "id": "calamity-effigy",
+    "name": {
+      "en": "Calamity Effigy",
+      "fr": "Calamity Effigy"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["heart-of-evils-purge", "lamp-of-nether-road"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/calamity-effigy.webp",
+    "source": {
+      "page": "Calamity Effigy/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Calamity_Effigy%2FEcho"
+    }
+  },
+  {
+    "id": "calcified-junrock",
+    "name": {
+      "en": "Calcified Junrock",
+      "fr": "Jeunpierre vernie"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["tidebreaking-courage", "empyrean-anthem", "crown-of-valor"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/calcified-junrock.webp",
+    "source": {
+      "page": "Calcified Junrock/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Calcified_Junrock%2FEcho"
+    }
+  },
+  {
+    "id": "capitaneus",
+    "name": {
+      "en": "Capitaneus",
+      "fr": "Capitaneus"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["eternal-radiance", "gusts-of-welkin", "windward-pilgrimage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/capitaneus.webp",
+    "source": {
+      "page": "Capitaneus/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Capitaneus%2FEcho"
+    }
+  },
+  {
+    "id": "carapace",
+    "name": {
+      "en": "Carapace",
+      "fr": "Rasoir chasseur"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["sierra-gale", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/carapace.webp",
+    "source": {
+      "page": "Carapace/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Carapace%2FEcho"
+    }
+  },
+  {
+    "id": "chasm-guardian",
+    "name": {
+      "en": "Chasm Guardian",
+      "fr": "Gardien de l'abîme"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["rejuvenating-glow", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/chasm-guardian.webp",
+    "source": {
+      "page": "Chasm Guardian/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chasm_Guardian%2FEcho"
+    }
+  },
+  {
+    "id": "chest-mimic",
+    "name": {
+      "en": "Chest Mimic",
+      "fr": "Coffre trompeur"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["frosty-resolve", "midnight-veil", "empyrean-anthem"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/chest-mimic.webp",
+    "source": {
+      "page": "Chest Mimic/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chest_Mimic%2FEcho"
+    }
+  },
+  {
+    "id": "chirpuff",
+    "name": {
+      "en": "Chirpuff",
+      "fr": "Chulboule"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["sierra-gale", "havoc-eclipse"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/chirpuff.webp",
+    "source": {
+      "page": "Chirpuff/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chirpuff%2FEcho"
+    }
+  },
+  {
+    "id": "chop-chop",
+    "name": {
+      "en": "Chop Chop",
+      "fr": "Hache hache"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["empyrean-anthem", "tidebreaking-courage", "dream-of-the-lost"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/chop-chop.webp",
+    "source": {
+      "page": "Chop Chop/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chop_Chop%2FEcho"
+    }
+  },
+  {
+    "id": "chop-chop-headless",
+    "name": {
+      "en": "Chop Chop: Headless",
+      "fr": "Hache hache : Tête"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["eternal-radiance", "tidebreaking-courage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/chop-chop-headless.webp",
+    "source": {
+      "page": "Chop Chop Headless/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chop_Chop_Headless%2FEcho"
+    }
+  },
+  {
+    "id": "chop-chop-leftless",
+    "name": {
+      "en": "Chop Chop: Leftless",
+      "fr": "Hache hache : Gauche"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["frosty-resolve", "tidebreaking-courage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/chop-chop-leftless.webp",
+    "source": {
+      "page": "Chop Chop Leftless/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chop_Chop_Leftless%2FEcho"
+    }
+  },
+  {
+    "id": "chop-chop-rightless",
+    "name": {
+      "en": "Chop Chop: Rightless",
+      "fr": "Hache hache : Droite"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["frosty-resolve", "tidebreaking-courage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/chop-chop-rightless.webp",
+    "source": {
+      "page": "Chop Chop Rightless/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chop_Chop_Rightless%2FEcho"
+    }
+  },
+  {
+    "id": "clang-bang",
+    "name": {
+      "en": "Clang Bang",
+      "fr": "Ding-dong"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["celestial-light", "freezing-frost"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/clang-bang.webp",
+    "source": {
+      "page": "Clang Bang/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Clang_Bang%2FEcho"
+    }
+  },
+  {
+    "id": "corrosaurus",
+    "name": {
+      "en": "Corrosaurus",
+      "fr": "Corrosaurus"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["flaming-clawprint", "flamewings-shadow"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/corrosaurus.webp",
+    "source": {
+      "page": "Corrosaurus/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Corrosaurus%2FEcho"
+    }
+  },
+  {
+    "id": "crownless",
+    "name": {
+      "en": "Crownless",
+      "fr": "Le Sans-couronne"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["havoc-eclipse"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/crownless.webp",
+    "source": {
+      "page": "Crownless/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Crownless%2FEcho"
+    }
+  },
+  {
+    "id": "cruisewing",
+    "name": {
+      "en": "Cruisewing",
+      "fr": "Fiçaile"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["celestial-light", "rejuvenating-glow", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/cruisewing.webp",
+    "source": {
+      "page": "Cruisewing/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Cruisewing%2FEcho"
+    }
+  },
+  {
+    "id": "cuddle-wuddle",
+    "name": {
+      "en": "Cuddle Wuddle",
+      "fr": "Nounours géant"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["frosty-resolve", "midnight-veil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/cuddle-wuddle.webp",
+    "source": {
+      "page": "Cuddle Wuddle/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Cuddle_Wuddle%2FEcho"
+    }
+  },
+  {
+    "id": "cyan-feathered-heron",
+    "name": {
+      "en": "Cyan-Feathered Heron",
+      "fr": "Héron cyan"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["sierra-gale", "celestial-light"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/cyan-feathered-heron.webp",
+    "source": {
+      "page": "Cyan-Feathered Heron/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Cyan-Feathered_Heron%2FEcho"
+    }
+  },
+  {
+    "id": "devotees-flesh",
+    "name": {
+      "en": "Devotee's Flesh",
+      "fr": "Chair du dévot"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["gusts-of-welkin", "windward-pilgrimage", "flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/devotees-flesh.webp",
+    "source": {
+      "page": "Devotee's Flesh/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Devotee's_Flesh%2FEcho"
+    }
+  },
+  {
+    "id": "diamondclaw",
+    "name": {
+      "en": "Diamondclaw",
+      "fr": "Scorpion cristallin"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["moonlit-clouds", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/diamondclaw.webp",
+    "source": {
+      "page": "Diamondclaw/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Diamondclaw%2FEcho"
+    }
+  },
+  {
+    "id": "diggy-duggy",
+    "name": {
+      "en": "Diggy Duggy",
+      "fr": "Doudou Creuse-Tout"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["eternal-radiance", "tidebreaking-courage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/diggy-duggy.webp",
+    "source": {
+      "page": "Diggy Duggy/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Diggy_Duggy%2FEcho"
+    }
+  },
+  {
+    "id": "diurnus-knight",
+    "name": {
+      "en": "Diurnus Knight",
+      "fr": "Chevalier diurne"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["eternal-radiance", "tidebreaking-courage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/diurnus-knight.webp",
+    "source": {
+      "page": "Diurnus Knight/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Diurnus_Knight%2FEcho"
+    }
+  },
+  {
+    "id": "dragon-of-dirge",
+    "name": {
+      "en": "Dragon of Dirge",
+      "fr": "Dragon de chagrin"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["tidebreaking-courage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/dragon-of-dirge.webp",
+    "source": {
+      "page": "Dragon of Dirge/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Dragon_of_Dirge%2FEcho"
+    }
+  },
+  {
+    "id": "dreamless",
+    "name": {
+      "en": "Dreamless",
+      "fr": "Le Sans-délire"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["havoc-eclipse"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/dreamless.webp",
+    "source": {
+      "page": "Dreamless/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Dreamless%2FEcho"
+    }
+  },
+  {
+    "id": "dwarf-cassowary",
+    "name": {
+      "en": "Dwarf Cassowary",
+      "fr": "Casoar nain"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["sierra-gale", "rejuvenating-glow"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/dwarf-cassowary.webp",
+    "source": {
+      "page": "Dwarf Cassowary/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Dwarf_Cassowary%2FEcho"
+    }
+  },
+  {
+    "id": "electro-drake",
+    "name": {
+      "en": "Electro Drake",
+      "fr": "Petit dragon Electro"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["midnight-veil", "gusts-of-welkin", "flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/electro-drake.webp",
+    "source": {
+      "page": "Electro Drake/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Electro_Drake%2FEcho"
+    }
+  },
+  {
+    "id": "electro-predator",
+    "name": {
+      "en": "Electro Predator",
+      "fr": "Prédateur Electro"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["molten-rift", "void-thunder"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/electro-predator.webp",
+    "source": {
+      "page": "Electro Predator/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Electro_Predator%2FEcho"
+    }
+  },
+  {
+    "id": "excarat",
+    "name": {
+      "en": "Excarat",
+      "fr": "Creutaupe"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["freezing-frost", "havoc-eclipse"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/excarat.webp",
+    "source": {
+      "page": "Excarat/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Excarat%2FEcho"
+    }
+  },
+  {
+    "id": "fae-ignis",
+    "name": {
+      "en": "Fae Ignis",
+      "fr": "Fae igné"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["eternal-radiance", "midnight-veil", "dream-of-the-lost"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fae-ignis.webp",
+    "source": {
+      "page": "Fae Ignis/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fae_Ignis%2FEcho"
+    }
+  },
+  {
+    "id": "fallacy-of-no-return",
+    "name": {
+      "en": "Fallacy of No Return",
+      "fr": "Erreur intarissable"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["rejuvenating-glow"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fallacy-of-no-return.webp",
+    "source": {
+      "page": "Fallacy of No Return/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fallacy_of_No_Return%2FEcho"
+    }
+  },
+  {
+    "id": "feilian-beringal",
+    "name": {
+      "en": "Feilian Beringal",
+      "fr": "Feilian Beringal"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["sierra-gale"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/feilian-beringal.webp",
+    "source": {
+      "page": "Feilian Beringal/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Feilian_Beringal%2FEcho"
+    }
+  },
+  {
+    "id": "fission-junrock",
+    "name": {
+      "en": "Fission Junrock",
+      "fr": "Jeunpierre fissuré"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["void-thunder", "rejuvenating-glow", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fission-junrock.webp",
+    "source": {
+      "page": "Fission Junrock/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fission_Junrock%2FEcho"
+    }
+  },
+  {
+    "id": "flautist",
+    "name": {
+      "en": "Flautist",
+      "fr": "Flûtiste"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["void-thunder", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/flautist.webp",
+    "source": {
+      "page": "Flautist/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Flautist%2FEcho"
+    }
+  },
+  {
+    "id": "flora-drone",
+    "name": {
+      "en": "Flora Drone",
+      "fr": "Drone floral"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": [
+      "pact-of-neonlight-leap",
+      "rite-of-gilded-revelation",
+      "sound-of-true-name",
+      "reel-of-spliced-memories"
+    ],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/flora-drone.webp",
+    "source": {
+      "page": "Flora Drone/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Flora_Drone%2FEcho"
+    }
+  },
+  {
+    "id": "flora-reindeer",
+    "name": {
+      "en": "Flora Reindeer",
+      "fr": "Renne floral"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["rite-of-gilded-revelation", "reel-of-spliced-memories"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/flora-reindeer.webp",
+    "source": {
+      "page": "Flora Reindeer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Flora_Reindeer%2FEcho"
+    }
+  },
+  {
+    "id": "fog-lionarch",
+    "name": {
+      "en": "Fog Lionarch",
+      "fr": "Lionarque des Brumes"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["song-of-feathered-trace", "heart-of-evils-purge", "lamp-of-nether-road"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fog-lionarch.webp",
+    "source": {
+      "page": "Fog Lionarch/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fog_Lionarch%2FEcho"
+    }
+  },
+  {
+    "id": "fog-lionarch-body",
+    "name": {
+      "en": "Fog Lionarch: Body",
+      "fr": "Lionarque des Brumes : Corps"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["song-of-feathered-trace", "heart-of-sworn-vigil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fog-lionarch-body.webp",
+    "source": {
+      "page": "Fog Lionarch: Body/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fog_Lionarch%3A_Body%2FEcho"
+    }
+  },
+  {
+    "id": "fog-lionarch-head",
+    "name": {
+      "en": "Fog Lionarch: Head",
+      "fr": "Lionarque des Brumes : Tête"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["song-of-feathered-trace", "heart-of-sworn-vigil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fog-lionarch-head.webp",
+    "source": {
+      "page": "Fog Lionarch: Head/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fog_Lionarch%3A_Head%2FEcho"
+    }
+  },
+  {
+    "id": "forbidden-bastion",
+    "name": {
+      "en": "Forbidden Bastion",
+      "fr": "Bastion interdit"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["song-of-feathered-trace", "heart-of-evils-purge", "lamp-of-nether-road"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/forbidden-bastion.webp",
+    "source": {
+      "page": "Forbidden Bastion/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Forbidden_Bastion%2FEcho"
+    }
+  },
+  {
+    "id": "formrender",
+    "name": {
+      "en": "Formrender",
+      "fr": "Déchireforme"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["heart-of-sworn-vigil", "flower-of-tinged-yearning"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/formrender.webp",
+    "source": {
+      "page": "Formrender/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Formrender%2FEcho"
+    }
+  },
+  {
+    "id": "frostbite-coleoid",
+    "name": {
+      "en": "Frostbite Coleoid",
+      "fr": "Coléoïde du givre"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["halo-of-starry-radiance", "wishes-of-quiet-snowfall"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/frostbite-coleoid.webp",
+    "source": {
+      "page": "Frostbite Coleoid/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Frostbite_Coleoid%2FEcho"
+    }
+  },
+  {
+    "id": "frostscourge-stalker",
+    "name": {
+      "en": "Frostscourge Stalker",
+      "fr": "Loup de Givre"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["eternal-radiance", "midnight-veil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/frostscourge-stalker.webp",
+    "source": {
+      "page": "Frostscourge Stalker/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Frostscourge_Stalker%2FEcho"
+    }
+  },
+  {
+    "id": "fusion-drake",
+    "name": {
+      "en": "Fusion Drake",
+      "fr": "Petit dragon Fusion"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["windward-pilgrimage", "flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fusion-drake.webp",
+    "source": {
+      "page": "Fusion Drake/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fusion_Drake%2FEcho"
+    }
+  },
+  {
+    "id": "fusion-dreadmane",
+    "name": {
+      "en": "Fusion Dreadmane",
+      "fr": "Loup fusionier"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["molten-rift", "rejuvenating-glow"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fusion-dreadmane.webp",
+    "source": {
+      "page": "Fusion Dreadmane/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fusion_Dreadmane%2FEcho"
+    }
+  },
+  {
+    "id": "fusion-prism",
+    "name": {
+      "en": "Fusion Prism",
+      "fr": "Prisme Fusion"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["freezing-frost", "molten-rift", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fusion-prism.webp",
+    "source": {
+      "page": "Fusion Prism/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fusion_Prism%2FEcho"
+    }
+  },
+  {
+    "id": "fusion-warrior",
+    "name": {
+      "en": "Fusion Warrior",
+      "fr": "Combattant Fusion"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["molten-rift", "void-thunder", "sierra-gale"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/fusion-warrior.webp",
+    "source": {
+      "page": "Fusion Warrior/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Fusion_Warrior%2FEcho"
+    }
+  },
+  {
+    "id": "galescourge-stalker",
+    "name": {
+      "en": "Galescourge Stalker",
+      "fr": "Loup d'Ouragan"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["frosty-resolve", "empyrean-anthem"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/galescourge-stalker.webp",
+    "source": {
+      "page": "Galescourge Stalker/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Galescourge_Stalker%2FEcho"
+    }
+  },
+  {
+    "id": "geospider-s4",
+    "name": {
+      "en": "Geospider S4",
+      "fr": "Araignée de la Terre S4"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["pact-of-neonlight-leap", "halo-of-starry-radiance", "trailblazing-star"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/geospider-s4.webp",
+    "source": {
+      "page": "Geospider S4/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Geospider_S4%2FEcho"
+    }
+  },
+  {
+    "id": "glacio-drake",
+    "name": {
+      "en": "Glacio Drake",
+      "fr": "Petit dragon Glacio"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["gusts-of-welkin", "windward-pilgrimage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/glacio-drake.webp",
+    "source": {
+      "page": "Glacio Drake/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Glacio_Drake%2FEcho"
+    }
+  },
+  {
+    "id": "glacio-dreadmane",
+    "name": {
+      "en": "Glacio Dreadmane",
+      "fr": "Loup glacier"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["freezing-frost", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/glacio-dreadmane.webp",
+    "source": {
+      "page": "Glacio Dreadmane/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Glacio_Dreadmane%2FEcho"
+    }
+  },
+  {
+    "id": "glacio-predator",
+    "name": {
+      "en": "Glacio Predator",
+      "fr": "Prédateur Glacio"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["freezing-frost", "celestial-light"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/glacio-predator.webp",
+    "source": {
+      "page": "Glacio Predator/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Glacio_Predator%2FEcho"
+    }
+  },
+  {
+    "id": "glacio-prism",
+    "name": {
+      "en": "Glacio Prism",
+      "fr": "Prisme Glacio"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["freezing-frost", "havoc-eclipse", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/glacio-prism.webp",
+    "source": {
+      "page": "Glacio Prism/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Glacio_Prism%2FEcho"
+    }
+  },
+  {
+    "id": "glommoth",
+    "name": {
+      "en": "Glommoth",
+      "fr": "Glommoth"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["trailblazing-star", "wishes-of-quiet-snowfall"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/glommoth.webp",
+    "source": {
+      "page": "Glommoth/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Glommoth%2FEcho"
+    }
+  },
+  {
+    "id": "golden-junrock",
+    "name": {
+      "en": "Golden Junrock",
+      "fr": "Jeunpierre d'or"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["eternal-radiance", "frosty-resolve", "law-of-harmony"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/golden-junrock.webp",
+    "source": {
+      "page": "Golden Junrock/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Golden_Junrock%2FEcho"
+    }
+  },
+  {
+    "id": "gulpuff",
+    "name": {
+      "en": "Gulpuff",
+      "fr": "Gulboule"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["freezing-frost", "celestial-light"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/gulpuff.webp",
+    "source": {
+      "page": "Gulpuff/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Gulpuff%2FEcho"
+    }
+  },
+  {
+    "id": "havoc-drake",
+    "name": {
+      "en": "Havoc Drake",
+      "fr": "Petit dragon Havoc"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["windward-pilgrimage", "flaming-clawprint", "thread-of-severed-fate"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/havoc-drake.webp",
+    "source": {
+      "page": "Havoc Drake/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Havoc_Drake%2FEcho"
+    }
+  },
+  {
+    "id": "havoc-dreadmane",
+    "name": {
+      "en": "Havoc Dreadmane",
+      "fr": "Loup havocrinière"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["molten-rift", "havoc-eclipse"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/havoc-dreadmane.webp",
+    "source": {
+      "page": "Havoc Dreadmane/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Havoc_Dreadmane%2FEcho"
+    }
+  },
+  {
+    "id": "havoc-prism",
+    "name": {
+      "en": "Havoc Prism",
+      "fr": "Prisme Havoc"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["void-thunder", "celestial-light", "havoc-eclipse"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/havoc-prism.webp",
+    "source": {
+      "page": "Havoc Prism/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Havoc_Prism%2FEcho"
+    }
+  },
+  {
+    "id": "havoc-warrior",
+    "name": {
+      "en": "Havoc Warrior",
+      "fr": "Combattant Havoc"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["celestial-light", "havoc-eclipse"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/havoc-warrior.webp",
+    "source": {
+      "page": "Havoc Warrior/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Havoc_Warrior%2FEcho"
+    }
+  },
+  {
+    "id": "hecate",
+    "name": {
+      "en": "Hecate",
+      "fr": "Hecate"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["empyrean-anthem"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/hecate.webp",
+    "source": {
+      "page": "Hecate/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hecate%2FEcho"
+    }
+  },
+  {
+    "id": "hoartoise",
+    "name": {
+      "en": "Hoartoise",
+      "fr": "Torturoid"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["freezing-frost", "celestial-light"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/hoartoise.webp",
+    "source": {
+      "page": "Hoartoise/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hoartoise%2FEcho"
+    }
+  },
+  {
+    "id": "hocus-pocus",
+    "name": {
+      "en": "Hocus Pocus",
+      "fr": "Hocus Pocus"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["frosty-resolve", "empyrean-anthem"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/hocus-pocus.webp",
+    "source": {
+      "page": "Hocus Pocus/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hocus_Pocus%2FEcho"
+    }
+  },
+  {
+    "id": "hoochief",
+    "name": {
+      "en": "Hoochief",
+      "fr": "Houlice éolien"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["sierra-gale", "rejuvenating-glow"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/hoochief.webp",
+    "source": {
+      "page": "Hoochief/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hoochief%2FEcho"
+    }
+  },
+  {
+    "id": "hooscamp",
+    "name": {
+      "en": "Hooscamp",
+      "fr": "Houlice lanceur"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["sierra-gale", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/hooscamp.webp",
+    "source": {
+      "page": "Hooscamp/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hooscamp%2FEcho"
+    }
+  },
+  {
+    "id": "hurriclaw",
+    "name": {
+      "en": "Hurriclaw",
+      "fr": "Tempours"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["tidebreaking-courage", "gusts-of-welkin", "crown-of-valor"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/hurriclaw.webp",
+    "source": {
+      "page": "Hurriclaw/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hurriclaw%2FEcho"
+    }
+  },
+  {
+    "id": "hyvatia",
+    "name": {
+      "en": "Hyvatia",
+      "fr": "Hyvatia"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["pact-of-neonlight-leap", "rite-of-gilded-revelation"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/hyvatia.webp",
+    "source": {
+      "page": "Hyvatia/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hyvatia%2FEcho"
+    }
+  },
+  {
+    "id": "iceglint-dancer",
+    "name": {
+      "en": "Iceglint Dancer",
+      "fr": "Danseuse des glaces"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["trailblazing-star", "wishes-of-quiet-snowfall", "reel-of-spliced-memories"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/iceglint-dancer.webp",
+    "source": {
+      "page": "Iceglint Dancer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Iceglint_Dancer%2FEcho"
+    }
+  },
+  {
+    "id": "impermanence-heron",
+    "name": {
+      "en": "Impermanence Heron",
+      "fr": "Héron impermanent"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["moonlit-clouds", "midnight-veil"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/impermanence-heron.webp",
+    "source": {
+      "page": "Impermanence Heron/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Impermanence_Heron%2FEcho"
+    }
+  },
+  {
+    "id": "inferno-rider",
+    "name": {
+      "en": "Inferno Rider",
+      "fr": "Chevalier d'Inferno"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["molten-rift"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/inferno-rider.webp",
+    "source": {
+      "page": "Inferno Rider/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Inferno_Rider%2FEcho"
+    }
+  },
+  {
+    "id": "ironhoof",
+    "name": {
+      "en": "Ironhoof",
+      "fr": "Sabot-de-fer"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["pact-of-neonlight-leap", "wishes-of-quiet-snowfall", "reel-of-spliced-memories"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/ironhoof.webp",
+    "source": {
+      "page": "Ironhoof/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Ironhoof%2FEcho"
+    }
+  },
+  {
+    "id": "jade-nether-serpent",
+    "name": {
+      "en": "Jade Nether Serpent",
+      "fr": "Serpent Infernal de Jade"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["heart-of-sworn-vigil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/jade-nether-serpent.webp",
+    "source": {
+      "page": "Jade Nether Serpent/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Jade_Nether_Serpent%2FEcho"
+    }
+  },
+  {
+    "id": "jue",
+    "name": {
+      "en": "Jué",
+      "fr": "Jiao"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["celestial-light"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/jue.webp",
+    "source": {
+      "page": "Jué/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Ju%C3%A9%2FEcho"
+    }
+  },
+  {
+    "id": "kerasaur",
+    "name": {
+      "en": "Kerasaur",
+      "fr": "Kérasaure"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["windward-pilgrimage", "flaming-clawprint", "flamewings-shadow"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/kerasaur.webp",
+    "source": {
+      "page": "Kerasaur/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kerasaur%2FEcho"
+    }
+  },
+  {
+    "id": "kernel-puppet-anger",
+    "name": {
+      "en": "Kernel Puppet: Anger",
+      "fr": "Automate à noyau - Colère"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["heart-of-evils-purge", "flower-of-tinged-yearning"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/kernel-puppet-anger.webp",
+    "source": {
+      "page": "Kernel Puppet: Anger/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kernel_Puppet%3A_Anger%2FEcho"
+    }
+  },
+  {
+    "id": "kernel-puppet-fright",
+    "name": {
+      "en": "Kernel Puppet: Fright",
+      "fr": "Automate à noyau - Crainte"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["lamp-of-nether-road", "flower-of-tinged-yearning"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/kernel-puppet-fright.webp",
+    "source": {
+      "page": "Kernel Puppet: Fright/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kernel_Puppet%3A_Fright%2FEcho"
+    }
+  },
+  {
+    "id": "kernel-puppet-grief",
+    "name": {
+      "en": "Kernel Puppet: Grief",
+      "fr": "Automate à noyau - Chagrin"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["lamp-of-nether-road", "flower-of-tinged-yearning"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/kernel-puppet-grief.webp",
+    "source": {
+      "page": "Kernel Puppet: Grief/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kernel_Puppet%3A_Grief%2FEcho"
+    }
+  },
+  {
+    "id": "kernel-puppet-joy",
+    "name": {
+      "en": "Kernel Puppet: Joy",
+      "fr": "Piquet d'or"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["song-of-feathered-trace", "heart-of-sworn-vigil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/kernel-puppet-joy.webp",
+    "source": {
+      "page": "Kernel Puppet: Joy/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kernel_Puppet%3A_Joy%2FEcho"
+    }
+  },
+  {
+    "id": "kernel-puppet-reflection",
+    "name": {
+      "en": "Kernel Puppet: Reflection",
+      "fr": "Automate à noyau - Réflexion"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["heart-of-evils-purge", "flower-of-tinged-yearning"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/kernel-puppet-reflection.webp",
+    "source": {
+      "page": "Kernel Puppet: Reflection/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kernel_Puppet%3A_Reflection%2FEcho"
+    }
+  },
+  {
+    "id": "kernel-puppet-worry",
+    "name": {
+      "en": "Kernel Puppet: Worry",
+      "fr": "Automate à noyau - Souci"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["heart-of-evils-purge", "flash-of-electric-reflection"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/kernel-puppet-worry.webp",
+    "source": {
+      "page": "Kernel Puppet: Worry/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kernel_Puppet%3A_Worry%2FEcho"
+    }
+  },
+  {
+    "id": "kronablight",
+    "name": {
+      "en": "Kronablight",
+      "fr": "Fléauronne"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["trailblazing-star", "chromatic-foam"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/kronablight.webp",
+    "source": {
+      "page": "Kronablight/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Kronablight%2FEcho"
+    }
+  },
+  {
+    "id": "la-guardia",
+    "name": {
+      "en": "La Guardia",
+      "fr": "La Guardia"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["gusts-of-welkin", "midnight-veil", "flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/la-guardia.webp",
+    "source": {
+      "page": "La Guardia/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/La_Guardia%2FEcho"
+    }
+  },
+  {
+    "id": "lady-of-the-sea",
+    "name": {
+      "en": "Lady of the Sea",
+      "fr": "Dame de la Mer"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["crown-of-valor"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/lady-of-the-sea.webp",
+    "source": {
+      "page": "Lady of the Sea/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lady_of_the_Sea%2FEcho"
+    }
+  },
+  {
+    "id": "lampylumen-myriad",
+    "name": {
+      "en": "Lampylumen Myriad",
+      "fr": "Myriade de Lampylumen"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["freezing-frost"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/lampylumen-myriad.webp",
+    "source": {
+      "page": "Lampylumen Myriad/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lampylumen_Myriad%2FEcho"
+    }
+  },
+  {
+    "id": "lava-larva",
+    "name": {
+      "en": "Lava Larva",
+      "fr": "Insecte-feu"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["lingering-tunes", "molten-rift"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/lava-larva.webp",
+    "source": {
+      "page": "Lava Larva/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lava_Larva%2FEcho"
+    }
+  },
+  {
+    "id": "lightcrusher",
+    "name": {
+      "en": "Lightcrusher",
+      "fr": "Casseur de lumière"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["celestial-light"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/lightcrusher.webp",
+    "source": {
+      "page": "Lightcrusher/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lightcrusher%2FEcho"
+    }
+  },
+  {
+    "id": "lioness-of-glory",
+    "name": {
+      "en": "Lioness of Glory",
+      "fr": "Lionne glorieuse"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/lioness-of-glory.webp",
+    "source": {
+      "page": "Lioness of Glory/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lioness_of_Glory%2FEcho"
+    }
+  },
+  {
+    "id": "lorelei",
+    "name": {
+      "en": "Lorelei",
+      "fr": "Lorelei"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["midnight-veil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/lorelei.webp",
+    "source": {
+      "page": "Lorelei/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lorelei%2FEcho"
+    }
+  },
+  {
+    "id": "lottie-lost",
+    "name": {
+      "en": "Lottie Lost",
+      "fr": "Lottie la muette"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["frosty-resolve", "tidebreaking-courage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/lottie-lost.webp",
+    "source": {
+      "page": "Lottie Lost/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lottie_Lost%2FEcho"
+    }
+  },
+  {
+    "id": "lumiscale-construct",
+    "name": {
+      "en": "Lumiscale Construct",
+      "fr": "Golem des écailles"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["void-thunder", "freezing-frost"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/lumiscale-construct.webp",
+    "source": {
+      "page": "Lumiscale Construct/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lumiscale_Construct%2FEcho"
+    }
+  },
+  {
+    "id": "mech-abomination",
+    "name": {
+      "en": "Mech Abomination",
+      "fr": "Abomination mécanique"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/mech-abomination.webp",
+    "source": {
+      "page": "Mech Abomination/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Mech_Abomination%2FEcho"
+    }
+  },
+  {
+    "id": "mining-drone",
+    "name": {
+      "en": "Mining Drone",
+      "fr": "Drone mineur"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": [
+      "halo-of-starry-radiance",
+      "rite-of-gilded-revelation",
+      "sound-of-true-name",
+      "reel-of-spliced-memories"
+    ],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/mining-drone.webp",
+    "source": {
+      "page": "Mining Drone/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Mining_Drone%2FEcho"
+    }
+  },
+  {
+    "id": "mining-reindeer",
+    "name": {
+      "en": "Mining Reindeer",
+      "fr": "Renne minier"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["pact-of-neonlight-leap", "reel-of-spliced-memories"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/mining-reindeer.webp",
+    "source": {
+      "page": "Mining Reindeer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Mining_Reindeer%2FEcho"
+    }
+  },
+  {
+    "id": "mourning-aix",
+    "name": {
+      "en": "Mourning Aix",
+      "fr": "Vautour plaignant"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["celestial-light"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/mourning-aix.webp",
+    "source": {
+      "page": "Mourning Aix/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Mourning_Aix%2FEcho"
+    }
+  },
+  {
+    "id": "myriad-snare-rustfire-chassis",
+    "name": {
+      "en": "Myriad Snare: Rustfire Chassis",
+      "fr": "Myriade des pièges - Corps brisé"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["heart-of-evils-purge", "lamp-of-nether-road"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/myriad-snare-rustfire-chassis.webp",
+    "source": {
+      "page": "Myriad Snare: Rustfire Chassis/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Myriad_Snare%3A_Rustfire_Chassis%2FEcho"
+    }
+  },
+  {
+    "id": "nameless-explorer",
+    "name": {
+      "en": "Nameless Explorer",
+      "fr": "Nameless Explorer"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["sound-of-true-name", "reel-of-spliced-memories"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/nameless-explorer.webp",
+    "source": {
+      "page": "Nameless Explorer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nameless_Explorer%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-aero-predator",
+    "name": {
+      "en": "Nightmare: Aero Predator",
+      "fr": "Cauchemar : Prédateur Aero"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["crown-of-valor"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-aero-predator.webp",
+    "source": {
+      "page": "Nightmare: Aero Predator/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Aero_Predator%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-baby-roseshroom",
+    "name": {
+      "en": "Nightmare: Baby Roseshroom",
+      "fr": "Cauchemar : Champirose (Petit)"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["flamewings-shadow"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-baby-roseshroom.webp",
+    "source": {
+      "page": "Nightmare: Baby Roseshroom/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Baby_Roseshroom%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-baby-viridblaze-saurian",
+    "name": {
+      "en": "Nightmare: Baby Viridblaze Saurian",
+      "fr": "Cauchemar : Lézard lavique vert (Petit)"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["flamewings-shadow"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-baby-viridblaze-saurian.webp",
+    "source": {
+      "page": "Nightmare: Baby Viridblaze Saurian/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Baby_Viridblaze_Saurian%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-chirpuff",
+    "name": {
+      "en": "Nightmare: Chirpuff",
+      "fr": "Cauchemar : Chulboule"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["law-of-harmony"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-chirpuff.webp",
+    "source": {
+      "page": "Nightmare: Chirpuff/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Chirpuff%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-crownless",
+    "name": {
+      "en": "Nightmare: Crownless",
+      "fr": "Cauchemar : Sans couronne"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["havoc-eclipse"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-crownless.webp",
+    "source": {
+      "page": "Nightmare: Crownless/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Crownless%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-cyan-feathered-heron",
+    "name": {
+      "en": "Nightmare: Cyan-Feathered Heron",
+      "fr": "Cauchemar : Héron cyan"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["law-of-harmony"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-cyan-feathered-heron.webp",
+    "source": {
+      "page": "Nightmare: Cyan-Feathered Heron/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Cyan-Feathered_Heron%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-dwarf-cassowary",
+    "name": {
+      "en": "Nightmare: Dwarf Cassowary",
+      "fr": "Cauchemar : Casoar nain"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["thread-of-severed-fate"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-dwarf-cassowary.webp",
+    "source": {
+      "page": "Nightmare: Dwarf Cassowary/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Dwarf_Cassowary%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-electro-predator",
+    "name": {
+      "en": "Nightmare: Electro Predator",
+      "fr": "Cauchemar : Prédateur Electro"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["crown-of-valor"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-electro-predator.webp",
+    "source": {
+      "page": "Nightmare: Electro Predator/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Electro_Predator%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-feilian-beringal",
+    "name": {
+      "en": "Nightmare: Feilian Beringal",
+      "fr": "Cauchemar : Feilian Beringal"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["sierra-gale"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-feilian-beringal.webp",
+    "source": {
+      "page": "Nightmare: Feilian Beringal/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Feilian_Beringal%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-glacio-predator",
+    "name": {
+      "en": "Nightmare: Glacio Predator",
+      "fr": "Cauchemar : Prédateur Glacio"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["dream-of-the-lost"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-glacio-predator.webp",
+    "source": {
+      "page": "Nightmare: Glacio Predator/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Glacio_Predator%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-gulpuff",
+    "name": {
+      "en": "Nightmare: Gulpuff",
+      "fr": "Cauchemar : Gulboule"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["law-of-harmony"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-gulpuff.webp",
+    "source": {
+      "page": "Nightmare: Gulpuff/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Gulpuff%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-havoc-warrior",
+    "name": {
+      "en": "Nightmare: Havoc Warrior",
+      "fr": "Cauchemar : Combattant Havoc"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["dream-of-the-lost"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-havoc-warrior.webp",
+    "source": {
+      "page": "Nightmare: Havoc Warrior/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Havoc_Warrior%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-hecate",
+    "name": {
+      "en": "Nightmare: Hecate",
+      "fr": "Cauchemar : Hecatte"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["dream-of-the-lost"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-hecate.webp",
+    "source": {
+      "page": "Nightmare: Hecate/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Hecate%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-impermanence-heron",
+    "name": {
+      "en": "Nightmare: Impermanence Heron",
+      "fr": "Cauchemar : Héron impermanent"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["midnight-veil"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-impermanence-heron.webp",
+    "source": {
+      "page": "Nightmare: Impermanence Heron/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Impermanence_Heron%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-inferno-rider",
+    "name": {
+      "en": "Nightmare: Inferno Rider",
+      "fr": "Cauchemar : Chevalier d'Inferno"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["molten-rift"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-inferno-rider.webp",
+    "source": {
+      "page": "Nightmare: Inferno Rider/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Inferno_Rider%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-kelpie",
+    "name": {
+      "en": "Nightmare: Kelpie",
+      "fr": "Cauchemar : Kelpie"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["gusts-of-welkin", "windward-pilgrimage"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-kelpie.webp",
+    "source": {
+      "page": "Nightmare: Kelpie/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Kelpie%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-lampylumen-myriad",
+    "name": {
+      "en": "Nightmare: Lampylumen Myriad",
+      "fr": "Cauchemar : Myriade de Lampylumen"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["frosty-resolve", "empyrean-anthem"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-lampylumen-myriad.webp",
+    "source": {
+      "page": "Nightmare: Lampylumen Myriad/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Lampylumen_Myriad%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-mourning-aix",
+    "name": {
+      "en": "Nightmare: Mourning Aix",
+      "fr": "Cauchemar : Vautour plaignant"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["eternal-radiance"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-mourning-aix.webp",
+    "source": {
+      "page": "Nightmare: Mourning Aix/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Mourning_Aix%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-roseshroom",
+    "name": {
+      "en": "Nightmare: Roseshroom",
+      "fr": "Cauchemar : Champirose"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["thread-of-severed-fate"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-roseshroom.webp",
+    "source": {
+      "page": "Nightmare: Roseshroom/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Roseshroom%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-tambourinist",
+    "name": {
+      "en": "Nightmare: Tambourinist",
+      "fr": "Cauchemar : Tambourineur"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["dream-of-the-lost"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-tambourinist.webp",
+    "source": {
+      "page": "Nightmare: Tambourinist/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Tambourinist%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-tempest-mephis",
+    "name": {
+      "en": "Nightmare: Tempest Mephis",
+      "fr": "Cauchemar : Mephis tonerre"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["void-thunder", "empyrean-anthem"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-tempest-mephis.webp",
+    "source": {
+      "page": "Nightmare: Tempest Mephis/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Tempest_Mephis%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-thundering-mephis",
+    "name": {
+      "en": "Nightmare: Thundering Mephis",
+      "fr": "Cauchemar : Mephis éclatant"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["void-thunder"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-thundering-mephis.webp",
+    "source": {
+      "page": "Nightmare: Thundering Mephis/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Thundering_Mephis%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-tick-tack",
+    "name": {
+      "en": "Nightmare: Tick Tack",
+      "fr": "Cauchemar : Tic Tac"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["thread-of-severed-fate"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-tick-tack.webp",
+    "source": {
+      "page": "Nightmare: Tick Tack/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Tick_Tack%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-violet-feathered-heron",
+    "name": {
+      "en": "Nightmare: Violet-Feathered Heron",
+      "fr": "Cauchemar : Héron violet"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["crown-of-valor"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-violet-feathered-heron.webp",
+    "source": {
+      "page": "Nightmare: Violet-Feathered Heron/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Violet-Feathered_Heron%2FEcho"
+    }
+  },
+  {
+    "id": "nightmare-viridblaze-saurian",
+    "name": {
+      "en": "Nightmare: Viridblaze Saurian",
+      "fr": "Cauchemar : Lézard lavique vert"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["flamewings-shadow"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/nightmare-viridblaze-saurian.webp",
+    "source": {
+      "page": "Nightmare: Viridblaze Saurian/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nightmare%3A_Viridblaze_Saurian%2FEcho"
+    }
+  },
+  {
+    "id": "nimbus-wraith",
+    "name": {
+      "en": "Nimbus Wraith",
+      "fr": "Spectre de Nimbus"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["midnight-veil", "empyrean-anthem", "flamewings-shadow"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/nimbus-wraith.webp",
+    "source": {
+      "page": "Nimbus Wraith/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nimbus_Wraith%2FEcho"
+    }
+  },
+  {
+    "id": "nocturnus-knight",
+    "name": {
+      "en": "Nocturnus Knight",
+      "fr": "Chevalier nocturne"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["midnight-veil", "empyrean-anthem"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/nocturnus-knight.webp",
+    "source": {
+      "page": "Nocturnus Knight/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Nocturnus_Knight%2FEcho"
+    }
+  },
+  {
+    "id": "pilgrims-shell",
+    "name": {
+      "en": "Pilgrim's Shell",
+      "fr": "Carapace du pèlerin"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["windward-pilgrimage", "flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/pilgrims-shell.webp",
+    "source": {
+      "page": "Pilgrim's Shell/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Pilgrim's_Shell%2FEcho"
+    }
+  },
+  {
+    "id": "porcelain-picket",
+    "name": {
+      "en": "Porcelain Picket",
+      "fr": "Piquet de porcelaine"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["lamp-of-nether-road", "flash-of-electric-reflection"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/porcelain-picket.webp",
+    "source": {
+      "page": "Porcelain Picket/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Porcelain_Picket%2FEcho"
+    }
+  },
+  {
+    "id": "questless-knight",
+    "name": {
+      "en": "Questless Knight",
+      "fr": "Chevalier vagabond"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["frosty-resolve", "midnight-veil"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/questless-knight.webp",
+    "source": {
+      "page": "Questless Knight/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Questless_Knight%2FEcho"
+    }
+  },
+  {
+    "id": "rage-against-the-statue",
+    "name": {
+      "en": "Rage Against the Statue",
+      "fr": "Rage contre la Statue"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["eternal-radiance", "gusts-of-welkin", "law-of-harmony"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/rage-against-the-statue.webp",
+    "source": {
+      "page": "Rage Against the Statue/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Rage_Against_the_Statue%2FEcho"
+    }
+  },
+  {
+    "id": "reactor-husk",
+    "name": {
+      "en": "Reactor Husk",
+      "fr": "Coque du réacteur"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["halo-of-starry-radiance", "chromatic-foam"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reactor-husk.webp",
+    "source": {
+      "page": "Reactor Husk/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reactor_Husk%2FEcho"
+    }
+  },
+  {
+    "id": "reminiscence-denia",
+    "name": {
+      "en": "Reminiscence: Denia",
+      "fr": "Résidu résonnant : Denia"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["chromatic-foam"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reminiscence-denia.webp",
+    "source": {
+      "page": "Reminiscence: Denia",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Denia"
+    }
+  },
+  {
+    "id": "reminiscence-fenrico",
+    "name": {
+      "en": "Reminiscence: Fenrico",
+      "fr": "Résidu résonnant : Fenrico"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["dream-of-the-lost", "law-of-harmony"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reminiscence-fenrico.webp",
+    "source": {
+      "page": "Reminiscence: Fenrico",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Fenrico"
+    }
+  },
+  {
+    "id": "reminiscence-fleurdelys",
+    "name": {
+      "en": "Reminiscence: Fleurdelys",
+      "fr": "Résidu résonnant : Fleurdelys"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["gusts-of-welkin", "windward-pilgrimage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reminiscence-fleurdelys.webp",
+    "source": {
+      "page": "Reminiscence: Fleurdelys",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Fleurdelys"
+    }
+  },
+  {
+    "id": "reminiscence-kronaclaw",
+    "name": {
+      "en": "Reminiscence: Kronaclaw",
+      "fr": "Reminiscence: Kronaclaw"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["trailblazing-star", "chromatic-foam"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reminiscence-kronaclaw.webp",
+    "source": {
+      "page": "Reminiscence: Kronaclaw",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Kronaclaw"
+    }
+  },
+  {
+    "id": "reminiscence-nightmare-adam-smasher",
+    "name": {
+      "en": "Reminiscence - Nightmare: Adam Smasher",
+      "fr": "Reminiscence - Nightmare: Adam Smasher"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["shadow-of-shattered-dreams"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reminiscence-nightmare-adam-smasher.webp",
+    "source": {
+      "page": "Reminiscence - Nightmare: Adam Smasher",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reminiscence_-_Nightmare%3A_Adam_Smasher"
+    }
+  },
+  {
+    "id": "reminiscence-suhsin-the-inevitable",
+    "name": {
+      "en": "Reminiscence: Suhsin the Inevitable",
+      "fr": "Résidu résonnant : Suhsin l'Inévitable"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["heart-of-sworn-vigil", "flash-of-electric-reflection"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reminiscence-suhsin-the-inevitable.webp",
+    "source": {
+      "page": "Suhsin the Inevitable/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Suhsin_the_Inevitable%2FEcho"
+    }
+  },
+  {
+    "id": "reminiscence-threnodian-leviathan",
+    "name": {
+      "en": "Reminiscence: Threnodian - Leviathan",
+      "fr": "Résidu résonnant : Léviathan le Réprimantum"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["flamewings-shadow", "thread-of-severed-fate"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reminiscence-threnodian-leviathan.webp",
+    "source": {
+      "page": "Reminiscence: Threnodian - Leviathan",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Threnodian_-_Leviathan"
+    }
+  },
+  {
+    "id": "reminiscence-threnodian-voidborne-construct",
+    "name": {
+      "en": "Reminiscence: Threnodian - Voidborne Construct",
+      "fr": "Résidu résonnant : Réprimantum - Construct du néant"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["wishes-of-quiet-snowfall"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/reminiscence-threnodian-voidborne-construct.webp",
+    "source": {
+      "page": "Reminiscence: Threnodian - Voidborne Construct",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reminiscence%3A_Threnodian_-_Voidborne_Construct"
+    }
+  },
+  {
+    "id": "rocksteady-guardian",
+    "name": {
+      "en": "Rocksteady Guardian",
+      "fr": "Gardien rocheux"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["rejuvenating-glow", "celestial-light"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/rocksteady-guardian.webp",
+    "source": {
+      "page": "Rocksteady Guardian/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Rocksteady_Guardian%2FEcho"
+    }
+  },
+  {
+    "id": "roseshroom",
+    "name": {
+      "en": "Roseshroom",
+      "fr": "Champirose"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["freezing-frost", "havoc-eclipse"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/roseshroom.webp",
+    "source": {
+      "page": "Roseshroom/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Roseshroom%2FEcho"
+    }
+  },
+  {
+    "id": "sabercat-prowler",
+    "name": {
+      "en": "Sabercat Prowler",
+      "fr": "Rôdeur à dents de sabre"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["pact-of-neonlight-leap", "halo-of-starry-radiance", "sound-of-true-name"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/sabercat-prowler.webp",
+    "source": {
+      "page": "Sabercat Prowler/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sabercat_Prowler%2FEcho"
+    }
+  },
+  {
+    "id": "sabercat-reaver",
+    "name": {
+      "en": "Sabercat Reaver",
+      "fr": "Saccageur à dents de sabre"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["pact-of-neonlight-leap", "halo-of-starry-radiance", "sound-of-true-name"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/sabercat-reaver.webp",
+    "source": {
+      "page": "Sabercat Reaver/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sabercat_Reaver%2FEcho"
+    }
+  },
+  {
+    "id": "sabyr-boar",
+    "name": {
+      "en": "Sabyr Boar",
+      "fr": "Sangbre"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["freezing-frost", "sierra-gale", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/sabyr-boar.webp",
+    "source": {
+      "page": "Sabyr Boar/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sabyr_Boar%2FEcho"
+    }
+  },
+  {
+    "id": "sacerdos",
+    "name": {
+      "en": "Sacerdos",
+      "fr": "Sacerdos"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["gusts-of-welkin", "windward-pilgrimage"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/sacerdos.webp",
+    "source": {
+      "page": "Sacerdos/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sacerdos%2FEcho"
+    }
+  },
+  {
+    "id": "sagittario",
+    "name": {
+      "en": "Sagittario",
+      "fr": "Sagittaire"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["gusts-of-welkin", "eternal-radiance", "flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/sagittario.webp",
+    "source": {
+      "page": "Sagittario/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sagittario%2FEcho"
+    }
+  },
+  {
+    "id": "sentry-construct",
+    "name": {
+      "en": "Sentry Construct",
+      "fr": "Arsenal hybride"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["frosty-resolve"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/sentry-construct.webp",
+    "source": {
+      "page": "Sentry Construct/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sentry_Construct%2FEcho"
+    }
+  },
+  {
+    "id": "shadow-stepper",
+    "name": {
+      "en": "Shadow Stepper",
+      "fr": "Fausse ombre"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["trailblazing-star", "chromatic-foam", "wishes-of-quiet-snowfall"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/shadow-stepper.webp",
+    "source": {
+      "page": "Shadow Stepper/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Shadow_Stepper%2FEcho"
+    }
+  },
+  {
+    "id": "sigillum",
+    "name": {
+      "en": "Sigillum",
+      "fr": "Sigillum"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["trailblazing-star"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/sigillum.webp",
+    "source": {
+      "page": "Sigillum/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sigillum%2FEcho"
+    }
+  },
+  {
+    "id": "skywatch-lancer",
+    "name": {
+      "en": "Skywatch Lancer",
+      "fr": "Lancier des cieux"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["flash-of-electric-reflection", "flower-of-tinged-yearning"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/skywatch-lancer.webp",
+    "source": {
+      "page": "Skywatch Lancer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Skywatch_Lancer%2FEcho"
+    }
+  },
+  {
+    "id": "smiter",
+    "name": {
+      "en": "Smiter",
+      "fr": "Pourfendeur"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["song-of-feathered-trace"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/smiter.webp",
+    "source": {
+      "page": "Smiter/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Smiter%2FEcho"
+    }
+  },
+  {
+    "id": "smolder",
+    "name": {
+      "en": "Smolder",
+      "fr": "Embrasé"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["song-of-feathered-trace"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/smolder.webp",
+    "source": {
+      "page": "Smolder/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Smolder%2FEcho"
+    }
+  },
+  {
+    "id": "snip-snap",
+    "name": {
+      "en": "Snip Snap",
+      "fr": "Schlak Schlak"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["molten-rift", "rejuvenating-glow", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/snip-snap.webp",
+    "source": {
+      "page": "Snip Snap/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Snip_Snap%2FEcho"
+    }
+  },
+  {
+    "id": "soulfrayer",
+    "name": {
+      "en": "Soulfrayer",
+      "fr": "Écorchâme"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["heart-of-sworn-vigil", "flash-of-electric-reflection"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/soulfrayer.webp",
+    "source": {
+      "page": "Soulfrayer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Soulfrayer%2FEcho"
+    }
+  },
+  {
+    "id": "spacetrek-explorer",
+    "name": {
+      "en": "Spacetrek Explorer",
+      "fr": "Explorateur du Trek-spatial"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["halo-of-starry-radiance", "chromatic-foam", "sound-of-true-name"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/spacetrek-explorer.webp",
+    "source": {
+      "page": "Spacetrek Explorer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Spacetrek_Explorer%2FEcho"
+    }
+  },
+  {
+    "id": "spearback",
+    "name": {
+      "en": "Spearback",
+      "fr": "Lançours"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["moonlit-clouds", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/spearback.webp",
+    "source": {
+      "page": "Spearback/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Spearback%2FEcho"
+    }
+  },
+  {
+    "id": "spectro-drake",
+    "name": {
+      "en": "Spectro Drake",
+      "fr": "Petit dragon Spectro"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["windward-pilgrimage", "flaming-clawprint"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/spectro-drake.webp",
+    "source": {
+      "page": "Spectro Drake/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Spectro_Drake%2FEcho"
+    }
+  },
+  {
+    "id": "spectro-prism",
+    "name": {
+      "en": "Spectro Prism",
+      "fr": "Prisme Specto"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["molten-rift", "void-thunder", "celestial-light"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/spectro-prism.webp",
+    "source": {
+      "page": "Spectro Prism/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Spectro_Prism%2FEcho"
+    }
+  },
+  {
+    "id": "stone-picket",
+    "name": {
+      "en": "Stone Picket",
+      "fr": "Piquet de pierre"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["lamp-of-nether-road", "flash-of-electric-reflection"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/stone-picket.webp",
+    "source": {
+      "page": "Stone Picket/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Stone_Picket%2FEcho"
+    }
+  },
+  {
+    "id": "stonewall-bracer",
+    "name": {
+      "en": "Stonewall Bracer",
+      "fr": "Champion rocheux"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["rejuvenating-glow", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/stonewall-bracer.webp",
+    "source": {
+      "page": "Stonewall Bracer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Stonewall_Bracer%2FEcho"
+    }
+  },
+  {
+    "id": "tambourinist",
+    "name": {
+      "en": "Tambourinist",
+      "fr": "Tambourineur"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["freezing-frost", "havoc-eclipse"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/tambourinist.webp",
+    "source": {
+      "page": "Tambourinist/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tambourinist%2FEcho"
+    }
+  },
+  {
+    "id": "tempest-mephis",
+    "name": {
+      "en": "Tempest Mephis",
+      "fr": "Mephis tonerre"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["void-thunder"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/tempest-mephis.webp",
+    "source": {
+      "page": "Tempest Mephis/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tempest_Mephis%2FEcho"
+    }
+  },
+  {
+    "id": "the-false-sovereign",
+    "name": {
+      "en": "The False Sovereign",
+      "fr": "Souverain apocryphe"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["crown-of-valor"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/the-false-sovereign.webp",
+    "source": {
+      "page": "The False Sovereign/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/The_False_Sovereign%2FEcho"
+    }
+  },
+  {
+    "id": "thousand-puppet-pavilion",
+    "name": {
+      "en": "Thousand-Puppet Pavilion",
+      "fr": "Pavillon aux mille marionnettes"
+    },
+    "cost": 4,
+    "class": "Calamity",
+    "sonatas": ["song-of-feathered-trace", "flower-of-tinged-yearning"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/thousand-puppet-pavilion.webp",
+    "source": {
+      "page": "Thousand-Puppet Pavilion/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Thousand-Puppet_Pavilion%2FEcho"
+    }
+  },
+  {
+    "id": "thundering-mephis",
+    "name": {
+      "en": "Thundering Mephis",
+      "fr": "Mephis éclatant"
+    },
+    "cost": 4,
+    "class": "Overlord",
+    "sonatas": ["void-thunder"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/thundering-mephis.webp",
+    "source": {
+      "page": "Thundering Mephis/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Thundering_Mephis%2FEcho"
+    }
+  },
+  {
+    "id": "tick-tack",
+    "name": {
+      "en": "Tick Tack",
+      "fr": "Tic Tac"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["havoc-eclipse", "rejuvenating-glow", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/tick-tack.webp",
+    "source": {
+      "page": "Tick Tack/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tick_Tack%2FEcho"
+    }
+  },
+  {
+    "id": "traffic-illuminator",
+    "name": {
+      "en": "Traffic Illuminator",
+      "fr": "Imiteur : feu de circulation"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["molten-rift", "void-thunder", "sierra-gale"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/traffic-illuminator.webp",
+    "source": {
+      "page": "Traffic Illuminator/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Traffic_Illuminator%2FEcho"
+    }
+  },
+  {
+    "id": "tremor-warrior",
+    "name": {
+      "en": "Tremor Warrior",
+      "fr": "Combattant du tremblement"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["halo-of-starry-radiance", "chromatic-foam", "wishes-of-quiet-snowfall"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/tremor-warrior.webp",
+    "source": {
+      "page": "Tremor Warrior/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tremor_Warrior%2FEcho"
+    }
+  },
+  {
+    "id": "twin-nova-collapsar-blade",
+    "name": {
+      "en": "Twin Nova: Collapsar Blade",
+      "fr": "Nova jumelle : Lame de collapsar"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["rite-of-gilded-revelation", "trailblazing-star", "sound-of-true-name"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/twin-nova-collapsar-blade.webp",
+    "source": {
+      "page": "Twin Nova: Collapsar Blade/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Twin_Nova%3A_Collapsar_Blade%2FEcho"
+    }
+  },
+  {
+    "id": "twin-nova-nebulous-cannon",
+    "name": {
+      "en": "Twin Nova: Nebulous Cannon",
+      "fr": "Nova jumelle : Canon nébuleux"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["rite-of-gilded-revelation", "chromatic-foam"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/twin-nova-nebulous-cannon.webp",
+    "source": {
+      "page": "Twin Nova: Nebulous Cannon/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Twin_Nova%3A_Nebulous_Cannon%2FEcho"
+    }
+  },
+  {
+    "id": "vanguard-junrock",
+    "name": {
+      "en": "Vanguard Junrock",
+      "fr": "Jeunpierre avant-guard"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["void-thunder", "rejuvenating-glow", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/vanguard-junrock.webp",
+    "source": {
+      "page": "Vanguard Junrock/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Vanguard_Junrock%2FEcho"
+    }
+  },
+  {
+    "id": "violet-feathered-heron",
+    "name": {
+      "en": "Violet-Feathered Heron",
+      "fr": "Héron violet"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["molten-rift", "void-thunder"],
+    "nightmare": true,
+    "icon": "/assets/game/echoes/violet-feathered-heron.webp",
+    "source": {
+      "page": "Violet-Feathered Heron/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Violet-Feathered_Heron%2FEcho"
+    }
+  },
+  {
+    "id": "viridblaze-saurian",
+    "name": {
+      "en": "Viridblaze Saurian",
+      "fr": "Lézard Fusion vert"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["molten-rift", "moonlit-clouds"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/viridblaze-saurian.webp",
+    "source": {
+      "page": "Viridblaze Saurian/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Viridblaze_Saurian%2FEcho"
+    }
+  },
+  {
+    "id": "vitreum-dancer",
+    "name": {
+      "en": "Vitreum Dancer",
+      "fr": "Danseuse du Vitreum"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["eternal-radiance", "empyrean-anthem"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/vitreum-dancer.webp",
+    "source": {
+      "page": "Vitreum Dancer/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Vitreum_Dancer%2FEcho"
+    }
+  },
+  {
+    "id": "voidwing-moth",
+    "name": {
+      "en": "Voidwing Moth",
+      "fr": "Phalène du néant"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["reel-of-spliced-memories"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/voidwing-moth.webp",
+    "source": {
+      "page": "Voidwing Moth/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Voidwing_Moth%2FEcho"
+    }
+  },
+  {
+    "id": "voltscourge-stalker",
+    "name": {
+      "en": "Voltscourge Stalker",
+      "fr": "Loup de Tonerre"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["midnight-veil", "empyrean-anthem"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/voltscourge-stalker.webp",
+    "source": {
+      "page": "Voltscourge Stalker/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Voltscourge_Stalker%2FEcho"
+    }
+  },
+  {
+    "id": "whiff-whaff",
+    "name": {
+      "en": "Whiff Whaff",
+      "fr": "Houhouu"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["rejuvenating-glow", "moonlit-clouds", "sierra-gale"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/whiff-whaff.webp",
+    "source": {
+      "page": "Whiff Whaff/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Whiff_Whaff%2FEcho"
+    }
+  },
+  {
+    "id": "windlash-coleoid",
+    "name": {
+      "en": "Windlash Coleoid",
+      "fr": "Coleoïde des rafales"
+    },
+    "cost": 3,
+    "class": "Elite",
+    "sonatas": ["rite-of-gilded-revelation", "wishes-of-quiet-snowfall"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/windlash-coleoid.webp",
+    "source": {
+      "page": "Windlash Coleoid/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Windlash_Coleoid%2FEcho"
+    }
+  },
+  {
+    "id": "zig-zag",
+    "name": {
+      "en": "Zig Zag",
+      "fr": "Zig Zag"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": ["celestial-light", "moonlit-clouds", "lingering-tunes"],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/zig-zag.webp",
+    "source": {
+      "page": "Zig Zag/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Zig_Zag%2FEcho"
+    }
+  },
+  {
+    "id": "zip-zap",
+    "name": {
+      "en": "Zip Zap",
+      "fr": "Zip Zap"
+    },
+    "cost": 1,
+    "class": "Common",
+    "sonatas": [
+      "pact-of-neonlight-leap",
+      "rite-of-gilded-revelation",
+      "chromatic-foam",
+      "sound-of-true-name"
+    ],
+    "nightmare": false,
+    "icon": "/assets/game/echoes/zip-zap.webp",
+    "source": {
+      "page": "Zip Zap/Echo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Zip_Zap%2FEcho"
+    }
+  }
+]

@@ -1,0 +1,1124 @@
+[
+  {
+    "id": "aalto",
+    "name": {
+      "en": "Aalto",
+      "fr": "Aalto"
+    },
+    "rarity": 4,
+    "element": "aero",
+    "weaponType": "pistols",
+    "base": {
+      "hp": 788,
+      "atk": 21,
+      "def": 88
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/aalto.webp",
+    "sprite": "/assets/game/sprites/aalto.webp",
+    "source": {
+      "page": "Aalto",
+      "url": "https://wutheringwaves.fandom.com/wiki/Aalto"
+    }
+  },
+  {
+    "id": "aemeath",
+    "name": {
+      "en": "Aemeath",
+      "fr": "Aemeath"
+    },
+    "rarity": 5,
+    "element": "fusion",
+    "weaponType": "sword",
+    "base": {
+      "hp": 882,
+      "atk": 34,
+      "def": 94
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/aemeath.webp",
+    "sprite": "/assets/game/sprites/aemeath.webp",
+    "source": {
+      "page": "Aemeath",
+      "url": "https://wutheringwaves.fandom.com/wiki/Aemeath"
+    }
+  },
+  {
+    "id": "augusta",
+    "name": {
+      "en": "Augusta",
+      "fr": "Augusta"
+    },
+    "rarity": 5,
+    "element": "electro",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 824,
+      "atk": 37,
+      "def": 91
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/augusta.webp",
+    "sprite": "/assets/game/sprites/augusta.webp",
+    "source": {
+      "page": "Augusta",
+      "url": "https://wutheringwaves.fandom.com/wiki/Augusta"
+    }
+  },
+  {
+    "id": "baizhi",
+    "name": {
+      "en": "Baizhi",
+      "fr": "Baizhi"
+    },
+    "rarity": 4,
+    "element": "glacio",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 1025,
+      "atk": 17,
+      "def": 82
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/baizhi.webp",
+    "sprite": "/assets/game/sprites/baizhi.webp",
+    "source": {
+      "page": "Baizhi",
+      "url": "https://wutheringwaves.fandom.com/wiki/Baizhi"
+    }
+  },
+  {
+    "id": "brant",
+    "name": {
+      "en": "Brant",
+      "fr": "Brant"
+    },
+    "rarity": 5,
+    "element": "fusion",
+    "weaponType": "sword",
+    "base": {
+      "hp": 934,
+      "atk": 30,
+      "def": 107
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/brant.webp",
+    "sprite": "/assets/game/sprites/brant.webp",
+    "source": {
+      "page": "Brant",
+      "url": "https://wutheringwaves.fandom.com/wiki/Brant"
+    }
+  },
+  {
+    "id": "calcharo",
+    "name": {
+      "en": "Calcharo",
+      "fr": "Calcharo"
+    },
+    "rarity": 5,
+    "element": "electro",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 840,
+      "atk": 35,
+      "def": 97
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/calcharo.webp",
+    "sprite": "/assets/game/sprites/calcharo.webp",
+    "source": {
+      "page": "Calcharo",
+      "url": "https://wutheringwaves.fandom.com/wiki/Calcharo"
+    }
+  },
+  {
+    "id": "camellya",
+    "name": {
+      "en": "Camellya",
+      "fr": "Camellya"
+    },
+    "rarity": 5,
+    "element": "havoc",
+    "weaponType": "sword",
+    "base": {
+      "hp": 826,
+      "atk": 36,
+      "def": 95
+    },
+    "releaseDate": "2024-11-14",
+    "icon": "/assets/game/resonators/camellya.webp",
+    "sprite": "/assets/game/sprites/camellya.webp",
+    "source": {
+      "page": "Camellya",
+      "url": "https://wutheringwaves.fandom.com/wiki/Camellya"
+    }
+  },
+  {
+    "id": "cantarella",
+    "name": {
+      "en": "Cantarella",
+      "fr": "Cantarella"
+    },
+    "rarity": 5,
+    "element": "havoc",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 928,
+      "atk": 32,
+      "def": 90
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/cantarella.webp",
+    "sprite": "/assets/game/sprites/cantarella.webp",
+    "source": {
+      "page": "Cantarella",
+      "url": "https://wutheringwaves.fandom.com/wiki/Cantarella"
+    }
+  },
+  {
+    "id": "carlotta",
+    "name": {
+      "en": "Carlotta",
+      "fr": "Carlotta"
+    },
+    "rarity": 5,
+    "element": "glacio",
+    "weaponType": "pistols",
+    "base": {
+      "hp": 996,
+      "atk": 37,
+      "def": 98
+    },
+    "releaseDate": "2025-01-02",
+    "icon": "/assets/game/resonators/carlotta.webp",
+    "sprite": "/assets/game/sprites/carlotta.webp",
+    "source": {
+      "page": "Carlotta",
+      "url": "https://wutheringwaves.fandom.com/wiki/Carlotta"
+    }
+  },
+  {
+    "id": "cartethyia",
+    "name": {
+      "en": "Cartethyia",
+      "fr": "Cartethyia"
+    },
+    "rarity": 5,
+    "element": "aero",
+    "weaponType": "sword",
+    "base": {
+      "hp": 1184,
+      "atk": 25,
+      "def": 50
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/cartethyia.webp",
+    "sprite": "/assets/game/sprites/cartethyia.webp",
+    "source": {
+      "page": "Cartethyia",
+      "url": "https://wutheringwaves.fandom.com/wiki/Cartethyia"
+    }
+  },
+  {
+    "id": "changli",
+    "name": {
+      "en": "Changli",
+      "fr": "Changli"
+    },
+    "rarity": 5,
+    "element": "fusion",
+    "weaponType": "sword",
+    "base": {
+      "hp": 831,
+      "atk": 37,
+      "def": 90
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/changli.webp",
+    "sprite": "/assets/game/sprites/changli.webp",
+    "source": {
+      "page": "Changli",
+      "url": "https://wutheringwaves.fandom.com/wiki/Changli"
+    }
+  },
+  {
+    "id": "chisa",
+    "name": {
+      "en": "Chisa",
+      "fr": "Chisa"
+    },
+    "rarity": 5,
+    "element": "havoc",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 862,
+      "atk": 35,
+      "def": 93
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/chisa.webp",
+    "sprite": "/assets/game/sprites/chisa.webp",
+    "source": {
+      "page": "Chisa",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chisa"
+    }
+  },
+  {
+    "id": "chixia",
+    "name": {
+      "en": "Chixia",
+      "fr": "Chixia"
+    },
+    "rarity": 4,
+    "element": "fusion",
+    "weaponType": "pistols",
+    "base": {
+      "hp": 727,
+      "atk": 24,
+      "def": 78
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/chixia.webp",
+    "sprite": "/assets/game/sprites/chixia.webp",
+    "source": {
+      "page": "Chixia",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chixia"
+    }
+  },
+  {
+    "id": "ciaccona",
+    "name": {
+      "en": "Ciaccona",
+      "fr": "Ciaccona"
+    },
+    "rarity": 5,
+    "element": "aero",
+    "weaponType": "pistols",
+    "base": {
+      "hp": 929,
+      "atk": 38,
+      "def": 98
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/ciaccona.webp",
+    "sprite": "/assets/game/sprites/ciaccona.webp",
+    "source": {
+      "page": "Ciaccona",
+      "url": "https://wutheringwaves.fandom.com/wiki/Ciaccona"
+    }
+  },
+  {
+    "id": "danjin",
+    "name": {
+      "en": "Danjin",
+      "fr": "Danjin"
+    },
+    "rarity": 4,
+    "element": "havoc",
+    "weaponType": "sword",
+    "base": {
+      "hp": 755,
+      "atk": 21,
+      "def": 94
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/danjin.webp",
+    "sprite": "/assets/game/sprites/danjin.webp",
+    "source": {
+      "page": "Danjin",
+      "url": "https://wutheringwaves.fandom.com/wiki/Danjin"
+    }
+  },
+  {
+    "id": "denia",
+    "name": {
+      "en": "Denia",
+      "fr": "Denia"
+    },
+    "rarity": 5,
+    "element": "fusion",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 882,
+      "atk": 34,
+      "def": 94
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/denia.webp",
+    "sprite": "/assets/game/sprites/denia.webp",
+    "source": {
+      "page": "Denia",
+      "url": "https://wutheringwaves.fandom.com/wiki/Denia"
+    }
+  },
+  {
+    "id": "encore",
+    "name": {
+      "en": "Encore",
+      "fr": "Encore"
+    },
+    "rarity": 5,
+    "element": "fusion",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 841,
+      "atk": 34,
+      "def": 102
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/encore.webp",
+    "sprite": "/assets/game/sprites/encore.webp",
+    "source": {
+      "page": "Encore",
+      "url": "https://wutheringwaves.fandom.com/wiki/Encore"
+    }
+  },
+  {
+    "id": "galbrena",
+    "name": {
+      "en": "Galbrena",
+      "fr": "Galbrena"
+    },
+    "rarity": 5,
+    "element": "fusion",
+    "weaponType": "pistols",
+    "base": {
+      "hp": 824,
+      "atk": 37,
+      "def": 91
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/galbrena.webp",
+    "sprite": "/assets/game/sprites/galbrena.webp",
+    "source": {
+      "page": "Galbrena",
+      "url": "https://wutheringwaves.fandom.com/wiki/Galbrena"
+    }
+  },
+  {
+    "id": "hiyuki",
+    "name": {
+      "en": "Hiyuki",
+      "fr": "Hiyuki"
+    },
+    "rarity": 5,
+    "element": "glacio",
+    "weaponType": "sword",
+    "base": {
+      "hp": 824,
+      "atk": 37,
+      "def": 91
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/hiyuki.webp",
+    "sprite": "/assets/game/sprites/hiyuki.webp",
+    "source": {
+      "page": "Hiyuki",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hiyuki"
+    }
+  },
+  {
+    "id": "hsin",
+    "name": {
+      "en": "Hsin",
+      "fr": "Hsin"
+    },
+    "rarity": 5,
+    "element": "electro",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 824,
+      "atk": 37,
+      "def": 91
+    },
+    "releaseDate": "2026-09-30",
+    "icon": "/assets/game/resonators/hsin.webp",
+    "sprite": "/assets/game/sprites/hsin.webp",
+    "source": {
+      "page": "Hsin",
+      "url": "https://wutheringwaves.fandom.com/wiki/Hsin"
+    }
+  },
+  {
+    "id": "iuno",
+    "name": {
+      "en": "Iuno",
+      "fr": "Iuno"
+    },
+    "rarity": 5,
+    "element": "aero",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 842,
+      "atk": 36,
+      "def": 92
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/iuno.webp",
+    "sprite": "/assets/game/sprites/iuno.webp",
+    "source": {
+      "page": "Iuno",
+      "url": "https://wutheringwaves.fandom.com/wiki/Iuno"
+    }
+  },
+  {
+    "id": "jianxin",
+    "name": {
+      "en": "Jianxin",
+      "fr": "Jianxin"
+    },
+    "rarity": 5,
+    "element": "aero",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 1129,
+      "atk": 27,
+      "def": 92
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/jianxin.webp",
+    "sprite": "/assets/game/sprites/jianxin.webp",
+    "source": {
+      "page": "Jianxin",
+      "url": "https://wutheringwaves.fandom.com/wiki/Jianxin"
+    }
+  },
+  {
+    "id": "jinhsi",
+    "name": {
+      "en": "Jinhsi",
+      "fr": "Jinhsi"
+    },
+    "rarity": 5,
+    "element": "spectro",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 866,
+      "atk": 33,
+      "def": 103
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/jinhsi.webp",
+    "sprite": "/assets/game/sprites/jinhsi.webp",
+    "source": {
+      "page": "Jinhsi",
+      "url": "https://wutheringwaves.fandom.com/wiki/Jinhsi"
+    }
+  },
+  {
+    "id": "jiyan",
+    "name": {
+      "en": "Jiyan",
+      "fr": "Jiyan"
+    },
+    "rarity": 5,
+    "element": "aero",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 839,
+      "atk": 35,
+      "def": 97
+    },
+    "releaseDate": "2024-05-23",
+    "icon": "/assets/game/resonators/jiyan.webp",
+    "sprite": "/assets/game/sprites/jiyan.webp",
+    "source": {
+      "page": "Jiyan",
+      "url": "https://wutheringwaves.fandom.com/wiki/Jiyan"
+    }
+  },
+  {
+    "id": "lingyang",
+    "name": {
+      "en": "Lingyang",
+      "fr": "Lingyang"
+    },
+    "rarity": 5,
+    "element": "glacio",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 831,
+      "atk": 35,
+      "def": 99
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/lingyang.webp",
+    "sprite": "/assets/game/sprites/lingyang.webp",
+    "source": {
+      "page": "Lingyang",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lingyang"
+    }
+  },
+  {
+    "id": "lumi",
+    "name": {
+      "en": "Lumi",
+      "fr": "Lumi"
+    },
+    "rarity": 4,
+    "element": "electro",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 680,
+      "atk": 27,
+      "def": 72
+    },
+    "releaseDate": "2024-12-12",
+    "icon": "/assets/game/resonators/lumi.webp",
+    "sprite": "/assets/game/sprites/lumi.webp",
+    "source": {
+      "page": "Lumi",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lumi"
+    }
+  },
+  {
+    "id": "lupa",
+    "name": {
+      "en": "Lupa",
+      "fr": "Lupa"
+    },
+    "rarity": 5,
+    "element": "fusion",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 953,
+      "atk": 31,
+      "def": 97
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/lupa.webp",
+    "sprite": "/assets/game/sprites/lupa.webp",
+    "source": {
+      "page": "Lupa",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lupa"
+    }
+  },
+  {
+    "id": "luuk-herssen",
+    "name": {
+      "en": "Luuk Herssen",
+      "fr": "Luuk Herssen"
+    },
+    "rarity": 5,
+    "element": "spectro",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 824,
+      "atk": 37,
+      "def": 91
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/luuk-herssen.webp",
+    "sprite": "/assets/game/sprites/luuk-herssen.webp",
+    "source": {
+      "page": "Luuk Herssen",
+      "url": "https://wutheringwaves.fandom.com/wiki/Luuk_Herssen"
+    }
+  },
+  {
+    "id": "lynae",
+    "name": {
+      "en": "Lynae",
+      "fr": "Lynae"
+    },
+    "rarity": 5,
+    "element": "spectro",
+    "weaponType": "pistols",
+    "base": {
+      "hp": 979,
+      "atk": 30,
+      "def": 98
+    },
+    "releaseDate": "2025-12-25",
+    "icon": "/assets/game/resonators/lynae.webp",
+    "sprite": "/assets/game/sprites/lynae.webp",
+    "source": {
+      "page": "Lynae",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lynae"
+    }
+  },
+  {
+    "id": "mornye",
+    "name": {
+      "en": "Mornye",
+      "fr": "Mornye"
+    },
+    "rarity": 5,
+    "element": "fusion",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 1230,
+      "atk": 23,
+      "def": 111
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/mornye.webp",
+    "sprite": "/assets/game/sprites/mornye.webp",
+    "source": {
+      "page": "Mornye",
+      "url": "https://wutheringwaves.fandom.com/wiki/Mornye"
+    }
+  },
+  {
+    "id": "mortefi",
+    "name": {
+      "en": "Mortefi",
+      "fr": "Mortefi"
+    },
+    "rarity": 4,
+    "element": "fusion",
+    "weaponType": "pistols",
+    "base": {
+      "hp": 802,
+      "atk": 20,
+      "def": 93
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/mortefi.webp",
+    "sprite": "/assets/game/sprites/mortefi.webp",
+    "source": {
+      "page": "Mortefi",
+      "url": "https://wutheringwaves.fandom.com/wiki/Mortefi"
+    }
+  },
+  {
+    "id": "phoebe",
+    "name": {
+      "en": "Phoebe",
+      "fr": "Phoebe"
+    },
+    "rarity": 5,
+    "element": "spectro",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 866,
+      "atk": 33,
+      "def": 103
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/phoebe.webp",
+    "sprite": "/assets/game/sprites/phoebe.webp",
+    "source": {
+      "page": "Phoebe",
+      "url": "https://wutheringwaves.fandom.com/wiki/Phoebe"
+    }
+  },
+  {
+    "id": "phrolova",
+    "name": {
+      "en": "Phrolova",
+      "fr": "Phrolova"
+    },
+    "rarity": 5,
+    "element": "havoc",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 862,
+      "atk": 35,
+      "def": 93
+    },
+    "releaseDate": "2025-07-24",
+    "icon": "/assets/game/resonators/phrolova.webp",
+    "sprite": "/assets/game/sprites/phrolova.webp",
+    "source": {
+      "page": "Phrolova",
+      "url": "https://wutheringwaves.fandom.com/wiki/Phrolova"
+    }
+  },
+  {
+    "id": "qingxiao",
+    "name": {
+      "en": "Qingxiao",
+      "fr": "Qingxiao"
+    },
+    "rarity": 5,
+    "element": "aero",
+    "weaponType": "sword",
+    "base": {
+      "hp": 824,
+      "atk": 37,
+      "def": 91
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/qingxiao.webp",
+    "sprite": "/assets/game/sprites/qingxiao.webp",
+    "source": {
+      "page": "Qingxiao",
+      "url": "https://wutheringwaves.fandom.com/wiki/Qingxiao"
+    }
+  },
+  {
+    "id": "qiuyuan",
+    "name": {
+      "en": "Qiuyuan",
+      "fr": "Qiuyuan"
+    },
+    "rarity": 5,
+    "element": "aero",
+    "weaponType": "sword",
+    "base": {
+      "hp": 979,
+      "atk": 30,
+      "def": 98
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/qiuyuan.webp",
+    "sprite": "/assets/game/sprites/qiuyuan.webp",
+    "source": {
+      "page": "Qiuyuan",
+      "url": "https://wutheringwaves.fandom.com/wiki/Qiuyuan"
+    }
+  },
+  {
+    "id": "roccia",
+    "name": {
+      "en": "Roccia",
+      "fr": "Roccia"
+    },
+    "rarity": 5,
+    "element": "havoc",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 980,
+      "atk": 30,
+      "def": 98
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/roccia.webp",
+    "sprite": "/assets/game/sprites/roccia.webp",
+    "source": {
+      "page": "Roccia",
+      "url": "https://wutheringwaves.fandom.com/wiki/Roccia"
+    }
+  },
+  {
+    "id": "sanhua",
+    "name": {
+      "en": "Sanhua",
+      "fr": "Sanhua"
+    },
+    "rarity": 4,
+    "element": "glacio",
+    "weaponType": "sword",
+    "base": {
+      "hp": 805,
+      "atk": 22,
+      "def": 77
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/sanhua.webp",
+    "sprite": "/assets/game/sprites/sanhua.webp",
+    "source": {
+      "page": "Sanhua",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sanhua"
+    }
+  },
+  {
+    "id": "shorekeeper",
+    "name": {
+      "en": "Shorekeeper",
+      "fr": "La Gardienne du Littoral"
+    },
+    "rarity": 5,
+    "element": "spectro",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 1337,
+      "atk": 23,
+      "def": 90
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/shorekeeper.webp",
+    "sprite": "/assets/game/sprites/shorekeeper.webp",
+    "source": {
+      "page": "Shorekeeper",
+      "url": "https://wutheringwaves.fandom.com/wiki/Shorekeeper"
+    }
+  },
+  {
+    "id": "sigrika",
+    "name": {
+      "en": "Sigrika",
+      "fr": "Sigrika"
+    },
+    "rarity": 5,
+    "element": "aero",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 862,
+      "atk": 35,
+      "def": 93
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/sigrika.webp",
+    "sprite": "/assets/game/sprites/sigrika.webp",
+    "source": {
+      "page": "Sigrika",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sigrika"
+    }
+  },
+  {
+    "id": "suisui",
+    "name": {
+      "en": "Suisui",
+      "fr": "Suisui"
+    },
+    "rarity": 5,
+    "element": "glacio",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 1337,
+      "atk": 23,
+      "def": 90
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/suisui.webp",
+    "sprite": "/assets/game/sprites/suisui.webp",
+    "source": {
+      "page": "Suisui",
+      "url": "https://wutheringwaves.fandom.com/wiki/Suisui"
+    }
+  },
+  {
+    "id": "suoming",
+    "name": {
+      "en": "Suoming",
+      "fr": "Suoming"
+    },
+    "rarity": 5,
+    "element": "electro",
+    "weaponType": "sword",
+    "base": {
+      "hp": 824,
+      "atk": 37,
+      "def": 91
+    },
+    "releaseDate": "2026-10-22",
+    "icon": "/assets/game/resonators/suoming.webp",
+    "sprite": "/assets/game/sprites/suoming.webp",
+    "source": {
+      "page": "Suoming",
+      "url": "https://wutheringwaves.fandom.com/wiki/Suoming"
+    }
+  },
+  {
+    "id": "taoqi",
+    "name": {
+      "en": "Taoqi",
+      "fr": "Taoqi"
+    },
+    "rarity": 4,
+    "element": "havoc",
+    "weaponType": "broadblade",
+    "base": {
+      "hp": 716,
+      "atk": 18,
+      "def": 128
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/taoqi.webp",
+    "sprite": "/assets/game/sprites/taoqi.webp",
+    "source": {
+      "page": "Taoqi",
+      "url": "https://wutheringwaves.fandom.com/wiki/Taoqi"
+    }
+  },
+  {
+    "id": "verina",
+    "name": {
+      "en": "Verina",
+      "fr": "Verina"
+    },
+    "rarity": 5,
+    "element": "spectro",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 1139,
+      "atk": 27,
+      "def": 90
+    },
+    "releaseDate": "2024-05-23",
+    "icon": "/assets/game/resonators/verina.webp",
+    "sprite": "/assets/game/sprites/verina.webp",
+    "source": {
+      "page": "Verina",
+      "url": "https://wutheringwaves.fandom.com/wiki/Verina"
+    }
+  },
+  {
+    "id": "xiangli-yao",
+    "name": {
+      "en": "Xiangli Yao",
+      "fr": "Xiangli Yao"
+    },
+    "rarity": 5,
+    "element": "electro",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 850,
+      "atk": 34,
+      "def": 100
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/xiangli-yao.webp",
+    "sprite": "/assets/game/sprites/xiangli-yao.webp",
+    "source": {
+      "page": "Xiangli Yao",
+      "url": "https://wutheringwaves.fandom.com/wiki/Xiangli_Yao"
+    }
+  },
+  {
+    "id": "yangyang",
+    "name": {
+      "en": "Yangyang",
+      "fr": "Yangyang"
+    },
+    "rarity": 4,
+    "element": "aero",
+    "weaponType": "sword",
+    "base": {
+      "hp": 816,
+      "atk": 20,
+      "def": 90
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/yangyang.webp",
+    "sprite": "/assets/game/sprites/yangyang.webp",
+    "source": {
+      "page": "Yangyang",
+      "url": "https://wutheringwaves.fandom.com/wiki/Yangyang"
+    }
+  },
+  {
+    "id": "yangyang-xuanling",
+    "name": {
+      "en": "Yangyang: Xuanling",
+      "fr": "Yangyang: Xuanling"
+    },
+    "rarity": 5,
+    "element": "havoc",
+    "weaponType": "sword",
+    "base": {
+      "hp": 882,
+      "atk": 34,
+      "def": 94
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/yangyang-xuanling.webp",
+    "sprite": "/assets/game/sprites/yangyang-xuanling.webp",
+    "source": {
+      "page": "Yangyang: Xuanling",
+      "url": "https://wutheringwaves.fandom.com/wiki/Yangyang%3A_Xuanling"
+    }
+  },
+  {
+    "id": "yinlin",
+    "name": {
+      "en": "Yinlin",
+      "fr": "Yinlin"
+    },
+    "rarity": 5,
+    "element": "electro",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 880,
+      "atk": 32,
+      "def": 105
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/yinlin.webp",
+    "sprite": "/assets/game/sprites/yinlin.webp",
+    "source": {
+      "page": "Yinlin",
+      "url": "https://wutheringwaves.fandom.com/wiki/Yinlin"
+    }
+  },
+  {
+    "id": "youhu",
+    "name": {
+      "en": "Youhu",
+      "fr": "Youhu"
+    },
+    "rarity": 4,
+    "element": "glacio",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 798,
+      "atk": 21,
+      "def": 86
+    },
+    "releaseDate": "2024-10-24",
+    "icon": "/assets/game/resonators/youhu.webp",
+    "sprite": "/assets/game/sprites/youhu.webp",
+    "source": {
+      "page": "Youhu",
+      "url": "https://wutheringwaves.fandom.com/wiki/Youhu"
+    }
+  },
+  {
+    "id": "yuanwu",
+    "name": {
+      "en": "Yuanwu",
+      "fr": "Yuanwu"
+    },
+    "rarity": 4,
+    "element": "electro",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 682,
+      "atk": 18,
+      "def": 134
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/yuanwu.webp",
+    "sprite": "/assets/game/sprites/yuanwu.webp",
+    "source": {
+      "page": "Yuanwu",
+      "url": "https://wutheringwaves.fandom.com/wiki/Yuanwu"
+    }
+  },
+  {
+    "id": "zani",
+    "name": {
+      "en": "Zani",
+      "fr": "Zani"
+    },
+    "rarity": 5,
+    "element": "spectro",
+    "weaponType": "gauntlets",
+    "base": {
+      "hp": 862,
+      "atk": 35,
+      "def": 93
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/zani.webp",
+    "sprite": "/assets/game/sprites/zani.webp",
+    "source": {
+      "page": "Zani",
+      "url": "https://wutheringwaves.fandom.com/wiki/Zani"
+    }
+  },
+  {
+    "id": "zhezhi",
+    "name": {
+      "en": "Zhezhi",
+      "fr": "Zhezhi"
+    },
+    "rarity": 5,
+    "element": "glacio",
+    "weaponType": "rectifier",
+    "base": {
+      "hp": 980,
+      "atk": 30,
+      "def": 98
+    },
+    "releaseDate": null,
+    "icon": "/assets/game/resonators/zhezhi.webp",
+    "sprite": "/assets/game/sprites/zhezhi.webp",
+    "source": {
+      "page": "Zhezhi",
+      "url": "https://wutheringwaves.fandom.com/wiki/Zhezhi"
+    }
+  }
+]
