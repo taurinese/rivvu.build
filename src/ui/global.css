@@ -58,3 +58,31 @@ p a {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* Pictogrammes blancs du jeu (stats, types d'armes) : inversés en thème clair. */
+:root[data-theme='light'] .game-glyph {
+  filter: invert(1);
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme='dark']) .game-glyph {
+    filter: invert(1);
+  }
+}
+
+/* Surfaces posées sur une illustration : toujours en apparence sombre, quel que soit le thème. */
+.surface-dark {
+  color-scheme: dark;
+  --label: #ffffff;
+  --label-secondary: rgba(235, 235, 245, 0.72);
+  --label-tertiary: rgba(235, 235, 245, 0.5);
+  --el-aero: #63e6e2;
+  --el-electro: #d08bff;
+  --el-fusion: #ff9f0a;
+  --el-glacio: #64d2ff;
+  --el-havoc: #ff6482;
+  --el-spectro: #ffd60a;
+  --rarity-5: #ffd60a;
+  --rarity-4: #c88bff;
+  --surface-dark-base: #0e1213;
+}

@@ -39,9 +39,16 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - Sélecteur de Résonateur (filtres attribut/arme, recherche FR/EN, aperçu illustré), liste des builds, fiche (bandeau immersif, renommage, suppression), réglages (thème).
 - E2E : création → rechargement → suppression, thème, axe sur chaque page, desktop + mobile.
 
+### M3 — Étapes du build
+
+- Fiche : panneau en verre dépoli (niveau par paliers d'ascension, Chaîne S0–S6, arme), navigation par étapes avec avancement, cartes Échos / Forte / Statistiques (base ou finales) / Repères.
+- Pages : arme (armes du bon type, niveau, syntonisation R1–R5, passif avec valeurs du rang), Forte (1–10), changement de Résonateur (arme retirée si type incompatible).
+- Surfaces d'illustration toujours sombres (lisibles en thème clair), restauration du défilement à chaque page.
+- Leçon : la PR M2 a échoué en CI sur le seuil de couverture faute d'avoir lancé `pnpm check` complet avant de pousser ; M2 et M3 sont livrés ensemble. Toujours lancer `pnpm check` avant une PR.
+
 ## Prochaine étape
 
-M3 : niveau/ascension, arme (sélecteur + rang), Forte, Chaîne, stats finales sur la fiche.
+M4 : éditeur d'Échos (choix de l'espèce, ensemble, stat principale par coût, sous-stats par paliers, Écho principal) + inventaire réutilisable.
 
 ## Décisions en attente (côté utilisateur)
 

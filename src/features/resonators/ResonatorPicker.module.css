@@ -204,7 +204,7 @@
   right: 0;
   bottom: 0;
   height: 130px;
-  background: linear-gradient(0deg, var(--bg-card), transparent);
+  background: linear-gradient(0deg, var(--surface-dark-base), transparent);
 }
 
 .stageText {
@@ -219,6 +219,7 @@
 
 .selectedName {
   margin: 0;
+  color: #ffffff;
   font: var(--text-large-title);
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
 }

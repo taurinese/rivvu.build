@@ -76,3 +76,25 @@ describe('builds store', () => {
     expect(store.getState().builds.map((b) => b.id)).toEqual(['y']);
   });
 });
+
+describe('builds store — erreurs', () => {
+  it('passe en erreur si le dépôt échoue', async () => {
+    const failing = {
+      list: () => Promise.reject(new Error('panne')),
+      get: () => Promise.resolve(null),
+      save: (b: never) => Promise.resolve(b),
+      remove: () => Promise.resolve(),
+      subscribe: () => () => undefined,
+    };
+    const store = createBuildsStore(failing);
+    await store.getState().load();
+    expect(store.getState().status).toBe('error');
+  });
+
+  it('ignore la mise à jour d’un build introuvable', async () => {
+    const store = createBuildsStore(new LocalStorageBuildRepository(new MemoryStorage()));
+    await store.getState().load();
+    await store.getState().update('absent', (b) => b);
+    expect(store.getState().builds).toEqual([]);
+  });
+});

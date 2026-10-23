@@ -105,7 +105,7 @@ export function ResonatorPicker({ initialId, confirmLabel, onConfirm }: Props) {
                     alt=""
                     width={18}
                     height={18}
-                    className={styles.weaponIcon}
+                    className={`${styles.weaponIcon ?? ''} game-glyph`}
                   />
                   {WEAPON_TYPE_LABEL[type]}
                 </>
@@ -164,9 +164,9 @@ export function ResonatorPicker({ initialId, confirmLabel, onConfirm }: Props) {
       {selected ? (
         <aside className={styles.inspector} aria-label={`Aperçu : ${selected.name.fr}`}>
           <div
-            className={styles.stage}
+            className={`${styles.stage ?? ''} surface-dark`}
             style={{
-              background: `radial-gradient(ellipse at 50% 35%, ${elementTint(selected.element, 0.4)}, ${elementTint(selected.element, 0.06)} 60%, var(--bg-card) 100%)`,
+              background: `radial-gradient(ellipse at 50% 35%, ${elementTint(selected.element, 0.4)}, ${elementTint(selected.element, 0.06)} 60%, var(--surface-dark-base) 100%), var(--surface-dark-base)`,
             }}
           >
             <img src={elementIcon(selected.element)} alt="" className={styles.watermark} />

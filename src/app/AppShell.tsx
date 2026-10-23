@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { NavLink, Outlet, useNavigate } from 'react-router';
+import { NavLink, Outlet, ScrollRestoration, useNavigate } from 'react-router';
 import { resonatorById } from '@/data/game';
 import { elementColor } from '@/features/game/labels';
 import { Button } from '@/ui/Button';
@@ -97,6 +97,7 @@ export function AppShell() {
       <main id="contenu" className={styles.main} tabIndex={-1}>
         <Outlet />
       </main>
+      <ScrollRestoration />
 
       <nav aria-label="Onglets" className={styles.tabBar}>
         {NAV.map((item) => (
