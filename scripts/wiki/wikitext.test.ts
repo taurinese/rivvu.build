@@ -42,6 +42,12 @@ describe('parseTemplateParams', () => {
 });
 
 describe('wikiToText', () => {
+  it('retire les commentaires et balises même imbriqués ou reformés après un premier passage', () => {
+    expect(wikiToText('Jiyan<!-<!-- x -->- y -->')).toBe('Jiyan');
+    expect(wikiToText('a<scr<b>ipt>b')).toBe('ab');
+    expect(wikiToText('<<b>i>gras</<b>i>')).toBe('gras');
+  });
+
   it('rend le texte lisible : couleurs, liens, retours à la ligne, gras', () => {
     expect(
       wikiToText(
