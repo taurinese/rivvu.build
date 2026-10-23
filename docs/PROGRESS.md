@@ -12,7 +12,7 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 | M3 — Parcours Résonateur → Arme → Forte → Chaîne | terminé |
 | M4 — Éditeur d'Échos + inventaire                | terminé |
 | M5 — Équipe, buffs, calcul de dégâts             | terminé |
-| M6 — Comparateur, partage URL, export image      | à faire |
+| M6 — Comparateur, partage URL, export image      | terminé |
 | M7 — Optimiseur, planificateur, import OCR       | à faire |
 
 ## Journal
@@ -61,9 +61,16 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - Page « Dégâts estimés » : situation (combat, niveau et RÉS de l'ennemi), équipe (2 coéquipiers), buffs personnalisés, tableau par compétence (multiplicateur, normal, critique, moyenne). Résumé « coup le plus fort » sur la fiche.
 - Performance : compétences, page Dégâts et résumé chargés à la demande (JS initial 170 kB gzip). `pnpm check` vérifie désormais aussi le budget du bundle, comme la CI.
 
+### M6 — Partage et comparaison
+
+- Partage par lien autonome (ADR 0003) : feuille « Partager » (copier, partage natif, export PNG), page `/partage` en lecture seule avec « Ajouter à mes builds ».
+- Export en image 1200×630 dessiné sur canvas (illustration, arme, stats, Échos), chargé à la demande.
+- « Dupliquer » (variantes) et comparateur `/comparer?a=…&b=…` : stats clés et dégâts (coup le plus fort, total par compétence pour un même Résonateur), écart signé et annoncé aux lecteurs d'écran.
+- Bandeau immersif extrait en composant `ResonatorHero` (fiche et build partagé) ; `slugify` partagé dans `src/lib`.
+
 ## Prochaine étape
 
-M6 : comparateur de builds, partage par URL (build encodé, lecture seule + « copier dans mes builds »), export en image.
+M7 : optimiseur (meilleure combinaison d'Échos de l'inventaire pour un objectif), planificateur de matériaux, import OCR de captures d'Échos.
 
 ## Décisions en attente (côté utilisateur)
 

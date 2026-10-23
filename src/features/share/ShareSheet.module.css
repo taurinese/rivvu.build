@@ -1,0 +1,39 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.label {
+  font: var(--text-subheadline);
+  font-weight: 600;
+}
+
+.link {
+  width: 100%;
+  height: var(--tap-min);
+  padding: 0 var(--space-3);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: var(--fill);
+  color: var(--label);
+  font: var(--text-footnote);
+  text-overflow: ellipsis;
+}
+
+.hint,
+.status {
+  margin: 0;
+  font: var(--text-footnote);
+  color: var(--label-secondary);
+}
+
+.status:empty {
+  display: none;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}

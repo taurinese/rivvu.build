@@ -4,7 +4,7 @@ import { resonatorById } from '@/data/game';
 import { elementIcon } from '@/features/game/assets';
 import { ELEMENT_LABEL, elementColor, elementTint } from '@/features/game/labels';
 import { ButtonLink } from '@/ui/Button';
-import { IconPlus } from '@/ui/icons';
+import { IconCompare, IconPlus } from '@/ui/icons';
 import { Page } from '@/ui/Page';
 import { Pill } from '@/ui/Pill';
 import styles from './BuildsPage.module.css';
@@ -24,9 +24,20 @@ export function BuildsPage() {
           : undefined
       }
       actions={
-        <ButtonLink to="/nouveau" variant="filled" icon={<IconPlus size={16} strokeWidth={2.4} />}>
-          Nouveau build
-        </ButtonLink>
+        <>
+          {builds.length >= 2 ? (
+            <ButtonLink to="/comparer" variant="gray" icon={<IconCompare size={16} />}>
+              Comparer
+            </ButtonLink>
+          ) : null}
+          <ButtonLink
+            to="/nouveau"
+            variant="filled"
+            icon={<IconPlus size={16} strokeWidth={2.4} />}
+          >
+            Nouveau build
+          </ButtonLink>
+        </>
       }
     >
       {status === 'ready' && builds.length === 0 ? (

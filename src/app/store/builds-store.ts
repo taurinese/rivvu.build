@@ -10,6 +10,10 @@ export interface BuildsState {
   /** Crée un build et renvoie son identifiant. */
   create: (resonatorId: string, name?: string) => Promise<string>;
   update: (id: string, updater: (build: Build) => Build) => Promise<void>;
+  /** Ajoute une copie d'un build venu d'ailleurs (lien de partage) : nouvel identifiant, sans propriétaire. */
+  importBuild: (build: Build) => Promise<string>;
+  /** Crée une variante d'un build existant ; undefined s'il n'existe pas. */
+  duplicate: (id: string) => Promise<string | undefined>;
   remove: (id: string) => Promise<void>;
 }
 
@@ -49,6 +53,29 @@ export function createBuildsStore(
       if (!current) return;
       const saved = await repository.save(updater(current));
       set({ builds: [saved, ...get().builds.filter((b) => b.id !== id)] });
+    },
+
+    importBuild: async (build) => {
+      const id = newId();
+      const timestamp = now();
+      const saved = await repository.save({
+        ...build,
+        id,
+        ownerId: null,
+        revision: 0,
+        deletedAt: null,
+        createdAt: timestamp,
+        updatedAt: timestamp,
+      });
+      set({ builds: [saved, ...get().builds.filter((b) => b.id !== id)] });
+      return id;
+    },
+
+    duplicate: async (id) => {
+      const source = get().builds.find((b) => b.id === id) ?? (await repository.get(id));
+      if (!source) return undefined;
+      const name = `${source.name.slice(0, 72)} (copie)`;
+      return get().importBuild({ ...source, name });
     },
 
     remove: async (id) => {

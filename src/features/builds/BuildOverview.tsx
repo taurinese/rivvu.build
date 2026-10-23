@@ -8,18 +8,19 @@ import type { Build } from '@/domain/build';
 import { MAX_COST } from '@/domain/echoes';
 import { stepAfter, stepBefore, stepLabel } from '@/domain/levels';
 import { computeFinalStats } from '@/domain/stats';
-import { elementIcon, weaponTypeIcon } from '@/features/game/assets';
-import {
-  ELEMENT_LABEL,
-  WEAPON_TYPE_LABEL,
-  elementColor,
-  elementTint,
-} from '@/features/game/labels';
+import { WEAPON_TYPE_LABEL, elementColor } from '@/features/game/labels';
 import { formatPercent } from '@/lib/format';
-import { Button } from '@/ui/Button';
+import { Button, ButtonLink } from '@/ui/Button';
 import { Card } from '@/ui/Card';
 import { GroupedList, ListRow } from '@/ui/GroupedList';
-import { IconCheck, IconChevronRight, IconTrash } from '@/ui/icons';
+import {
+  IconCheck,
+  IconChevronRight,
+  IconCompare,
+  IconCopy,
+  IconShare,
+  IconTrash,
+} from '@/ui/icons';
 import { Pill } from '@/ui/Pill';
 import { ProgressRing } from '@/ui/ProgressRing';
 import { SegmentedControl } from '@/ui/SegmentedControl';
@@ -27,6 +28,8 @@ import { Stepper } from '@/ui/Stepper';
 import { computeBuildStats } from './build-stats';
 import { FORTE_LABEL } from './forte-labels';
 import { buildProgress } from './progress';
+import { ShareSheet } from '@/features/share/ShareSheet';
+import { ResonatorHero } from './ResonatorHero';
 import { StatsCard } from './StatsCard';
 import styles from './BuildOverview.module.css';
 
@@ -42,6 +45,8 @@ interface Props {
 export function BuildOverview({ build, resonator }: Props) {
   const update = useBuilds((s) => s.update);
   const remove = useBuilds((s) => s.remove);
+  const duplicate = useBuilds((s) => s.duplicate);
+  const [sharing, setSharing] = useState(false);
   const navigate = useNavigate();
   const [editingName, setEditingName] = useState(false);
   const [draftName, setDraftName] = useState(build.name);
@@ -64,99 +69,9 @@ export function BuildOverview({ build, resonator }: Props) {
 
   return (
     <div className={styles.page}>
-      <section
-        className={`${styles.hero ?? ''} surface-dark`}
-        aria-label="Résonateur"
-        style={{
-          background: `radial-gradient(ellipse at 62% 30%, ${elementTint(resonator.element, 0.42)}, ${elementTint(resonator.element, 0.08)} 55%, var(--surface-dark-base) 100%), var(--surface-dark-base)`,
-        }}
-      >
-        <img src={elementIcon(resonator.element)} alt="" className={styles.watermark} />
-        {resonator.sprite ? (
-          <img
-            src={resonator.sprite}
-            alt={`${resonator.name.fr}, illustration`}
-            className={styles.sprite}
-          />
-        ) : null}
-        <div className={styles.scrim} aria-hidden="true" />
-
-        <div className={styles.heroInner}>
-          <div className={styles.heroContent}>
-            <div className={styles.pills}>
-              <Pill
-                variant="media"
-                tone={elementColor(resonator.element)}
-                icon={<img src={elementIcon(resonator.element)} alt="" width={22} height={22} />}
-              >
-                {ELEMENT_LABEL[resonator.element]}
-              </Pill>
-              <Pill
-                variant="media"
-                tone="#ffffff"
-                icon={
-                  <img src={weaponTypeIcon(resonator.weaponType)} alt="" width={22} height={22} />
-                }
-              >
-                {WEAPON_TYPE_LABEL[resonator.weaponType]}
-              </Pill>
-              <Pill
-                variant="media"
-                tone={resonator.rarity === 5 ? 'var(--rarity-5)' : 'var(--rarity-4)'}
-              >
-                {'★'.repeat(resonator.rarity)}
-              </Pill>
-            </div>
-            <h1 className={styles.title}>{resonator.name.fr}</h1>
-            {editingName ? (
-              <form
-                className={styles.renameForm}
-                onSubmit={(event) => {
-                  event.preventDefault();
-                  commitName();
-                }}
-              >
-                <label htmlFor="build-name" className="visually-hidden">
-                  Nom du build
-                </label>
-                <input
-                  id="build-name"
-                  className={styles.renameInput}
-                  value={draftName}
-                  maxLength={80}
-                  onChange={(event) => {
-                    setDraftName(event.target.value);
-                  }}
-                  onBlur={commitName}
-                />
-                <Button type="submit" variant="filled" size="small">
-                  OK
-                </Button>
-              </form>
-            ) : (
-              <button
-                type="button"
-                className={styles.buildName}
-                aria-label={`Renommer « ${build.name} »`}
-                onClick={() => {
-                  setDraftName(build.name);
-                  setEditingName(true);
-                }}
-              >
-                {build.name}
-              </button>
-            )}
-            <div className={styles.progress}>
-              <ProgressRing
-                value={progress.done / progress.total}
-                label={`${String(progress.done)} étapes sur ${String(progress.total)}`}
-              />
-              <span aria-hidden="true">
-                {progress.done} étapes sur {progress.total}
-              </span>
-            </div>
-          </div>
-
+      <ResonatorHero
+        resonator={resonator}
+        aside={
           <div className={styles.panel}>
             <div className={styles.panelRow}>
               <span className={styles.panelLabel}>Niveau</span>
@@ -208,8 +123,56 @@ export function BuildOverview({ build, resonator }: Props) {
               <IconChevronRight size={14} />
             </Link>
           </div>
+        }
+      >
+        {editingName ? (
+          <form
+            className={styles.renameForm}
+            onSubmit={(event) => {
+              event.preventDefault();
+              commitName();
+            }}
+          >
+            <label htmlFor="build-name" className="visually-hidden">
+              Nom du build
+            </label>
+            <input
+              id="build-name"
+              className={styles.renameInput}
+              value={draftName}
+              maxLength={80}
+              onChange={(event) => {
+                setDraftName(event.target.value);
+              }}
+              onBlur={commitName}
+            />
+            <Button type="submit" variant="filled" size="small">
+              OK
+            </Button>
+          </form>
+        ) : (
+          <button
+            type="button"
+            className={styles.buildName}
+            aria-label={`Renommer « ${build.name} »`}
+            onClick={() => {
+              setDraftName(build.name);
+              setEditingName(true);
+            }}
+          >
+            {build.name}
+          </button>
+        )}
+        <div className={styles.progress}>
+          <ProgressRing
+            value={progress.done / progress.total}
+            label={`${String(progress.done)} étapes sur ${String(progress.total)}`}
+          />
+          <span aria-hidden="true">
+            {progress.done} étapes sur {progress.total}
+          </span>
         </div>
-      </section>
+      </ResonatorHero>
 
       <nav aria-label="Étapes du build" className={styles.steps}>
         {progress.steps.map((step, index) => (
@@ -303,6 +266,30 @@ export function BuildOverview({ build, resonator }: Props) {
 
       <div className={styles.footer}>
         <Button
+          variant="tinted"
+          icon={<IconShare size={16} />}
+          onClick={() => {
+            setSharing(true);
+          }}
+        >
+          Partager
+        </Button>
+        <Button
+          variant="gray"
+          icon={<IconCopy size={16} />}
+          onClick={() => {
+            void duplicate(build.id).then((id) => {
+              if (id) void navigate(`/builds/${id}`);
+            });
+          }}
+        >
+          Dupliquer
+        </Button>
+        <ButtonLink to={`/comparer?a=${build.id}`} variant="gray" icon={<IconCompare size={16} />}>
+          Comparer
+        </ButtonLink>
+        <span className={styles.spacer} />
+        <Button
           variant="destructive"
           icon={<IconTrash size={16} />}
           onClick={() => {
@@ -314,6 +301,15 @@ export function BuildOverview({ build, resonator }: Props) {
           Supprimer ce build
         </Button>
       </div>
+      {sharing ? (
+        <ShareSheet
+          build={build}
+          resonatorName={resonator.name.fr}
+          onClose={() => {
+            setSharing(false);
+          }}
+        />
+      ) : null}
     </div>
   );
 }

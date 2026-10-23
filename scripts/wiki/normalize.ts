@@ -1,14 +1,6 @@
 import type { Element, StatKey, WeaponType } from '../../src/domain/types.ts';
 
-export function slugify(name: string): string {
-  return name
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/['’]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-}
+export { slugify } from '../../src/lib/slug.ts';
 
 export function parsePercent(raw: string): number | null {
   const match = /-?\d+(?:\.\d+)?/.exec(raw.trim());
