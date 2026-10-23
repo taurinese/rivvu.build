@@ -45,6 +45,19 @@ export const buildSchema = z.object({
   echoes: z.array(echoInstanceSchema).max(5),
   team: z.tuple([z.string().nullable(), z.string().nullable()]),
   notes: z.string().max(2000),
+  combat: z.boolean(),
+  enemy: z.object({ level: z.number().int().min(1).max(120), res: z.number().min(-100).max(100) }),
+  customBuffs: z
+    .array(
+      z.object({
+        id: z.string().min(1),
+        label: z.string().max(60),
+        stat: z.enum(STAT_KEYS),
+        value: z.number(),
+        enabled: z.boolean(),
+      }),
+    )
+    .max(30),
 }) satisfies z.ZodType<Build>;
 
 type Migration = (doc: Record<string, unknown>) => Record<string, unknown>;
@@ -57,6 +70,13 @@ const migrations: Record<number, Migration> = {
     deletedAt: null,
     ...doc,
     schemaVersion: 1,
+  }),
+  1: (doc) => ({
+    ...doc,
+    combat: true,
+    enemy: { level: 90, res: 10 },
+    customBuffs: [],
+    schemaVersion: 2,
   }),
 };
 

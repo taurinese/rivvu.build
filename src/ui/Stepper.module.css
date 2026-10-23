@@ -28,6 +28,7 @@
 
 .value {
   min-width: 64px;
+  color: var(--label);
   text-align: center;
   font: var(--text-headline);
   font-size: 0.9375rem;

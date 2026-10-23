@@ -1,0 +1,16 @@
+.damage {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.value {
+  font: var(--text-title1);
+  font-variant-numeric: tabular-nums;
+}
+
+.muted {
+  margin: 0;
+  color: var(--label-secondary);
+  font: var(--text-footnote);
+}

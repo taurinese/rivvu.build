@@ -1,12 +1,13 @@
 {
   "source": "Wuthering Waves Wiki (Fandom), contenu sous licence CC BY-SA ; images © Kuro Games",
   "url": "https://wutheringwaves.fandom.com",
-  "fetchedAt": "2026-10-23T17:50:14Z",
+  "fetchedAt": "2026-10-23T17:58:03Z",
   "counts": {
     "resonators": 51,
     "weapons": 124,
     "echoes": 187,
-    "sonatas": 37
+    "sonatas": 37,
+    "skills": 244
   },
   "skipped": [
     {

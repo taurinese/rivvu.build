@@ -21,6 +21,26 @@
         [19.2, 15, 15],
         [22.4, 17.5, 17.5],
         [25.6, 20, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "energyRegen",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        },
+        {
+          "stat": "basicDmg",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        },
+        {
+          "stat": "skillDmg",
+          "variable": 3,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/abyss-surges.webp",
@@ -51,6 +71,14 @@
         [15.1, 22.6],
         [19, 28.6],
         [23, 34.5]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/aether-strike.webp",
@@ -81,7 +109,8 @@
         [18, 36],
         [21, 42],
         [24, 48]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/ages-of-harvest.webp",
     "source": {
@@ -105,7 +134,15 @@
     "passive": {
       "name": "Camaraderie",
       "text": "When Intro Skill is cast, increases Resonance Liberation DMG Bonus by (var1)%, lasting for 15s.",
-      "values": [[20], [25], [30], [35], [40]]
+      "values": [[20], [25], [30], [35], [40]],
+      "bonuses": [
+        {
+          "stat": "liberationDmg",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/amity-accord.webp",
     "source": {
@@ -129,7 +166,8 @@
     "passive": {
       "name": "Forgiving Resilience",
       "text": "Casting Resonance Liberation increases the wielder's ATK by (var1)%, lasting for 15s.",
-      "values": [[15], [23.25], [31.5], [39.75], [48]]
+      "values": [[15], [23.25], [31.5], [39.75], [48]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/augment.webp",
     "source": {
@@ -159,6 +197,14 @@
         [15.1, 22.6],
         [19, 28.6],
         [23, 34.5]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/aureate-zenith.webp",
@@ -183,7 +229,15 @@
     "passive": {
       "name": "Edge Direction",
       "text": "Increases ATK by (var1)% upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s.",
-      "values": [[4], [6.2], [8.4], [10.6], [12.8]]
+      "values": [[4], [6.2], [8.4], [10.6], [12.8]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 5
+        }
+      ]
     },
     "icon": "/assets/game/weapons/autumntrace.webp",
     "source": {
@@ -213,7 +267,8 @@
         [18, 54],
         [21, 63],
         [24, 72]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/azure-oath.webp",
     "source": {
@@ -237,7 +292,8 @@
     "passive": {
       "name": "Graceful Touch",
       "text": "When Intro Skill is cast, restores (var1) Concerto Energy. When Outro Skill is cast, restores (var1) Resonance Energy.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/beguiling-melody.webp",
     "source": {
@@ -267,7 +323,8 @@
         [18, 6],
         [21, 7],
         [24, 8]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/blazing-brilliance.webp",
     "source": {
@@ -297,6 +354,14 @@
         [18, 12, 75],
         [21, 14, 87.5],
         [24, 16, 100]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/blazing-justice.webp",
@@ -321,7 +386,15 @@
     "passive": {
       "name": "Harmonious Vibrancy",
       "text": "Providing Healing increases Resonance Skill DMG by (var1)% for 6s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by (var1)% for 30s.",
-      "values": [[10], [14], [18], [22], [26]]
+      "values": [[10], [14], [18], [22], [26]],
+      "bonuses": [
+        {
+          "stat": "skillDmg",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/bloodpacts-pledge.webp",
     "source": {
@@ -351,7 +424,8 @@
         [18, 54, 17, 45],
         [21, 63, 20.5, 52.5],
         [24, 72, 24, 60]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/blooming-jadehaven.webp",
     "source": {
@@ -381,6 +455,14 @@
         [18, 15],
         [21, 16.5],
         [24, 18]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/boson-astrolabe.webp",
@@ -411,6 +493,14 @@
         [18, 60, 7.5],
         [21, 70, 8.75],
         [24, 80, 10]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/broadblade-41.webp",
@@ -435,7 +525,15 @@
     "passive": {
       "name": "Valiance",
       "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/broadblade-of-night.webp",
     "source": {
@@ -459,7 +557,8 @@
     "passive": {
       "name": "Long Journey",
       "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[8], [9], [10], [11], [12]]
+      "values": [[8], [9], [10], [11], [12]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/broadblade-of-voyager.webp",
     "source": {
@@ -483,7 +582,8 @@
     "passive": {
       "name": "Ceaseless Aria",
       "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 times every 20s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/cadenza.webp",
     "source": {
@@ -507,7 +607,15 @@
     "passive": {
       "name": "Pole of the Celestial Dome",
       "text": "Casting Resonance Liberation increases the Resonator's Healing Bonus by (var1)% for 15s.",
-      "values": [[16], [20], [24], [28], [32]]
+      "values": [[16], [20], [24], [28], [32]],
+      "bonuses": [
+        {
+          "stat": "healingBonus",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/call-of-the-abyss.webp",
     "source": {
@@ -537,6 +645,14 @@
         [8, 15],
         [9, 17.5],
         [10, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/celestial-spiral.webp",
@@ -561,7 +677,15 @@
     "passive": {
       "name": "Luminous Protection",
       "text": "When dealing Basic Attack DMG or Heavy Attack DMG, increases Healing Bonus by (var1)%, stacking up to 3 time(s). This effect lasts for 8s and can be triggered 1 time(s) every 0.6s.",
-      "values": [[3], [3.5], [4], [4.5], [5]]
+      "values": [[3], [3.5], [4], [4.5], [5]],
+      "bonuses": [
+        {
+          "stat": "healingBonus",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 3
+        }
+      ]
     },
     "icon": "/assets/game/weapons/comet-flare.webp",
     "source": {
@@ -585,7 +709,15 @@
     "passive": {
       "name": "Unyielding",
       "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 15s.",
-      "values": [[15], [18.75], [22.5], [26.25], [30]]
+      "values": [[15], [18.75], [22.5], [26.25], [30]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/commando-of-conviction.webp",
     "source": {
@@ -615,6 +747,20 @@
         [19.2, 4.8],
         [22.4, 5.6],
         [25.6, 6.4]
+      ],
+      "bonuses": [
+        {
+          "stat": "energyRegen",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        },
+        {
+          "stat": "basicDmg",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 5
+        }
       ]
     },
     "icon": "/assets/game/weapons/cosmic-ripples.webp",
@@ -645,6 +791,14 @@
         [12, 22.5],
         [14, 26.25],
         [16, 30]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/dauntless-evernight.webp",
@@ -675,6 +829,14 @@
         [18, 30, 15],
         [21, 35, 17.5],
         [24, 40, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/daybreakers-spine.webp",
@@ -705,7 +867,8 @@
         [18, 12, 30],
         [21, 14, 35],
         [24, 16, 40]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/defiers-thorn.webp",
     "source": {
@@ -729,7 +892,8 @@
     "passive": {
       "name": "Ceaseless Aria",
       "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/discord.webp",
     "source": {
@@ -759,6 +923,20 @@
         [19.2, 9],
         [22.4, 10.5],
         [25.6, 12]
+      ],
+      "bonuses": [
+        {
+          "stat": "energyRegen",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        },
+        {
+          "stat": "atkPct",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 2
+        }
       ]
     },
     "icon": "/assets/game/weapons/emerald-of-genesis.webp",
@@ -789,7 +967,8 @@
         [18, 45, 30],
         [21, 52.5, 35],
         [24, 60, 40]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/emerald-sentence.webp",
     "source": {
@@ -819,6 +998,14 @@
         [8, 15],
         [9, 17.5],
         [10, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/endless-collapse.webp",
@@ -849,6 +1036,14 @@
         [18, 48, 20],
         [21, 56, 25],
         [24, 64, 30]
+      ],
+      "bonuses": [
+        {
+          "stat": "elementalDmg",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/everbright-polestar.webp",
@@ -873,7 +1068,8 @@
     "passive": {
       "name": "Rhetoric",
       "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/fables-of-wisdom.webp",
     "source": {
@@ -903,6 +1099,14 @@
         [15.1, 22.6],
         [19, 28.6],
         [23, 34.5]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/feather-edge.webp",
@@ -933,7 +1137,8 @@
         [18, 12, 30],
         [21, 14, 35],
         [24, 16, 40]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/firstlights-herald.webp",
     "source": {
@@ -963,6 +1168,14 @@
         [18, 54, 36],
         [21, 63, 42],
         [24, 72, 48]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/forged-dwarf-star.webp",
@@ -993,6 +1206,14 @@
         [18, 45, 36],
         [21, 52.5, 42],
         [24, 60, 48]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/freeze-frame.webp",
@@ -1023,7 +1244,8 @@
         [18, 42, 15, 30],
         [21, 49, 17.5, 35],
         [24, 56, 20, 40]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/frostburn.webp",
     "source": {
@@ -1053,6 +1275,14 @@
         [8, 15],
         [9, 17.5],
         [10, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/fusion-accretion.webp",
@@ -1083,6 +1313,14 @@
         [12, 75, 7.5],
         [14, 87.5, 8.75],
         [16, 100, 10]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/gauntlets-21d.webp",
@@ -1107,7 +1345,15 @@
     "passive": {
       "name": "Valiance",
       "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/gauntlets-of-night.webp",
     "source": {
@@ -1131,7 +1377,8 @@
     "passive": {
       "name": "Crusade",
       "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[8], [9], [10], [11], [12]]
+      "values": [[8], [9], [10], [11], [12]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/gauntlets-of-voyager.webp",
     "source": {
@@ -1161,7 +1408,8 @@
         [18, 16.8, 15],
         [21, 19.6, 17.5],
         [24, 22.4, 20]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/glint-of-clouds.webp",
     "source": {
@@ -1185,7 +1433,8 @@
     "passive": {
       "name": "Consensus",
       "text": "Increases Basic Attack DMG Bonus and Heavy Attack DMG Bonus by (var1)%.",
-      "values": [[12], [15], [18], [21], [24]]
+      "values": [[12], [15], [18], [21], [24]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/guardian-broadblade.webp",
     "source": {
@@ -1209,7 +1458,15 @@
     "passive": {
       "name": "Collective Strength",
       "text": "Increases Resonance Liberation DMG Bonus by (var1)%.",
-      "values": [[12], [15], [18], [21], [24]]
+      "values": [[12], [15], [18], [21], [24]],
+      "bonuses": [
+        {
+          "stat": "liberationDmg",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/guardian-gauntlets.webp",
     "source": {
@@ -1233,7 +1490,8 @@
     "passive": {
       "name": "Unity",
       "text": "Resonance Skill DMG Bonus is increased by (var1)%.",
-      "values": [[12], [15], [18], [21], [24]]
+      "values": [[12], [15], [18], [21], [24]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/guardian-pistols.webp",
     "source": {
@@ -1257,7 +1515,8 @@
     "passive": {
       "name": "Companionship",
       "text": "Increases Basic Attack and Heavy Attack DMG Bonus by (var1)%.",
-      "values": [[12], [15], [18], [21], [24]]
+      "values": [[12], [15], [18], [21], [24]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/guardian-rectifier.webp",
     "source": {
@@ -1281,7 +1540,8 @@
     "passive": {
       "name": "Unified",
       "text": "Resonance Skill DMG Bonus is increased by (var1)%.",
-      "values": [[12], [15], [18], [21], [24]]
+      "values": [[12], [15], [18], [21], [24]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/guardian-sword.webp",
     "source": {
@@ -1305,7 +1565,15 @@
     "passive": {
       "name": "Plasma Recoiler",
       "text": "Within 12s after Resonance Skill is cast, increases ATK by (var1)% every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s.",
-      "values": [[3], [3.75], [4.5], [5.25], [6]]
+      "values": [[3], [3.75], [4.5], [5.25], [6]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 4
+        }
+      ]
     },
     "icon": "/assets/game/weapons/helios-cleaver.webp",
     "source": {
@@ -1329,7 +1597,8 @@
     "passive": {
       "name": "Celestial Blessing",
       "text": "When Resonance Liberation is cast, grants 3 stack(s) of Iron Armor. Each stack increases ATK and DEF by (var1)%, stacking up to 3 time(s). When the Resonator takes damage, reduces the number of stacks by 1.",
-      "values": [[3], [3.5], [4], [4.5], [5]]
+      "values": [[3], [3.5], [4], [4.5], [5]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/hollow-mirage.webp",
     "source": {
@@ -1359,7 +1628,8 @@
         [12, 15],
         [14, 17.5],
         [16, 20]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/jinzhou-keeper.webp",
     "source": {
@@ -1389,7 +1659,8 @@
         [18, 12, 36],
         [21, 14, 42],
         [24, 16, 48]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/kumokiri.webp",
     "source": {
@@ -1419,6 +1690,14 @@
         [18, 30],
         [21, 33],
         [24, 36]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/laser-shearer.webp",
@@ -1443,7 +1722,8 @@
     "passive": {
       "name": "Rhetoric",
       "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/legend-of-drunken-hero.webp",
     "source": {
@@ -1473,7 +1753,8 @@
         [18, 48, 12],
         [21, 56, 14],
         [24, 64, 16]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/lethean-elegy.webp",
     "source": {
@@ -1497,7 +1778,8 @@
     "passive": {
       "name": "Pale Gale",
       "text": "When Resonance Skill is cast, increases Basic Attack DMG Bonus and Heavy Attack DMG Bonus by (var1)%, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
-      "values": [[20], [31], [42], [53], [64]]
+      "values": [[20], [31], [42], [53], [64]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/lumingloss.webp",
     "source": {
@@ -1527,7 +1809,8 @@
         [18, 21, 21, 45],
         [21, 24.5, 24.5, 52.5],
         [24, 28, 28, 60]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/luminous-hymn.webp",
     "source": {
@@ -1551,7 +1834,15 @@
     "passive": {
       "name": "Preordained",
       "text": "Equipped Resonator gains 6 stack(s) of Oath upon entering the battlefield. Each stack increases ATK by (var1)%, up to 6 stacks. This effect can be triggered 1 time(s) every 12s. The equipped Resonator loses 1 stack(s) of Oath every 2s, and gains 6 stack(s) upon defeating an enemy.",
-      "values": [[2], [2.5], [3], [3.5], [4]]
+      "values": [[2], [2.5], [3], [3.5], [4]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/lunar-cutter.webp",
     "source": {
@@ -1581,6 +1872,14 @@
         [19.2, 10.5],
         [22.4, 12.25],
         [25.6, 14]
+      ],
+      "bonuses": [
+        {
+          "stat": "energyRegen",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/lustrous-razor.webp",
@@ -1611,6 +1910,14 @@
         [18, 36, 12],
         [21, 42, 14],
         [24, 48, 16]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/lux-umbra.webp",
@@ -1635,7 +1942,8 @@
     "passive": {
       "name": "Ceaseless Aria",
       "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 times every 20s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/marcato.webp",
     "source": {
@@ -1659,7 +1967,8 @@
     "passive": {
       "name": "Rhetoric",
       "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/meditations-on-mercy.webp",
     "source": {
@@ -1689,6 +1998,20 @@
         [18, 30, 9.6],
         [21, 35, 10.8],
         [24, 40, 12]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        },
+        {
+          "stat": "liberationDmg",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/moongazers-sigil.webp",
@@ -1713,7 +2036,15 @@
     "passive": {
       "name": "Ever-changing",
       "text": "When the Resonator dashes or dodges, increases ATK by (var1)%, stacking up to 3 time(s). This effect lasts for 8s.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 3
+        }
+      ]
     },
     "icon": "/assets/game/weapons/novaburst.webp",
     "source": {
@@ -1737,7 +2068,8 @@
     "passive": {
       "name": "Fish Catch",
       "text": "Dealing DMG to enemies with Spectro Frazzle increases the wielder's Spectro DMG by (var1)%, gaining 1 stack per second for 6s, stacking up to 4 stacks.",
-      "values": [[6], [7], [8], [9], [10]]
+      "values": [[6], [7], [8], [9], [10]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/oceans-gift.webp",
     "source": {
@@ -1761,7 +2093,8 @@
     "passive": {
       "name": "Temperance",
       "text": "When Resonance Skill is cast, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 12s.",
-      "values": [[3], [3.75], [4.5], [5.25], [6]]
+      "values": [[3], [3.75], [4.5], [5.25], [6]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/originite-type-i.webp",
     "source": {
@@ -1785,7 +2118,8 @@
     "passive": {
       "name": "Vanquish",
       "text": "When Resonance Liberation is cast, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[5], [6.25], [7.5], [8.75], [10]]
+      "values": [[5], [6.25], [7.5], [8.75], [10]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/originite-type-ii.webp",
     "source": {
@@ -1809,7 +2143,8 @@
     "passive": {
       "name": "Alarcrity",
       "text": "When Dodge Counter is cast, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 6s.",
-      "values": [[1.6], [2], [2.4], [2.8], [3.2]]
+      "values": [[1.6], [2], [2.4], [2.8], [3.2]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/originite-type-iii.webp",
     "source": {
@@ -1833,7 +2168,8 @@
     "passive": {
       "name": "Rejuvinate",
       "text": "When dealing Basic Attack DMG, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 3s.",
-      "values": [[0.5], [0.65], [0.8], [0.95], [1.1]]
+      "values": [[0.5], [0.65], [0.8], [0.95], [1.1]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/originite-type-iv.webp",
     "source": {
@@ -1857,7 +2193,8 @@
     "passive": {
       "name": "Augment",
       "text": "When Intro Skill is cast, heals (var1)% of the Resonator's Max HP. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[5], [6.25], [7.5], [8.75], [10]]
+      "values": [[5], [6.25], [7.5], [8.75], [10]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/originite-type-v.webp",
     "source": {
@@ -1881,7 +2218,8 @@
     "passive": {
       "name": "Ceaseless Aria",
       "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/overture.webp",
     "source": {
@@ -1911,6 +2249,14 @@
         [18, 25],
         [21, 27.5],
         [24, 30]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/phasic-homogenizer.webp",
@@ -1941,6 +2287,14 @@
         [9, 7.5],
         [10.5, 8.75],
         [12, 10]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 2
+        }
       ]
     },
     "icon": "/assets/game/weapons/pistols-26.webp",
@@ -1965,7 +2319,15 @@
     "passive": {
       "name": "Valiance",
       "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/pistols-of-night.webp",
     "source": {
@@ -1989,7 +2351,8 @@
     "passive": {
       "name": "Long Journey",
       "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[8], [9], [10], [11], [12]]
+      "values": [[8], [9], [10], [11], [12]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/pistols-of-voyager.webp",
     "source": {
@@ -2019,6 +2382,14 @@
         [18, 7.5],
         [21, 8.2],
         [24, 9]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/pulsation-bracer.webp",
@@ -2049,6 +2420,14 @@
         [18, 30],
         [21, 33],
         [24, 36]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/radiance-cleaver.webp",
@@ -2079,6 +2458,14 @@
         [18.9, 18.9],
         [23.8, 23.8],
         [28.8, 28.8]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/radiant-dawn.webp",
@@ -2109,6 +2496,14 @@
         [7.5, 18],
         [8.75, 21],
         [10, 24]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/rectifier-25.webp",
@@ -2133,7 +2528,15 @@
     "passive": {
       "name": "Valiance",
       "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/rectifier-of-night.webp",
     "source": {
@@ -2157,7 +2560,8 @@
     "passive": {
       "name": "Crusade",
       "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[8], [9], [10], [11], [12]]
+      "values": [[8], [9], [10], [11], [12]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/rectifier-of-voyager.webp",
     "source": {
@@ -2187,7 +2591,8 @@
         [18, 15, 60],
         [21, 17.5, 70],
         [24, 20, 80]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/red-spring.webp",
     "source": {
@@ -2217,6 +2622,14 @@
         [8, 15],
         [9, 17.5],
         [10, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/relativistic-jet.webp",
@@ -2247,7 +2660,8 @@
         [18, 78],
         [21, 91],
         [24, 104]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/rime-draped-sprouts.webp",
     "source": {
@@ -2271,7 +2685,8 @@
     "passive": {
       "name": "Rhetoric",
       "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/romance-in-farewell.webp",
     "source": {
@@ -2301,6 +2716,14 @@
         [18, 36, 18, 36],
         [21, 42, 21, 42],
         [24, 48, 24, 48]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/skull-thrasher.webp",
@@ -2331,6 +2754,14 @@
         [4.7, 4.7],
         [5.9, 5.9],
         [7.2, 7.2]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 4
+        }
       ]
     },
     "icon": "/assets/game/weapons/solar-flame.webp",
@@ -2361,6 +2792,14 @@
         [18, 48, 15],
         [21, 56, 17.5],
         [24, 64, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/solsworn-ciphers.webp",
@@ -2391,7 +2830,8 @@
         [3, 9],
         [3.5, 10.5],
         [4, 12]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/somnoire-anchor.webp",
     "source": {
@@ -2421,6 +2861,14 @@
         [18, 30, 45, 15],
         [21, 35, 52.5, 17.5],
         [24, 40, 60, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/spectral-trigger.webp",
@@ -2451,6 +2899,14 @@
         [18, 54, 12],
         [21, 63, 14],
         [24, 72, 16]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/spectrum-blaster.webp",
@@ -2481,6 +2937,14 @@
         [24, 12, 30],
         [28, 14, 35],
         [32, 16, 40]
+      ],
+      "bonuses": [
+        {
+          "stat": "defPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/starfield-calibrator.webp",
@@ -2511,6 +2975,14 @@
         [19.2, 15],
         [22.4, 17.55],
         [25.6, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "energyRegen",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/static-mist.webp",
@@ -2541,7 +3013,8 @@
         [18, 12, 21],
         [21, 14, 24.5],
         [24, 16, 28]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/stellar-symphony.webp",
     "source": {
@@ -2565,7 +3038,8 @@
     "passive": {
       "name": "Wallbreaker",
       "text": "Casting Resonance Skill increases the wielder's Resonance Liberation DMG Bonus by (var1)%, lasting for 15s.",
-      "values": [[18], [27], [36], [45], [54]]
+      "values": [[18], [27], [36], [45], [54]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/stonard.webp",
     "source": {
@@ -2589,7 +3063,15 @@
     "passive": {
       "name": "Electric Amplification",
       "text": "Grants (var1)% Attribute DMG Bonus. When dealing Resonance Skill DMG, increases ATK by (var1)%, stacking up to 2 times. This effect lasts for 5s. When the wielder is not on the field, increases their ATK by an additional (var1)%.",
-      "values": [[12], [15], [18], [21], [24]]
+      "values": [[12], [15], [18], [21], [24]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 2
+        }
+      ]
     },
     "icon": "/assets/game/weapons/stringmaster.webp",
     "source": {
@@ -2619,6 +3101,14 @@
         [60, 27, 7.5],
         [70, 31.5, 8.75],
         [80, 36, 10]
+      ],
+      "bonuses": [
+        {
+          "stat": "heavyDmg",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/sword-18.webp",
@@ -2643,7 +3133,15 @@
     "passive": {
       "name": "Valiance",
       "text": "When Intro Skill is cast, increases ATK by (var1)%, lasting for 10s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/sword-of-night.webp",
     "source": {
@@ -2667,7 +3165,8 @@
     "passive": {
       "name": "Crusade",
       "text": "When Resonance Skill is cast, restores (var1) Resonance Energy. This effect can be triggered 1 time(s) every 20s.",
-      "values": [[8], [9], [10], [11], [12]]
+      "values": [[8], [9], [10], [11], [12]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/sword-of-voyager.webp",
     "source": {
@@ -2697,6 +3196,14 @@
         [18, 72],
         [21, 84],
         [24, 96]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/the-last-dance.webp",
@@ -2727,7 +3234,8 @@
         [18, 6, 36, 18, 20, 40],
         [21, 7, 42, 21, 22.5, 45],
         [24, 8, 48, 24, 25, 50]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/thousandfold-deliverance.webp",
     "source": {
@@ -2751,7 +3259,15 @@
     "passive": {
       "name": "Unstoppable",
       "text": "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by (var1)%, stacking up to 3 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
-      "values": [[7], [11], [15], [19], [23]]
+      "values": [[7], [11], [15], [19], [23]],
+      "bonuses": [
+        {
+          "stat": "skillDmg",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 3
+        }
+      ]
     },
     "icon": "/assets/game/weapons/thunderbolt.webp",
     "source": {
@@ -2781,6 +3297,20 @@
         [18, 30, 9.6],
         [21, 35, 10.8],
         [24, 40, 12]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        },
+        {
+          "stat": "heavyDmg",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/thunderflare-dominion.webp",
@@ -2811,6 +3341,14 @@
         [18, 72],
         [21, 84],
         [24, 96]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/tragicomedy.webp",
@@ -2835,7 +3373,15 @@
     "passive": {
       "name": "Persevere",
       "text": "Increases ATK by (var1)%.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/training-broadblade.webp",
     "source": {
@@ -2859,7 +3405,15 @@
     "passive": {
       "name": "Persevere",
       "text": "Increases ATK by (var1)%.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/training-gauntlets.webp",
     "source": {
@@ -2883,7 +3437,15 @@
     "passive": {
       "name": "Persevere",
       "text": "Increases ATK by (var1)%.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/training-pistols.webp",
     "source": {
@@ -2907,7 +3469,15 @@
     "passive": {
       "name": "Persevere",
       "text": "Increases ATK by (var1)%.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/training-rectifier.webp",
     "source": {
@@ -2931,7 +3501,15 @@
     "passive": {
       "name": "Persevere",
       "text": "Increases ATK by (var1)%.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/training-sword.webp",
     "source": {
@@ -2955,7 +3533,15 @@
     "passive": {
       "name": "Prologue",
       "text": "Increases ATK by (var1)%.",
-      "values": [[5], [6.25], [7.5], [8.75], [10]]
+      "values": [[5], [6.25], [7.5], [8.75], [10]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/tyro-broadblade.webp",
     "source": {
@@ -2979,7 +3565,15 @@
     "passive": {
       "name": "Prologue",
       "text": "Increases ATK by (var1)%.",
-      "values": [[5], [6.25], [7.5], [8.75], [10]]
+      "values": [[5], [6.25], [7.5], [8.75], [10]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/tyro-gauntlets.webp",
     "source": {
@@ -3003,7 +3597,15 @@
     "passive": {
       "name": "Prologue",
       "text": "Increases ATK by (var1)%.",
-      "values": [[5], [6.25], [7.5], [8.75], [10]]
+      "values": [[5], [6.25], [7.5], [8.75], [10]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/tyro-pistols.webp",
     "source": {
@@ -3027,7 +3629,15 @@
     "passive": {
       "name": "Prologue",
       "text": "Increases ATK by (var1)%.",
-      "values": [[5], [6.25], [7.5], [8.75], [10]]
+      "values": [[5], [6.25], [7.5], [8.75], [10]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/tyro-rectifier.webp",
     "source": {
@@ -3051,7 +3661,15 @@
     "passive": {
       "name": "Prologue",
       "text": "Increases ATK by (var1)%.",
-      "values": [[5], [6.25], [7.5], [8.75], [10]]
+      "values": [[5], [6.25], [7.5], [8.75], [10]],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/tyro-sword.webp",
     "source": {
@@ -3075,7 +3693,15 @@
     "passive": {
       "name": "Loyalty",
       "text": "When Intro Skill is cast, increases Resonance Skill DMG Bonus by (var1)% for 15s.",
-      "values": [[20], [25], [30], [35], [40]]
+      "values": [[20], [25], [30], [35], [40]],
+      "bonuses": [
+        {
+          "stat": "skillDmg",
+          "variable": 1,
+          "conditional": true,
+          "stacks": 1
+        }
+      ]
     },
     "icon": "/assets/game/weapons/undying-flame.webp",
     "source": {
@@ -3105,7 +3731,8 @@
         [12, 36, 36],
         [14, 42, 42],
         [16, 48, 48]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/unflickering-valor.webp",
     "source": {
@@ -3135,7 +3762,8 @@
         [18, 45, 36, 60],
         [21, 52.5, 42, 70],
         [24, 60, 48, 80]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/unspoken-rue.webp",
     "source": {
@@ -3159,7 +3787,8 @@
     "passive": {
       "name": "Ceaseless Aria",
       "text": "When Resonance Skill is cast, restores (var1) Concerto Energy. This effect can be triggered 1 times every 20s.",
-      "values": [[8], [10], [12], [14], [16]]
+      "values": [[8], [10], [12], [14], [16]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/variation.webp",
     "source": {
@@ -3189,6 +3818,20 @@
         [18, 36],
         [21, 42],
         [24, 48]
+      ],
+      "bonuses": [
+        {
+          "stat": "elementalDmg",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        },
+        {
+          "stat": "heavyDmg",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 2
+        }
       ]
     },
     "icon": "/assets/game/weapons/verdant-summit.webp",
@@ -3219,7 +3862,8 @@
         [18, 72],
         [21, 84],
         [24, 96]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/veritys-handle.webp",
     "source": {
@@ -3243,7 +3887,8 @@
     "passive": {
       "name": "Rhetoric",
       "text": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by (var1)% for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
-      "values": [[4], [5], [6], [7], [8]]
+      "values": [[4], [5], [6], [7], [8]],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/waltz-in-masquerade.webp",
     "source": {
@@ -3273,6 +3918,14 @@
         [8, 15],
         [9, 17.5],
         [10, 20]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/waning-redshift.webp",
@@ -3303,6 +3956,14 @@
         [18, 60],
         [21, 70],
         [24, 80]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/whispers-of-sirens.webp",
@@ -3333,6 +3994,20 @@
         [18, 36, 36],
         [21, 42, 42],
         [24, 48, 48]
+      ],
+      "bonuses": [
+        {
+          "stat": "atkPct",
+          "variable": 1,
+          "conditional": false,
+          "stacks": 1
+        },
+        {
+          "stat": "liberationDmg",
+          "variable": 2,
+          "conditional": true,
+          "stacks": 1
+        }
       ]
     },
     "icon": "/assets/game/weapons/wildfire-mark.webp",
@@ -3363,7 +4038,8 @@
         [18, 36, 13],
         [21, 42, 14.5],
         [24, 48, 16]
-      ]
+      ],
+      "bonuses": []
     },
     "icon": "/assets/game/weapons/woodland-aria.webp",
     "source": {

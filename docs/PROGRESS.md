@@ -9,9 +9,9 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 | M0 — Socle, outillage, CI                        | terminé |
 | M1 — Moteur de stats + données du jeu            | terminé |
 | M2 — Design system + coquille de l'app           | terminé |
-| M3 — Parcours Résonateur → Arme → Forte → Chaîne | à faire |
-| M4 — Éditeur d'Échos + inventaire                | à faire |
-| M5 — Équipe, buffs, calcul de dégâts             | à faire |
+| M3 — Parcours Résonateur → Arme → Forte → Chaîne | terminé |
+| M4 — Éditeur d'Échos + inventaire                | terminé |
+| M5 — Équipe, buffs, calcul de dégâts             | terminé |
 | M6 — Comparateur, partage URL, export image      | à faire |
 | M7 — Optimiseur, planificateur, import OCR       | à faire |
 
@@ -53,9 +53,17 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - Feuille modale accessible (`ui/Sheet`) : focus capturé, Échap, focus rendu.
 - Données : nettoyage des noms (guillemet parasite « Nuages lunaires" »), test de non-régression sur tous les noms ; Prettier lancé après chaque import.
 
+### M5 — Dégâts
+
+- Données : 244 compétences (50 Résonateurs) avec multiplicateurs par niveau et type de dégâts (« considered as X damage » du texte du jeu) ; bonus structurés des ensembles (2/5 pièces) et des passifs d'armes (variable du rang, cumuls).
+- Modèle `Build` v2 (migration 1→2) : mode combat, ennemi (niveau, résistance), buffs personnalisés.
+- Stats : effets d'ensembles et passifs comptés, bonus conditionnels seulement en combat ; liste transparente des « Bonus comptés ».
+- Page « Dégâts estimés » : situation (combat, niveau et RÉS de l'ennemi), équipe (2 coéquipiers), buffs personnalisés, tableau par compétence (multiplicateur, normal, critique, moyenne). Résumé « coup le plus fort » sur la fiche.
+- Performance : compétences, page Dégâts et résumé chargés à la demande (JS initial 170 kB gzip). `pnpm check` vérifie désormais aussi le budget du bundle, comme la CI.
+
 ## Prochaine étape
 
-M5 : équipe (2 coéquipiers) et buffs, effets structurés (passifs d'armes, ensembles), multiplicateurs de compétences importés du wiki, dégâts estimés contre un ennemi configurable.
+M6 : comparateur de builds, partage par URL (build encodé, lecture seule + « copier dans mes builds »), export en image.
 
 ## Décisions en attente (côté utilisateur)
 

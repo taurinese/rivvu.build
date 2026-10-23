@@ -58,3 +58,65 @@ describe('computeBuildStats', () => {
     expect(() => computeBuildStats({ ...base, resonatorId: 'inconnu' })).toThrow(/inconnu/);
   });
 });
+
+describe('computeBuildStats — ensembles, passif et buffs', () => {
+  const sierra = (
+    uid: string,
+    echoId: string,
+    cost: 1 | 3 | 4,
+    mainStat: 'critDmg' | 'aeroDmg' | 'atkPct',
+  ) => ({
+    uid,
+    echoId,
+    cost,
+    sonata: 'sierra-gale',
+    mainStat,
+    substats: [],
+  });
+  const full: Build = {
+    ...withWeapon,
+    echoes: [
+      sierra('a', 'feilian-beringal', 4, 'critDmg'),
+      sierra('b', 'carapace', 3, 'aeroDmg'),
+      sierra('c', 'cyan-feathered-heron', 3, 'aeroDmg'),
+      sierra('d', 'whiff-whaff', 1, 'atkPct'),
+      sierra('e', 'dwarf-cassowary', 1, 'atkPct'),
+    ],
+  };
+
+  it('en combat : 2 et 5 pièces, passif d’attribut et cumuls d’attaque lourde', () => {
+    const { stats, sources } = computeBuildStats({ ...full, combat: true });
+    // Échos 30 + 30, ensemble 10 + 30, passif « DGT d'attribut » 12
+    expect(stats.dmgBonus.aero).toBeCloseTo(112, 5);
+    // Passif conditionnel : 24 % × 2 cumuls
+    expect(stats.dmgBonus.heavy).toBeCloseTo(48, 5);
+    expect(sources.map((s) => s.kind)).toEqual(['echoes', 'set', 'set', 'weapon', 'weapon']);
+  });
+
+  it('hors combat : seulement les bonus permanents', () => {
+    const { stats } = computeBuildStats({ ...full, combat: false });
+    expect(stats.dmgBonus.aero).toBeCloseTo(82, 5);
+    expect(stats.dmgBonus.heavy).toBe(0);
+  });
+
+  it('le passif suit le rang de syntonisation', () => {
+    const { stats } = computeBuildStats({
+      ...full,
+      combat: false,
+      weapon: { ...full.weapon!, rank: 5 },
+    });
+    expect(stats.dmgBonus.aero).toBeCloseTo(60 + 10 + 24, 5);
+  });
+
+  it('ajoute les buffs personnalisés actifs uniquement', () => {
+    const { stats } = computeBuildStats({
+      ...base,
+      customBuffs: [
+        { id: '1', label: 'Outro', stat: 'amplify', value: 15, enabled: true },
+        { id: '2', label: 'Off', stat: 'critRate', value: 20, enabled: false },
+      ],
+    });
+    expect(stats.amplify).toBe(15);
+    expect(stats.critRate).toBe(5);
+  });
+});

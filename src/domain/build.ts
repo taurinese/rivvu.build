@@ -1,9 +1,10 @@
 import type { EchoInstance } from './echoes';
 import { MAX_LEVEL_STEP } from './levels';
 import type { LevelStep } from './levels';
+import type { StatKey } from './types';
 
 /** Version du format persisté d'un build (voir ADR 0002 et les migrations de persistance). */
-export const BUILD_SCHEMA_VERSION = 1;
+export const BUILD_SCHEMA_VERSION = 2;
 
 export const FORTE_SKILLS = ['normal', 'skill', 'circuit', 'liberation', 'intro'] as const;
 export type ForteSkill = (typeof FORTE_SKILLS)[number];
@@ -19,6 +20,23 @@ export interface WeaponSetup {
   /** Rang de syntonisation, 1 à 5. */
   rank: number;
 }
+
+/** Buff saisi par l'utilisateur (ex. Outro d'un coéquipier), compté s'il est actif. */
+export interface CustomBuff {
+  id: string;
+  label: string;
+  stat: StatKey;
+  value: number;
+  enabled: boolean;
+}
+
+/** Ennemi ciblé pour l'estimation des dégâts. Résistance en points de % (10 = 10 %). */
+export interface EnemySetup {
+  level: number;
+  res: number;
+}
+
+export const DEFAULT_ENEMY: EnemySetup = { level: 90, res: 10 };
 
 /**
  * Un build : document autonome, identifié par un UUID généré côté client.
@@ -44,6 +62,10 @@ export interface Build {
   /** Deux coéquipiers (identifiants de Résonateurs). */
   team: [string | null, string | null];
   notes: string;
+  /** Compter les bonus conditionnels (actifs en combat : effets 5 pièces, cumuls de passifs…). */
+  combat: boolean;
+  enemy: EnemySetup;
+  customBuffs: CustomBuff[];
 }
 
 export interface NewBuildInput {
@@ -71,6 +93,9 @@ export function createBuild({ id, resonatorId, now, name }: NewBuildInput): Buil
     echoes: [],
     team: [null, null],
     notes: '',
+    combat: true,
+    enemy: { ...DEFAULT_ENEMY },
+    customBuffs: [],
   };
 }
 
