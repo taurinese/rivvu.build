@@ -10,6 +10,7 @@ Tout provient du [wiki Wuthering Waves (Fandom)](https://wutheringwaves.fandom.c
 | `src/data/game/weapons.json`    | Armes : rareté, type, ATQ de base, stat secondaire, passif par rang                 | `Template:Weapon Infobox`, `Module:Weapon Ascensions and Stats/data`       |
 | `src/data/game/echoes.json`     | Échos : coût, classe, ensembles possibles                                           | `Template:Echo Infobox`                                                    |
 | `src/data/game/sonatas.json`    | Ensembles de sonate : effets 2/3/5 pièces                                           | `Template:Sonata Infobox`                                                  |
+| `src/data/game/skills.json`     | Compétences : type, stat de référence (ATQ/PV/DÉF), lignes de dégâts × niveaux 1–10 | `Template:Skill Infobox` (pages `<Résonateur>/Skills`)                     |
 | `src/data/game/curves.json`     | Courbes de niveau (personnage, ATQ et stat secondaire d'arme) + tables de référence | `Module:Character Ascensions and Stats`, `Module:WeaponScaling/*`          |
 | `src/data/game/meta.json`       | Date d'import, compteurs, entrées écartées et pourquoi                              | —                                                                          |
 | `src/domain/echoes.ts`          | Stats principales par coût, paliers de sous-stats                                   | Page `Echo/Stats`                                                          |
@@ -35,11 +36,16 @@ Après import : `pnpm test` (le projet `data` valide chaque entrée avec Zod, l'
 
 ## Limites connues (V1)
 
-| Limite                                                                       | Conséquence                                                                 | Piste                                                      |
-| ---------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Rover (attribut « Multiple ») non importé                                    | Absent du sélecteur                                                         | Importer les variantes Rover par attribut                  |
-| Résonateurs sans stats sur le wiki (Buling, Lucilla, Lucy, Rebecca, Jingran) | Absents                                                                     | Se mettront à jour au prochain import                      |
-| Bonus de stats du Forte (ex. ATQ +12 %, Taux crit. +8 %)                     | **Non disponibles sur le wiki** : pas encore comptés dans les stats finales | Source de données structurée à valider (voir PROGRESS)     |
-| Stats uniquement aux paliers d'ascension (1, 20, 40… 90)                     | Pas de niveau intermédiaire                                                 | Suffisant pour les builds (quasi toujours niv. 90)         |
-| Stats principales d'Échos au niveau +25 (5★) uniquement                      | Pas d'Écho partiellement monté                                              | Ajouter les autres niveaux si une source fiable existe     |
-| Passifs d'armes et effets 5 pièces en texte                                  | Pas encore modélisés dans le calcul                                         | Modélisation structurée en M5, effet par effet, avec tests |
+| Limite                                                                                         | Conséquence                                                                 | Piste                                                  |
+| ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Rover (attribut « Multiple ») non importé                                                      | Absent du sélecteur                                                         | Importer les variantes Rover par attribut              |
+| Résonateurs sans stats sur le wiki (Buling, Lucilla, Lucy, Rebecca, Jingran)                   | Absents                                                                     | Se mettront à jour au prochain import                  |
+| Bonus de stats du Forte (ex. ATQ +12 %, Taux crit. +8 %)                                       | **Non disponibles sur le wiki** : pas encore comptés dans les stats finales | Source de données structurée à valider (voir PROGRESS) |
+| Stats uniquement aux paliers d'ascension (1, 20, 40… 90)                                       | Pas de niveau intermédiaire                                                 | Suffisant pour les builds (quasi toujours niv. 90)     |
+| Stats principales d'Échos au niveau +25 (5★) uniquement                                        | Pas d'Écho partiellement monté                                              | Ajouter les autres niveaux si une source fiable existe |
+| Effets d'ensembles et passifs d'armes : seuls les bonus chiffrés « stat +X % » sont structurés | Les effets complexes (soins, coordination, débuffs) restent en texte        | Modéliser au cas par cas, avec tests                   |
+| Bonus conditionnels (5 pièces, cumuls de passifs)                                              | Comptés seulement en mode « Bonus de combat », au maximum de cumuls         | Réglage par cumul si besoin                            |
+| Buffs de coéquipiers (Outro, ensembles de soutien)                                             | Saisis à la main (« Buffs personnalisés »)                                  | Modéliser les Outros les plus joués                    |
+| Libellés des lignes de dégâts en anglais (noms propres)                                        | Les termes génériques sont traduits, les noms d'attaques restent en anglais | Récupérer les traductions FR des pages de compétences  |
+| Lignes de dégâts sans « % » sur le wiki                                                        | Lues comme des pourcentages et signalées « % supposé »                      | Corriger sur le wiki                                   |
+| Cartethyia : pas de page de compétences exploitable                                            | Pas de dégâts estimés pour elle                                             | Se mettra à jour au prochain import                    |

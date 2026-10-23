@@ -114,6 +114,30 @@ test.describe('Rivvu', () => {
     await expectNoHorizontalScroll(page);
   });
 
+  test('dégâts estimés : situation, buff et coéquipier', async ({ page }) => {
+    await createJiyanBuild(page);
+    await page.getByRole('link', { name: 'Détails' }).click();
+    await expect(page.getByRole('heading', { level: 1, name: 'Dégâts estimés' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Lance solitaire' })).toBeVisible();
+    await expectAccessible(page);
+    await expectNoHorizontalScroll(page);
+
+    await page.getByRole('radio', { name: '40 %' }).click();
+    await page.getByRole('button', { name: 'Ajouter' }).click();
+    await expect(page.getByRole('textbox', { name: 'Nom du buff 1' })).toHaveValue('Nouveau buff');
+    await page.getByRole('button', { name: 'Coéquipier 1' }).click();
+    const sheet = page.getByRole('dialog', { name: 'Choisir un coéquipier' });
+    await expectAccessible(page);
+    await sheet.getByRole('button', { name: 'Verina' }).click();
+    await expect(page.getByRole('button', { name: 'Retirer Verina de l’équipe' })).toBeVisible();
+
+    await page.reload();
+    await expect(page.getByRole('radio', { name: '40 %' })).toBeChecked();
+    await expect(page.getByRole('textbox', { name: 'Nom du buff 1' })).toBeVisible();
+    await expectAccessible(page);
+    await expectNoHorizontalScroll(page);
+  });
+
   test('réglages : le thème clair s’applique et persiste', async ({ page }) => {
     await page.goto('/reglages');
     await page.getByRole('radio', { name: 'Clair' }).click();

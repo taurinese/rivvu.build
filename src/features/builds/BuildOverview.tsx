@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { Suspense, lazy, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { useBuilds } from '@/app/services';
 import { echoById, weaponById } from '@/data/game';
@@ -29,6 +29,10 @@ import { FORTE_LABEL } from './forte-labels';
 import { buildProgress } from './progress';
 import { StatsCard } from './StatsCard';
 import styles from './BuildOverview.module.css';
+
+const DamageSummary = lazy(async () => ({
+  default: (await import('@/features/damage/DamageSummary')).DamageSummary,
+}));
 
 interface Props {
   build: Build;
@@ -277,6 +281,11 @@ export function BuildOverview({ build, resonator }: Props) {
 
         <div className={styles.sideColumn}>
           <StatsCard stats={stats} baseline={baseline} element={resonator.element} />
+          <Card heading="Dégâts" accessory={<Link to={`${base}/degats`}>Détails</Link>}>
+            <Suspense fallback={<p className={styles.muted}>Calcul des dégâts…</p>}>
+              <DamageSummary build={build} stats={stats} resonator={resonator} />
+            </Suspense>
+          </Card>
           <Card heading="Repères">
             <GroupedList>
               <ListRow

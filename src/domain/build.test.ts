@@ -23,6 +23,9 @@ describe('createBuild', () => {
       echoes: [],
       team: [null, null],
       notes: '',
+      combat: true,
+      enemy: { level: 90, res: 10 },
+      customBuffs: [],
     });
   });
 
@@ -51,5 +54,14 @@ describe('totalEchoCost', () => {
         ],
       }),
     ).toBe(7);
+  });
+});
+
+describe('createBuild — combat', () => {
+  it('active les bonus de combat et cible un ennemi niv. 90 à 10 % de résistance', () => {
+    const build = createBuild({ id: 'b', resonatorId: 'jiyan', now });
+    expect(build.combat).toBe(true);
+    expect(build.enemy).toEqual({ level: 90, res: 10 });
+    expect(build.customBuffs).toEqual([]);
   });
 });

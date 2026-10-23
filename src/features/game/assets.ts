@@ -11,6 +11,8 @@ const STAT_ICON_KEY: Partial<Record<StatKey, string>> = {
   outroDmg: 'skill-dmg',
   coordinatedDmg: 'echo-dmg',
   allDmg: 'atk',
+  elementalDmg: 'aero-dmg',
+  amplify: 'atk',
 };
 
 /** Icône officielle d'une stat (fichiers importés par scripts/import-game-data.ts). */

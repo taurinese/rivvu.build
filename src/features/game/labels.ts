@@ -54,7 +54,9 @@ export const STAT_LABEL: Record<StatKey, string> = {
   outroDmg: 'Bonus DGT Outro',
   echoDmg: 'Bonus DGT Écho',
   coordinatedDmg: 'Bonus DGT Coordonné',
+  elementalDmg: "Bonus DGT d'attribut",
   allDmg: 'Bonus de DGT',
+  amplify: 'Amplification des DGT',
 };
 
 /** Stats affichées en pourcentage (les autres sont des valeurs plates). */

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { ELEMENTS, STAT_KEYS, WEAPON_TYPES } from '../domain/types.ts';
+import { ATTACK_TYPES, ELEMENTS, STAT_KEYS, WEAPON_TYPES } from '../domain/types.ts';
 
 export const localizedSchema = z.object({
   en: z.string().min(1),
@@ -48,6 +48,15 @@ export const weaponSchema = z.object({
       text: z.string().min(1),
       /** values[rang - 1][var - 1], en points de % ou valeurs brutes. */
       values: z.array(z.array(z.number())).length(5),
+      /** Bonus modélisés à partir du texte (les autres effets restent informatifs). */
+      bonuses: z.array(
+        z.object({
+          stat: z.enum(STAT_KEYS),
+          variable: z.number().int().positive(),
+          conditional: z.boolean(),
+          stacks: z.number().int().positive(),
+        }),
+      ),
     })
     .nullable(),
   icon: assetPath.nullable(),
@@ -71,9 +80,52 @@ export const sonataSchema = z.object({
   id,
   name: localizedSchema,
   effects: z
-    .array(z.object({ pieces: z.number().int().min(1).max(5), text: z.string().min(1) }))
+    .array(
+      z.object({
+        pieces: z.number().int().min(1).max(5),
+        text: z.string().min(1),
+        /** Bonus chiffrés lus dans le texte (vide si l'effet n'est pas modélisable simplement). */
+        bonuses: z.array(
+          z.object({ stat: z.enum(STAT_KEYS), value: z.number(), conditional: z.boolean() }),
+        ),
+      }),
+    )
     .min(1),
   icon: assetPath.nullable(),
+  source: sourceSchema,
+});
+
+export const SKILL_TYPES = [
+  'basic',
+  'skill',
+  'circuit',
+  'liberation',
+  'intro',
+  'outro',
+  'inherent',
+] as const;
+
+export const skillSchema = z.object({
+  id,
+  resonatorId: id,
+  name: localizedSchema,
+  type: z.enum(SKILL_TYPES),
+  /** Stat qui sert de base aux dégâts. */
+  scaling: z.enum(['atk', 'hp', 'def']),
+  rows: z
+    .array(
+      z.object({
+        label: z.string().min(1),
+        damageType: z.enum(ATTACK_TYPES),
+        /** Vrai si le type d'attaque a été déduit faute d'indication explicite. */
+        damageTypeInferred: z.boolean(),
+        /** Multiplicateur total (fraction de la stat de base) par niveau de compétence. */
+        values: z.array(z.number().positive()).min(1).max(10),
+        /** Vrai si le wiki a omis le « % » et qu'on l'a supposé. */
+        assumedPercent: z.boolean(),
+      }),
+    )
+    .min(1),
   source: sourceSchema,
 });
 
@@ -113,4 +165,5 @@ export type Weapon = z.infer<typeof weaponSchema>;
 export type Echo = z.infer<typeof echoSchema>;
 export type Sonata = z.infer<typeof sonataSchema>;
 export type Curves = z.infer<typeof curvesSchema>;
+export type Skill = z.infer<typeof skillSchema>;
 export type GameDataMeta = z.infer<typeof metaSchema>;

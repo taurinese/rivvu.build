@@ -5,6 +5,7 @@ import curvesJson from './game/curves.json';
 import echoesJson from './game/echoes.json';
 import metaJson from './game/meta.json';
 import resonatorsJson from './game/resonators.json';
+import skillsJson from './game/skills.json';
 import sonatasJson from './game/sonatas.json';
 import weaponsJson from './game/weapons.json';
 import {
@@ -12,6 +13,7 @@ import {
   echoSchema,
   metaSchema,
   resonatorSchema,
+  skillSchema,
   sonataSchema,
   weaponSchema,
 } from './schema';
@@ -22,6 +24,21 @@ const collections = [
   ['echoes', echoesJson, echoSchema],
   ['sonatas', sonatasJson, sonataSchema],
 ] as const;
+
+describe('compétences', () => {
+  it('respectent le schéma et référencent un Résonateur connu', () => {
+    const ids = new Set(resonatorsJson.map((r) => r.id));
+    for (const skill of skillsJson) {
+      expect(skillSchema.safeParse(skill).error?.issues ?? [], skill.id).toEqual([]);
+      expect(ids.has(skill.resonatorId), skill.id).toBe(true);
+    }
+  });
+
+  it('couvrent presque tous les Résonateurs', () => {
+    const covered = new Set(skillsJson.map((s) => s.resonatorId));
+    expect(covered.size).toBeGreaterThanOrEqual(resonatorsJson.length - 2);
+  });
+});
 
 describe('données du jeu', () => {
   it.each(collections)('%s : chaque entrée respecte le schéma', (_, items, schema) => {

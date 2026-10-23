@@ -9,11 +9,13 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import type { z } from 'zod';
+import type { SKILL_TYPES } from '../src/data/schema.ts';
 import {
   curvesSchema,
   echoSchema,
   metaSchema,
   resonatorSchema,
+  skillSchema,
   sonataSchema,
   weaponSchema,
 } from '../src/data/schema.ts';
@@ -29,7 +31,9 @@ import {
   pagesUsingTemplate,
   wikitextOf,
 } from './wiki/client.ts';
+import { parsePassiveBonuses, parseSetBonuses } from './wiki/effects.ts';
 import { luaReturnTable } from './wiki/lua.ts';
+import { inferDamageType, isDamageRow, parseMotionValue, scalingValues } from './wiki/skills.ts';
 import type { LuaValue } from './wiki/lua.ts';
 import {
   cleanName,
@@ -333,7 +337,12 @@ async function importWeapons() {
       continue;
     }
 
-    let passive: { name: string | null; text: string; values: number[][] } | null = null;
+    let passive: {
+      name: string | null;
+      text: string;
+      values: number[][];
+      bonuses: ReturnType<typeof parsePassiveBonuses>;
+    } | null = null;
     if (box.effect) {
       const varCount = Math.max(
         0,
@@ -346,10 +355,12 @@ async function importWeapons() {
       );
       const complete = values.map((rank) => rank.filter((v): v is number => v !== null));
       if (complete.every((rank) => rank.length === varCount)) {
+        const text = wikiToText(box.effect);
         passive = {
           name: box.rank_name ? wikiToText(box.rank_name) : null,
-          text: wikiToText(box.effect),
+          text,
           values: complete,
+          bonuses: parsePassiveBonuses(text).filter((b) => b.variable <= varCount),
         };
       } else {
         skip(
@@ -403,7 +414,9 @@ async function importSonatas() {
     const effects = Object.entries(box)
       .flatMap(([key, value]) => {
         const pieces = /^(\d)pc$/.exec(key)?.[1];
-        return pieces && value ? [{ pieces: Number(pieces), text: wikiToText(value) }] : [];
+        if (!pieces || !value) return [];
+        const text = wikiToText(value);
+        return [{ pieces: Number(pieces), text, bonuses: parseSetBonuses(text) }];
       })
       .sort((a, b) => a.pieces - b.pieces);
     const id = slugify(title);
@@ -467,6 +480,77 @@ async function importEchoes(sonataIds: Set<string>) {
           id,
           160,
         ),
+        source: { page: title, url: pageUrl(title) },
+      },
+      title,
+    );
+    if (entity) out.push(entity);
+  }
+  return out;
+}
+
+// ---------------------------------------------------------------------------
+// Compétences (multiplicateurs)
+// ---------------------------------------------------------------------------
+
+const SKILL_TYPE: Record<string, (typeof SKILL_TYPES)[number]> = {
+  'Basic Attack': 'basic',
+  'Resonance Skill': 'skill',
+  'Forte Circuit': 'circuit',
+  'Resonance Liberation': 'liberation',
+  'Intro Skill': 'intro',
+  'Outro Skill': 'outro',
+  'Inherent Skill': 'inherent',
+};
+
+async function importSkills(resonatorIds: Set<string>) {
+  const titles = await pagesUsingTemplate('Skill Infobox');
+  const pages = await wikitextOf(titles);
+  const out = [];
+  for (const title of titles) {
+    const page = pages.get(title);
+    const box = page ? infobox(page, 'Skill Infobox') : null;
+    const scaling = page ? infobox(page, 'Skill Scaling') : null;
+    if (!page || !box || !scaling) continue;
+    const type = SKILL_TYPE[box.type ?? ''];
+    const resonatorId = slugify(box.resonator ?? '');
+    if (!type || !resonatorIds.has(resonatorId)) continue;
+    const keys = (scaling.order ?? '').split(',').map((k) => k.trim());
+    const labels = (scaling.titles ?? '').split(',').map((k) => wikiToText(k.trim()));
+    const info = wikiToText(box.info ?? '');
+    const rows = keys.flatMap((key, i) => {
+      const label = labels[i] ?? key;
+      if (!key || !isDamageRow(label)) return [];
+      const percentUnit = /\(%\)/.test(label);
+      const parsed = [];
+      for (const raw of scalingValues(scaling, key).slice(0, 10)) {
+        const value = parseMotionValue(wikiToText(raw), { percentUnit });
+        if (!value) return [];
+        parsed.push(value);
+      }
+      if (parsed.length === 0) return [];
+      const { type: damageType, inferred } = inferDamageType(box.type ?? '', label, info);
+      return [
+        {
+          label: label.replace(/\s*\(%\)\s*$/, ''),
+          damageType,
+          damageTypeInferred: inferred,
+          values: parsed.map((p) => roundTo(p.value, 6)),
+          assumedPercent: parsed.some((p) => p.assumedPercent),
+        },
+      ];
+    });
+    if (rows.length === 0) continue;
+    const scaleAttr = (box.scale_att1 ?? 'ATK').trim().toUpperCase();
+    const entity = validate(
+      skillSchema,
+      {
+        id: `${resonatorId}-${slugify(title)}`,
+        resonatorId,
+        name: localized(title, otherLanguage(page, 'fr') ?? title),
+        type,
+        scaling: scaleAttr === 'HP' ? 'hp' : scaleAttr === 'DEF' ? 'def' : 'atk',
+        rows,
         source: { page: title, url: pageUrl(title) },
       },
       title,
@@ -550,6 +634,8 @@ async function main() {
   const weapons = sortById(dedupe(await importWeapons()));
   console.log('Échos…');
   const echoes = sortById(dedupe(await importEchoes(new Set(sonatas.map((s) => s.id)))));
+  console.log('Compétences…');
+  const skills = sortById(dedupe(await importSkills(new Set(resonators.map((r) => r.id)))));
   requestUiIcons();
 
   if (!SKIP_IMAGES) {
@@ -575,6 +661,7 @@ async function main() {
     writeJson('echoes', echoes);
     writeJson('sonatas', sonatas);
   }
+  writeJson('skills', skills);
   writeJson('curves', curves);
   writeJson(
     'meta',
@@ -587,12 +674,16 @@ async function main() {
         weapons: weapons.length,
         echoes: echoes.length,
         sonatas: sonatas.length,
+        skills: skills.length,
       },
       skipped,
     }),
   );
+  execFileSync('pnpm', ['exec', 'prettier', '--write', DATA_DIR, '--log-level', 'warn'], {
+    stdio: 'inherit',
+  });
   console.log(
-    `Terminé : ${resonators.length} Résonateurs, ${weapons.length} armes, ${echoes.length} Échos, ${sonatas.length} ensembles. ${skipped.length} avertissements.`,
+    `Terminé : ${resonators.length} Résonateurs, ${weapons.length} armes, ${echoes.length} Échos, ${sonatas.length} ensembles, ${skills.length} compétences. ${skipped.length} avertissements.`,
   );
 }
 

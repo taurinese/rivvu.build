@@ -94,7 +94,7 @@ describe('LocalStorageBuildRepository', () => {
       revision: 0,
       deletedAt: null,
       ownerId: null,
-      schemaVersion: 1,
+      schemaVersion: 2,
     });
   });
 

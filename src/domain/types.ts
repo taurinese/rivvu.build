@@ -40,6 +40,8 @@ export const STAT_KEYS = [
   'glacioDmg',
   'havocDmg',
   'spectroDmg',
+  /** Bonus de DGT de tous les attributs (« Attribute DMG Bonus »). */
+  'elementalDmg',
   'basicDmg',
   'heavyDmg',
   'skillDmg',
@@ -49,6 +51,8 @@ export const STAT_KEYS = [
   'echoDmg',
   'coordinatedDmg',
   'allDmg',
+  /** Amplification des dégâts (multiplicateur séparé du bonus de DGT). */
+  'amplify',
 ] as const;
 export type StatKey = (typeof STAT_KEYS)[number];
 

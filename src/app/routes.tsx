@@ -23,6 +23,12 @@ export const routes: RouteObject[] = [
       { path: 'builds/:buildId/arme', element: <WeaponPage /> },
       { path: 'builds/:buildId/forte', element: <FortePage /> },
       { path: 'builds/:buildId/echos', element: <EchoesPage /> },
+      {
+        path: 'builds/:buildId/degats',
+        lazy: async () => ({
+          Component: (await import('@/features/damage/DamagePage')).DamagePage,
+        }),
+      },
       { path: 'echos', element: <InventoryPage /> },
       { path: 'reglages', element: <SettingsPage /> },
       { path: '*', element: <NotFoundPage /> },

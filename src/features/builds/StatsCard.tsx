@@ -33,6 +33,7 @@ function rows(stats: FinalStats, element: Element): Row[] {
     if (stats.dmgBonus[type] > 0)
       list.push({ key: `${type}Dmg`, value: stats.dmgBonus[type], base: 0, flat: false });
   }
+  if (stats.amplify > 0) list.push({ key: 'amplify', value: stats.amplify, base: 0, flat: false });
   if (stats.healingBonus > 0)
     list.push({ key: 'healingBonus', value: stats.healingBonus, base: 0, flat: false });
   return list;

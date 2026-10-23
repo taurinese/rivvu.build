@@ -20,6 +20,8 @@ export interface FinalStats {
   critDmg: number;
   energyRegen: number;
   healingBonus: number;
+  /** Amplification des dégâts en points de %. */
+  amplify: number;
   /** Bonus de dégâts en points de % : par attribut, par type d'attaque et « all » (tous dégâts). */
   dmgBonus: Record<Element | AttackType | 'all', number>;
 }
@@ -50,7 +52,8 @@ export function computeFinalStats({ character, weapon, bonuses }: StatsInput): F
 
   const baseAtk = character.atk + (weapon?.atk ?? 0);
   const dmgBonus = Object.fromEntries([
-    ...ELEMENTS.map((e) => [e, get(`${e}Dmg`)]),
+    // Le bonus « d'attribut » s'applique à tous les attributs.
+    ...ELEMENTS.map((e) => [e, get(`${e}Dmg`) + get('elementalDmg')]),
     ...ATTACK_TYPES.map((t) => [t, get(`${t}Dmg`)]),
     ['all', get('allDmg')],
   ]) as FinalStats['dmgBonus'];
@@ -66,6 +69,7 @@ export function computeFinalStats({ character, weapon, bonuses }: StatsInput): F
     critDmg: BASE_CRIT_DMG + get('critDmg'),
     energyRegen: BASE_ENERGY_REGEN + get('energyRegen'),
     healingBonus: get('healingBonus'),
+    amplify: get('amplify'),
     dmgBonus,
   };
 }
