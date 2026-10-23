@@ -24,6 +24,18 @@ export const routes: RouteObject[] = [
       { path: 'builds/:buildId/forte', element: <FortePage /> },
       { path: 'builds/:buildId/echos', element: <EchoesPage /> },
       {
+        path: 'comparer',
+        lazy: async () => ({
+          Component: (await import('@/features/compare/ComparePage')).ComparePage,
+        }),
+      },
+      {
+        path: 'partage',
+        lazy: async () => ({
+          Component: (await import('@/features/share/SharedBuildPage')).SharedBuildPage,
+        }),
+      },
+      {
         path: 'builds/:buildId/degats',
         lazy: async () => ({
           Component: (await import('@/features/damage/DamagePage')).DamagePage,

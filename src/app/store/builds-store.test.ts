@@ -75,6 +75,42 @@ describe('builds store', () => {
     await store.getState().load();
     expect(store.getState().builds.map((b) => b.id)).toEqual(['y']);
   });
+
+  it('importe un build partagé sous un nouvel identifiant, à mon nom', async () => {
+    const store = make();
+    await store.getState().load();
+    const sourceId = await store.getState().create('jiyan', 'Partagé');
+    const source = store.getState().builds[0]!;
+    const id = await store.getState().importBuild({
+      ...source,
+      id: 'externe',
+      ownerId: 'quelqu-un',
+      revision: 9,
+      chain: 3,
+    });
+    expect(id).not.toBe('externe');
+    expect(id).not.toBe(sourceId);
+    expect(store.getState().builds[0]).toMatchObject({
+      id,
+      ownerId: null,
+      revision: 1,
+      chain: 3,
+      name: 'Partagé',
+    });
+    expect(store.getState().builds).toHaveLength(2);
+  });
+
+  it('duplique un build en variante (« copie »), sans toucher l’original', async () => {
+    const store = make();
+    await store.getState().load();
+    const id = await store.getState().create('jiyan', 'Jiyan');
+    const copyId = await store.getState().duplicate(id);
+    expect(copyId).toBeDefined();
+    const copy = store.getState().builds.find((b) => b.id === copyId)!;
+    expect(copy.name).toBe('Jiyan (copie)');
+    expect(store.getState().builds.find((b) => b.id === id)?.name).toBe('Jiyan');
+    expect(await store.getState().duplicate('inconnu')).toBeUndefined();
+  });
 });
 
 describe('builds store — erreurs', () => {

@@ -24,6 +24,8 @@ export default tseslint.config(
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       '@typescript-eslint/restrict-template-expressions': ['error', { allowNumber: true }],
       '@typescript-eslint/consistent-type-imports': 'error',
+      // Omettre des champs par déstructuration (`const { id, ...rest } = build`).
+      '@typescript-eslint/no-unused-vars': ['error', { ignoreRestSiblings: true }],
     },
   },
   {

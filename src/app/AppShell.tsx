@@ -3,13 +3,14 @@ import { NavLink, Outlet, ScrollRestoration, useNavigate } from 'react-router';
 import { resonatorById } from '@/data/game';
 import { elementColor } from '@/features/game/labels';
 import { Button } from '@/ui/Button';
-import { IconGear, IconGrid, IconLayers, IconPlus, IconWaves } from '@/ui/icons';
+import { IconCompare, IconGear, IconGrid, IconLayers, IconPlus, IconWaves } from '@/ui/icons';
 import { useBuilds, useInventory } from './services';
 import styles from './AppShell.module.css';
 
 const NAV = [
   { to: '/', label: 'Mes builds', icon: <IconGrid />, end: true },
   { to: '/echos', label: 'Échos', icon: <IconLayers />, end: false },
+  { to: '/comparer', label: 'Comparer', icon: <IconCompare />, end: false },
   { to: '/reglages', label: 'Réglages', icon: <IconGear />, end: false },
 ] as const;
 

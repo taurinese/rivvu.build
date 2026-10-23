@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import type { Page } from '@playwright/test';
@@ -134,6 +135,51 @@ test.describe('Rivvu', () => {
     await page.reload();
     await expect(page.getByRole('radio', { name: '40 %' })).toBeChecked();
     await expect(page.getByRole('textbox', { name: 'Nom du buff 1' })).toBeVisible();
+    await expectAccessible(page);
+    await expectNoHorizontalScroll(page);
+  });
+
+  test('partage : lien ouvert ailleurs, ajouté à ses builds, export PNG', async ({
+    page,
+    browser,
+  }) => {
+    await createJiyanBuild(page);
+    await page.getByRole('button', { name: 'Partager' }).click();
+    const sheet = page.getByRole('dialog', { name: 'Partager ce build' });
+    const link = sheet.getByRole('textbox', { name: 'Lien du build' });
+    await expect(link).toHaveValue(/\/partage#[\w-]+$/);
+    await expectAccessible(page);
+
+    const download = page.waitForEvent('download');
+    await sheet.getByRole('button', { name: 'Exporter en image' }).click();
+    const file = await download;
+    expect(file.suggestedFilename()).toMatch(/^rivvu-jiyan-.+\.png$/);
+    const png = readFileSync(await file.path());
+    expect(png.subarray(1, 4).toString()).toBe('PNG');
+    await expect(sheet.getByRole('status')).toHaveText('Image exportée.');
+
+    // Un autre navigateur, sans données : comme un ami qui reçoit le lien.
+    const url = await link.inputValue();
+    const context = await browser.newContext(test.info().project.use);
+    const friend = await context.newPage();
+    await friend.goto(url);
+    await expect(friend.getByRole('heading', { level: 1, name: 'Jiyan' })).toBeVisible();
+    await expectAccessible(friend);
+    await expectNoHorizontalScroll(friend);
+    await friend.getByRole('button', { name: 'Ajouter à mes builds' }).click();
+    await expect(friend).toHaveURL(/\/builds\/[\w-]+$/);
+    await context.close();
+  });
+
+  test('comparateur : duplique un build et compare les deux', async ({ page }) => {
+    await createJiyanBuild(page);
+    await page.getByRole('button', { name: 'Dupliquer' }).click();
+    await expect(page.getByRole('button', { name: /\(copie\)/ })).toBeVisible();
+    await page.getByRole('link', { name: 'Comparer' }).last().click();
+    await expect(page.getByRole('heading', { level: 1, name: 'Comparer' })).toBeVisible();
+    await expect(page.getByRole('region', { name: 'Dégâts comparés' })).toContainText(
+      'Coup le plus fort',
+    );
     await expectAccessible(page);
     await expectNoHorizontalScroll(page);
   });
