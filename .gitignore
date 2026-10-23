@@ -9,3 +9,5 @@ blob-report
 .env
 .env.*
 !.env.example
+# Moteur et langues OCR copiés depuis node_modules (scripts/copy-ocr-assets.mjs)
+public/ocr
