@@ -52,3 +52,9 @@ button {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Liens dans du texte courant : soulignés pour ne pas reposer sur la seule couleur (WCAG 1.4.1). */
+p a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

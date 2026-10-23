@@ -1,0 +1,112 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  border: 0;
+  border-radius: 10px;
+  font: 600 0.875rem/1 var(--font-sans);
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    filter var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard);
+}
+
+.button:hover:not(:disabled) {
+  filter: brightness(1.12);
+}
+
+.button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.small {
+  min-height: 32px;
+  padding: 0 var(--space-3);
+}
+
+.regular {
+  min-height: 36px;
+  padding: 0 14px;
+}
+
+.large {
+  min-height: 50px;
+  padding: 0 var(--space-5);
+  border-radius: 14px;
+  font-size: 1.0625rem;
+}
+
+.block {
+  display: flex;
+  width: 100%;
+}
+
+.filled {
+  background: var(--accent-fill);
+  color: #ffffff;
+}
+
+.tinted {
+  background: var(--accent-tint);
+  color: var(--link);
+}
+
+.gray {
+  background: var(--fill);
+  color: var(--label);
+  font-weight: 500;
+}
+
+.destructive {
+  background: var(--danger-tint);
+  color: var(--danger);
+}
+
+.plain {
+  background: transparent;
+  color: var(--link);
+  padding-inline: var(--space-1);
+}
+
+.iconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 10px;
+  color: var(--label);
+  cursor: pointer;
+}
+
+.iconButton:hover:not(:disabled) {
+  filter: brightness(1.15);
+}
+
+.icon-gray {
+  background: var(--fill);
+}
+
+.icon-plain {
+  background: transparent;
+  color: var(--link);
+}
+
+.icon-material {
+  width: var(--tap-min);
+  height: var(--tap-min);
+  border-radius: 50%;
+  background: var(--material-thin);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  color: #ffffff;
+}

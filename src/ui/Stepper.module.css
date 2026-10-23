@@ -1,0 +1,35 @@
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9px;
+  background: var(--fill);
+}
+
+.button {
+  width: var(--tap-min);
+  height: 32px;
+  border: 0;
+  background: transparent;
+  color: var(--label);
+  font-size: 1.125rem;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.button:disabled {
+  color: var(--label-tertiary);
+  opacity: 0.5;
+  cursor: default;
+}
+
+.button:hover:not(:disabled) {
+  background: var(--fill);
+}
+
+.value {
+  min-width: 64px;
+  text-align: center;
+  font: var(--text-headline);
+  font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+}
