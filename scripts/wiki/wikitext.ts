@@ -89,10 +89,20 @@ function indexOfTopLevelEquals(part: string): number {
   return -1;
 }
 
+/** Applique un remplacement jusqu'à stabilité : un retrait peut reformer un motif (`<!-<!---->-`). */
+function removeAll(text: string, pattern: RegExp): string {
+  let previous: string;
+  let current = text;
+  do {
+    previous = current;
+    current = current.replace(pattern, '');
+  } while (current !== previous);
+  return current;
+}
+
 /** Convertit un fragment de wikitext en texte brut lisible. */
 export function wikiToText(source: string): string {
-  let text = source
-    .replace(/<!--[\s\S]*?-->/g, '')
+  let text = removeAll(source, /<!--[\s\S]*?-->/g)
     .replace(/<ref[^>]*\/>/g, '')
     .replace(/<ref[^>]*>[\s\S]*?<\/ref>/g, '')
     .replace(/<br\s*\/?>/gi, '\n')
@@ -106,9 +116,7 @@ export function wikiToText(source: string): string {
     });
   }
 
-  text = text
-    .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, '$1')
-    .replace(/<[^>]+>/g, '')
+  text = removeAll(text.replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, '$1'), /<[^<>]+>/g)
     .replace(/&shy;/g, '')
     .replace(/&nbsp;/g, ' ')
     .replace(/&mdash;/g, '—')

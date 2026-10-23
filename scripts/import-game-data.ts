@@ -34,6 +34,7 @@ import {
 } from './wiki/client.ts';
 import { costTable, costTablesByRarity, keyedCostTables } from './wiki/costs.ts';
 import { parsePassiveBonuses, parseSetBonuses } from './wiki/effects.ts';
+import { imageType } from './wiki/image-type.ts';
 import { luaReturnTable } from './wiki/lua.ts';
 import { inferDamageType, isDamageRow, parseMotionValue, scalingValues } from './wiki/skills.ts';
 import type { LuaValue } from './wiki/lua.ts';
@@ -132,11 +133,15 @@ async function downloadImages(): Promise<Set<string>> {
         continue;
       }
       const bytes = Buffer.from(await (await fetchWithRetry(url)).arrayBuffer());
+      // On n'écrit sur disque qu'une vraie image (jamais une page d'erreur ou autre contenu).
+      const type = imageType(bytes);
+      if (!type) {
+        console.warn(`  ⚠ contenu reçu non reconnu comme image : ${url}`);
+        continue;
+      }
       mkdirSync(dirname(file), { recursive: true });
       writeFileSync(file, bytes);
-      const isWebp =
-        bytes.subarray(0, 4).toString() === 'RIFF' && bytes.subarray(8, 12).toString() === 'WEBP';
-      if (!isWebp || request.trim) {
+      if (type !== 'webp' || request.trim) {
         // ImageMagick : conversion WebP et rognage des marges transparentes des illustrations.
         execFileSync('convert', [
           file,
