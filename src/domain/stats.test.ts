@@ -1,5 +1,6 @@
 import fc from 'fast-check';
 import { describe, expect, it } from 'vitest';
+import type { StatBlock } from './types';
 import {
   BASE_CRIT_DMG,
   BASE_CRIT_RATE,
@@ -12,6 +13,13 @@ const jiyan90 = { hp: 10487.5, atk: 437.5, def: 1185.53 };
 const verdant90 = { atk: 587, secondary: { stat: 'critDmg' as const, value: 48.6 } };
 
 describe('sumStatBlocks', () => {
+  it('ignore une clé inconnue venue de données externes (pollution de prototype)', () => {
+    const hostile = JSON.parse('{"__proto__": {"polluted": 1}, "atk": 3}') as StatBlock;
+    const total = sumStatBlocks([hostile]);
+    expect(total).toEqual({ atk: 3 });
+    expect(({} as Record<string, unknown>).polluted).toBeUndefined();
+  });
+
   it('additionne les blocs clé par clé', () => {
     expect(sumStatBlocks([{ atk: 10, critRate: 5 }, { atk: 5 }, {}])).toEqual({
       atk: 15,

@@ -5,6 +5,7 @@ import type { Build } from '@/domain/build';
 import { echoStatBlock, sonataPieceCounts } from '@/domain/echoes';
 import { computeFinalStats, sumStatBlocks } from '@/domain/stats';
 import type { FinalStats } from '@/domain/stats';
+import { isStatKey } from '@/domain/types';
 import type { StatBlock } from '@/domain/types';
 
 export interface BonusSource {
@@ -70,7 +71,7 @@ export function computeBuildStats(build: Build): BuildStats {
   }
 
   for (const buff of build.customBuffs) {
-    if (!buff.enabled) continue;
+    if (!buff.enabled || !isStatKey(buff.stat)) continue;
     sources.push({
       kind: 'buff',
       label: buff.label,

@@ -58,5 +58,10 @@ export type StatKey = (typeof STAT_KEYS)[number];
 
 export type StatBlock = Partial<Record<StatKey, number>>;
 
+const STAT_KEY_SET: ReadonlySet<string> = new Set(STAT_KEYS);
+
+/** Garde contre les clés inattendues (ex. « __proto__ ») venues de données externes. */
+export const isStatKey = (key: string): key is StatKey => STAT_KEY_SET.has(key);
+
 export const elementDmgKey = (element: Element): StatKey => `${element}Dmg`;
 export const attackDmgKey = (type: AttackType): StatKey => `${type}Dmg`;

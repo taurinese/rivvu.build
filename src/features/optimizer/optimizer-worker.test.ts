@@ -21,5 +21,14 @@ describe('worker de l’optimiseur', () => {
       ok: false,
       message: 'Compétence inconnue pour ce Résonateur',
     });
+
+    send({ build: { ...build, echoes: [{ stat: '__proto__' }] }, inventory: [], skillId: 'x' });
+    expect(post.mock.lastCall?.[0]).toMatchObject({ ok: false });
+
+    const calls = post.mock.calls.length;
+    self.onmessage?.(
+      new MessageEvent('message', { data: { build }, origin: 'https://ailleurs.example' }),
+    );
+    expect(post.mock.calls).toHaveLength(calls);
   });
 });
