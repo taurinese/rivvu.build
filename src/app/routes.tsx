@@ -42,6 +42,12 @@ export const routes: RouteObject[] = [
         }),
       },
       {
+        path: 'builds/:buildId/materiaux',
+        lazy: async () => ({
+          Component: (await import('@/features/planner/PlannerPage')).PlannerPage,
+        }),
+      },
+      {
         path: 'builds/:buildId/degats',
         lazy: async () => ({
           Component: (await import('@/features/damage/DamagePage')).DamagePage,

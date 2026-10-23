@@ -258,6 +258,20 @@ test.describe('Rivvu', () => {
     ).toBeVisible();
   });
 
+  test('planificateur : matériaux à réunir selon la progression', async ({ page }) => {
+    await createJiyanBuild(page);
+    await page.getByRole('link', { name: 'Planifier' }).click();
+    await expect(page.getByRole('heading', { level: 1, name: 'Matériaux' })).toBeVisible();
+    const items = page.getByRole('list', { name: 'Matériaux à réunir' });
+    await expect(items.getByRole('listitem').first()).toBeVisible();
+    await expectAccessible(page);
+    await expectNoHorizontalScroll(page);
+    await page.getByRole('button', { name: 'Tout est monté' }).click();
+    await expect(page.getByText('Tout est prêt : rien à réunir pour ce build.')).toBeVisible();
+    await page.reload();
+    await expect(page.getByText('Tout est prêt : rien à réunir pour ce build.')).toBeVisible();
+  });
+
   test('réglages : le thème clair s’applique et persiste', async ({ page }) => {
     await page.goto('/reglages');
     await page.getByRole('radio', { name: 'Clair' }).click();

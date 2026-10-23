@@ -250,6 +250,11 @@ export function BuildOverview({ build, resonator }: Props) {
               <DamageSummary build={build} stats={stats} resonator={resonator} />
             </Suspense>
           </Card>
+          <Card heading="Matériaux" accessory={<Link to={`${base}/materiaux`}>Planifier</Link>}>
+            <p className={styles.muted}>
+              Crédits et matériaux qu’il vous reste à réunir, d’après votre progression en jeu.
+            </p>
+          </Card>
           <Card heading="Repères">
             <GroupedList>
               <ListRow

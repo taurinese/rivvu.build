@@ -1,10 +1,11 @@
 import type { EchoInstance } from './echoes';
 import { MAX_LEVEL_STEP } from './levels';
 import type { LevelStep } from './levels';
+import type { Progress } from './planner';
 import type { StatKey } from './types';
 
 /** Version du format persisté d'un build (voir ADR 0002 et les migrations de persistance). */
-export const BUILD_SCHEMA_VERSION = 2;
+export const BUILD_SCHEMA_VERSION = 3;
 
 export const FORTE_SKILLS = ['normal', 'skill', 'circuit', 'liberation', 'intro'] as const;
 export type ForteSkill = (typeof FORTE_SKILLS)[number];
@@ -39,6 +40,16 @@ export interface EnemySetup {
 export const DEFAULT_ENEMY: EnemySetup = { level: 90, res: 10 };
 
 /**
+ * Planificateur de matériaux : où en est le Résonateur en jeu, et les objectifs que le build
+ * ne fixe pas (le niveau, l'arme et le Forte visés sont ceux du build).
+ */
+export interface PlannerState {
+  current: Progress;
+  inherent: number;
+  statBonus: Progress['statBonus'];
+}
+
+/**
  * Un build : document autonome, identifié par un UUID généré côté client.
  * `ownerId`, `revision` et `deletedAt` préparent la synchronisation avec de futurs comptes.
  */
@@ -66,6 +77,8 @@ export interface Build {
   combat: boolean;
   enemy: EnemySetup;
   customBuffs: CustomBuff[];
+  /** null tant que le planificateur n'a pas été utilisé. */
+  planner: PlannerState | null;
 }
 
 export interface NewBuildInput {
@@ -96,6 +109,7 @@ export function createBuild({ id, resonatorId, now, name }: NewBuildInput): Buil
     combat: true,
     enemy: { ...DEFAULT_ENEMY },
     customBuffs: [],
+    planner: null,
   };
 }
 

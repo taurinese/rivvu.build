@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import curvesJson from './game/curves.json';
 import echoesJson from './game/echoes.json';
+import materialsJson from './game/materials.json';
 import metaJson from './game/meta.json';
 import resonatorsJson from './game/resonators.json';
 import skillsJson from './game/skills.json';
@@ -11,6 +12,7 @@ import weaponsJson from './game/weapons.json';
 import {
   curvesSchema,
   echoSchema,
+  materialsSchema,
   metaSchema,
   resonatorSchema,
   skillSchema,
@@ -24,6 +26,55 @@ const collections = [
   ['echoes', echoesJson, echoSchema],
   ['sonatas', sonatasJson, sonataSchema],
 ] as const;
+
+describe('matériaux d’évolution', () => {
+  const materials = materialsSchema.parse(materialsJson);
+  const items = new Set(materials.items.map((i) => i.id));
+  const credits = (steps: { credits: number }[]) => steps.reduce((sum, s) => sum + s.credits, 0);
+  const needs = (keys: (keyof typeof materials.costs)[]) =>
+    new Set(
+      keys.flatMap((k) => {
+        const value = materials.costs[k];
+        const steps = Array.isArray(value) ? value : Object.values(value).flat();
+        return steps.flatMap((s) => s.items.map((i) => i.slot));
+      }),
+    );
+
+  it('retrouvent les totaux publiés par le wiki (Jiyan, Forte)', () => {
+    // Wiki, page Jiyan : 280 000 Coquilles pour une compétence de 1 à 10, 30 000 pour les
+    // compétences innées, 150 000 pour une branche de bonus de stats.
+    expect(credits(materials.costs.forte)).toBe(280000);
+    expect(credits(materials.costs.inherent)).toBe(30000);
+    expect(credits(materials.costs.statBonus)).toBe(150000);
+  });
+
+  it('couvrent chaque Résonateur et chaque arme, avec des objets connus et illustrés', () => {
+    expect(Object.keys(materials.resonators).sort()).toEqual(
+      resonatorsJson.map((r) => r.id).sort(),
+    );
+    expect(Object.keys(materials.weapons).sort()).toEqual(weaponsJson.map((w) => w.id).sort());
+    for (const slots of [
+      ...Object.values(materials.resonators),
+      ...Object.values(materials.weapons),
+    ])
+      for (const item of Object.values(slots)) expect(items.has(item), item).toBe(true);
+    for (const item of materials.items)
+      if (item.icon) expect(existsSync(join('public', item.icon)), item.icon).toBe(true);
+    expect(items.has('shell-credit')).toBe(true);
+  });
+
+  it('résolvent tous les emplacements, sauf objets absents du wiki (signalés dans meta)', () => {
+    const resonatorSlots = needs(['resonatorAscension', 'forte', 'inherent', 'statBonus']);
+    const missing = Object.entries(materials.resonators).flatMap(([id, slots]) =>
+      [...resonatorSlots].filter((slot) => !(slot in slots)).map((slot) => `${id}:${slot}`),
+    );
+    // Pages d'objets absentes du wiki lors du dernier import (voir meta.json → skipped).
+    expect(missing.sort()).toEqual(['hsin:local', 'suoming:local']);
+    const weaponSlots = needs(['weaponAscension']);
+    for (const [id, slots] of Object.entries(materials.weapons))
+      for (const slot of weaponSlots) expect(slot in slots, `${id}:${slot}`).toBe(true);
+  });
+});
 
 describe('compétences', () => {
   it('respectent le schéma et référencent un Résonateur connu', () => {

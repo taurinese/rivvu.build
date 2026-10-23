@@ -82,9 +82,19 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - « Importer une capture » sur la page Échos : OCR local (tesseract.js, auto-hébergé, ADR 0004), résultat à vérifier (espèce, stat principale, sous-stats, alertes), puis « Ajouter cet Écho » ou choix manuel de l'espèce si elle n'est pas reconnue.
 - Parseur pur FR/EN testé (paliers, bruit OCR, doublons, 5 sous-stats max). E2E avec une vraie reconnaissance sur une capture synthétique (environ 3 s).
 
+### M7c — Planificateur de matériaux
+
+- Coûts lus dans le code des modules Lua du wiki (`scripts/wiki/costs.ts`, arbre syntaxique, sans exécution) :
+  - ascension du Résonateur et de l'arme par rareté ;
+  - Forte, compétences innées et bonus de stats ;
+  - matériaux propres à chaque Résonateur et arme, et 142 objets avec nom français et icône.
+- Calcul pur `src/domain/planner.ts`, vérifié contre les totaux publiés par le wiki (Jiyan : 280 000 Coquilles par compétence de Forte, etc.).
+- `Build` v3 (migration 2→3) : `planner` (progression actuelle en jeu, objectifs d'innées et de bonus de stats). Les anciens liens de partage restent lisibles.
+- Page `/builds/:id/materiaux` : progression actuelle, objectifs, matériaux à réunir (rareté, icône, quantité, Coquilles). Sur mobile, le résultat est affiché d'abord.
+
 ## Prochaine étape
 
-M7 (suite) : planificateur de matériaux (données d'ascension et de Forte à importer du wiki).
+Fin du plan initial. Restent : branchement Cloudflare Pages, protection de `main`, bonus de stats du Forte (source à valider), tests « vérité jeu » à partir de captures, buffs automatiques des coéquipiers.
 
 ## Décisions en attente (côté utilisateur)
 
