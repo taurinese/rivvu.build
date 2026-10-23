@@ -1,0 +1,482 @@
+.costMeter {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 240px;
+}
+
+.costText {
+  font: var(--text-footnote);
+  color: var(--label-secondary);
+}
+
+.costText strong {
+  color: var(--label);
+}
+
+.costCells {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 3px;
+}
+
+.costOn,
+.costOff {
+  height: 8px;
+  border-radius: 2px;
+}
+
+.costOff {
+  background: var(--fill-strong);
+}
+
+.issues {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--warning-tint);
+  color: var(--warning);
+}
+
+.issues ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--label);
+  font: var(--text-subheadline);
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  align-items: flex-start;
+}
+
+.slots {
+  flex: 1 1 280px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.slotList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.slot {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 10px 12px 10px 10px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  color: var(--label);
+  text-align: left;
+  cursor: pointer;
+}
+
+.slot[aria-pressed='true'] {
+  border-color: var(--accent);
+  background: var(--bg-grouped);
+}
+
+.slotIcon {
+  position: relative;
+  flex: none;
+  width: 56px;
+  height: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slotSet {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  background: var(--bg-card);
+}
+
+.slotText {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.slotName {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font: var(--text-headline);
+  font-size: 0.9375rem;
+}
+
+.principal {
+  padding: 2px 6px;
+  border-radius: var(--radius-xs);
+  background: var(--accent-fill);
+  color: #ffffff;
+  font: 700 0.6875rem/1.2 var(--font-sans);
+}
+
+.slotMeta {
+  font: var(--text-footnote);
+  color: var(--label-secondary);
+}
+
+.slotSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.addRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.detail {
+  flex: 2 1 460px;
+  min-width: 0;
+}
+
+.detailCard {
+  overflow: hidden;
+}
+
+.detailHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  background: radial-gradient(ellipse at 10% 50%, var(--accent-tint), transparent 60%);
+}
+
+.detailIcon {
+  flex: none;
+  width: 112px;
+  height: 112px;
+  border-radius: var(--radius-2xl);
+  background: var(--bg-grouped);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailTitle {
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.detailTitle h2 {
+  margin: 0;
+  font: var(--text-title2);
+}
+
+.detailActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-1);
+}
+
+.detailBody {
+  padding: 0 var(--space-5) var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.fieldset legend {
+  padding: 0;
+  margin-bottom: var(--space-2);
+  font: var(--text-subheadline);
+  color: var(--label-secondary);
+}
+
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 var(--space-3) 0 6px;
+  border: 1px solid var(--separator);
+  border-radius: 18px;
+  background: transparent;
+  color: var(--label);
+  font: 600 0.875rem/1 var(--font-sans);
+  cursor: pointer;
+}
+
+.choice[aria-pressed='true'] {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.inlineSelect {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.inlineSelect select {
+  height: 32px;
+  padding: 0 var(--space-2);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: var(--fill);
+  color: var(--label);
+  font: var(--text-subheadline);
+}
+
+.substatsHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.substatsHeader h3 {
+  margin: 0;
+  font: var(--text-headline);
+}
+
+.substats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-md);
+  background: var(--bg-grouped);
+}
+
+.substat {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3) 14px;
+}
+
+.substat + .substat {
+  border-top: 1px solid var(--separator);
+}
+
+.substatTop {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.quality {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--fill-strong);
+  overflow: hidden;
+}
+
+.quality span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
+
+.removeSubstat {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--danger);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tiers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+  gap: 6px;
+}
+
+.tier {
+  min-height: 36px;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: var(--fill);
+  color: var(--label);
+  font: 600 0.8125rem/1 var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+
+.tier[aria-checked='true'] {
+  background: var(--accent-fill);
+  color: #ffffff;
+}
+
+.rail {
+  flex: 1 1 280px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.empty {
+  margin: 0;
+  color: var(--label-secondary);
+  font: var(--text-subheadline);
+}
+
+.set {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.setHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.setName {
+  flex: 1;
+  font: var(--text-headline);
+  font-size: 0.9375rem;
+}
+
+.effects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font: var(--text-footnote);
+}
+
+.effects li {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.effectPieces {
+  flex: none;
+  padding: 2px 6px;
+  border-radius: var(--radius-xs);
+  font-weight: 700;
+}
+
+.effectOn .effectPieces {
+  background: var(--success-tint);
+  color: var(--success);
+}
+
+.effectOff {
+  color: var(--label-secondary);
+}
+
+.effectOff .effectPieces {
+  background: var(--fill);
+  color: var(--label);
+}
+
+.contribution {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contributionRow {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  border-bottom: 1px solid var(--separator);
+}
+
+.contributionRow:last-child {
+  border-bottom: 0;
+}
+
+.contributionRow dt {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font: var(--text-subheadline);
+}
+
+.contributionRow dd {
+  margin: 0;
+  color: var(--success);
+  font: var(--text-headline);
+  font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.inventoryList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.inventoryItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border: 0;
+  border-radius: var(--radius-lg);
+  background: var(--bg-grouped);
+  color: var(--label);
+  text-align: left;
+  cursor: pointer;
+}
+
+.inventoryItem:disabled {
+  opacity: 0.5;
+  cursor: default;
+}

@@ -18,7 +18,7 @@ export function Page({ title, eyebrow, subtitle, actions, children, width = 'reg
     <div className={`${styles.page} ${styles[width]}`}>
       <header className={styles.header}>
         <div className={styles.titles}>
-          {eyebrow ? <p className={styles.eyebrow}>{eyebrow}</p> : null}
+          {eyebrow ? <div className={styles.eyebrow}>{eyebrow}</div> : null}
           <h1 className={styles.title}>{title}</h1>
           {subtitle ? <p className={styles.subtitle}>{subtitle}</p> : null}
         </div>

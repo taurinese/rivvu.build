@@ -50,3 +50,8 @@ const STAT_MAP: Record<string, StatKey> = {
 export const toElement = (raw: string): Element | null => ELEMENT_MAP[raw.trim()] ?? null;
 export const toWeaponType = (raw: string): WeaponType | null => WEAPON_MAP[raw.trim()] ?? null;
 export const toStatKey = (raw: string): StatKey | null => STAT_MAP[raw.trim()] ?? null;
+
+/** Nom affichable : sans guillemets droits ou typographiques parasites, espaces normalisés. */
+export function cleanName(raw: string): string {
+  return raw.replace(/["“”]/g, '').replace(/\s+/g, ' ').trim();
+}

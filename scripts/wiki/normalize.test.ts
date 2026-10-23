@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { parsePercent, roundTo, slugify, toElement, toStatKey, toWeaponType } from './normalize';
+import {
+  cleanName,
+  parsePercent,
+  roundTo,
+  slugify,
+  toElement,
+  toStatKey,
+  toWeaponType,
+} from './normalize';
 
 describe('slugify', () => {
   it('produit un identifiant stable en minuscules', () => {
@@ -37,5 +45,13 @@ describe('correspondances', () => {
     expect(toStatKey('ATK')).toBe('atkPct');
     expect(toStatKey('Energy Regen')).toBe('energyRegen');
     expect(toStatKey('???')).toBeNull();
+  });
+});
+
+describe('cleanName', () => {
+  it('retire guillemets parasites et espaces superflus', () => {
+    expect(cleanName('Nuages lunaires"')).toBe('Nuages lunaires');
+    expect(cleanName('  « Écho »  du   vent ')).toBe('« Écho » du vent');
+    expect(cleanName('"Sweet Puff" Tube')).toBe('Sweet Puff Tube');
   });
 });

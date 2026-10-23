@@ -32,6 +32,7 @@ import {
 import { luaReturnTable } from './wiki/lua.ts';
 import type { LuaValue } from './wiki/lua.ts';
 import {
+  cleanName,
   parsePercent,
   roundTo,
   slugify,
@@ -59,6 +60,8 @@ const skip = (page: string, reason: string) => {
 };
 
 type LuaTable = Record<string, LuaValue>;
+
+const localized = (en: string, fr: string) => ({ en: cleanName(en), fr: cleanName(fr) });
 const asTable = (value: LuaValue | undefined): LuaTable | null =>
   value && typeof value === 'object' && !Array.isArray(value) ? value : null;
 const asNumber = (value: LuaValue | undefined): number | null =>
@@ -271,7 +274,7 @@ async function importResonators() {
       resonatorSchema,
       {
         id,
-        name: { en: title, fr: otherLanguage(page, 'fr') ?? title },
+        name: localized(title, otherLanguage(page, 'fr') ?? title),
         rarity: Number(box.rarity),
         element,
         weaponType,
@@ -361,7 +364,7 @@ async function importWeapons() {
       weaponSchema,
       {
         id,
-        name: { en: displayName, fr: otherLanguage(page, 'fr') ?? displayName },
+        name: localized(displayName, otherLanguage(page, 'fr') ?? displayName),
         rarity: Number(box.rarity),
         type,
         baseAtk: roundTo(baseAtk, 2),
@@ -408,7 +411,7 @@ async function importSonatas() {
       sonataSchema,
       {
         id,
-        name: { en: title, fr: otherLanguage(page, 'fr') ?? title },
+        name: localized(title, otherLanguage(page, 'fr') ?? title),
         effects,
         icon: requestImage(
           [firstImageName(box.image ?? ''), `Icon ${title}.png`],
@@ -453,7 +456,7 @@ async function importEchoes(sonataIds: Set<string>) {
       echoSchema,
       {
         id,
-        name: { en: name, fr: otherLanguage(basePage, 'fr') ?? otherLanguage(page, 'fr') ?? name },
+        name: localized(name, otherLanguage(basePage, 'fr') ?? otherLanguage(page, 'fr') ?? name),
         cost: Number(box.cost),
         class: box.class,
         sonatas: sonatas.filter((s) => sonataIds.has(s)),

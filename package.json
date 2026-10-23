@@ -21,7 +21,7 @@
     "test:e2e": "playwright test",
     "validate:data": "vitest run --project data",
     "check": "pnpm typecheck && pnpm lint && pnpm format:check && pnpm test:coverage && pnpm build",
-    "data:import": "node --no-warnings scripts/import-game-data.ts"
+    "data:import": "node --no-warnings scripts/import-game-data.ts && prettier --write src/data/game --log-level warn"
   },
   "dependencies": {
     "react": "^19.3.1",

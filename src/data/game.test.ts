@@ -44,6 +44,17 @@ describe('données du jeu', () => {
     }
   });
 
+  it.each(collections)(
+    '%s : noms sans caractères parasites (guillemets, balises, espaces doubles)',
+    (_, items) => {
+      for (const item of items) {
+        for (const name of [item.name.en, item.name.fr]) {
+          expect(name, item.id).not.toMatch(/["“”<>{}[\]|=]|\s{2,}|^\s|\s$/);
+        }
+      }
+    },
+  );
+
   it('les Échos ne référencent que des ensembles connus', () => {
     const sonataIds = new Set(sonatasJson.map((s) => s.id));
     for (const echo of echoesJson) {
