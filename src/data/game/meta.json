@@ -1,0 +1,41 @@
+{
+  "source": "Wuthering Waves Wiki (Fandom), contenu sous licence CC BY-SA ; images © Kuro Games",
+  "url": "https://wutheringwaves.fandom.com",
+  "fetchedAt": "2026-10-23T17:04:23Z",
+  "counts": {
+    "resonators": 51,
+    "weapons": 124,
+    "echoes": 187,
+    "sonatas": 37
+  },
+  "skipped": [
+    {
+      "page": "Rover",
+      "reason": "attribut « Multiple » ou arme « Sword » non géré"
+    },
+    {
+      "page": "Buling",
+      "reason": "stats de base absentes du module de données"
+    },
+    {
+      "page": "Lucilla",
+      "reason": "stats de base absentes du module de données"
+    },
+    {
+      "page": "Lucy",
+      "reason": "stats de base absentes du module de données"
+    },
+    {
+      "page": "Rebecca",
+      "reason": "stats de base absentes du module de données"
+    },
+    {
+      "page": "Jingran",
+      "reason": "stats de base absentes du module de données"
+    },
+    {
+      "page": "Lily",
+      "reason": "type « Upcoming » (non jouable ou à venir)"
+    }
+  ]
+}

@@ -1,0 +1,792 @@
+[
+  {
+    "id": "celestial-light",
+    "name": {
+      "en": "Celestial Light",
+      "fr": "Lumière Céleste"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Spectro DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Spectro DMG +30% for 15s after releasing Intro Skill."
+      }
+    ],
+    "icon": "/assets/game/sonatas/celestial-light.webp",
+    "source": {
+      "page": "Celestial Light",
+      "url": "https://wutheringwaves.fandom.com/wiki/Celestial_Light"
+    }
+  },
+  {
+    "id": "chromatic-foam",
+    "name": {
+      "en": "Chromatic Foam",
+      "fr": "Mousse chromatique"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Fusion DMG +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "When the Resonator inflicts Fusion Burst on the enemies, they gain the following effects: Gain 10% Fusion DMG Bonus for 15s. While this effect is active, casting an Outro Skill grants the incoming Resonator 25% Fusion DMG Bonus for 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/chromatic-foam.webp",
+    "source": {
+      "page": "Chromatic Foam",
+      "url": "https://wutheringwaves.fandom.com/wiki/Chromatic_Foam"
+    }
+  },
+  {
+    "id": "crown-of-valor",
+    "name": {
+      "en": "Crown of Valor",
+      "fr": "Couronne de vaillance"
+    },
+    "effects": [
+      {
+        "pieces": 3,
+        "text": "Upon gaining a Shield, increase the Resonator's ATK by 6% and Crit. DMG by 4% for 4s. This effect can be triggered once every 0.5s and stacks up to 5 times."
+      }
+    ],
+    "icon": "/assets/game/sonatas/crown-of-valor.webp",
+    "source": {
+      "page": "Crown of Valor",
+      "url": "https://wutheringwaves.fandom.com/wiki/Crown_of_Valor"
+    }
+  },
+  {
+    "id": "dream-of-the-lost",
+    "name": {
+      "en": "Dream of the Lost",
+      "fr": "Rêve du perdu"
+    },
+    "effects": [
+      {
+        "pieces": 3,
+        "text": "Holding 0 Resonance Energy increases Crit. Rate by 20% and grants 35% Echo Skill DMG Bonus."
+      }
+    ],
+    "icon": "/assets/game/sonatas/dream-of-the-lost.webp",
+    "source": {
+      "page": "Dream of the Lost",
+      "url": "https://wutheringwaves.fandom.com/wiki/Dream_of_the_Lost"
+    }
+  },
+  {
+    "id": "empyrean-anthem",
+    "name": {
+      "en": "Empyrean Anthem",
+      "fr": "Symphonie céleste"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Energy Regen +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Increase the Resonator's Coordinated Attack DMG by 80%. Upon a critical hit of Coordinated Attack, increase the active Resonator's ATK by 20% for 4s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/empyrean-anthem.webp",
+    "source": {
+      "page": "Empyrean Anthem",
+      "url": "https://wutheringwaves.fandom.com/wiki/Empyrean_Anthem"
+    }
+  },
+  {
+    "id": "eternal-radiance",
+    "name": {
+      "en": "Eternal Radiance",
+      "fr": "Lumière éternelle"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Spectro DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Inflicting enemies with Spectro Frazzle increases Crit. Rate by 20% for 15s. Attacking enemies with 10 stacks of Spectro Frazzle grants 15% Spectro DMG Bonus for 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/eternal-radiance.webp",
+    "source": {
+      "page": "Eternal Radiance",
+      "url": "https://wutheringwaves.fandom.com/wiki/Eternal_Radiance"
+    }
+  },
+  {
+    "id": "flamewings-shadow",
+    "name": {
+      "en": "Flamewing's Shadow",
+      "fr": "Ombre de l'aile de feu"
+    },
+    "effects": [
+      {
+        "pieces": 3,
+        "text": "Dealing Echo Skill DMG increases Heavy Attack Crit. Rate by 20% for 6s. Dealing Heavy Attack DMG increases Echo Skill Crit. Rate by 20% for 6s. While both effects are active, gain 16% Fusion DMG Bonus."
+      }
+    ],
+    "icon": "/assets/game/sonatas/flamewings-shadow.webp",
+    "source": {
+      "page": "Flamewing's Shadow",
+      "url": "https://wutheringwaves.fandom.com/wiki/Flamewing's_Shadow"
+    }
+  },
+  {
+    "id": "flaming-clawprint",
+    "name": {
+      "en": "Flaming Clawprint",
+      "fr": "Griffe enflammée"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Fusion DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Casting Resonance Liberation grants all Resonators in the team 15% Fusion DMG Bonus and the caster 20% Resonance Liberation DMG Bonus, lasting for 35s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/flaming-clawprint.webp",
+    "source": {
+      "page": "Flaming Clawprint",
+      "url": "https://wutheringwaves.fandom.com/wiki/Flaming_Clawprint"
+    }
+  },
+  {
+    "id": "flash-of-electric-reflection",
+    "name": {
+      "en": "Flash of Electric Reflection",
+      "fr": "Reflet fulgurant"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Electro DMG + 10%"
+      },
+      {
+        "pieces": 5,
+        "text": "When the Resonator inflicts Electro Flare on enemies, they gain the following effects: Gain 10% Electro DMG Bonus for 15s. While this effect is active, casting Outro Skill grants the incoming Resonator 25% Electro DMG Bonus for 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/flash-of-electric-reflection.webp",
+    "source": {
+      "page": "Flash of Electric Reflection",
+      "url": "https://wutheringwaves.fandom.com/wiki/Flash_of_Electric_Reflection"
+    }
+  },
+  {
+    "id": "flower-of-tinged-yearning",
+    "name": {
+      "en": "Flower of Tinged Yearning",
+      "fr": "Fleur du désir irisé"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Healing + 10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Healing a Resonator in the team increases the ATK of all Resonators in the team by 10% for 30s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison or triggers Unison Response, their ATK is further increased by 15%."
+      }
+    ],
+    "icon": "/assets/game/sonatas/flower-of-tinged-yearning.webp",
+    "source": {
+      "page": "Flower of Tinged Yearning",
+      "url": "https://wutheringwaves.fandom.com/wiki/Flower_of_Tinged_Yearning"
+    }
+  },
+  {
+    "id": "freezing-frost",
+    "name": {
+      "en": "Freezing Frost",
+      "fr": "Gel Frigorifiant"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Glacio DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Glacio DMG +10% after releasing Basic Attack or Heavy Attack. This effect stacks up to 3 times, each stack lasts 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/freezing-frost.webp",
+    "source": {
+      "page": "Freezing Frost",
+      "url": "https://wutheringwaves.fandom.com/wiki/Freezing_Frost"
+    }
+  },
+  {
+    "id": "frosty-resolve",
+    "name": {
+      "en": "Frosty Resolve",
+      "fr": "Âme glaciale"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Resonance Skill DMG +12%."
+      },
+      {
+        "pieces": 5,
+        "text": "Casting Resonance Skill grants 22.5% Glacio DMG Bonus for 15s and casting Resonance Liberation increases Resonance Skill DMG by 18%, lasting for 5s. This effect stacks up to 2 times."
+      }
+    ],
+    "icon": "/assets/game/sonatas/frosty-resolve.webp",
+    "source": {
+      "page": "Frosty Resolve",
+      "url": "https://wutheringwaves.fandom.com/wiki/Frosty_Resolve"
+    }
+  },
+  {
+    "id": "gusts-of-welkin",
+    "name": {
+      "en": "Gusts of Welkin",
+      "fr": "Air du Paradis"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Aero DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Inflicting Aero Erosion on enemies increases Aero DMG for all Resonators in the team by 15%, and for the Resonator triggering this effect by an additional 15%, lasting for 20s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/gusts-of-welkin.webp",
+    "source": {
+      "page": "Gusts of Welkin",
+      "url": "https://wutheringwaves.fandom.com/wiki/Gusts_of_Welkin"
+    }
+  },
+  {
+    "id": "halo-of-starry-radiance",
+    "name": {
+      "en": "Halo of Starry Radiance",
+      "fr": "Aurore de lumière étoilée"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Healing +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "When healing a Resonator in the team, every 1% of Off-Tune Buildup Rate grants a 0.2% ATK increase to all Resonators in the team for 4s, up to 25%. Effects of the same name cannot be stacked."
+      }
+    ],
+    "icon": "/assets/game/sonatas/halo-of-starry-radiance.webp",
+    "source": {
+      "page": "Halo of Starry Radiance",
+      "url": "https://wutheringwaves.fandom.com/wiki/Halo_of_Starry_Radiance"
+    }
+  },
+  {
+    "id": "havoc-eclipse",
+    "name": {
+      "en": "Havoc Eclipse",
+      "fr": "Le Crépuscule noir"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Havoc DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Havoc DMG +7.5% after releasing Basic Attack or Heavy Attack. This effect stacks up to 4 times, each stack lasts 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/havoc-eclipse.webp",
+    "source": {
+      "page": "Havoc Eclipse",
+      "url": "https://wutheringwaves.fandom.com/wiki/Havoc_Eclipse"
+    }
+  },
+  {
+    "id": "heart-of-evils-purge",
+    "name": {
+      "en": "Heart of Evil's Purge",
+      "fr": "Cœur purificateur du mal"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Aero DMG +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Inflicting Tune Strain - Shifting increases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/heart-of-evils-purge.webp",
+    "source": {
+      "page": "Heart of Evil's Purge",
+      "url": "https://wutheringwaves.fandom.com/wiki/Heart_of_Evil's_Purge"
+    }
+  },
+  {
+    "id": "heart-of-sworn-vigil",
+    "name": {
+      "en": "Heart of Sworn Vigil",
+      "fr": "Cœur de la Veille sacrée"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Electro DMG + 10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by 15% and grants them 22.5% Electro DMG for 30s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/heart-of-sworn-vigil.webp",
+    "source": {
+      "page": "Heart of Sworn Vigil",
+      "url": "https://wutheringwaves.fandom.com/wiki/Heart_of_Sworn_Vigil"
+    }
+  },
+  {
+    "id": "lamp-of-nether-road",
+    "name": {
+      "en": "Lamp of Nether Road",
+      "fr": "Lanterne des limbes"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "HP +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Upon gaining a Shield, gain 5% increase in Crit. Rate for 5s, max 4 stacks. This effect can be triggered every 0.5s. At max stacks, gain 15% Fusion DMG Bonus."
+      }
+    ],
+    "icon": "/assets/game/sonatas/lamp-of-nether-road.webp",
+    "source": {
+      "page": "Lamp of Nether Road",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lamp_of_Nether_Road"
+    }
+  },
+  {
+    "id": "law-of-harmony",
+    "name": {
+      "en": "Law of Harmony",
+      "fr": "Loi de l'harmonie"
+    },
+    "effects": [
+      {
+        "pieces": 3,
+        "text": "Casting Echo Skill grants 30% Heavy Attack DMG Bonus to the caster for 4s.\n\nAdditionally, all Resonators in the team gain 4% Echo Skill DMG Bonus for 30s, stacking up to 4 times. Echoes of the same name can only trigger this effect once. The record of Echo triggering this effect is cleared along with this effect. At 4 stacks, casting Echo Skill again resets the duration of this effect."
+      }
+    ],
+    "icon": "/assets/game/sonatas/law-of-harmony.webp",
+    "source": {
+      "page": "Law of Harmony",
+      "url": "https://wutheringwaves.fandom.com/wiki/Law_of_Harmony"
+    }
+  },
+  {
+    "id": "lingering-tunes",
+    "name": {
+      "en": "Lingering Tunes",
+      "fr": "Resonance sans fin"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "ATK +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "While on the field, ATK increases by 5% every 1.5s. This effect stacks up to 4 stacks. Outro Skill DMG +60%."
+      }
+    ],
+    "icon": "/assets/game/sonatas/lingering-tunes.webp",
+    "source": {
+      "page": "Lingering Tunes",
+      "url": "https://wutheringwaves.fandom.com/wiki/Lingering_Tunes"
+    }
+  },
+  {
+    "id": "midnight-veil",
+    "name": {
+      "en": "Midnight Veil",
+      "fr": "Voile des ombres"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Havoc DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Triggering Outro Skill deals additional 480% Havoc DMG to surrounding enemies, considered Outro Skill DMG and grants the incoming Resonator 15% Havoc DMG Bonus for 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/midnight-veil.webp",
+    "source": {
+      "page": "Midnight Veil",
+      "url": "https://wutheringwaves.fandom.com/wiki/Midnight_Veil"
+    }
+  },
+  {
+    "id": "molten-rift",
+    "name": {
+      "en": "Molten Rift",
+      "fr": "Faille de Lave"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Fusion DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Fusion DMG +30% for 15s after releasing Resonance Skill."
+      }
+    ],
+    "icon": "/assets/game/sonatas/molten-rift.webp",
+    "source": {
+      "page": "Molten Rift",
+      "url": "https://wutheringwaves.fandom.com/wiki/Molten_Rift"
+    }
+  },
+  {
+    "id": "moonlit-clouds",
+    "name": {
+      "en": "Moonlit Clouds",
+      "fr": "Nuages lunaires\""
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Energy Regen +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "After using Outro Skill, increases the ATK of the next Resonator by 22.5% for 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/moonlit-clouds.webp",
+    "source": {
+      "page": "Moonlit Clouds",
+      "url": "https://wutheringwaves.fandom.com/wiki/Moonlit_Clouds"
+    }
+  },
+  {
+    "id": "pact-of-neonlight-leap",
+    "name": {
+      "en": "Pact of Neonlight Leap",
+      "fr": "Pacte de saut de néon"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Spectro DMG +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Casting Outro Skill increases the ATK of the incoming Resonator who casts Intro Skill by 15%. Each point of Tune Break Boost the incoming Resonator has additionally increases their ATK by 0.3%, up to 15%. This effect lasts for 15s, or until the Resonator is switched out."
+      }
+    ],
+    "icon": "/assets/game/sonatas/pact-of-neonlight-leap.webp",
+    "source": {
+      "page": "Pact of Neonlight Leap",
+      "url": "https://wutheringwaves.fandom.com/wiki/Pact_of_Neonlight_Leap"
+    }
+  },
+  {
+    "id": "reel-of-spliced-memories",
+    "name": {
+      "en": "Reel of Spliced Memories",
+      "fr": "Bobine de mémoires tissées"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "ATK +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Inflicting Tune Rupture - Shifting or Tune Strain - Shifting on enemies increases the Tune Break Boost of Resonators in the team by 20 for 30s.\nEffects of the same name do not stack."
+      }
+    ],
+    "icon": "/assets/game/sonatas/reel-of-spliced-memories.webp",
+    "source": {
+      "page": "Reel of Spliced Memories",
+      "url": "https://wutheringwaves.fandom.com/wiki/Reel_of_Spliced_Memories"
+    }
+  },
+  {
+    "id": "rejuvenating-glow",
+    "name": {
+      "en": "Rejuvenating Glow",
+      "fr": "Éclat rajeunissant"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Healing Bonus +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Increases the ATK of all party members by 15% for 30s upon healing allies."
+      }
+    ],
+    "icon": "/assets/game/sonatas/rejuvenating-glow.webp",
+    "source": {
+      "page": "Rejuvenating Glow",
+      "url": "https://wutheringwaves.fandom.com/wiki/Rejuvenating_Glow"
+    }
+  },
+  {
+    "id": "rite-of-gilded-revelation",
+    "name": {
+      "en": "Rite of Gilded Revelation",
+      "fr": "Rite de la révélation dorée"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Spectro DMG +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Dealing Basic Attack DMG increases Spectro DMG by 10% for 5s, stacking up to 3 times. With 3 stacks, casting Resonance Liberation grants 40% Basic Attack DMG Bonus."
+      }
+    ],
+    "icon": "/assets/game/sonatas/rite-of-gilded-revelation.webp",
+    "source": {
+      "page": "Rite of Gilded Revelation",
+      "url": "https://wutheringwaves.fandom.com/wiki/Rite_of_Gilded_Revelation"
+    }
+  },
+  {
+    "id": "shadow-of-shattered-dreams",
+    "name": {
+      "en": "Shadow of Shattered Dreams",
+      "fr": "Ombre des rêves brisés"
+    },
+    "effects": [
+      {
+        "pieces": 1,
+        "text": "Inflicting Hack - Shifting on the target increases Basic Attack and Heavy Attack DMG."
+      }
+    ],
+    "icon": "/assets/game/sonatas/shadow-of-shattered-dreams.webp",
+    "source": {
+      "page": "Shadow of Shattered Dreams",
+      "url": "https://wutheringwaves.fandom.com/wiki/Shadow_of_Shattered_Dreams"
+    }
+  },
+  {
+    "id": "sierra-gale",
+    "name": {
+      "en": "Sierra Gale",
+      "fr": "Hurle de Sierra"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Aero DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Aero DMG +30% for 15s after releasing Intro Skill."
+      }
+    ],
+    "icon": "/assets/game/sonatas/sierra-gale.webp",
+    "source": {
+      "page": "Sierra Gale",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sierra_Gale"
+    }
+  },
+  {
+    "id": "song-of-feathered-trace",
+    "name": {
+      "en": "Song of Feathered Trace",
+      "fr": "Chant du sillage emplumé"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Energy Regen +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s. Upon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/song-of-feathered-trace.webp",
+    "source": {
+      "page": "Song of Feathered Trace",
+      "url": "https://wutheringwaves.fandom.com/wiki/Song_of_Feathered_Trace"
+    }
+  },
+  {
+    "id": "sound-of-true-name",
+    "name": {
+      "en": "Sound of True Name",
+      "fr": "Chant du nom sacré"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Aero DMG +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Dealing Echo Skill DMG to enemies increases the Resonator's Echo Skill Crit. Rate by 20%, and grants 15% Aero DMG Bonus for 5s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/sound-of-true-name.webp",
+    "source": {
+      "page": "Sound of True Name",
+      "url": "https://wutheringwaves.fandom.com/wiki/Sound_of_True_Name"
+    }
+  },
+  {
+    "id": "thread-of-severed-fate",
+    "name": {
+      "en": "Thread of Severed Fate",
+      "fr": "Fil du destin tranché"
+    },
+    "effects": [
+      {
+        "pieces": 3,
+        "text": "Inflicting Havoc Bane]] increases the Resonator's ATK by 20% and grants 30% Resonance Liberation DMG Bonus for 5s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/thread-of-severed-fate.webp",
+    "source": {
+      "page": "Thread of Severed Fate",
+      "url": "https://wutheringwaves.fandom.com/wiki/Thread_of_Severed_Fate"
+    }
+  },
+  {
+    "id": "tidebreaking-courage",
+    "name": {
+      "en": "Tidebreaking Courage",
+      "fr": "Bravoure des vagues"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Energy Regen +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Increase the Resonator's ATK by 15%. Reaching 250% Energy Regen increases all Attribute DMG by 30% for the Resonator."
+      }
+    ],
+    "icon": "/assets/game/sonatas/tidebreaking-courage.webp",
+    "source": {
+      "page": "Tidebreaking Courage",
+      "url": "https://wutheringwaves.fandom.com/wiki/Tidebreaking_Courage"
+    }
+  },
+  {
+    "id": "trailblazing-star",
+    "name": {
+      "en": "Trailblazing Star",
+      "fr": "Étoile novatrice"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Fusion DMG +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Inflicting Fusion Burst or Tune Rupture - Shifting on enemies increases the Resonator's Crit. Rate by 20% and grants 20% Fusion DMG Bonus for 8s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/trailblazing-star.webp",
+    "source": {
+      "page": "Trailblazing Star",
+      "url": "https://wutheringwaves.fandom.com/wiki/Trailblazing_Star"
+    }
+  },
+  {
+    "id": "void-thunder",
+    "name": {
+      "en": "Void Thunder",
+      "fr": "Tonnerre du Ciel"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Electro DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Electro DMG +15% after releasing Heavy Attack or Resonance Skill. This effect stacks up to 2 times, each stack lasts 15s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/void-thunder.webp",
+    "source": {
+      "page": "Void Thunder",
+      "url": "https://wutheringwaves.fandom.com/wiki/Void_Thunder"
+    }
+  },
+  {
+    "id": "windward-pilgrimage",
+    "name": {
+      "en": "Windward Pilgrimage",
+      "fr": "Pèlerinage au vent"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Aero DMG +10%."
+      },
+      {
+        "pieces": 5,
+        "text": "Hitting a target with Aero Erosion increases Crit. Rate by 10% and grants 30% Aero DMG Bonus, lasting for 10s."
+      }
+    ],
+    "icon": "/assets/game/sonatas/windward-pilgrimage.webp",
+    "source": {
+      "page": "Windward Pilgrimage",
+      "url": "https://wutheringwaves.fandom.com/wiki/Windward_Pilgrimage"
+    }
+  },
+  {
+    "id": "wishes-of-quiet-snowfall",
+    "name": {
+      "en": "Wishes of Quiet Snowfall",
+      "fr": "Vœux de neige silencieuse"
+    },
+    "effects": [
+      {
+        "pieces": 2,
+        "text": "Glacio DMG +10%"
+      },
+      {
+        "pieces": 5,
+        "text": "Inflicting Glacio Chafe on enemies increases Glacio DMG dealt by 10% for 15s. The Resonator gains the Snowfall effect for 15s, which can be triggered once every 25s. While Snowfall is active:\n- Dealing Resonance Liberation DMG removes Snowfall and increases the Resonator's Crit. Rate by 25% for 6s. While the effect is active, dealing Resonance Liberation DMG extends its duration by 4s, triggered once every 0.5s, up to 6 times.\n- Casting Outro Skill removes Snowfall and grants 25% Glacio DMG Bonus to the incoming Resonator for 15s.\nWhen Snowfall is removed, only one of the effects above can be triggered."
+      }
+    ],
+    "icon": "/assets/game/sonatas/wishes-of-quiet-snowfall.webp",
+    "source": {
+      "page": "Wishes of Quiet Snowfall",
+      "url": "https://wutheringwaves.fandom.com/wiki/Wishes_of_Quiet_Snowfall"
+    }
+  }
+]
