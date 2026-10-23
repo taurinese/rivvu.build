@@ -1,0 +1,164 @@
+/*
+ * Rivvu design tokens — source : canevas « Echo Forge » (artboard Design system).
+ * Couleurs système Apple (HIG), mode sombre par défaut, mode clair complet.
+ * Aucune valeur de couleur ne doit être codée en dur ailleurs que dans ce fichier.
+ */
+:root {
+  color-scheme: dark;
+
+  /* Typographie */
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter Variable', Inter, system-ui, sans-serif;
+  --text-large-title: 700 2.125rem/2.5625rem var(--font-sans); /* 34/41 */
+  --text-title1: 700 1.75rem/2.125rem var(--font-sans); /* 28/34 */
+  --text-title2: 700 1.375rem/1.75rem var(--font-sans); /* 22/28 */
+  --text-title3: 600 1.25rem/1.5625rem var(--font-sans); /* 20/25 */
+  --text-headline: 600 1.0625rem/1.375rem var(--font-sans); /* 17/22 */
+  --text-body: 400 1.0625rem/1.375rem var(--font-sans); /* 17/22 */
+  --text-callout: 400 1rem/1.3125rem var(--font-sans); /* 16/21 */
+  --text-subheadline: 400 0.9375rem/1.25rem var(--font-sans); /* 15/20 */
+  --text-footnote: 400 0.8125rem/1.125rem var(--font-sans); /* 13/18 */
+  --text-caption: 400 0.75rem/1rem var(--font-sans); /* 12/16 */
+
+  /* Rayons & espacements (grille 4 pt) */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --tap-min: 44px;
+
+  /* Mouvement */
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --duration-fast: 200ms;
+  --duration-normal: 300ms;
+
+  /* Surfaces — sombre */
+  --bg: #000000;
+  --bg-sidebar: #111113;
+  --bg-card: #1c1c1e;
+  --bg-grouped: #2c2c2e;
+  --bg-toolbar: rgba(17, 17, 19, 0.8);
+  --material-thin: rgba(28, 28, 30, 0.58);
+  --material-border: rgba(255, 255, 255, 0.1);
+  --fill: rgba(118, 118, 128, 0.24);
+  --fill-strong: rgba(118, 118, 128, 0.32);
+  --fill-selected: #636366;
+  --separator: rgba(84, 84, 88, 0.5);
+
+  /* Libellés — sombre */
+  --label: #ffffff;
+  --label-secondary: #98989f;
+  --label-tertiary: #8e8e93;
+  --label-on-media: rgba(235, 235, 245, 0.85);
+
+  /* Teinte & états — sombre */
+  --accent: #0a84ff;
+  --accent-fill: #0071e3;
+  --accent-tint: rgba(10, 132, 255, 0.2);
+  --link: #3d9bff;
+  --success: #30d158;
+  --success-tint: rgba(48, 209, 88, 0.14);
+  --warning: #ff9f0a;
+  --warning-tint: rgba(255, 159, 10, 0.12);
+  --danger: #ff6961;
+  --danger-tint: rgba(255, 69, 58, 0.16);
+  --rarity-5: #ffd60a;
+  --rarity-4: #c88bff;
+
+  /* Attributs de résonance — sombre (texte) + RVB pour les teintes */
+  --el-aero: #63e6e2;
+  --el-aero-rgb: 99, 230, 226;
+  --el-electro: #d08bff;
+  --el-electro-rgb: 191, 90, 242;
+  --el-fusion: #ff9f0a;
+  --el-fusion-rgb: 255, 159, 10;
+  --el-glacio: #64d2ff;
+  --el-glacio-rgb: 100, 210, 255;
+  --el-havoc: #ff6482;
+  --el-havoc-rgb: 255, 55, 95;
+  --el-spectro: #ffd60a;
+  --el-spectro-rgb: 255, 214, 10;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme='dark']) {
+    color-scheme: light;
+    --bg: #f2f2f7;
+    --bg-sidebar: #ebebf0;
+    --bg-card: #ffffff;
+    --bg-grouped: #f2f2f7;
+    --bg-toolbar: rgba(242, 242, 247, 0.82);
+    --material-thin: rgba(255, 255, 255, 0.62);
+    --material-border: rgba(0, 0, 0, 0.08);
+    --fill: rgba(120, 120, 128, 0.16);
+    --fill-strong: rgba(120, 120, 128, 0.24);
+    --fill-selected: #ffffff;
+    --separator: rgba(60, 60, 67, 0.29);
+    --label: #000000;
+    --label-secondary: #5c5c61;
+    --label-tertiary: #6c6c70;
+    --accent: #0066cc;
+    --accent-fill: #0071e3;
+    --accent-tint: rgba(0, 113, 227, 0.12);
+    --link: #0066cc;
+    --success: #1b7f37;
+    --success-tint: rgba(52, 199, 89, 0.14);
+    --warning: #9a5b00;
+    --warning-tint: rgba(255, 149, 0, 0.14);
+    --danger: #c4261d;
+    --danger-tint: rgba(255, 59, 48, 0.12);
+    --rarity-5: #9a7400;
+    --rarity-4: #8a3fc4;
+    --el-aero: #0b7f7b;
+    --el-electro: #8a3fc4;
+    --el-fusion: #a85c00;
+    --el-glacio: #0a6f9c;
+    --el-havoc: #c21f4a;
+    --el-spectro: #8a6d00;
+  }
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f2f2f7;
+  --bg-sidebar: #ebebf0;
+  --bg-card: #ffffff;
+  --bg-grouped: #f2f2f7;
+  --bg-toolbar: rgba(242, 242, 247, 0.82);
+  --material-thin: rgba(255, 255, 255, 0.62);
+  --material-border: rgba(0, 0, 0, 0.08);
+  --fill: rgba(120, 120, 128, 0.16);
+  --fill-strong: rgba(120, 120, 128, 0.24);
+  --fill-selected: #ffffff;
+  --separator: rgba(60, 60, 67, 0.29);
+  --label: #000000;
+  --label-secondary: #5c5c61;
+  --label-tertiary: #6c6c70;
+  --accent: #0066cc;
+  --accent-fill: #0071e3;
+  --accent-tint: rgba(0, 113, 227, 0.12);
+  --link: #0066cc;
+  --success: #1b7f37;
+  --success-tint: rgba(52, 199, 89, 0.14);
+  --warning: #9a5b00;
+  --warning-tint: rgba(255, 149, 0, 0.14);
+  --danger: #c4261d;
+  --danger-tint: rgba(255, 59, 48, 0.12);
+  --rarity-5: #9a7400;
+  --rarity-4: #8a3fc4;
+  --el-aero: #0b7f7b;
+  --el-electro: #8a3fc4;
+  --el-fusion: #a85c00;
+  --el-glacio: #0a6f9c;
+  --el-havoc: #c21f4a;
+  --el-spectro: #8a6d00;
+}
