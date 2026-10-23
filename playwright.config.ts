@@ -18,6 +18,8 @@ export default defineConfig({
     trace: 'on-first-retry',
     locale: 'fr-FR',
     colorScheme: 'dark',
+    // Animations neutralisées (l'app respecte prefers-reduced-motion) : axe mesure les couleurs finales.
+    reducedMotion: 'reduce',
   },
   projects: [
     {
@@ -25,6 +27,15 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 1000 } },
     },
     { name: 'mobile', use: { ...devices['iPhone 14'], defaultBrowserType: 'chromium' } },
+    // Le thème clair a ses propres contrastes : toute la suite (axe compris) y passe aussi.
+    {
+      name: 'desktop-light',
+      use: {
+        ...devices['Desktop Chrome'],
+        viewport: { width: 1440, height: 1000 },
+        colorScheme: 'light',
+      },
+    },
   ],
   webServer: {
     command: `pnpm build && pnpm preview --port ${PORT} --strictPort`,
