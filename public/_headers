@@ -1,0 +1,14 @@
+# En-têtes Cloudflare Pages. Les mêmes s'appliquent à `vite preview` (vite.config.ts) :
+# la suite E2E vérifie donc l'app sous cette politique de sécurité.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; connect-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  X-Frame-Options: DENY
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/ocr/*
+  Cache-Control: public, max-age=604800
