@@ -41,7 +41,10 @@ export default tseslint.config(
     },
   },
   {
-    files: ['**/*.test.{ts,tsx}', 'tests/**/*.ts'],
-    rules: { '@typescript-eslint/no-non-null-assertion': 'off' },
+    files: ['**/*.test.{ts,tsx}', 'tests/**/*.ts', 'src/test/**'],
+    rules: {
+      '@typescript-eslint/no-non-null-assertion': 'off',
+      'react-refresh/only-export-components': 'off',
+    },
   },
 );

@@ -88,6 +88,32 @@ test.describe('Rivvu', () => {
     await expectNoHorizontalScroll(page);
   });
 
+  test('équipe des Échos et règle leurs sous-stats', async ({ page }) => {
+    await createJiyanBuild(page);
+    await page
+      .getByRole('navigation', { name: 'Étapes du build' })
+      .getByRole('link', { name: /Échos/ })
+      .click();
+    await page.getByRole('button', { name: 'Ajouter un Écho' }).click();
+    const dialog = page.getByRole('dialog', { name: 'Ajouter un Écho' });
+    await expect(dialog).toBeVisible();
+    await expectAccessible(page);
+    await dialog.getByRole('searchbox', { name: 'Rechercher un Écho' }).fill('Feilian');
+    await dialog
+      .getByRole('list', { name: 'Échos disponibles' })
+      .getByRole('button', { name: /^C4\s*Feilian Beringal/ })
+      .click();
+    await expect(dialog).toBeHidden();
+    await page.getByRole('button', { name: 'Ajouter une sous-stat' }).click();
+    await page
+      .getByRole('radiogroup', { name: 'Valeur de Taux crit.' })
+      .getByRole('radio', { name: '10,5' })
+      .click();
+    await expect(page.getByText('Valeur crit. 21,0')).toBeVisible();
+    await expectAccessible(page);
+    await expectNoHorizontalScroll(page);
+  });
+
   test('réglages : le thème clair s’applique et persiste', async ({ page }) => {
     await page.goto('/reglages');
     await page.getByRole('radio', { name: 'Clair' }).click();

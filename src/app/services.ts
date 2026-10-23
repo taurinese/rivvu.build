@@ -2,13 +2,17 @@ import { createContext, useContext } from 'react';
 import { useStore } from 'zustand';
 import { LocalStorageBuildRepository } from './persistence/local-storage-build-repository';
 import type { StorageLike } from './persistence/local-storage-build-repository';
+import { LocalStorageEchoInventory } from './persistence/local-storage-echo-inventory';
 import { createBuildsStore } from './store/builds-store';
 import type { BuildsState, BuildsStore } from './store/builds-store';
+import { createInventoryStore } from './store/inventory-store';
+import type { InventoryState, InventoryStore } from './store/inventory-store';
 import { applyThemeToDocument, createSettingsStore } from './store/settings-store';
 import type { SettingsState } from './store/settings-store';
 
 export interface AppServices {
   builds: BuildsStore;
+  inventory: InventoryStore;
   settings: ReturnType<typeof createSettingsStore>;
 }
 
@@ -22,6 +26,8 @@ function useServices(): AppServices {
 
 export const useBuilds = <T>(selector: (state: BuildsState) => T): T =>
   useStore(useServices().builds, selector);
+export const useInventory = <T>(selector: (state: InventoryState) => T): T =>
+  useStore(useServices().inventory, selector);
 export const useSettings = <T>(selector: (state: SettingsState) => T): T =>
   useStore(useServices().settings, selector);
 
@@ -29,6 +35,7 @@ export const useSettings = <T>(selector: (state: SettingsState) => T): T =>
 export function createBrowserServices(storage: StorageLike = window.localStorage): AppServices {
   return {
     builds: createBuildsStore(new LocalStorageBuildRepository(storage, { events: window })),
+    inventory: createInventoryStore(new LocalStorageEchoInventory(storage, { events: window })),
     settings: createSettingsStore(storage, applyThemeToDocument),
   };
 }

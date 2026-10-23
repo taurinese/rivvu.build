@@ -32,6 +32,7 @@ export default defineConfig({
             'src/lib/**/*.test.ts',
             'src/app/**/*.test.ts',
             'src/features/**/*.test.ts',
+            'src/test/**/*.test.ts',
             'scripts/**/*.test.ts',
           ],
         },

@@ -10,7 +10,7 @@ const levelStep = z.object({
 
 const forteLevel = z.number().int().min(1).max(10);
 
-const echoInstance = z.object({
+export const echoInstanceSchema = z.object({
   uid: z.string().min(1),
   echoId: z.string().min(1),
   cost: z.union([z.literal(1), z.literal(3), z.literal(4)]),
@@ -42,7 +42,7 @@ export const buildSchema = z.object({
     liberation: forteLevel,
     intro: forteLevel,
   }),
-  echoes: z.array(echoInstance).max(5),
+  echoes: z.array(echoInstanceSchema).max(5),
   team: z.tuple([z.string().nullable(), z.string().nullable()]),
   notes: z.string().max(2000),
 }) satisfies z.ZodType<Build>;

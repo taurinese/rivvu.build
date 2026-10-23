@@ -3,24 +3,31 @@ import { NavLink, Outlet, ScrollRestoration, useNavigate } from 'react-router';
 import { resonatorById } from '@/data/game';
 import { elementColor } from '@/features/game/labels';
 import { Button } from '@/ui/Button';
-import { IconGear, IconGrid, IconPlus, IconWaves } from '@/ui/icons';
-import { useBuilds } from './services';
+import { IconGear, IconGrid, IconLayers, IconPlus, IconWaves } from '@/ui/icons';
+import { useBuilds, useInventory } from './services';
 import styles from './AppShell.module.css';
 
 const NAV = [
   { to: '/', label: 'Mes builds', icon: <IconGrid />, end: true },
+  { to: '/echos', label: 'Échos', icon: <IconLayers />, end: false },
   { to: '/reglages', label: 'Réglages', icon: <IconGear />, end: false },
 ] as const;
 
 export function AppShell() {
   const load = useBuilds((s) => s.load);
   const status = useBuilds((s) => s.status);
+  const inventoryStatus = useInventory((s) => s.status);
+  const loadInventory = useInventory((s) => s.load);
   const builds = useBuilds((s) => s.builds);
   const navigate = useNavigate();
 
   useEffect(() => {
     if (status === 'idle') void load();
   }, [status, load]);
+
+  useEffect(() => {
+    if (inventoryStatus === 'idle') void loadInventory();
+  }, [inventoryStatus, loadInventory]);
 
   const recents = builds.slice(0, 5);
 

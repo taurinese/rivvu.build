@@ -7,6 +7,8 @@
   margin-left: -6px;
   color: var(--link);
   font: 500 1.0625rem/1 var(--font-sans);
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .back:hover {

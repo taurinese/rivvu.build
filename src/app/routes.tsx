@@ -5,6 +5,8 @@ import { ChangeResonatorPage } from '@/features/builds/ChangeResonatorPage';
 import { FortePage } from '@/features/builds/FortePage';
 import { NewBuildPage } from '@/features/builds/NewBuildPage';
 import { WeaponPage } from '@/features/builds/WeaponPage';
+import { EchoesPage } from '@/features/echoes/EchoesPage';
+import { InventoryPage } from '@/features/echoes/InventoryPage';
 import { SettingsPage } from '@/features/settings/SettingsPage';
 import { AppShell } from './AppShell';
 import { NotFoundPage } from './NotFoundPage';
@@ -20,6 +22,8 @@ export const routes: RouteObject[] = [
       { path: 'builds/:buildId/resonateur', element: <ChangeResonatorPage /> },
       { path: 'builds/:buildId/arme', element: <WeaponPage /> },
       { path: 'builds/:buildId/forte', element: <FortePage /> },
+      { path: 'builds/:buildId/echos', element: <EchoesPage /> },
+      { path: 'echos', element: <InventoryPage /> },
       { path: 'reglages', element: <SettingsPage /> },
       { path: '*', element: <NotFoundPage /> },
     ],

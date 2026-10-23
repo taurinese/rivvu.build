@@ -46,9 +46,16 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - Surfaces d'illustration toujours sombres (lisibles en thème clair), restauration du défilement à chaque page.
 - Leçon : la PR M2 a échoué en CI sur le seuil de couverture faute d'avoir lancé `pnpm check` complet avant de pousser ; M2 et M3 sont livrés ensemble. Toujours lancer `pnpm check` avant une PR.
 
+### M4 — Échos
+
+- Éditeur : emplacements ordonnés (le premier = Écho principal), sélecteur d'espèce (recherche FR/EN, coût, ensemble, coût restant), ensemble par Écho, stat principale limitée au coût, sous-stats par paliers du jeu (boutons), qualité du jet, valeur crit., alertes de validation, ensembles actifs, apport sur les stats.
+- Inventaire d'Échos réutilisables (`rivvu:v1:echoes`, même modèle prêt pour la synchro) : enregistrement depuis un build, ajout depuis l'inventaire, page « Échos » avec les builds qui les utilisent.
+- Feuille modale accessible (`ui/Sheet`) : focus capturé, Échap, focus rendu.
+- Données : nettoyage des noms (guillemet parasite « Nuages lunaires" »), test de non-régression sur tous les noms ; Prettier lancé après chaque import.
+
 ## Prochaine étape
 
-M4 : éditeur d'Échos (choix de l'espèce, ensemble, stat principale par coût, sous-stats par paliers, Écho principal) + inventaire réutilisable.
+M5 : équipe (2 coéquipiers) et buffs, effets structurés (passifs d'armes, ensembles), multiplicateurs de compétences importés du wiki, dégâts estimés contre un ennemi configurable.
 
 ## Décisions en attente (côté utilisateur)
 
