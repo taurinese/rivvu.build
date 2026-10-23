@@ -8,8 +8,8 @@
     "node": ">=22"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node scripts/copy-ocr-assets.mjs && vite",
+    "build": "node scripts/copy-ocr-assets.mjs && tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b --pretty",
     "lint": "eslint . --max-warnings=0",
@@ -24,9 +24,12 @@
     "data:import": "node --no-warnings scripts/import-game-data.ts"
   },
   "dependencies": {
+    "@tesseract.js-data/eng": "1.0.0",
+    "@tesseract.js-data/fra": "1.0.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-router": "^7.18.4",
+    "tesseract.js": "7.0.0",
     "zod": "^4.6.7",
     "zustand": "^5.0.16"
   },

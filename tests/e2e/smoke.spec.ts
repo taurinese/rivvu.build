@@ -211,6 +211,53 @@ test.describe('Rivvu', () => {
     await expectNoHorizontalScroll(page);
   });
 
+  test('import d’une capture : OCR local, auto-hébergé', async ({ page }) => {
+    test.slow();
+    await createJiyanBuild(page);
+    await page
+      .getByRole('navigation', { name: 'Étapes du build' })
+      .getByRole('link', { name: /Échos/ })
+      .click();
+    // Capture synthétique au style du jeu : texte clair sur fond sombre.
+    const dataUrl = await page.evaluate(() => {
+      const canvas = document.createElement('canvas');
+      canvas.width = 520;
+      canvas.height = 330;
+      const ctx = canvas.getContext('2d')!;
+      ctx.fillStyle = '#16191c';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#f2f2f2';
+      ctx.font = '600 26px Arial';
+      [
+        'Feilian Beringal',
+        'COST 4',
+        'Crit. DMG 44.0%',
+        'ATK 150',
+        'Crit. Rate 8.1%',
+        'Energy Regen 9.2%',
+      ].forEach((line, i) => {
+        ctx.fillText(line, 24, 44 + i * 50);
+      });
+      return canvas.toDataURL('image/png');
+    });
+    await page.getByLabel('Capture d’un Écho').setInputFiles({
+      name: 'echo.png',
+      mimeType: 'image/png',
+      buffer: Buffer.from(dataUrl.split(',')[1]!, 'base64'),
+    });
+    const sheet = page.getByRole('dialog', { name: 'Importer une capture' });
+    await expect(sheet.getByRole('button', { name: 'Ajouter cet Écho' })).toBeVisible({
+      timeout: 60_000,
+    });
+    await expect(sheet).toContainText('Feilian Beringal');
+    await expect(sheet).toContainText('Taux crit.');
+    await expectAccessible(page);
+    await sheet.getByRole('button', { name: 'Ajouter cet Écho' }).click();
+    await expect(
+      page.getByRole('list', { name: 'Emplacements d’Échos' }).getByText('Feilian Beringal'),
+    ).toBeVisible();
+  });
+
   test('réglages : le thème clair s’applique et persiste', async ({ page }) => {
     await page.goto('/reglages');
     await page.getByRole('radio', { name: 'Clair' }).click();

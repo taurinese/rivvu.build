@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { useBuilds, useInventory } from '@/app/services';
 import { echoById, sonataById, sonatas } from '@/data/game';
 import type { Echo, Resonator } from '@/data/schema';
@@ -25,7 +25,7 @@ import { BackLink } from '@/ui/BackLink';
 import { Button } from '@/ui/Button';
 import { Card } from '@/ui/Card';
 import { GroupedList, ListRow } from '@/ui/GroupedList';
-import { IconPlus, IconTrash, IconWarning } from '@/ui/icons';
+import { IconImage, IconPlus, IconTrash, IconWarning } from '@/ui/icons';
 import { Page } from '@/ui/Page';
 import { Pill } from '@/ui/Pill';
 import { Sheet } from '@/ui/Sheet';
@@ -38,6 +38,9 @@ import {
   setPrincipal,
   substatQuality,
 } from './echo-editing';
+import { ImportEchoSheet } from '@/features/ocr/ImportEchoSheet';
+import { echoFromParsed } from '@/features/ocr/parse-echo';
+import type { ParsedEcho } from '@/features/ocr/parse-echo';
 import { EchoPickerSheet } from './EchoPickerSheet';
 import styles from './EchoesPage.module.css';
 
@@ -53,7 +56,13 @@ const ISSUE_LABEL: Record<string, string> = {
   'duplicate-substat': 'Une sous-stat apparaît deux fois sur le même Écho.',
 };
 
-type PickerMode = { kind: 'add' } | { kind: 'replace'; uid: string } | { kind: 'inventory' } | null;
+type PickerMode =
+  | { kind: 'add' }
+  | { kind: 'replace'; uid: string }
+  | { kind: 'inventory' }
+  | { kind: 'import'; image: Blob }
+  | { kind: 'import-pick'; parsed: ParsedEcho }
+  | null;
 
 function EchoesEditor({ build, resonator }: { build: Build; resonator: Resonator }) {
   const update = useBuilds((s) => s.update);
@@ -61,6 +70,7 @@ function EchoesEditor({ build, resonator }: { build: Build; resonator: Resonator
   const saveToInventory = useInventory((s) => s.save);
   const [selectedUid, setSelectedUid] = useState(build.echoes[0]?.uid ?? null);
   const [picker, setPicker] = useState<PickerMode>(null);
+  const fileInput = useRef<HTMLInputElement>(null);
 
   const loadout = build.echoes;
   const selected = loadout.find((e) => e.uid === selectedUid) ?? loadout[0] ?? null;
@@ -86,6 +96,19 @@ function EchoesEditor({ build, resonator }: { build: Build; resonator: Resonator
   const replaceSpecies = (uid: string, species: Echo) => {
     const fresh = newEchoInstance(species, uid, resonator.element, mainSonata);
     setLoadout(loadout.map((e) => (e.uid === uid ? fresh : e)));
+    setPicker(null);
+  };
+
+  const addParsed = (parsed: ParsedEcho, species: Echo) => {
+    const echo = echoFromParsed(
+      parsed,
+      species,
+      crypto.randomUUID(),
+      resonator.element,
+      mainSonata,
+    );
+    setLoadout([...loadout, echo]);
+    setSelectedUid(echo.uid);
     setPicker(null);
   };
 
@@ -201,6 +224,29 @@ function EchoesEditor({ build, resonator }: { build: Build; resonator: Resonator
               >
                 Depuis l’inventaire
               </Button>
+              <Button
+                variant="gray"
+                block
+                icon={<IconImage size={16} />}
+                onClick={() => {
+                  fileInput.current?.click();
+                }}
+              >
+                Importer une capture
+              </Button>
+              <input
+                ref={fileInput}
+                type="file"
+                accept="image/*"
+                className="visually-hidden"
+                aria-label="Capture d’un Écho"
+                tabIndex={-1}
+                onChange={(event) => {
+                  const image = event.target.files?.[0];
+                  event.target.value = '';
+                  if (image) setPicker({ kind: 'import', image });
+                }}
+              />
             </div>
           ) : null}
         </div>
@@ -305,6 +351,37 @@ function EchoesEditor({ build, resonator }: { build: Build; resonator: Resonator
           onPick={(species) => {
             if (picker.kind === 'replace') replaceSpecies(picker.uid, species);
             else addSpecies(species);
+          }}
+          onClose={() => {
+            setPicker(null);
+          }}
+        />
+      ) : null}
+
+      {picker?.kind === 'import' ? (
+        <ImportEchoSheet
+          image={picker.image}
+          maxCost={remainingCost(loadout)}
+          onAdd={(parsed) => {
+            const species = parsed.echoId ? echoById.get(parsed.echoId) : undefined;
+            if (species) addParsed(parsed, species);
+          }}
+          onChooseSpecies={(parsed) => {
+            setPicker({ kind: 'import-pick', parsed });
+          }}
+          onClose={() => {
+            setPicker(null);
+          }}
+        />
+      ) : null}
+
+      {picker?.kind === 'import-pick' ? (
+        <EchoPickerSheet
+          title="Choisir l’Écho de la capture"
+          maxCost={Math.min(4, remainingCost(loadout))}
+          {...(mainSonata ? { preferredSonata: mainSonata } : {})}
+          onPick={(species) => {
+            addParsed(picker.parsed, species);
           }}
           onClose={() => {
             setPicker(null);

@@ -77,9 +77,14 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - Objectif : total des dégâts moyens d'une compétence, dans la situation de la page Dégâts. Candidats : inventaire et Échos du build ; les Échos invalides sont écartés.
 - Calcul dans un Web Worker (environ 0,8 s pour 80 Échos), repli sur le fil principal sans Worker. Page `/builds/:id/optimiser` : 5 meilleures options, gain par rapport aux Échos actuels, ensembles, « Équiper ».
 
+### M7b — Import de captures (OCR)
+
+- « Importer une capture » sur la page Échos : OCR local (tesseract.js, auto-hébergé, ADR 0004), résultat à vérifier (espèce, stat principale, sous-stats, alertes), puis « Ajouter cet Écho » ou choix manuel de l'espèce si elle n'est pas reconnue.
+- Parseur pur FR/EN testé (paliers, bruit OCR, doublons, 5 sous-stats max). E2E avec une vraie reconnaissance sur une capture synthétique (environ 3 s).
+
 ## Prochaine étape
 
-M7 (suite) : import OCR de captures d'Échos, planificateur de matériaux.
+M7 (suite) : planificateur de matériaux (données d'ascension et de Forte à importer du wiki).
 
 ## Décisions en attente (côté utilisateur)
 
