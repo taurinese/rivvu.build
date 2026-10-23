@@ -4,16 +4,16 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 
 ## Jalons
 
-| Jalon                                            | Statut   |
-| ------------------------------------------------ | -------- |
-| M0 — Socle, outillage, CI                        | terminé  |
-| M1 — Moteur de stats + données du jeu            | en cours |
-| M2 — Design system + coquille de l'app           | à faire  |
-| M3 — Parcours Résonateur → Arme → Forte → Chaîne | à faire  |
-| M4 — Éditeur d'Échos + inventaire                | à faire  |
-| M5 — Équipe, buffs, calcul de dégâts             | à faire  |
-| M6 — Comparateur, partage URL, export image      | à faire  |
-| M7 — Optimiseur, planificateur, import OCR       | à faire  |
+| Jalon                                            | Statut  |
+| ------------------------------------------------ | ------- |
+| M0 — Socle, outillage, CI                        | terminé |
+| M1 — Moteur de stats + données du jeu            | terminé |
+| M2 — Design system + coquille de l'app           | terminé |
+| M3 — Parcours Résonateur → Arme → Forte → Chaîne | à faire |
+| M4 — Éditeur d'Échos + inventaire                | à faire |
+| M5 — Équipe, buffs, calcul de dégâts             | à faire |
+| M6 — Comparateur, partage URL, export image      | à faire |
+| M7 — Optimiseur, planificateur, import OCR       | à faire |
 
 ## Journal
 
@@ -30,9 +30,25 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - Moteur pur `src/domain/` : stats de base par palier, règles des Échos (coût, stats principales, paliers de sous-stats, comptage des ensembles), agrégation des stats finales, formule de dégâts du wiki.
 - Tests de référence : Jiyan niv. 90 et Sommet verdoyant niv. 90 retrouvent exactement les valeurs du wiki ; courbes vérifiées contre toutes les tables publiées.
 
+### M2 — Design system, coquille, persistance
+
+- Persistance : port `BuildRepository` + adaptateur localStorage (révisions, suppression logique, migrations, quarantaine, synchro entre onglets).
+- Stores Zustand (builds, réglages/thème), modèle `Build` dans le domaine.
+- Composants HIG : Button, IconButton, SegmentedControl (clavier), Stepper, Toggle, Card, GroupedList, Pill, SearchField, ProgressRing, Page, icônes.
+- Coquille : barre latérale desktop, barre d'onglets mobile, routes `/`, `/nouveau`, `/builds/:id`, `/reglages`.
+- Sélecteur de Résonateur (filtres attribut/arme, recherche FR/EN, aperçu illustré), liste des builds, fiche (bandeau immersif, renommage, suppression), réglages (thème).
+- E2E : création → rechargement → suppression, thème, axe sur chaque page, desktop + mobile.
+
+### M3 — Étapes du build
+
+- Fiche : panneau en verre dépoli (niveau par paliers d'ascension, Chaîne S0–S6, arme), navigation par étapes avec avancement, cartes Échos / Forte / Statistiques (base ou finales) / Repères.
+- Pages : arme (armes du bon type, niveau, syntonisation R1–R5, passif avec valeurs du rang), Forte (1–10), changement de Résonateur (arme retirée si type incompatible).
+- Surfaces d'illustration toujours sombres (lisibles en thème clair), restauration du défilement à chaque page.
+- Leçon : la PR M2 a échoué en CI sur le seuil de couverture faute d'avoir lancé `pnpm check` complet avant de pousser ; M2 et M3 sont livrés ensemble. Toujours lancer `pnpm check` avant une PR.
+
 ## Prochaine étape
 
-M2 : design system (composants HIG) + coquille de l'app + persistance (ADR 0002).
+M4 : éditeur d'Échos (choix de l'espèce, ensemble, stat principale par coût, sous-stats par paliers, Écho principal) + inventaire réutilisable.
 
 ## Décisions en attente (côté utilisateur)
 

@@ -1,0 +1,43 @@
+.pill {
+  --pill-tone: var(--label);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 14px;
+  font: 600 0.8125rem/1 var(--font-sans);
+  white-space: nowrap;
+}
+
+.withIcon {
+  padding-left: 4px;
+}
+
+.tinted {
+  color: var(--pill-tone);
+  background: color-mix(in srgb, var(--pill-tone) 18%, transparent);
+}
+
+.neutral {
+  color: var(--label);
+  background: var(--fill);
+  font-weight: 500;
+}
+
+.media {
+  color: var(--pill-tone);
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.badge {
+  height: auto;
+  padding: 3px 7px;
+  border-radius: var(--radius-xs);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--label);
+  background: var(--fill-strong);
+}

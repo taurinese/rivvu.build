@@ -1,0 +1,126 @@
+.current {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.currentIcon {
+  flex: none;
+  width: 84px;
+  height: 84px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(160deg, rgba(255, 214, 10, 0.28), rgba(255, 159, 10, 0.1));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.currentText {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.currentName {
+  font: var(--text-title2);
+}
+
+.meta {
+  font: var(--text-footnote);
+  color: var(--label-secondary);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-6);
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font: var(--text-subheadline);
+}
+
+.passive {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--bg-grouped);
+}
+
+.passive p {
+  margin: 0;
+  font: var(--text-subheadline);
+  line-height: 1.45;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--space-3);
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-radius: var(--radius-lg);
+  border: 2px solid transparent;
+  background: var(--bg-card);
+  color: var(--label);
+  text-align: left;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: var(--bg-grouped);
+}
+
+.item[aria-pressed='true'] {
+  border-color: var(--accent);
+}
+
+.itemIcon {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  border-bottom: 3px solid var(--separator);
+  background: var(--bg-grouped);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemText {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.itemName {
+  font: var(--text-headline);
+  font-size: 0.9375rem;
+}
+
+.stars {
+  color: var(--rarity-5);
+  font-size: 0.75rem;
+}
+
+.check {
+  flex: none;
+  color: var(--link);
+}

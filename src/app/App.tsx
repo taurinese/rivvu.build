@@ -1,10 +1,14 @@
-import styles from './App.module.css';
+import { useState } from 'react';
+import { RouterProvider, createBrowserRouter } from 'react-router';
+import { routes } from './routes';
+import { ServicesProvider } from './ServicesProvider';
+import type { AppServices } from './services';
 
-export function App() {
+export function App({ services }: { services: AppServices }) {
+  const [router] = useState(() => createBrowserRouter(routes));
   return (
-    <main className={styles.splash}>
-      <h1 className={styles.title}>Rivvu</h1>
-      <p className={styles.tagline}>Le builder Wuthering Waves, de A à Z.</p>
-    </main>
+    <ServicesProvider services={services}>
+      <RouterProvider router={router} />
+    </ServicesProvider>
   );
 }

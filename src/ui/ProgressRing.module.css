@@ -1,0 +1,20 @@
+.ring {
+  position: relative;
+  display: inline-block;
+  flex: none;
+  width: var(--ring-size);
+  height: var(--ring-size);
+  border-radius: 50%;
+  background: conic-gradient(
+    var(--success) 0 var(--ring-pct),
+    var(--fill-strong) var(--ring-pct) 100%
+  );
+}
+
+.ring::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background: var(--ring-hole, var(--bg-card));
+}

@@ -35,3 +35,19 @@ export function stepIndex(step: LevelStep): number {
     throw new RangeError(`Palier inconnu : niv. ${step.level}, ascension ${step.ascension}`);
   return index;
 }
+
+/** Niveau maximum atteignable pour une phase d'ascension donnée. */
+const LEVEL_CAP = [20, 40, 50, 60, 70, 80, 90];
+
+/** Libellé affiché en jeu : « niveau/niveau max ». */
+export const stepLabel = (step: LevelStep) =>
+  `${String(step.level)}/${String(LEVEL_CAP[step.ascension] ?? 90)}`;
+
+export function stepAfter(step: LevelStep): LevelStep | null {
+  return LEVEL_STEPS[stepIndex(step) + 1] ?? null;
+}
+
+export function stepBefore(step: LevelStep): LevelStep | null {
+  const index = stepIndex(step);
+  return index > 0 ? (LEVEL_STEPS[index - 1] ?? null) : null;
+}

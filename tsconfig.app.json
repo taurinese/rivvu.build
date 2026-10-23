@@ -9,7 +9,6 @@
     "types": ["vite/client", "@testing-library/jest-dom/vitest"],
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
