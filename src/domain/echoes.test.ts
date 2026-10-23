@@ -165,3 +165,17 @@ describe('echoStatBlock — stat principale invalide', () => {
     });
   });
 });
+
+describe('echoStatBlock — données externes', () => {
+  it('ignore une sous-stat dont la clé n’est pas une stat connue', () => {
+    const echo = {
+      uid: 'x',
+      echoId: 'feilian-beringal',
+      cost: 4 as const,
+      sonata: 'sierra-gale',
+      mainStat: 'critRate' as const,
+      substats: [{ stat: '__proto__' as never, value: 1 }],
+    };
+    expect(Object.keys(echoStatBlock(echo)).sort()).toEqual(['atk', 'critRate']);
+  });
+});

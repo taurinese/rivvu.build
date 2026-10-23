@@ -1,5 +1,5 @@
 import type { BaseTriplet, WeaponLevelStats } from './base-stats';
-import { ATTACK_TYPES, ELEMENTS } from './types';
+import { ATTACK_TYPES, ELEMENTS, isStatKey } from './types';
 import type { AttackType, Element, StatBlock, StatKey } from './types';
 
 /** Source : wiki, pages « Crit. Rate » et « Crit. DMG ». */
@@ -36,7 +36,8 @@ export interface StatsInput {
 export function sumStatBlocks(blocks: readonly StatBlock[]): StatBlock {
   const total: StatBlock = {};
   for (const block of blocks) {
-    for (const [key, value] of Object.entries(block) as [StatKey, number][]) {
+    for (const [key, value] of Object.entries<number>(block)) {
+      if (!isStatKey(key)) continue;
       total[key] = (total[key] ?? 0) + value;
     }
   }

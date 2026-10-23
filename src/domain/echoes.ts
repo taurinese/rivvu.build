@@ -2,7 +2,7 @@
  * Règles des Échos. Source : wiki, page « Echo/Stats » (valeurs 5★ au niveau +25).
  * https://wutheringwaves.fandom.com/wiki/Echo/Stats
  */
-import { ELEMENTS, elementDmgKey } from './types';
+import { ELEMENTS, elementDmgKey, isStatKey } from './types';
 import type { StatBlock, StatKey } from './types';
 
 export type EchoCost = 1 | 3 | 4;
@@ -67,6 +67,7 @@ export const SUBSTAT_TIERS: Partial<Record<StatKey, readonly number[]>> = {
 export function echoStatBlock(echo: EchoInstance): StatBlock {
   const block: StatBlock = {};
   const add = (stat: StatKey, value: number) => {
+    if (!isStatKey(stat)) return;
     block[stat] = (block[stat] ?? 0) + value;
   };
   add(echo.mainStat, MAIN_STAT_VALUES[echo.cost][echo.mainStat] ?? 0);

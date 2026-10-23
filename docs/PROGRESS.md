@@ -68,9 +68,18 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - « Dupliquer » (variantes) et comparateur `/comparer?a=…&b=…` : stats clés et dégâts (coup le plus fort, total par compétence pour un même Résonateur), écart signé et annoncé aux lecteurs d'écran.
 - Bandeau immersif extrait en composant `ResonatorHero` (fiche et build partagé) ; `slugify` partagé dans `src/lib`.
 
+### M7a — Optimiseur d'Échos
+
+- Cœur pur `src/domain/optimizer.ts`, indépendant de l'objectif :
+  - recherche exhaustive sur un sous-ensemble élagué (meilleurs Échos par coût, plus des pièces des 3 ensembles les plus prometteurs) ;
+  - budget de 50 000 évaluations, et toutes les répartitions de coûts valides ;
+  - tests de propriétés (contraintes toujours respectées).
+- Objectif : total des dégâts moyens d'une compétence, dans la situation de la page Dégâts. Candidats : inventaire et Échos du build ; les Échos invalides sont écartés.
+- Calcul dans un Web Worker (environ 0,8 s pour 80 Échos), repli sur le fil principal sans Worker. Page `/builds/:id/optimiser` : 5 meilleures options, gain par rapport aux Échos actuels, ensembles, « Équiper ».
+
 ## Prochaine étape
 
-M7 : optimiseur (meilleure combinaison d'Échos de l'inventaire pour un objectif), planificateur de matériaux, import OCR de captures d'Échos.
+M7 (suite) : import OCR de captures d'Échos, planificateur de matériaux.
 
 ## Décisions en attente (côté utilisateur)
 
