@@ -30,6 +30,24 @@ async function createJiyanBuild(page: Page) {
   await expect(page.getByRole('heading', { level: 1, name: 'Jiyan' })).toBeVisible();
 }
 
+// Politique de sécurité (public/_headers, appliquée aussi par `vite preview`) : aucune violation tolérée.
+let cspViolations: string[] = [];
+test.beforeEach(({ page }) => {
+  cspViolations = [];
+  page.on('console', (message) => {
+    if (/Content Security Policy/i.test(message.text())) cspViolations.push(message.text());
+  });
+});
+test.afterEach(() => {
+  expect(cspViolations).toEqual([]);
+});
+
+test('la politique de sécurité est servie', async ({ page }) => {
+  const response = await page.goto('/');
+  expect(response?.headers()['content-security-policy']).toContain("default-src 'self'");
+  expect(response?.headers()['x-frame-options']).toBe('DENY');
+});
+
 test.describe('Rivvu', () => {
   test('accueil : titre, état vide, accessibilité', async ({ page }) => {
     await page.goto('/');

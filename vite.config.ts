@@ -1,13 +1,30 @@
 /// <reference types="vitest/config" />
+import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
 const alias = { '@': fileURLToPath(new URL('./src', import.meta.url)) };
 
+/** En-têtes globaux (`/*`) de public/_headers, appliqués aussi par `vite preview` (E2E). */
+function globalHeaders(): Record<string, string> {
+  const headers: Record<string, string> = {};
+  let inGlobal = false;
+  for (const line of readFileSync('public/_headers', 'utf8').split('\n')) {
+    if (line.startsWith('#') || line.trim() === '') continue;
+    if (!/^\s/.test(line)) inGlobal = line.trim() === '/*';
+    else if (inGlobal) {
+      const [name = '', ...value] = line.trim().split(':');
+      headers[name] = value.join(':').trim();
+    }
+  }
+  return headers;
+}
+
 export default defineConfig({
   plugins: [react()],
   resolve: { alias },
+  preview: { headers: globalHeaders() },
   test: {
     coverage: {
       provider: 'v8',

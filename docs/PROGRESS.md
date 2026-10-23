@@ -92,6 +92,12 @@ Journal de bord : une session neuve doit pouvoir reprendre le travail en lisant 
 - `Build` v3 (migration 2→3) : `planner` (progression actuelle en jeu, objectifs d'innées et de bonus de stats). Les anciens liens de partage restent lisibles.
 - Page `/builds/:id/materiaux` : progression actuelle, objectifs, matériaux à réunir (rareté, icône, quantité, Coquilles). Sur mobile, le résultat est affiché d'abord.
 
+### Déploiement et accessibilité
+
+- `public/_headers` : CSP stricte et en-têtes de sécurité, appliqués aussi par `vite preview` ; toute violation de CSP fait échouer les E2E. Guide : `docs/DEPLOY.md`.
+- Nouveau projet E2E « desktop-light » : toute la suite et axe passent aussi en thème clair. Il a révélé des contrastes insuffisants en clair : boutons teintés et destructifs, pastilles, couleurs Aero, Spectro et Fusion. Tout est corrigé.
+- E2E en `reducedMotion: 'reduce'` : axe mesure les couleurs finales, pas celles en cours d'animation.
+
 ## Prochaine étape
 
 Fin du plan initial. Restent : branchement Cloudflare Pages, protection de `main`, bonus de stats du Forte (source à valider), tests « vérité jeu » à partir de captures, buffs automatiques des coéquipiers.
